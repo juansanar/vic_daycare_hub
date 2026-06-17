@@ -2,11 +2,18 @@ import { useState } from "react";
 import { useStore } from "../store";
 import { filterFacilities, defaultFilters } from "../lib/filters";
 import type { FilterState } from "../lib/filters";
-import type { Facility } from "../types";
+import type { Facility, InspectionRecord } from "../types";
 import facilitiesData from "../../data/facilities.json";
+import inspectionsData from "../../data/inspections.json";
 import Filters from "./Filters";
 
 const facilities = facilitiesData as Facility[];
+const inspections = inspectionsData as InspectionRecord[];
+
+const inspectionMap = new Map<string, InspectionRecord>();
+for (const rec of inspections) {
+  inspectionMap.set(rec.facilityId, rec);
+}
 
 export default function FacilityList() {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
@@ -17,46 +24,57 @@ export default function FacilityList() {
   const filtered = filterFacilities(facilities, filters, trackerEntries);
 
   return (
-    <div className="flex flex-1 flex-col overflow-hidden">
+    <div className="flex flex-1 flex-col overflow-hidden bg-white">
       <Filters onChange={setFilters} />
       <div className="flex-1 overflow-y-auto">
-        <p className="px-4 py-2 text-sm text-gray-500">
+        <p className="px-4 py-2 text-xs text-gray-400">
           {filtered.length} facilities
         </p>
-        <ul className="divide-y">
-          {filtered.map((f) => (
-            <li
-              key={f.id}
-              onClick={() => setSelectedFacility(f.id)}
-              className={`cursor-pointer px-4 py-3 hover:bg-gray-50 ${
-                selectedFacilityId === f.id ? "bg-indigo-50" : ""
-              }`}
-            >
-              <div className="flex items-start justify-between">
-                <div>
-                  <p className="font-medium">{f.name}</p>
-                  <p className="text-sm text-gray-500">
-                    {f.address}, {f.municipality}
-                  </p>
-                  <p className="mt-0.5 text-xs text-gray-400">
-                    {f.serviceType}
-                  </p>
+        <ul className="divide-y divide-stone-100">
+          {filtered.map((f) => {
+            const inspection = inspectionMap.get(f.id);
+            const hasWarning = inspection?.contraventions.some((c) => !c.corrected);
+            return (
+              <li
+                key={f.id}
+                onClick={() => setSelectedFacility(f.id)}
+                className={`cursor-pointer px-4 py-3 transition hover:bg-stone-50 ${
+                  selectedFacilityId === f.id ? "bg-emerald-50/60" : ""
+                }`}
+              >
+                <div className="flex items-start justify-between gap-2">
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate text-sm font-medium text-gray-900">
+                      {f.name}
+                    </p>
+                    <p className="mt-0.5 truncate text-xs text-gray-400">
+                      {f.address}, {f.municipality}
+                    </p>
+                    <p className="mt-0.5 text-[11px] text-gray-300">
+                      {f.serviceType}
+                    </p>
+                  </div>
+                  <div className="flex flex-col items-end gap-1">
+                    {f.isTenDollarDay && (
+                      <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium text-emerald-700">
+                        $10/day
+                      </span>
+                    )}
+                    {f.vacancyInd === "Y" && (
+                      <span className="rounded-full bg-sky-50 px-2 py-0.5 text-[10px] font-medium text-sky-700">
+                        Vacancy
+                      </span>
+                    )}
+                    {hasWarning && (
+                      <span className="rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-medium text-amber-700">
+                        ⚠ Issue
+                      </span>
+                    )}
+                  </div>
                 </div>
-                <div className="flex flex-col items-end gap-1">
-                  {f.isTenDollarDay && (
-                    <span className="rounded-full bg-green-100 px-2 py-0.5 text-xs font-medium text-green-700">
-                      $10/day
-                    </span>
-                  )}
-                  {f.vacancyInd === "Y" && (
-                    <span className="rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
-                      Vacancy
-                    </span>
-                  )}
-                </div>
-              </div>
-            </li>
-          ))}
+              </li>
+            );
+          })}
         </ul>
       </div>
     </div>

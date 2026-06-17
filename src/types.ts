@@ -36,18 +36,24 @@ export interface TrackerEntry {
   notes: string;
 }
 
-export interface NannyEntry {
-  id: string;
-  name: string;
-  rate: string;
-  availability: string;
-  references: string;
-  cprCert: boolean;
-  criminalCheck: boolean;
-  notes: string;
-}
-
 export interface Meta {
   lastUpdated: string;
   count: number;
+}
+
+export interface Contravention {
+  code: string;
+  description: string;
+  observations: string;
+  correctByDate: string;
+  corrected: boolean;
+}
+
+export interface InspectionRecord {
+  facilityId: string;
+  permitID: string;
+  inspectionUrl: string;
+  lastInspectionDate: string;
+  lastInspectionType: string;
+  contraventions: Contravention[];
 }

@@ -10,6 +10,9 @@ interface FiltersProps {
   onChange?: (filters: FilterState) => void;
 }
 
+const selectClasses =
+  "rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs text-gray-700 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none";
+
 export default function Filters({ onChange }: FiltersProps) {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
 
@@ -28,13 +31,13 @@ export default function Filters({ onChange }: FiltersProps) {
   };
 
   return (
-    <div className="flex flex-wrap items-center gap-2 border-b px-4 py-2">
+    <div className="flex flex-wrap items-center gap-2 border-b border-stone-200 bg-white px-4 py-2.5">
       <input
         type="text"
-        placeholder="Search name, address, municipality..."
+        placeholder="Search..."
         value={filters.search}
         onChange={(e) => update({ search: e.target.value })}
-        className="w-48 rounded border px-3 py-1.5 text-sm"
+        className="w-44 rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs placeholder:text-gray-300 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none"
       />
 
       <select
@@ -42,18 +45,18 @@ export default function Filters({ onChange }: FiltersProps) {
         onChange={(e) =>
           update({ region: e.target.value as CRDRegion | "all" })
         }
-        className="rounded border px-2 py-1.5 text-sm"
+        className={selectClasses}
       >
         <option value="all">All regions</option>
-        <option value="core">Core (Victoria, Saanich, Oak Bay, Esquimalt, View Royal)</option>
-        <option value="westshore">Westshore (Langford, Colwood, Metchosin, Highlands, Sooke)</option>
-        <option value="peninsula">Peninsula (Sidney, North/Central Saanich)</option>
+        <option value="core">Core</option>
+        <option value="westshore">Westshore</option>
+        <option value="peninsula">Peninsula</option>
       </select>
 
       <select
         value={filters.municipality}
         onChange={(e) => update({ municipality: e.target.value })}
-        className="rounded border px-2 py-1.5 text-sm"
+        className={selectClasses}
       >
         <option value="">All municipalities</option>
         {municipalities.map((m) => (
@@ -66,7 +69,7 @@ export default function Filters({ onChange }: FiltersProps) {
       <select
         value={filters.ageGroup}
         onChange={(e) => update({ ageGroup: e.target.value })}
-        className="rounded border px-2 py-1.5 text-sm"
+        className={selectClasses}
       >
         <option value="">All ages</option>
         <option value="under 36">Under 36 months</option>
@@ -75,20 +78,22 @@ export default function Filters({ onChange }: FiltersProps) {
         <option value="multi age">Multi-age</option>
       </select>
 
-      <label className="flex items-center gap-1.5 text-sm">
+      <label className="flex items-center gap-1.5 text-xs text-gray-600">
         <input
           type="checkbox"
           checked={filters.tenDollarOnly}
           onChange={(e) => update({ tenDollarOnly: e.target.checked })}
+          className="rounded border-stone-300 text-emerald-600 focus:ring-emerald-200"
         />
         $10/day
       </label>
 
-      <label className="flex items-center gap-1.5 text-sm">
+      <label className="flex items-center gap-1.5 text-xs text-gray-600">
         <input
           type="checkbox"
           checked={filters.vacancyOnly}
           onChange={(e) => update({ vacancyOnly: e.target.checked })}
+          className="rounded border-stone-300 text-emerald-600 focus:ring-emerald-200"
         />
         Vacancy
       </label>
@@ -100,7 +105,7 @@ export default function Filters({ onChange }: FiltersProps) {
             trackerStatus: e.target.value as FilterState["trackerStatus"],
           })
         }
-        className="rounded border px-2 py-1.5 text-sm"
+        className={selectClasses}
       >
         <option value="all">Any status</option>
         <option value="none">Not contacted</option>

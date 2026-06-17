@@ -24,7 +24,7 @@ export default function Resources() {
             href="https://inspections.myhealthdepartment.com/island-health/program-ccfl"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded bg-indigo-50 px-4 py-2 font-medium text-indigo-700 hover:bg-indigo-100 transition"
+            className="inline-block rounded-md bg-emerald-50 px-4 py-2 font-medium text-emerald-700 hover:bg-emerald-100 transition"
           >
             Search Island Health Inspections &rarr;
           </a>
@@ -47,7 +47,7 @@ export default function Resources() {
             href="https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/332_2007#ScheduleE"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-indigo-600 hover:underline"
+            className="text-emerald-600 hover:underline"
           >
             Schedule E of the Child Care Licensing Regulation (B.C. Reg. 332/2007)
           </a>
@@ -208,7 +208,7 @@ export default function Resources() {
             href="https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/332_2007#ScheduleE"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-indigo-600 hover:underline"
+            className="text-emerald-600 hover:underline"
           >
             B.C. Reg. 332/2007, Schedule E
           </a>
@@ -252,7 +252,7 @@ export default function Resources() {
           href="https://www2.gov.bc.ca/gov/content/family-social-supports/caring-for-young-children/childcarebc-programs"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-2 inline-block text-sm text-indigo-600 hover:underline"
+          className="mt-2 inline-block text-sm text-emerald-600 hover:underline"
         >
           Official BC ChildCareBC page &rarr;
         </a>
@@ -301,7 +301,7 @@ export default function Resources() {
               href="https://inspections.myhealthdepartment.com/island-health/program-ccfl"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 hover:underline"
+              className="text-emerald-600 hover:underline"
             >
               Island Health Childcare Inspection Reports
             </a>
@@ -311,7 +311,7 @@ export default function Resources() {
               href="https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/332_2007"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 hover:underline"
+              className="text-emerald-600 hover:underline"
             >
               Child Care Licensing Regulation (full text)
             </a>
@@ -321,7 +321,7 @@ export default function Resources() {
               href="https://www.childcarevictoria.org/families/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 hover:underline"
+              className="text-emerald-600 hover:underline"
             >
               Victoria Child Care Resource & Referral Centre
             </a>
@@ -331,7 +331,7 @@ export default function Resources() {
               href="https://www2.gov.bc.ca/gov/content/family-social-supports/caring-for-young-children/childcarebc-programs/10-a-day-childcarebc-centres"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 hover:underline"
+              className="text-emerald-600 hover:underline"
             >
               $10 a Day ChildCareBC Centres list
             </a>
@@ -341,7 +341,7 @@ export default function Resources() {
               href="https://www2.gov.bc.ca/gov/content/family-social-supports/caring-for-young-children/child-care-funding/affordable-child-care-benefit"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-indigo-600 hover:underline"
+              className="text-emerald-600 hover:underline"
             >
               Affordable Child Care Benefit (ACCB)
             </a>

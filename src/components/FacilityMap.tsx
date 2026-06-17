@@ -5,16 +5,29 @@ import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import "leaflet.markercluster";
-import type { Facility } from "../types";
+import type { Facility, InspectionRecord } from "../types";
 import { useStore } from "../store";
 import FacilityDetail from "./FacilityDetail";
 import facilitiesData from "../../data/facilities.json";
+import inspectionsData from "../../data/inspections.json";
 
 const facilities = facilitiesData as Facility[];
+const inspections = inspectionsData as InspectionRecord[];
+
+const inspectionMap = new Map<string, InspectionRecord>();
+for (const rec of inspections) {
+  inspectionMap.set(rec.facilityId, rec);
+}
 
 const VICTORIA_CENTER: [number, number] = [48.4284, -123.3656];
 
 function buildPopupHtml(f: Facility): string {
+  const inspection = inspectionMap.get(f.id);
+  const inspectionLink = inspection?.inspectionUrl
+    ?? `https://inspections.myhealthdepartment.com/island-health/program-ccfl?facility_name=${encodeURIComponent(f.name)}`;
+
+  const uncorrected = inspection?.contraventions.filter((c) => !c.corrected) ?? [];
+
   const badge = f.isTenDollarDay
     ? `<span style="display:inline-block;background:#dcfce7;color:#15803d;font-size:11px;padding:2px 6px;border-radius:9999px;margin-bottom:4px;">$10/day</span><br/>`
     : "";
@@ -25,11 +38,21 @@ function buildPopupHtml(f: Facility): string {
     ? `<div><strong>Email:</strong> <a href="mailto:${f.email}">${f.email}</a></div>`
     : "";
   const website = f.website
-    ? `<div><a href="${f.website}" target="_blank" rel="noopener noreferrer" style="color:#4f46e5;">Visit website</a></div>`
+    ? `<div><a href="${f.website}" target="_blank" rel="noopener noreferrer" style="color:#047857;">Visit website</a></div>`
     : "";
   const vacancy = f.vacancyInd === "Y"
     ? `<span style="display:inline-block;background:#dbeafe;color:#1d4ed8;font-size:11px;padding:2px 6px;border-radius:9999px;margin-top:4px;">Vacancy reported</span>`
     : "";
+
+  let inspectionHtml = "";
+  if (inspection && inspection.lastInspectionDate) {
+    inspectionHtml += `<div style="font-size:11px;color:#6b7280;margin-top:4px;">Last inspected: ${inspection.lastInspectionDate} (${inspection.lastInspectionType})</div>`;
+  }
+  if (uncorrected.length > 0) {
+    inspectionHtml += `<div style="margin-top:4px;background:#fef3c7;border:1px solid #fcd34d;border-radius:4px;padding:4px 6px;font-size:11px;color:#92400e;">&#9888; ${uncorrected.length} outstanding issue${uncorrected.length > 1 ? "s" : ""}</div>`;
+  } else if (inspection && inspection.lastInspectionDate) {
+    inspectionHtml += `<div style="margin-top:4px;font-size:11px;color:#16a34a;">&#10003; No outstanding issues</div>`;
+  }
 
   return `
     <div style="min-width:200px;max-width:280px;font-family:system-ui,sans-serif;font-size:13px;line-height:1.4;">
@@ -41,11 +64,12 @@ function buildPopupHtml(f: Facility): string {
       ${email}
       ${website}
       ${vacancy}
+      ${inspectionHtml}
       <div style="margin-top:8px;border-top:1px solid #e5e7eb;padding-top:8px;display:flex;gap:6px;flex-wrap:wrap;">
-        <button onclick="window.dispatchEvent(new CustomEvent('open-tracker',{detail:'${f.id}'}))" style="background:#4f46e5;color:white;border:none;padding:5px 12px;border-radius:6px;font-size:12px;cursor:pointer;">
+        <button onclick="window.dispatchEvent(new CustomEvent('open-tracker',{detail:'${f.id}'}))" style="background:#059669;color:white;border:none;padding:5px 12px;border-radius:6px;font-size:12px;cursor:pointer;">
           Open in tracker
         </button>
-        <a href="https://inspections.myhealthdepartment.com/island-health/program-ccfl?facility_name=${encodeURIComponent(f.name)}" target="_blank" rel="noopener noreferrer" style="background:#fef3c7;color:#92400e;border:none;padding:5px 12px;border-radius:6px;font-size:12px;text-decoration:none;">
+        <a href="${inspectionLink}" target="_blank" rel="noopener noreferrer" style="background:#fef3c7;color:#92400e;border:none;padding:5px 12px;border-radius:6px;font-size:12px;text-decoration:none;">
           Inspections
         </a>
       </div>
@@ -64,7 +88,9 @@ function MarkerLayer() {
 
     facilities.forEach((f) => {
       if (!f.lat || !f.lng) return;
-      const color = f.isTenDollarDay ? "#16a34a" : "#4f46e5";
+      const inspection = inspectionMap.get(f.id);
+      const hasWarning = inspection?.contraventions.some((c) => !c.corrected) ?? false;
+      const color = hasWarning ? "#d97706" : f.isTenDollarDay ? "#16a34a" : "#059669";
       const marker = L.marker([f.lat, f.lng]);
       marker.setIcon(
         L.divIcon({
