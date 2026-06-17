@@ -62,6 +62,15 @@ export default function FacilityDetail({
         </p>
       )}
 
+      <a
+        href={`https://inspections.myhealthdepartment.com/island-health/program-ccfl?facility_name=${encodeURIComponent(facility.name)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block rounded bg-amber-50 px-2 py-1 text-sm text-amber-700 hover:bg-amber-100 transition"
+      >
+        View Island Health inspections &rarr;
+      </a>
+
       <hr />
 
       {/* Tracker fields */}

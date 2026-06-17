@@ -3,6 +3,219 @@ export default function Resources() {
     <div className="flex-1 overflow-y-auto p-6">
       <h2 className="mb-6 text-xl font-semibold">Resources & Checklists</h2>
 
+      {/* Island Health Inspections */}
+      <section className="mb-8">
+        <h3 className="mb-2 text-lg font-medium">
+          Island Health Inspection Reports
+        </h3>
+        <div className="space-y-3 text-sm text-gray-700">
+          <p>
+            Island Health publishes routine inspection reports for all licensed
+            childcare facilities. These reports show whether a facility was in
+            compliance with BC's Child Care Licensing Regulation (CCLR) during
+            inspections. If a contravention is found, a follow-up inspection is
+            conducted.
+          </p>
+          <p>
+            You can search any facility by name to view their inspection history,
+            including any contraventions cited and whether they were corrected.
+          </p>
+          <a
+            href="https://inspections.myhealthdepartment.com/island-health/program-ccfl"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded bg-indigo-50 px-4 py-2 font-medium text-indigo-700 hover:bg-indigo-100 transition"
+          >
+            Search Island Health Inspections &rarr;
+          </a>
+          <p className="text-xs text-gray-500">
+            Child care facility inspections have been posted since March 1, 2010.
+            A blank follow-up report means the contravention was corrected.
+          </p>
+        </div>
+      </section>
+
+      {/* Schedule E - Staff Ratios Table */}
+      <section className="mb-8">
+        <h3 className="mb-2 text-lg font-medium">
+          Staff-to-Child Ratios (CCLR Schedule E)
+        </h3>
+        <p className="mb-3 text-sm text-gray-600">
+          BC law requires licensed facilities to maintain minimum staff-to-child
+          ratios. This table is from{" "}
+          <a
+            href="https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/332_2007#ScheduleE"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 hover:underline"
+          >
+            Schedule E of the Child Care Licensing Regulation (B.C. Reg. 332/2007)
+          </a>
+          , current as of June 2026.
+        </p>
+        <div className="overflow-x-auto rounded border">
+          <table className="w-full text-left text-sm">
+            <thead className="bg-gray-50">
+              <tr>
+                <th className="px-3 py-2 font-medium">Care Program</th>
+                <th className="px-3 py-2 font-medium">Max Group Size</th>
+                <th className="px-3 py-2 font-medium">Children per Group</th>
+                <th className="px-3 py-2 font-medium">Staff Required</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y">
+              <tr>
+                <td className="px-3 py-2 font-medium" rowSpan={3}>
+                  Group Child Care (Under 36 Months)
+                </td>
+                <td className="px-3 py-2" rowSpan={3}>
+                  12 (separate area per group)
+                </td>
+                <td className="px-3 py-2">&le; 4</td>
+                <td className="px-3 py-2">1 infant/toddler educator</td>
+              </tr>
+              <tr>
+                <td className="px-3 py-2">5 – 8</td>
+                <td className="px-3 py-2">
+                  1 infant/toddler educator + 1 educator
+                </td>
+              </tr>
+              <tr>
+                <td className="px-3 py-2">9 – 12</td>
+                <td className="px-3 py-2">
+                  1 infant/toddler educator + 1 educator + 1 assistant
+                </td>
+              </tr>
+
+              <tr className="bg-gray-50">
+                <td className="px-3 py-2 font-medium" rowSpan={3}>
+                  Group Child Care (30 Months to School Age)
+                </td>
+                <td className="px-3 py-2" rowSpan={3}>
+                  25 (max 2 children &lt; 36 months)
+                </td>
+                <td className="px-3 py-2">&le; 8</td>
+                <td className="px-3 py-2">1 educator</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <td className="px-3 py-2">9 – 16</td>
+                <td className="px-3 py-2">1 educator + 1 assistant</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <td className="px-3 py-2">17 – 25</td>
+                <td className="px-3 py-2">1 educator + 2 assistants</td>
+              </tr>
+
+              <tr>
+                <td className="px-3 py-2 font-medium" rowSpan={2}>
+                  Preschool (30 Months to School Age)
+                </td>
+                <td className="px-3 py-2" rowSpan={2}>20</td>
+                <td className="px-3 py-2">&le; 10</td>
+                <td className="px-3 py-2">1 educator</td>
+              </tr>
+              <tr>
+                <td className="px-3 py-2">11 – 20</td>
+                <td className="px-3 py-2">1 educator + 1 assistant</td>
+              </tr>
+
+              <tr className="bg-gray-50">
+                <td className="px-3 py-2 font-medium" rowSpan={2}>
+                  School Age (preschool/grade 1 present)
+                </td>
+                <td className="px-3 py-2" rowSpan={2}>24</td>
+                <td className="px-3 py-2">&le; 12</td>
+                <td className="px-3 py-2">1 responsible adult</td>
+              </tr>
+              <tr className="bg-gray-50">
+                <td className="px-3 py-2">13 – 24</td>
+                <td className="px-3 py-2">2 responsible adults</td>
+              </tr>
+
+              <tr>
+                <td className="px-3 py-2 font-medium" rowSpan={2}>
+                  School Age (no preschool/grade 1)
+                </td>
+                <td className="px-3 py-2" rowSpan={2}>30</td>
+                <td className="px-3 py-2">&le; 15</td>
+                <td className="px-3 py-2">1 responsible adult</td>
+              </tr>
+              <tr>
+                <td className="px-3 py-2">16 – 30</td>
+                <td className="px-3 py-2">2 responsible adults</td>
+              </tr>
+
+              <tr className="bg-gray-50">
+                <td className="px-3 py-2 font-medium">
+                  Family Child Care (child &lt; 12 months present)
+                </td>
+                <td className="px-3 py-2">
+                  7 (max 3 &lt; 48 months, max 1 &lt; 12 months)
+                </td>
+                <td className="px-3 py-2">&le; 7</td>
+                <td className="px-3 py-2">The licensee</td>
+              </tr>
+
+              <tr>
+                <td className="px-3 py-2 font-medium">
+                  Family Child Care (no child &lt; 12 months)
+                </td>
+                <td className="px-3 py-2">
+                  7 (max 4 &lt; 48 months, max 2 &lt; 24 months)
+                </td>
+                <td className="px-3 py-2">&le; 7</td>
+                <td className="px-3 py-2">The licensee</td>
+              </tr>
+
+              <tr className="bg-gray-50">
+                <td className="px-3 py-2 font-medium">
+                  Multi-Age (child &lt; 12 months present)
+                </td>
+                <td className="px-3 py-2">
+                  8 (max 3 &lt; 36 months, max 1 &lt; 12 months)
+                </td>
+                <td className="px-3 py-2">&le; 8</td>
+                <td className="px-3 py-2">1 educator</td>
+              </tr>
+
+              <tr>
+                <td className="px-3 py-2 font-medium">
+                  Multi-Age (no child &lt; 12 months)
+                </td>
+                <td className="px-3 py-2">8 (max 3 &lt; 36 months)</td>
+                <td className="px-3 py-2">&le; 8</td>
+                <td className="px-3 py-2">1 educator</td>
+              </tr>
+
+              <tr className="bg-gray-50">
+                <td className="px-3 py-2 font-medium">
+                  In-Home Multi-Age
+                </td>
+                <td className="px-3 py-2">
+                  8 (same age restrictions as Multi-Age)
+                </td>
+                <td className="px-3 py-2">&le; 8</td>
+                <td className="px-3 py-2">
+                  The licensee (must be a certified educator)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-2 text-xs text-gray-500">
+          Source:{" "}
+          <a
+            href="https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/332_2007#ScheduleE"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 hover:underline"
+          >
+            B.C. Reg. 332/2007, Schedule E
+          </a>
+          . Consolidated to June 2026. Check BCLaws for the most current version.
+        </p>
+      </section>
+
       {/* CCFRI explainer */}
       <section className="mb-8">
         <h3 className="mb-2 text-lg font-medium">
@@ -13,14 +226,14 @@ export default function Resources() {
             <strong>$10 a Day ChildCareBC Centres:</strong> A select group of
             facilities that charge families no more than $10/day for full-time
             care. The province funds the difference. Access is based on each
-            centre's capacity and waitlist—families do not apply to the
+            centre's capacity and waitlist — families do not apply to the
             program, they apply directly to the centre.
           </p>
           <p>
             <strong>CCFRI (Child Care Fee Reduction Initiative):</strong> Most
             licensed facilities (not just $10/day) receive government funding
             to reduce parent fees. The amount varies by care type. Participating
-            centres show reduced fees automatically—you do not need to apply
+            centres show reduced fees automatically — you do not need to apply
             separately.
           </p>
           <p>
@@ -61,6 +274,7 @@ export default function Resources() {
           <li>Can I schedule a visit/tour?</li>
           <li>What documents do I need to register?</li>
           <li>Do you accept the Affordable Child Care Benefit?</li>
+          <li>Can I view your most recent Island Health inspection report?</li>
         </ul>
       </section>
 
@@ -82,6 +296,26 @@ export default function Resources() {
       <section>
         <h3 className="mb-2 text-lg font-medium">Helpful Links</h3>
         <ul className="space-y-1 text-sm">
+          <li>
+            <a
+              href="https://inspections.myhealthdepartment.com/island-health/program-ccfl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-600 hover:underline"
+            >
+              Island Health Childcare Inspection Reports
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/332_2007"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-indigo-600 hover:underline"
+            >
+              Child Care Licensing Regulation (full text)
+            </a>
+          </li>
           <li>
             <a
               href="https://www.childcarevictoria.org/families/"

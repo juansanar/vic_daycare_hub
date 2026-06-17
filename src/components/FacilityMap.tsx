@@ -41,10 +41,13 @@ function buildPopupHtml(f: Facility): string {
       ${email}
       ${website}
       ${vacancy}
-      <div style="margin-top:8px;border-top:1px solid #e5e7eb;padding-top:8px;">
+      <div style="margin-top:8px;border-top:1px solid #e5e7eb;padding-top:8px;display:flex;gap:6px;flex-wrap:wrap;">
         <button onclick="window.dispatchEvent(new CustomEvent('open-tracker',{detail:'${f.id}'}))" style="background:#4f46e5;color:white;border:none;padding:5px 12px;border-radius:6px;font-size:12px;cursor:pointer;">
           Open in tracker
         </button>
+        <a href="https://inspections.myhealthdepartment.com/island-health/program-ccfl?facility_name=${encodeURIComponent(f.name)}" target="_blank" rel="noopener noreferrer" style="background:#fef3c7;color:#92400e;border:none;padding:5px 12px;border-radius:6px;font-size:12px;text-decoration:none;">
+          Inspections
+        </a>
       </div>
     </div>
   `;
