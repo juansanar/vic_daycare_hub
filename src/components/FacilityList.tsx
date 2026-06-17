@@ -36,7 +36,7 @@ export default function FacilityList() {
                 <div>
                   <p className="font-medium">{f.name}</p>
                   <p className="text-sm text-gray-500">
-                    {f.address}, {f.locality}
+                    {f.address}, {f.municipality}
                   </p>
                   <p className="mt-0.5 text-xs text-gray-400">
                     {f.serviceType}

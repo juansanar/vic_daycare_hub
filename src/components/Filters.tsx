@@ -1,6 +1,10 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import type { FilterState } from "../lib/filters";
-import { defaultFilters } from "../lib/filters";
+import { defaultFilters, getMunicipalities } from "../lib/filters";
+import type { Facility, CRDRegion } from "../types";
+import facilitiesData from "../../data/facilities.json";
+
+const facilities = facilitiesData as Facility[];
 
 interface FiltersProps {
   onChange?: (filters: FilterState) => void;
@@ -9,32 +13,54 @@ interface FiltersProps {
 export default function Filters({ onChange }: FiltersProps) {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
 
+  const municipalities = useMemo(
+    () => getMunicipalities(facilities, filters.region),
+    [filters.region],
+  );
+
   const update = (partial: Partial<FilterState>) => {
     const next = { ...filters, ...partial };
+    if (partial.region !== undefined && partial.municipality === undefined) {
+      next.municipality = "";
+    }
     setFilters(next);
     onChange?.(next);
   };
 
   return (
-    <div className="flex flex-wrap items-center gap-3 border-b px-4 py-2">
+    <div className="flex flex-wrap items-center gap-2 border-b px-4 py-2">
       <input
         type="text"
-        placeholder="Search by name or address..."
+        placeholder="Search name, address, municipality..."
         value={filters.search}
         onChange={(e) => update({ search: e.target.value })}
-        className="rounded border px-3 py-1.5 text-sm"
+        className="w-48 rounded border px-3 py-1.5 text-sm"
       />
 
       <select
-        value={filters.area}
+        value={filters.region}
         onChange={(e) =>
-          update({ area: e.target.value as FilterState["area"] })
+          update({ region: e.target.value as CRDRegion | "all" })
         }
         className="rounded border px-2 py-1.5 text-sm"
       >
-        <option value="all">All areas</option>
-        <option value="victoria">Victoria</option>
-        <option value="westshore">Westshore</option>
+        <option value="all">All regions</option>
+        <option value="core">Core (Victoria, Saanich, Oak Bay, Esquimalt, View Royal)</option>
+        <option value="westshore">Westshore (Langford, Colwood, Metchosin, Highlands, Sooke)</option>
+        <option value="peninsula">Peninsula (Sidney, North/Central Saanich)</option>
+      </select>
+
+      <select
+        value={filters.municipality}
+        onChange={(e) => update({ municipality: e.target.value })}
+        className="rounded border px-2 py-1.5 text-sm"
+      >
+        <option value="">All municipalities</option>
+        {municipalities.map((m) => (
+          <option key={m} value={m}>
+            {m}
+          </option>
+        ))}
       </select>
 
       <select
@@ -55,7 +81,7 @@ export default function Filters({ onChange }: FiltersProps) {
           checked={filters.tenDollarOnly}
           onChange={(e) => update({ tenDollarOnly: e.target.checked })}
         />
-        $10/day only
+        $10/day
       </label>
 
       <label className="flex items-center gap-1.5 text-sm">

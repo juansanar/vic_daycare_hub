@@ -40,7 +40,7 @@ export default function FacilityDetail({
       </div>
 
       <div className="space-y-1 text-sm text-gray-600">
-        <p>{facility.address}, {facility.locality} {facility.postalCode}</p>
+        <p>{facility.address}, {facility.municipality} {facility.postalCode}</p>
         {facility.phone && <p>Phone: {facility.phone}</p>}
         {facility.email && <p>Email: {facility.email}</p>}
         {facility.website && (

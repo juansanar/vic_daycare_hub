@@ -35,7 +35,7 @@ function buildPopupHtml(f: Facility): string {
     <div style="min-width:200px;max-width:280px;font-family:system-ui,sans-serif;font-size:13px;line-height:1.4;">
       ${badge}
       <strong style="font-size:14px;">${f.name}</strong>
-      <div style="color:#6b7280;margin-top:4px;">${f.address}, ${f.locality} ${f.postalCode}</div>
+      <div style="color:#6b7280;margin-top:4px;">${f.address}, ${f.municipality} ${f.postalCode}</div>
       <div style="color:#6b7280;font-size:12px;margin-top:2px;">${f.serviceType}</div>
       ${phone}
       ${email}

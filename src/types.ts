@@ -1,9 +1,13 @@
+export type CRDRegion = "core" | "westshore" | "peninsula" | "other";
+
 export interface Facility {
   id: string;
   name: string;
   address: string;
   locality: string;
   postalCode: string;
+  municipality: string;
+  region: CRDRegion;
   lat: number;
   lng: number;
   phone: string;
@@ -12,7 +16,6 @@ export interface Facility {
   serviceType: string;
   vacancyInd: string;
   isTenDollarDay: boolean;
-  area: "victoria" | "westshore";
 }
 
 export type TrackerStatus =

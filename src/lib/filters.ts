@@ -1,7 +1,8 @@
-import type { Facility, TrackerEntry, TrackerStatus } from "../types";
+import type { Facility, TrackerEntry, TrackerStatus, CRDRegion } from "../types";
 
 export interface FilterState {
-  area: "all" | "victoria" | "westshore";
+  region: CRDRegion | "all";
+  municipality: string;
   ageGroup: string;
   tenDollarOnly: boolean;
   vacancyOnly: boolean;
@@ -10,7 +11,8 @@ export interface FilterState {
 }
 
 export const defaultFilters: FilterState = {
-  area: "all",
+  region: "all",
+  municipality: "",
   ageGroup: "",
   tenDollarOnly: false,
   vacancyOnly: false,
@@ -26,7 +28,10 @@ export function filterFacilities(
   const searchLower = filters.search.toLowerCase().trim();
 
   return facilities.filter((f) => {
-    if (filters.area !== "all" && f.area !== filters.area) return false;
+    if (filters.region !== "all" && f.region !== filters.region) return false;
+
+    if (filters.municipality && f.municipality !== filters.municipality)
+      return false;
 
     if (
       filters.ageGroup &&
@@ -45,10 +50,24 @@ export function filterFacilities(
     }
 
     if (searchLower) {
-      const haystack = `${f.name} ${f.address} ${f.locality}`.toLowerCase();
+      const haystack =
+        `${f.name} ${f.address} ${f.municipality} ${f.locality}`.toLowerCase();
       if (!haystack.includes(searchLower)) return false;
     }
 
     return true;
   });
+}
+
+export function getMunicipalities(
+  facilities: Facility[],
+  region: CRDRegion | "all",
+): string[] {
+  const set = new Set<string>();
+  facilities.forEach((f) => {
+    if (region === "all" || f.region === region) {
+      set.add(f.municipality);
+    }
+  });
+  return Array.from(set).sort();
 }
