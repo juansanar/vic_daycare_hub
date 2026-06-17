@@ -8,23 +8,24 @@ export default function Landing() {
       {/* Hero */}
       <header className="mx-auto max-w-4xl px-6 py-16 text-center md:py-24">
         <p className="mb-4 text-sm font-medium tracking-wide text-indigo-600 uppercase">
-          Free &middot; No account needed &middot; Victoria &amp; Westshore BC
+          100% free &middot; Open source &middot; No sign-up
         </p>
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 md:text-5xl">
-          Stop Googling.{" "}
-          <span className="text-indigo-600">Start finding childcare.</span>
+          Victoria &amp; Westshore{" "}
+          <span className="text-indigo-600">Daycare Hub</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
-          Every licensed childcare facility in Victoria and the Westshore — with
-          interactive maps, personal tracking, $10/day flags, and resources. All
-          free, all in one place.
+          A free community tool that puts {meta.count}+ licensed childcare
+          facilities on an interactive map — with contact info, filters, and a
+          personal organizer to track your search. No paywalls, no accounts,
+          just the information you need.
         </p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
             href="#/app"
             className="rounded-lg bg-indigo-600 px-8 py-3 text-lg font-semibold text-white shadow-sm hover:bg-indigo-700 transition"
           >
-            Open the Tracker
+            Explore the Map
           </a>
           <a
             href={`https://buymeacoffee.com/${bmcUsername}`}
@@ -32,138 +33,121 @@ export default function Landing() {
             rel="noopener noreferrer"
             className="rounded-lg border border-gray-300 px-6 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 transition"
           >
-            Support this project
+            Buy me a coffee
           </a>
         </div>
+        <p className="mt-4 text-xs text-gray-400">
+          No download required. Works in any browser, desktop or mobile.
+        </p>
       </header>
 
-      {/* Stats */}
+      {/* Why this exists */}
       <section className="border-y bg-gray-50 py-12">
-        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 px-6 text-center sm:grid-cols-3">
+        <div className="mx-auto max-w-3xl px-6 text-center">
+          <h2 className="text-xl font-bold text-gray-900">
+            Why does this exist?
+          </h2>
+          <p className="mt-4 text-gray-600">
+            BC publishes childcare licensing data, but it&apos;s buried in government
+            databases that aren&apos;t designed for parents. We pull that public data
+            together, plot it on a map, and give you a simple way to organize
+            your search — completely free, forever.
+          </p>
+        </div>
+      </section>
+
+      {/* What it does */}
+      <section className="mx-auto max-w-4xl px-6 py-16">
+        <h2 className="text-center text-2xl font-bold text-gray-900">
+          What you can do
+        </h2>
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            {
+              title: "Browse on a map",
+              desc: "Every facility plotted with its real address. Click any pin to see full contact details, service type, and $10/day status.",
+            },
+            {
+              title: "Search and filter",
+              desc: "Narrow by area, age group, vacancy, or $10/day — or just type a name. Results update instantly.",
+            },
+            {
+              title: "Organize your search",
+              desc: "Mark facilities as contacted, waitlisted, or ruled out. Add your own notes, dates, and cost info — all saved locally in your browser.",
+            },
+            {
+              title: "Understand the funding",
+              desc: "Plain-language explainer of $10/day centres, CCFRI fee reductions, and the Affordable Child Care Benefit — with links to official sources.",
+            },
+            {
+              title: "Track nannies too",
+              desc: "Found someone on Facebook or Nextdoor? Log their rate, availability, and references alongside your daycare search.",
+            },
+            {
+              title: "Take it with you",
+              desc: "Export your tracker as a JSON backup. Import it on another device. Your data belongs to you.",
+            },
+          ].map((item) => (
+            <div key={item.title} className="rounded-lg border bg-white p-5">
+              <h3 className="font-semibold text-gray-900">{item.title}</h3>
+              <p className="mt-2 text-sm text-gray-600">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Stats bar */}
+      <section className="border-y bg-indigo-50 py-10">
+        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 px-6 text-center sm:grid-cols-3">
           <div>
-            <p className="text-3xl font-bold text-indigo-600">{meta.count}+</p>
+            <p className="text-3xl font-bold text-indigo-700">{meta.count}+</p>
             <p className="mt-1 text-sm text-gray-600">Licensed facilities</p>
           </div>
           <div>
-            <p className="text-3xl font-bold text-indigo-600">2</p>
+            <p className="text-3xl font-bold text-indigo-700">2 regions</p>
             <p className="mt-1 text-sm text-gray-600">
-              Areas: Victoria &amp; Westshore
+              Victoria core &amp; Westshore
             </p>
           </div>
           <div>
-            <p className="text-3xl font-bold text-indigo-600">Free</p>
+            <p className="text-3xl font-bold text-indigo-700">$0</p>
             <p className="mt-1 text-sm text-gray-600">
-              No payment, no account
+              Always free, open source
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Problem */}
-      <section className="mx-auto max-w-4xl px-6 py-16">
-        <h2 className="text-center text-2xl font-bold text-gray-900">
-          Finding daycare in Victoria takes too many hours
-        </h2>
-        <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
-          <div className="rounded-lg border p-6">
-            <h3 className="font-semibold text-gray-900">No single source</h3>
-            <p className="mt-2 text-sm text-gray-600">
-              Google only finds daycares with websites. Many excellent facilities
-              are invisible online.
-            </p>
-          </div>
-          <div className="rounded-lg border p-6">
-            <h3 className="font-semibold text-gray-900">Notes everywhere</h3>
-            <p className="mt-2 text-sm text-gray-600">
-              Texts, browser tabs, sticky notes, voice memos — nothing in one
-              place, nothing organized.
-            </p>
-          </div>
-          <div className="rounded-lg border p-6">
-            <h3 className="font-semibold text-gray-900">$10/day confusion</h3>
-            <p className="mt-2 text-sm text-gray-600">
-              Which centres charge $10/day? What&apos;s CCFRI? What&apos;s ACCB? Nobody
-              explains it clearly.
-            </p>
-          </div>
-          <div className="rounded-lg border p-6">
-            <h3 className="font-semibold text-gray-900">
-              Waitlists take forever
-            </h3>
-            <p className="mt-2 text-sm text-gray-600">
-              You need to get on waitlists early, but finding who to call takes
-              weeks of scattered research.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* What you get */}
-      <section className="border-t bg-gray-50 px-6 py-16">
-        <div className="mx-auto max-w-4xl">
-          <h2 className="text-center text-2xl font-bold text-gray-900">
-            Everything in one place
-          </h2>
-          <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              {
-                title: "All licensed facilities",
-                desc: "Every facility from the BC Community Care Registry for Victoria and Westshore — including the ones with no website.",
-              },
-              {
-                title: "Interactive map",
-                desc: "See facilities on a map with clustered markers. Click to view details, center on your location.",
-              },
-              {
-                title: "Filter by what matters",
-                desc: "Age group, $10/day status, vacancy, your personal tracking status. Find what fits in seconds.",
-              },
-              {
-                title: "Personal tracker",
-                desc: "Log your status, waitlist dates, costs, food info, and notes for every facility — saved in your browser.",
-              },
-              {
-                title: "$10/day centres flagged",
-                desc: "Verified $10/day ChildCareBC centres are clearly marked. Filter to see only those.",
-              },
-              {
-                title: "Resources & checklists",
-                desc: "Document checklist, questions to ask, plain-English explainer of CCFRI, ACCB, and $10/day.",
-              },
-            ].map((item) => (
-              <div key={item.title} className="rounded-lg border bg-white p-5">
-                <h3 className="font-semibold text-gray-900">{item.title}</h3>
-                <p className="mt-2 text-sm text-gray-600">{item.desc}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ */}
       <section className="mx-auto max-w-3xl px-6 py-16">
-        <h2 className="text-center text-2xl font-bold text-gray-900">FAQ</h2>
+        <h2 className="text-center text-2xl font-bold text-gray-900">
+          Common questions
+        </h2>
         <dl className="mt-8 space-y-6">
           {[
             {
-              q: "Is this really free?",
-              a: "Yes. No payment, no account, no catch. It's an open-source community tool. If you find it helpful, you can optionally support us via Buy Me a Coffee.",
+              q: "Why is this free?",
+              a: "Because childcare info shouldn't be behind a paywall. This is an open-source community project. The data comes from public government sources. If you'd like to chip in for hosting costs, there's a Buy Me a Coffee link — but it's entirely optional.",
             },
             {
-              q: "Will my notes be saved?",
-              a: "Yes — your notes auto-save in your browser (localStorage). They'll be there every time you open the site on the same device. Use Export to back up or transfer between devices.",
+              q: "Where does the data come from?",
+              a: `Facility data is pulled from the BC Community Care Facility Registry (a public government dataset) and was last refreshed ${meta.lastUpdated ? new Date(meta.lastUpdated).toLocaleDateString("en-CA", { year: "numeric", month: "long" }) : "recently"}. We don't make it up — but availability and fees change constantly, so always call to confirm.`,
             },
             {
-              q: "How often is the data updated?",
-              a: `The facility list is sourced from the BC Community Care Registry and was last updated ${meta.lastUpdated ? new Date(meta.lastUpdated).toLocaleDateString("en-CA", { year: "numeric", month: "long" }) : "recently"}. Availability and cost change frequently — always call to confirm.`,
+              q: "Are my notes private?",
+              a: "Yes. Everything you type stays in your browser's local storage. Nothing is sent to a server. We don't have accounts, analytics, or tracking. Use the Export button to back up your data.",
             },
             {
               q: "What areas are covered?",
-              a: "Victoria (including Saanich, Oak Bay, Esquimalt, View Royal, Sidney, Central/North Saanich) and Westshore (Langford, Colwood, Metchosin, Highlands, Sooke).",
+              a: "Greater Victoria (Victoria, Saanich, Oak Bay, Esquimalt, View Royal, Sidney, Central/North Saanich) and Westshore (Langford, Colwood, Metchosin, Highlands, Sooke).",
             },
             {
-              q: "What about $10/day centres?",
-              a: "Verified $10/day ChildCareBC centres are flagged in the tracker. Note: BC paused program expansion in Budget 2026 — existing centres remain active.",
+              q: "What's the deal with $10/day?",
+              a: "Some BC facilities participate in the $10 a Day ChildCareBC program — they charge no more than $10/day for full-time care. We flag the ones we can identify. Note: BC paused expanding the program in 2026, but existing centres remain active.",
+            },
+            {
+              q: "Can I use this on my phone?",
+              a: "Yes. The app works in any browser. On mobile, the detail panel opens as an overlay when you tap a facility.",
             },
           ].map((item) => (
             <div key={item.q}>
@@ -172,6 +156,22 @@ export default function Landing() {
             </div>
           ))}
         </dl>
+      </section>
+
+      {/* CTA */}
+      <section className="border-t bg-indigo-600 px-6 py-12 text-center">
+        <h2 className="text-2xl font-bold text-white">
+          Ready to explore?
+        </h2>
+        <p className="mt-2 text-indigo-100">
+          No sign-up. No payment. Just open the map.
+        </p>
+        <a
+          href="#/app"
+          className="mt-6 inline-block rounded-lg bg-white px-8 py-3 font-semibold text-indigo-600 shadow hover:bg-indigo-50 transition"
+        >
+          Open the Hub
+        </a>
       </section>
 
       {/* Footer */}
@@ -187,7 +187,7 @@ export default function Landing() {
             >
               BC Community Care Facility Registry
             </a>
-            . Always confirm directly with facilities.
+            . Always confirm details directly with facilities.
           </p>
           <div className="flex gap-4">
             <a
@@ -196,7 +196,7 @@ export default function Landing() {
               rel="noopener noreferrer"
               className="hover:text-indigo-600"
             >
-              Support this project
+              Buy me a coffee
             </a>
             <a
               href="https://github.com/juansanar/vic_daycare_hub"
@@ -208,8 +208,8 @@ export default function Landing() {
             </a>
           </div>
           <p className="text-xs text-gray-400">
-            Open-source &middot; MIT License &middot; Built for Victoria
-            families
+            Open-source &middot; MIT License &middot; A community project for
+            Victoria &amp; Westshore families
           </p>
         </div>
       </footer>

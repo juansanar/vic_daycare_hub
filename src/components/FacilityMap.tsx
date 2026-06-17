@@ -14,10 +14,44 @@ const facilities = facilitiesData as Facility[];
 
 const VICTORIA_CENTER: [number, number] = [48.4284, -123.3656];
 
+function buildPopupHtml(f: Facility): string {
+  const badge = f.isTenDollarDay
+    ? `<span style="display:inline-block;background:#dcfce7;color:#15803d;font-size:11px;padding:2px 6px;border-radius:9999px;margin-bottom:4px;">$10/day</span><br/>`
+    : "";
+  const phone = f.phone
+    ? `<div style="margin-top:4px;"><strong>Phone:</strong> <a href="tel:${f.phone}">${f.phone}</a></div>`
+    : "";
+  const email = f.email
+    ? `<div><strong>Email:</strong> <a href="mailto:${f.email}">${f.email}</a></div>`
+    : "";
+  const website = f.website
+    ? `<div><a href="${f.website}" target="_blank" rel="noopener noreferrer" style="color:#4f46e5;">Visit website</a></div>`
+    : "";
+  const vacancy = f.vacancyInd === "Y"
+    ? `<span style="display:inline-block;background:#dbeafe;color:#1d4ed8;font-size:11px;padding:2px 6px;border-radius:9999px;margin-top:4px;">Vacancy reported</span>`
+    : "";
+
+  return `
+    <div style="min-width:200px;max-width:280px;font-family:system-ui,sans-serif;font-size:13px;line-height:1.4;">
+      ${badge}
+      <strong style="font-size:14px;">${f.name}</strong>
+      <div style="color:#6b7280;margin-top:4px;">${f.address}, ${f.locality} ${f.postalCode}</div>
+      <div style="color:#6b7280;font-size:12px;margin-top:2px;">${f.serviceType}</div>
+      ${phone}
+      ${email}
+      ${website}
+      ${vacancy}
+      <div style="margin-top:8px;border-top:1px solid #e5e7eb;padding-top:8px;">
+        <button onclick="window.dispatchEvent(new CustomEvent('open-tracker',{detail:'${f.id}'}))" style="background:#4f46e5;color:white;border:none;padding:5px 12px;border-radius:6px;font-size:12px;cursor:pointer;">
+          Open in tracker
+        </button>
+      </div>
+    </div>
+  `;
+}
+
 function MarkerLayer() {
   const map = useMap();
-  const setSelectedFacility = useStore((s) => s.setSelectedFacility);
-  const selectedFacilityId = useStore((s) => s.selectedFacilityId);
 
   useEffect(() => {
     const cluster = L.markerClusterGroup({
@@ -27,20 +61,18 @@ function MarkerLayer() {
 
     facilities.forEach((f) => {
       if (!f.lat || !f.lng) return;
-      const isSelected = f.id === selectedFacilityId;
       const color = f.isTenDollarDay ? "#16a34a" : "#4f46e5";
-      const size = isSelected ? 16 : 12;
       const marker = L.marker([f.lat, f.lng]);
       marker.setIcon(
         L.divIcon({
           className: "",
-          html: `<div style="width:${size}px;height:${size}px;border-radius:50%;background:${color};border:2px solid ${isSelected ? "#fbbf24" : "white"};box-shadow:0 1px 3px rgba(0,0,0,.3)"></div>`,
-          iconSize: [size, size],
-          iconAnchor: [size / 2, size / 2],
+          html: `<div style="width:12px;height:12px;border-radius:50%;background:${color};border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,.3)"></div>`,
+          iconSize: [12, 12],
+          iconAnchor: [6, 6],
         }),
       );
       marker.bindTooltip(f.name);
-      marker.on("click", () => setSelectedFacility(f.id));
+      marker.bindPopup(buildPopupHtml(f), { maxWidth: 300 });
       cluster.addLayer(marker);
     });
 
@@ -48,7 +80,7 @@ function MarkerLayer() {
     return () => {
       map.removeLayer(cluster);
     };
-  }, [map, setSelectedFacility, selectedFacilityId]);
+  }, [map]);
 
   return null;
 }
@@ -89,6 +121,16 @@ function LocateButton() {
 
 export default function FacilityMap() {
   const selectedFacilityId = useStore((s) => s.selectedFacilityId);
+  const setSelectedFacility = useStore((s) => s.setSelectedFacility);
+
+  useEffect(() => {
+    const handler = (e: Event) => {
+      const id = (e as CustomEvent).detail;
+      setSelectedFacility(id);
+    };
+    window.addEventListener("open-tracker", handler);
+    return () => window.removeEventListener("open-tracker", handler);
+  }, [setSelectedFacility]);
 
   return (
     <div className="relative flex flex-1">
