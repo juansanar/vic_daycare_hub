@@ -1,17 +1,12 @@
 {
+  "description": "Victoria-area $10/day ChildCareBC centres. Names are from the official BC list; overrides map FACILITY_ID to true for known matches in the BC registry data where names differ.",
   "names": [
-    "Cari's Infant and Toddler Centre",
-    "Christian Life Children's Centre",
-    "Forest Circle Child Care",
-    "Downtown YMCA-YWCA Child Care",
-    "Westhills YMCA-YWCA Child Care",
-    "Our Childrens Centre",
-    "University of Victoria Child Care Services - Complex A",
-    "University of Victoria Child Care Services - Complex B",
-    "University of Victoria Child Care Services Centre #1 & #2",
-    "University of Victoria Child Care - Queenswood",
-    "Aspen Grove Children's Centre",
-    "Fernwood Neighbourhood Childcare"
+    "Hans Helgesen Ymca-Ywca Child Care",
+    "Pexsisen Ymca-Ywca Child Care"
   ],
-  "overrides": {}
+  "overrides": {
+    "3677": true,
+    "3678": true
+  },
+  "unmatched_notes": "The following $10/day centres from the official BC list could not be matched to a facility in the BC Child Care Map Data. They may be registered under different licensed names or not yet in this dataset: University of Victoria Child Care Services (Complex A, B, Centre #1 & #2, Queenswood), Downtown YMCA-YWCA Child Care, Westhills YMCA-YWCA Child Care, Our Childrens Centre, Cari's Infant and Toddler Centre, Christian Life Children's Centre, Forest Circle Child Care, Aspen Grove Children's Centre, Fernwood Neighbourhood Childcare. Add their FACILITY_IDs to 'overrides' once identified."
 }
