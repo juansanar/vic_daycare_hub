@@ -8,9 +8,11 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "ingest": "tsx scripts/ingest-facilities.ts",
-    "scrape-inspections": "tsx scripts/scrape-inspections.ts"
+    "scrape-inspections": "tsx scripts/scrape-inspections.ts",
+    "enrich-service-types": "tsx scripts/enrich-service-types.ts"
   },
   "dependencies": {
+    "firebase": "^12.15.0",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
     "react": "^19.1.0",

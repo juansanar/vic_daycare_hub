@@ -158,6 +158,31 @@ function getRegion(municipality: string): CRDRegion {
   return MUNICIPALITY_TO_REGION[municipality] ?? "other";
 }
 
+function getAgeGroups(a: Record<string, string | number | null>): string[] {
+  const groups: string[] = [];
+  if (a.SRVC_UNDER36_IND === "Y") groups.push("under36");
+  if (a.SRVC_30MOS_5YRS_IND === "Y") groups.push("preschool30to5");
+  if (a.SRVC_LICPRE_IND === "Y") groups.push("licensedPreschool");
+  if (a.SRVC_OOS_KINDER_IND === "Y") groups.push("kindergarten");
+  if (a.SRVC_OOS_GR1_AGE12_IND === "Y") groups.push("schoolAge");
+
+  if (groups.length > 0) return groups;
+
+  const desc = String(a.DESC_PROGRAMS_PROVIDED ?? "");
+  if (!desc || desc === "None") return groups;
+
+  const lower = desc.toLowerCase();
+  if (lower.includes("under 36")) groups.push("under36");
+  if (lower.includes("3 years to kindergarten") || lower.includes("30 months"))
+    groups.push("preschool30to5");
+  if (lower.includes("licensed preschool")) groups.push("licensedPreschool");
+  if (lower.includes("kindergarten")) groups.push("kindergarten");
+  if (lower.includes("grade 1") || lower.includes("age 12"))
+    groups.push("schoolAge");
+
+  return groups;
+}
+
 interface Facility {
   id: string;
   name: string;
@@ -172,6 +197,7 @@ interface Facility {
   email: string;
   website: string;
   serviceType: string;
+  ageGroups: string[];
   vacancyInd: string;
   isTenDollarDay: boolean;
 }
@@ -229,6 +255,7 @@ async function main() {
       email: String(a.CONTACT_EMAIL ?? ""),
       website: String(a.WEBSITE_URL ?? ""),
       serviceType: String(a.SERVICE_TYPE_DESC ?? ""),
+      ageGroups: getAgeGroups(a),
       vacancyInd: String(a.VACANCY_IND ?? ""),
       isTenDollarDay,
     };

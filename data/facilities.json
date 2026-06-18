@@ -13,6 +13,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -30,6 +31,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -47,6 +49,9 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -64,6 +69,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -81,6 +87,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -98,6 +105,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -115,6 +123,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -132,6 +141,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -149,6 +159,7 @@
     "email": "",
     "website": "www.adventureislandchildcare.com",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -166,6 +177,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -183,6 +195,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -200,6 +213,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -217,6 +231,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -234,6 +249,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -251,6 +267,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -268,6 +285,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -285,6 +303,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -302,6 +321,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -319,6 +339,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -336,6 +357,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -353,6 +375,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -370,6 +393,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -387,6 +411,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -404,6 +429,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -421,6 +447,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -438,6 +465,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -455,6 +483,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -472,6 +501,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -489,6 +522,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -506,6 +540,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -523,6 +558,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -540,6 +576,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -557,6 +594,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -574,6 +612,12 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [
+      "under36",
+      "preschool30to5",
+      "kindergarten",
+      "schoolAge"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -591,6 +635,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -608,6 +653,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -625,6 +671,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -642,6 +689,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -659,6 +707,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -676,6 +725,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -693,6 +743,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -710,6 +761,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -727,6 +779,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -744,6 +797,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -761,6 +815,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -778,6 +833,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -795,6 +851,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -812,6 +869,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -829,6 +887,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -846,6 +905,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -863,6 +923,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -880,6 +941,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -897,6 +959,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -914,6 +977,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -931,6 +995,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -948,6 +1013,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -965,6 +1031,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -982,6 +1049,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -999,6 +1067,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1016,6 +1085,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1033,6 +1103,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1050,6 +1121,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1067,6 +1139,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1084,6 +1157,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1101,6 +1175,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1118,6 +1193,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1135,6 +1211,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1152,6 +1229,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1169,6 +1247,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1186,6 +1265,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1203,6 +1283,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1220,6 +1301,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1237,6 +1319,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Unknown",
     "isTenDollarDay": false
   },
@@ -1254,6 +1337,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1271,6 +1355,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1288,6 +1373,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1305,6 +1391,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1322,6 +1409,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1339,6 +1427,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1356,6 +1445,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1373,6 +1463,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1390,6 +1481,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1407,6 +1499,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1424,6 +1517,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1441,6 +1535,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1458,6 +1553,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Unknown",
     "isTenDollarDay": false
   },
@@ -1475,6 +1571,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1492,6 +1589,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1509,6 +1607,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1526,6 +1625,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1543,6 +1646,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1560,6 +1664,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1577,6 +1682,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1594,6 +1700,7 @@
     "email": "",
     "website": "COZYCORNERCHILDCARE.CA",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1611,6 +1718,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1628,6 +1736,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1645,6 +1754,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1662,6 +1772,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1679,6 +1790,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1696,6 +1808,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1713,6 +1826,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1730,6 +1844,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1747,6 +1862,9 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1764,6 +1882,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1781,6 +1900,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1798,6 +1918,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1815,6 +1936,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1832,6 +1954,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1849,6 +1972,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1866,6 +1990,7 @@
     "email": "",
     "website": "www.ecolepetitspieds.com",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1883,6 +2008,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1900,6 +2026,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1917,6 +2044,11 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "preschool30to5",
+      "kindergarten",
+      "schoolAge"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -1934,6 +2066,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1951,6 +2084,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1968,6 +2102,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -1985,6 +2120,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2002,6 +2141,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2019,6 +2159,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2036,6 +2180,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2053,6 +2198,7 @@
     "email": "",
     "website": "https://www.saanichflowerpatchkids.com/",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2070,6 +2216,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2087,6 +2234,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2104,6 +2252,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2121,6 +2270,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2138,6 +2288,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2155,6 +2306,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2172,6 +2324,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2189,6 +2342,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2206,6 +2360,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2223,6 +2378,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2240,6 +2396,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2257,6 +2414,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2274,6 +2432,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2291,6 +2450,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2308,6 +2468,12 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "preschool30to5",
+      "licensedPreschool",
+      "kindergarten",
+      "schoolAge"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2325,6 +2491,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2342,6 +2509,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2359,6 +2527,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2376,6 +2545,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2393,6 +2563,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2410,6 +2581,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2427,6 +2599,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": true
   },
@@ -2444,6 +2617,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2461,6 +2635,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2478,6 +2653,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2495,6 +2671,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2512,6 +2689,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2529,6 +2707,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2546,6 +2725,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2563,6 +2743,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2580,6 +2761,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2597,6 +2779,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Unknown",
     "isTenDollarDay": false
   },
@@ -2614,6 +2797,9 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "preschool30to5"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2631,6 +2817,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2648,6 +2835,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2665,6 +2853,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2682,6 +2871,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2699,6 +2889,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2716,6 +2907,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2733,6 +2925,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2750,6 +2943,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2767,6 +2961,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2784,6 +2982,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2801,6 +3000,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2818,6 +3018,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2835,6 +3036,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2852,6 +3054,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2869,6 +3072,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2886,6 +3090,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2903,6 +3108,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2920,6 +3126,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2937,6 +3144,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2954,6 +3162,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -2971,6 +3180,9 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "preschool30to5"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -2988,6 +3200,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3005,6 +3218,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3022,6 +3236,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3039,6 +3254,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3056,6 +3272,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3073,6 +3290,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3090,6 +3308,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3107,6 +3326,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3124,6 +3344,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3141,6 +3362,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3158,6 +3380,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3175,6 +3398,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3192,6 +3416,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3209,6 +3434,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3226,6 +3452,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3243,6 +3470,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3260,6 +3488,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3277,6 +3506,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3294,6 +3524,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3311,6 +3542,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3328,6 +3560,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3345,6 +3578,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3362,6 +3596,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3379,6 +3614,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3396,6 +3632,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3413,6 +3650,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3430,6 +3668,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3447,6 +3686,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3464,6 +3704,11 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "preschool30to5",
+      "kindergarten",
+      "schoolAge"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3481,6 +3726,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3498,6 +3744,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3515,6 +3762,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3532,6 +3780,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3549,6 +3798,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3566,6 +3816,7 @@
     "email": "",
     "website": "www.langfordmontessori.com",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3583,6 +3834,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3600,6 +3852,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3617,6 +3870,7 @@
     "email": "",
     "website": "http://www.leapsandboundsfamilychildcare.com",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3634,6 +3888,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3651,6 +3906,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3668,6 +3924,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3685,6 +3945,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3702,6 +3963,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3719,6 +3981,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3736,6 +3999,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3753,6 +4017,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3770,6 +4035,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3787,6 +4053,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3804,6 +4071,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3821,6 +4089,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3838,6 +4107,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3855,6 +4125,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3872,6 +4143,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -3889,6 +4161,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3906,6 +4179,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3923,6 +4197,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3940,6 +4215,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3957,6 +4233,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3974,6 +4251,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -3991,6 +4269,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4008,6 +4287,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4025,6 +4305,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4042,6 +4323,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4059,6 +4341,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4076,6 +4359,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4093,6 +4377,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4110,6 +4395,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4127,6 +4413,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4144,6 +4434,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4161,6 +4455,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4178,6 +4476,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4195,6 +4494,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4212,6 +4512,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4229,6 +4530,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4246,6 +4548,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4263,6 +4566,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4280,6 +4584,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4297,6 +4602,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4314,6 +4620,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4331,6 +4638,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4348,6 +4656,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4365,6 +4674,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4382,6 +4692,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4399,6 +4710,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4416,6 +4728,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4433,6 +4746,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4450,6 +4764,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4467,6 +4782,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4484,6 +4800,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4501,6 +4818,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4518,6 +4836,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4535,6 +4854,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4552,6 +4872,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4569,6 +4890,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4586,6 +4908,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4603,6 +4926,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4620,6 +4944,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4637,6 +4962,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4654,6 +4980,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4671,6 +4998,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4688,6 +5016,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4705,6 +5034,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4722,6 +5052,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4739,6 +5070,11 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36",
+      "preschool30to5",
+      "licensedPreschool"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4756,6 +5092,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Unknown",
     "isTenDollarDay": false
   },
@@ -4773,6 +5110,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4790,6 +5128,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4807,6 +5146,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4824,6 +5164,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4841,6 +5182,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4858,6 +5203,13 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36",
+      "preschool30to5",
+      "licensedPreschool",
+      "kindergarten",
+      "schoolAge"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4875,6 +5227,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4892,6 +5245,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4909,6 +5263,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4926,6 +5281,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Unknown",
     "isTenDollarDay": false
   },
@@ -4943,6 +5299,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Unknown",
     "isTenDollarDay": false
   },
@@ -4960,6 +5317,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -4977,6 +5335,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -4994,6 +5353,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5011,6 +5371,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5028,6 +5392,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5045,6 +5410,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5062,6 +5428,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5079,6 +5446,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": true
   },
@@ -5096,6 +5464,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5113,6 +5482,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5130,6 +5500,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5147,6 +5521,7 @@
     "email": "",
     "website": "https://pokapokadaycare.studio.site/",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5164,6 +5539,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5181,6 +5557,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5198,6 +5575,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5215,6 +5596,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5232,6 +5614,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5249,6 +5632,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5266,6 +5650,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5283,6 +5668,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5300,6 +5686,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5317,6 +5704,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5334,6 +5722,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5351,6 +5740,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5368,6 +5758,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5385,6 +5776,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5402,6 +5794,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5419,6 +5812,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5436,6 +5830,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5453,6 +5848,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5470,6 +5866,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5487,6 +5884,7 @@
     "email": "",
     "website": "www.seedlingsdaycare.com",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5504,6 +5902,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5521,6 +5920,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5538,6 +5938,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5555,6 +5956,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5572,6 +5974,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5589,6 +5992,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5606,6 +6010,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5623,6 +6028,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5640,6 +6046,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5657,6 +6064,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5674,6 +6082,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5691,6 +6100,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5708,6 +6118,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5725,6 +6136,12 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "preschool30to5",
+      "licensedPreschool",
+      "kindergarten",
+      "schoolAge"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5742,6 +6159,7 @@
     "email": "",
     "website": "https://www.skillsforlifechildcare.com/",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5759,6 +6177,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5776,6 +6195,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5793,6 +6213,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5810,6 +6231,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5827,6 +6249,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5844,6 +6267,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5861,6 +6285,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5878,6 +6303,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -5895,6 +6321,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5912,6 +6339,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5929,6 +6357,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5946,6 +6375,9 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5963,6 +6395,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5980,6 +6413,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -5997,6 +6431,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6014,6 +6449,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6031,6 +6467,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Unknown",
     "isTenDollarDay": false
   },
@@ -6048,6 +6485,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6065,6 +6503,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6082,6 +6521,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6099,6 +6539,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6116,6 +6557,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6133,6 +6575,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6150,6 +6593,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6167,6 +6611,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6184,6 +6629,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6201,6 +6647,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6218,6 +6665,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6235,6 +6683,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6252,6 +6701,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6269,6 +6719,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6286,6 +6737,11 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "preschool30to5",
+      "kindergarten",
+      "schoolAge"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6303,6 +6759,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6320,6 +6777,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6337,6 +6795,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6354,6 +6813,10 @@
     "email": "",
     "website": "www.sweetpetalplaycare.com",
     "serviceType": "Licensed Family",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6371,6 +6834,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6388,6 +6852,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6405,6 +6870,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6422,6 +6888,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6439,6 +6906,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6456,6 +6924,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6473,6 +6942,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6490,6 +6960,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "kindergarten",
+      "schoolAge"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6507,6 +6981,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6524,6 +6999,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6541,6 +7017,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6558,6 +7035,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6575,6 +7053,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6592,6 +7071,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6609,6 +7089,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6626,6 +7107,11 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [
+      "under36",
+      "preschool30to5",
+      "kindergarten"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6643,6 +7129,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6660,6 +7147,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6677,6 +7165,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6694,6 +7183,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6711,6 +7201,10 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [
+      "under36",
+      "preschool30to5"
+    ],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6728,6 +7222,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6745,6 +7240,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6762,6 +7258,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6779,6 +7276,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6796,6 +7294,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6813,6 +7312,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6830,6 +7330,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6847,6 +7348,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6864,6 +7366,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6881,6 +7384,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6898,6 +7402,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6915,6 +7420,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6932,6 +7438,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6949,6 +7456,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -6966,6 +7474,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -6983,6 +7492,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -7000,6 +7510,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7017,6 +7528,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -7034,6 +7546,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -7051,6 +7564,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7068,6 +7582,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -7085,6 +7600,11 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [
+      "under36",
+      "preschool30to5",
+      "schoolAge"
+    ],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7102,6 +7622,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "Y",
     "isTenDollarDay": false
   },
@@ -7119,6 +7640,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7136,6 +7658,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7153,6 +7676,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7170,6 +7694,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7187,6 +7712,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7204,6 +7730,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7221,6 +7748,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7238,6 +7766,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Group",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   },
@@ -7255,6 +7784,7 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
+    "ageGroups": [],
     "vacancyInd": "N",
     "isTenDollarDay": false
   }

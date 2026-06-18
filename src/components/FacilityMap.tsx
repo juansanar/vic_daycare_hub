@@ -7,11 +7,14 @@ import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import "leaflet.markercluster";
 import type { Facility, InspectionRecord } from "../types";
 import { useStore } from "../store";
+import { filterFacilities, defaultFilters } from "../lib/filters";
+import type { FilterState } from "../lib/filters";
 import FacilityDetail from "./FacilityDetail";
+import Filters from "./Filters";
 import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
 
-const facilities = facilitiesData as Facility[];
+const allFacilities = facilitiesData as Facility[];
 const inspections = inspectionsData as InspectionRecord[];
 
 const inspectionMap = new Map<string, InspectionRecord>();
@@ -77,7 +80,7 @@ function buildPopupHtml(f: Facility): string {
   `;
 }
 
-function MarkerLayer() {
+function MarkerLayer({ facilities }: { facilities: Facility[] }) {
   const map = useMap();
 
   useEffect(() => {
@@ -95,9 +98,9 @@ function MarkerLayer() {
       marker.setIcon(
         L.divIcon({
           className: "",
-          html: `<div style="width:12px;height:12px;border-radius:50%;background:${color};border:2px solid white;box-shadow:0 1px 3px rgba(0,0,0,.3)"></div>`,
-          iconSize: [12, 12],
-          iconAnchor: [6, 6],
+          html: `<div style="width:20px;height:20px;border-radius:50%;background:${color};border:3px solid white;box-shadow:0 2px 6px rgba(0,0,0,.35),0 0 0 1px rgba(0,0,0,.1)"></div>`,
+          iconSize: [20, 20],
+          iconAnchor: [10, 10],
         }),
       );
       marker.bindTooltip(f.name);
@@ -109,7 +112,7 @@ function MarkerLayer() {
     return () => {
       map.removeLayer(cluster);
     };
-  }, [map]);
+  }, [map, facilities]);
 
   return null;
 }
@@ -149,8 +152,12 @@ function LocateButton() {
 }
 
 export default function FacilityMap() {
+  const [filters, setFilters] = useState<FilterState>(defaultFilters);
+  const trackerEntries = useStore((s) => s.trackerEntries);
   const selectedFacilityId = useStore((s) => s.selectedFacilityId);
   const setSelectedFacility = useStore((s) => s.setSelectedFacility);
+
+  const filtered = filterFacilities(allFacilities, filters, trackerEntries);
 
   useEffect(() => {
     const handler = (e: Event) => {
@@ -162,26 +169,32 @@ export default function FacilityMap() {
   }, [setSelectedFacility]);
 
   return (
-    <div className="relative flex flex-1">
-      <div className="flex-1">
-        <MapContainer
-          center={VICTORIA_CENTER}
-          zoom={12}
-          className="h-full w-full"
-        >
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          <MarkerLayer />
-          <LocateButton />
-        </MapContainer>
+    <div className="flex flex-1 flex-col overflow-hidden">
+      <Filters onChange={setFilters} />
+      <p className="border-b border-stone-200 bg-white px-4 py-1.5 text-xs text-gray-400">
+        {filtered.length} facilities on map
+      </p>
+      <div className="relative flex flex-1 overflow-hidden">
+        <div className="flex-1">
+          <MapContainer
+            center={VICTORIA_CENTER}
+            zoom={12}
+            className="h-full w-full"
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <MarkerLayer facilities={filtered} />
+            <LocateButton />
+          </MapContainer>
+        </div>
+        {selectedFacilityId && (
+          <aside className="w-80 overflow-y-auto border-l border-stone-200 bg-white p-4">
+            <FacilityDetail facilityId={selectedFacilityId} />
+          </aside>
+        )}
       </div>
-      {selectedFacilityId && (
-        <aside className="w-80 overflow-y-auto border-l bg-white p-4">
-          <FacilityDetail facilityId={selectedFacilityId} />
-        </aside>
-      )}
     </div>
   );
 }

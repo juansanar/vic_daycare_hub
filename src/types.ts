@@ -14,6 +14,7 @@ export interface Facility {
   email: string;
   website: string;
   serviceType: string;
+  ageGroups: string[];
   vacancyInd: string;
   isTenDollarDay: boolean;
 }
@@ -55,5 +56,6 @@ export interface InspectionRecord {
   inspectionUrl: string;
   lastInspectionDate: string;
   lastInspectionType: string;
+  serviceType?: string;
   contraventions: Contravention[];
 }

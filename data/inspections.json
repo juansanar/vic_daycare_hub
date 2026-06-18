@@ -5,7 +5,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F76CE270-0493-42F8-BCD5-6AAF0CB1E57C",
     "lastInspectionDate": "2026-06-15",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1683",
@@ -13,7 +14,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=4A3EFA68-3B31-434A-96B8-6372E52B7241",
     "lastInspectionDate": "2026-06-15",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1588",
@@ -21,7 +23,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=66F42E72-C074-4ECE-BC1C-C59B2E1123C5",
     "lastInspectionDate": "2026-06-15",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "310 Multi - Age Child Care"
   },
   {
     "facilityId": "2832",
@@ -29,7 +32,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F96A5D97-DDE7-4B95-B3FA-4D93C3FF365D",
     "lastInspectionDate": "2026-06-12",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2431",
@@ -37,7 +41,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=67294A4A-9013-4D22-AF43-8150136093B5",
     "lastInspectionDate": "2026-06-11",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1171",
@@ -45,7 +50,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=2343EF4F-8D2B-4E66-982A-3C47E17F7D42",
     "lastInspectionDate": "2026-06-11",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "2955",
@@ -53,7 +59,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D01F2C1B-6346-451B-89DE-AD088FA80996",
     "lastInspectionDate": "2026-06-11",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "4447",
@@ -61,7 +68,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=8CFA7349-2719-43C6-8023-F51E0F1A7B88",
     "lastInspectionDate": "2026-06-10",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2604",
@@ -69,7 +77,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=96EF82D9-588B-44B3-A1D2-3586D05EF1AE",
     "lastInspectionDate": "2026-06-10",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "522",
@@ -77,7 +86,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E2108322-43E6-4EB4-B045-47A83D0146A7",
     "lastInspectionDate": "2026-06-10",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "4233",
@@ -85,7 +95,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=29BAB5F6-5C88-45AA-B5D3-B5177FFA3277",
     "lastInspectionDate": "2026-06-10",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "2486",
@@ -93,7 +104,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=88D50125-8341-4A22-B0C4-E42115FE33AF",
     "lastInspectionDate": "2026-06-10",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5356",
@@ -101,7 +113,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=515CDB67-656F-4A57-8238-4E5A2D813B8C",
     "lastInspectionDate": "2026-06-10",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "266",
@@ -109,7 +122,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=4AD65D3A-4AB6-4BF3-B245-D4525B52B797",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "4290",
@@ -117,7 +131,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E64BE717-2FF2-47DD-9930-BBBC128CBCC9",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "182",
@@ -125,7 +140,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=54F5043B-3DDF-454A-86B1-E98A10A8BECE",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "952",
@@ -133,7 +149,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=267E425E-1BCD-4FCF-9D83-21CB944CF99B",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2526",
@@ -141,7 +158,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=AF846BB5-4A43-4A93-AD42-A6D6E51E1967",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "564",
@@ -149,7 +167,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=13A8CE31-638D-46A7-B63B-DCA160C2D516",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "4060",
@@ -157,7 +176,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E4AA2123-EE75-4E3A-AB00-C924051410DB",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "5544",
@@ -165,7 +185,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=73D28EEE-6449-4DBA-8FE9-8C9528580A6A",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "4230",
@@ -173,7 +194,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B7F993C3-4B1E-44CB-B161-EF5711D1670F",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "2060",
@@ -181,7 +203,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=4DFD8BE1-A5AE-4A85-BAF9-FC5D709D51D4",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "5365",
@@ -189,7 +212,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=EC5622C9-573E-428F-9D62-6C7ABC556829",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Complaint",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "3390",
@@ -205,7 +229,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3EF66C99-C4DA-430E-9975-26118D05B277",
     "lastInspectionDate": "2026-06-09",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "4046",
@@ -213,7 +238,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0347FB75-A645-4FB2-B0FF-ECB869D081C3",
     "lastInspectionDate": "2026-06-08",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "387",
@@ -221,7 +247,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=23D1772E-5191-40D1-B6DA-48FC9C99C282",
     "lastInspectionDate": "2026-06-08",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1737",
@@ -229,7 +256,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=933B0B27-D09B-4220-A83A-D3D98823030E",
     "lastInspectionDate": "2026-06-08",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "406",
@@ -237,7 +265,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=1604EA81-7BDE-49D9-B559-5B6B6D6117BC",
     "lastInspectionDate": "2026-06-08",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5650",
@@ -245,7 +274,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=79F22B5B-BD76-43E0-8E75-302218085BC9",
     "lastInspectionDate": "2026-06-08",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5576",
@@ -253,7 +283,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=6B038F90-161B-446E-ACBC-A6C54AF936B3",
     "lastInspectionDate": "2026-06-05",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5405",
@@ -261,7 +292,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=6FD8DA43-B13B-4B3D-BBD1-A5089EB2E058",
     "lastInspectionDate": "2026-06-04",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "2698",
@@ -277,7 +309,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=5CBB2F2F-64BC-4293-A9C9-D9EBFB421605",
     "lastInspectionDate": "2026-06-04",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "5835",
@@ -285,7 +318,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=69676C8B-42AA-403E-B2F0-77EE0CDCA6F8",
     "lastInspectionDate": "2026-06-04",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1069",
@@ -293,7 +327,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C9902B6D-AF59-41AA-B1B5-2893EF76E239",
     "lastInspectionDate": "2026-06-04",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "5618",
@@ -301,7 +336,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=8FB45C7F-293A-4462-B80B-646BA4B56342",
     "lastInspectionDate": "2026-06-04",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "2673",
@@ -309,7 +345,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=BB25FBF3-B916-49F6-84EC-51DE08221A5D",
     "lastInspectionDate": "2026-06-04",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "2905",
@@ -317,7 +354,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B713D078-3C0D-4C07-BF7F-4A679D2785C2",
     "lastInspectionDate": "2026-06-04",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4428",
@@ -325,7 +363,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=2F1A21D0-FD8F-4F9A-98D2-58CEEA0802F7",
     "lastInspectionDate": "2026-06-04",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "210",
@@ -333,7 +372,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=67223C54-D4B7-4944-8A19-4E1E380B5E41",
     "lastInspectionDate": "2026-06-03",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "2219",
@@ -341,7 +381,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=A20FDBEA-CDBA-4B4B-B431-769B0E72B7B0",
     "lastInspectionDate": "2026-06-03",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "967",
@@ -349,7 +390,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=38FBE693-BDDF-4601-87C4-2E9F1F8B9C7D",
     "lastInspectionDate": "2026-06-03",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "4358",
@@ -357,7 +399,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3A089687-33D6-4D8B-A282-FC96C5CBFCE5",
     "lastInspectionDate": "2026-06-03",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "1496",
@@ -365,7 +408,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=9AEB13F9-D9D0-4581-AE20-13A4EACA97A3",
     "lastInspectionDate": "2026-06-03",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1926",
@@ -373,7 +417,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D444C557-54C6-4062-B77A-144B5BC56FE9",
     "lastInspectionDate": "2026-06-03",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "1815",
@@ -381,7 +426,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=75917631-6074-4F64-8CB4-3E93571E2A64",
     "lastInspectionDate": "2026-06-03",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1148",
@@ -389,7 +435,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=2F629628-303A-4559-A44B-C8B14F5ABCBD",
     "lastInspectionDate": "2026-06-02",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "521",
@@ -397,7 +444,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=91764502-EC4B-41F9-B1BD-811CBBF95B27",
     "lastInspectionDate": "2026-06-02",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1859",
@@ -405,7 +453,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=771F6E58-477E-484D-88CC-3B747E3DF1FE",
     "lastInspectionDate": "2026-06-02",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "1687",
@@ -413,7 +462,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=78DFAB25-240E-4D8A-AD05-15F307FC4F82",
     "lastInspectionDate": "2026-06-02",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2232",
@@ -421,7 +471,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=7CB0403A-518F-4688-A158-F1CA2C75E1B6",
     "lastInspectionDate": "2026-06-02",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1735",
@@ -429,7 +480,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=CFB78BA6-EB10-48E5-8AB2-EDFCE0138E6E",
     "lastInspectionDate": "2026-06-02",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "3275",
@@ -437,7 +489,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=9B01FADC-51A7-4E57-910A-68105C17EB45",
     "lastInspectionDate": "2026-06-02",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "310 Multi - Age Child Care"
   },
   {
     "facilityId": "4",
@@ -445,7 +498,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=BC5E34CF-FF1F-43A7-9CFA-F3B77EB0019D",
     "lastInspectionDate": "2026-06-01",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "5670",
@@ -453,7 +507,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DA90ACD9-484B-4341-8C89-1F7851F2D25F",
     "lastInspectionDate": "2026-06-01",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "5412",
@@ -461,7 +516,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0F04DCD8-FE00-4A88-A854-998AC45DB005",
     "lastInspectionDate": "2026-06-01",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age),312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "4834",
@@ -469,7 +525,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B48320DC-057B-4EF3-A62A-F4D742C814E6",
     "lastInspectionDate": "2026-06-01",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1195",
@@ -477,7 +534,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=2074AE42-76C6-45D6-BE29-9E3A9F14218B",
     "lastInspectionDate": "2026-05-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "3678",
@@ -493,7 +551,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DF979F8D-9276-4542-8664-2DF440ED5311",
     "lastInspectionDate": "2026-05-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "2223",
@@ -501,7 +560,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=CED7B7D0-7EE2-43DE-85F6-996E0F246BBD",
     "lastInspectionDate": "2026-05-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "3796",
@@ -509,7 +569,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=4832C801-C5F8-4348-BCE3-7CCB16205B43",
     "lastInspectionDate": "2026-05-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "3901",
@@ -517,7 +578,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E297E3B8-C3A8-45C5-B40F-ADAE36FAC39F",
     "lastInspectionDate": "2026-05-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5321",
@@ -525,7 +587,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=8F1A91E1-175B-417B-8808-54662A5CED23",
     "lastInspectionDate": "2026-05-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "1485",
@@ -533,7 +596,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=72CC00F3-50A2-4731-8FE4-203B287AB4B9",
     "lastInspectionDate": "2026-05-28",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "2813",
@@ -541,7 +605,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=82234432-6517-4E5F-A6BF-99D00349CC90",
     "lastInspectionDate": "2026-05-28",
     "lastInspectionType": "Complaint",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "3582",
@@ -549,7 +614,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DE9CFB6A-8D2E-42E1-82DD-45BCDE575483",
     "lastInspectionDate": "2026-05-28",
     "lastInspectionType": "Complaint",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "3206",
@@ -565,7 +631,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=7202BA8D-9C7E-4CE2-9072-0A47D7466DB2",
     "lastInspectionDate": "2026-05-28",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1469",
@@ -573,7 +640,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=6FA7706D-2603-4FD0-9F42-B55C1401E437",
     "lastInspectionDate": "2026-05-27",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "276",
@@ -581,7 +649,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=BD3F0809-399B-46BA-8B02-4B0B4397EBCD",
     "lastInspectionDate": "2026-05-27",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "4003",
@@ -589,7 +658,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=9666B030-0ECB-475A-8340-98558F00716F",
     "lastInspectionDate": "2026-05-27",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "1630",
@@ -597,7 +667,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=35F1D51E-EE31-405E-9C7E-B93C099F9A2D",
     "lastInspectionDate": "2026-05-27",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5971",
@@ -605,7 +676,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D2B8876B-45CD-4406-8227-9D732922A952",
     "lastInspectionDate": "2026-05-27",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "4185",
@@ -613,7 +685,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=07D12799-6E59-4C25-ACFB-EF81D15B7957",
     "lastInspectionDate": "2026-05-27",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),308 Occasional Child Care"
   },
   {
     "facilityId": "518",
@@ -621,7 +694,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DE5EEB32-0EA1-4811-B1BF-B87EDA3920AE",
     "lastInspectionDate": "2026-05-27",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1306",
@@ -629,7 +703,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=8E9D40C9-84A8-4FED-8F2E-58454F3A554B",
     "lastInspectionDate": "2026-05-27",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "4506",
@@ -637,7 +712,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=70F17B56-4BAF-4AA6-9DA8-02DECD343296",
     "lastInspectionDate": "2026-05-27",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "4421",
@@ -645,7 +721,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=5029DFD0-5FFD-4B0C-987C-2DD0C057BBEC",
     "lastInspectionDate": "2026-05-26",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5839",
@@ -653,7 +730,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=8E72C183-0AA3-4323-89B9-44EC05EF7DBA",
     "lastInspectionDate": "2026-05-26",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "3871",
@@ -669,7 +747,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D11DA21C-DDDB-46AC-9457-0AAE02492ABF",
     "lastInspectionDate": "2026-05-25",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "419",
@@ -677,7 +756,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=18D91FF5-7D4C-4E08-905C-25ACC8C3CCEF",
     "lastInspectionDate": "2026-05-25",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age),312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "3361",
@@ -685,7 +765,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DA307577-D40B-4A5B-B797-385CBC591705",
     "lastInspectionDate": "2026-05-25",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "942",
@@ -693,7 +774,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=5CFAD090-B6C7-463E-97CC-D6D90E6ACC91",
     "lastInspectionDate": "2026-05-25",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2222",
@@ -701,7 +783,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=1F8C7031-88ED-4716-BF4C-39F18B82B937",
     "lastInspectionDate": "2026-05-25",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "3005",
@@ -709,7 +792,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3E1F08CD-E644-470E-8699-24E7A1C2EE90",
     "lastInspectionDate": "2026-05-22",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "2038",
@@ -717,7 +801,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=964F74A6-B8DB-4756-AE3B-32B46681F631",
     "lastInspectionDate": "2026-05-22",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "3216",
@@ -725,7 +810,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D27AEF59-A516-4034-8D2C-727F167DD49B",
     "lastInspectionDate": "2026-05-21",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "5352",
@@ -733,7 +819,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C3FD1F55-0916-4154-B8FE-9CBBDD100B8B",
     "lastInspectionDate": "2026-04-21",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2552",
@@ -741,7 +828,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=AC3BD2F9-2DF5-4121-A6DD-F72064E840D3",
     "lastInspectionDate": "2026-01-09",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "4210",
@@ -749,7 +837,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=6F412BCD-2890-4878-8BBF-188C6953F163",
     "lastInspectionDate": "2026-02-03",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "2889",
@@ -757,7 +846,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=BE2BA67C-16D7-488E-B2D4-5844E0CA0903",
     "lastInspectionDate": "2026-02-06",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "5515",
@@ -765,7 +855,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=4CAB9F81-5982-4BEE-9E15-2A03D36F5822",
     "lastInspectionDate": "2025-09-04",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "5124",
@@ -773,7 +864,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3766076D-72A3-4DFB-B76F-0FFFBF0B830A",
     "lastInspectionDate": "2025-07-07",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "105",
@@ -781,7 +873,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C1E225AA-91EE-48B5-AAC6-190149B7B9F9",
     "lastInspectionDate": "2026-02-02",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4950",
@@ -789,7 +882,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=58A1C897-5803-4E52-93F5-44EEC074BA8B",
     "lastInspectionDate": "2026-03-31",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "635",
@@ -797,7 +891,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=832556CE-F449-4046-8EE1-18D89AD2A0F6",
     "lastInspectionDate": "2025-06-27",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "1690",
@@ -805,7 +900,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=27BB86AF-6AA1-4BFA-9953-780F806648A2",
     "lastInspectionDate": "2025-12-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2927",
@@ -813,7 +909,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=5D2640F9-195E-4667-B302-FB423A4ED43E",
     "lastInspectionDate": "2026-04-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5386",
@@ -821,7 +918,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=184454B4-1732-40AF-B528-85F39878A29E",
     "lastInspectionDate": "2025-06-27",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5828",
@@ -829,7 +927,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=9579DEB0-2413-4B4B-9F10-992EFCBC10BA",
     "lastInspectionDate": "2025-11-05",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2834",
@@ -837,7 +936,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=5C9F8CB3-AAC1-4733-A1D8-D4FEA24A23E4",
     "lastInspectionDate": "2025-11-05",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "3027",
@@ -845,7 +945,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=750CF688-FCC0-41CC-A6DB-861BD72FB381",
     "lastInspectionDate": "2025-12-17",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "5838",
@@ -853,7 +954,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DB7F9AC7-E0E7-4BFF-9A0D-A1D9ED980DFA",
     "lastInspectionDate": "2026-02-19",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "4644",
@@ -861,7 +963,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=4CD21DE4-4359-4627-8FE1-E2EA42B7A2A7",
     "lastInspectionDate": "2026-01-22",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "101",
@@ -869,7 +972,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0EFFB458-4560-47AF-A74D-1171B0A83238",
     "lastInspectionDate": "2026-01-29",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),310 Multi - Age Child Care,310 Multi - Age Child Care"
   },
   {
     "facilityId": "5129",
@@ -877,7 +981,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F8E6CC12-2580-408F-AF7F-B698D42D7B23",
     "lastInspectionDate": "2026-02-12",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2207",
@@ -885,7 +990,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3D7E3A7E-F690-49A6-A7B4-542D04F5F8E2",
     "lastInspectionDate": "2026-04-22",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "483",
@@ -893,7 +999,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C57EE57E-31A0-49CF-94B5-2DCE97842038",
     "lastInspectionDate": "2026-04-28",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "3493",
@@ -901,7 +1008,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C406DD51-D9FA-463F-8F7F-D4146E270A44",
     "lastInspectionDate": "2025-10-16",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "3026",
@@ -909,7 +1017,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=350EBB73-97F8-43F4-8CF0-8A61C01284E7",
     "lastInspectionDate": "2026-02-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "155",
@@ -917,7 +1026,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=EA73E5FD-2EB0-4FAC-9FD9-7C60616C76AC",
     "lastInspectionDate": "2026-05-08",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "2627",
@@ -925,7 +1035,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=2219C302-4ACC-4682-A583-F10C96657496",
     "lastInspectionDate": "2025-12-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "5976",
@@ -933,7 +1044,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C6222AF3-D389-4E6C-933F-7ABBFAE8C67A",
     "lastInspectionDate": "2025-06-20",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "5627",
@@ -941,7 +1053,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=2693A7B5-326E-44FF-9E17-4C45DC17016F",
     "lastInspectionDate": "2026-01-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1494",
@@ -949,7 +1062,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=A7503569-C34F-4CA9-B5CF-43149F357ECA",
     "lastInspectionDate": "2025-07-11",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "3641",
@@ -957,7 +1071,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=6F665914-BECD-4126-A41E-2431DE67DA56",
     "lastInspectionDate": "2026-01-13",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "985",
@@ -965,7 +1080,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=9EF680E0-2FD1-4CA6-A2AE-F746A494ACCF",
     "lastInspectionDate": "2026-05-08",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "3640",
@@ -973,7 +1089,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=83779C44-B69D-49BD-AABD-D05C62303528",
     "lastInspectionDate": "2026-01-23",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "3642",
@@ -981,7 +1098,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=68FDC487-66F8-4F4D-B753-C5641A60F7BC",
     "lastInspectionDate": "2026-01-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "1290",
@@ -989,7 +1107,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=4CD4C4C7-5E16-4093-A4D0-755A091814FA",
     "lastInspectionDate": "2026-04-28",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "386",
@@ -997,7 +1116,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=8AE8DE08-F1E8-4CB7-BDA5-4D58E5CDFA11",
     "lastInspectionDate": "2026-05-07",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "3639",
@@ -1005,7 +1125,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=57D74654-3B05-4F6F-A7E9-96F6E8884B25",
     "lastInspectionDate": "2025-11-12",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "5547",
@@ -1013,7 +1134,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=134EFA5E-7CCB-4480-B299-D95B4811170A",
     "lastInspectionDate": "2026-03-31",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "2242",
@@ -1021,7 +1143,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=335B9611-5AEA-4A9A-97DA-9D77F06E656B",
     "lastInspectionDate": "2026-04-15",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),310 Multi - Age Child Care,310 Multi - Age Child Care"
   },
   {
     "facilityId": "999",
@@ -1029,7 +1152,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=CBCD828E-6F38-464B-806B-020115BAF2A9",
     "lastInspectionDate": "2025-10-06",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "982",
@@ -1037,7 +1161,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=7D159CC3-8EA0-47D5-89F5-6E6352108613",
     "lastInspectionDate": "2026-03-23",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "2063",
@@ -1045,7 +1170,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=43A2FF36-5F00-4FCB-990C-F9EA8981400A",
     "lastInspectionDate": "2026-01-05",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "3284",
@@ -1053,7 +1179,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=12448B35-8D3B-4F1B-BEF1-989DF8ACB7F3",
     "lastInspectionDate": "2026-04-24",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "310 Multi - Age Child Care"
   },
   {
     "facilityId": "1224",
@@ -1061,7 +1188,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F558A042-1933-4BD2-AA3E-C2D011BADB11",
     "lastInspectionDate": "2026-02-06",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1574",
@@ -1069,7 +1197,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C08041FF-6DEA-4646-ABDF-086968BD464E",
     "lastInspectionDate": "2026-04-02",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2814",
@@ -1077,7 +1206,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C08041FF-6DEA-4646-ABDF-086968BD464E",
     "lastInspectionDate": "2026-04-02",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4691",
@@ -1085,7 +1215,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C547327A-B22A-4CED-A631-D0CF9BE68ED3",
     "lastInspectionDate": "2026-04-16",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1010",
@@ -1093,7 +1224,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D2D2B079-5D7E-4CE1-B984-7517CCA82098",
     "lastInspectionDate": "2026-04-08",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "129",
@@ -1101,7 +1233,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=74EF9896-88C9-4ED0-B85A-CC92C6BB2426",
     "lastInspectionDate": "2026-04-24",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "13",
@@ -1109,7 +1242,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=86B6C906-89F8-492E-9167-9BD615E06356",
     "lastInspectionDate": "2025-12-15",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "14",
@@ -1117,7 +1251,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F252E7A0-453E-4059-B6C3-7A9D68A63BB8",
     "lastInspectionDate": "2025-10-03",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "180",
@@ -1125,7 +1260,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=94B7FE7F-E53D-45A4-B118-7D7478B0431D",
     "lastInspectionDate": "2025-10-16",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "548",
@@ -1133,7 +1269,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=EE0F92CB-3934-49F5-89AE-07B1431FA2B3",
     "lastInspectionDate": "2026-05-05",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "12",
@@ -1141,7 +1278,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B696792F-2273-498B-B298-272A91CEF6D2",
     "lastInspectionDate": "2025-12-05",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "1217",
@@ -1149,7 +1287,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B093603E-A7CF-4165-8B38-7B0D01AAF4FB",
     "lastInspectionDate": "2025-12-09",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "128",
@@ -1157,7 +1296,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B0B0BCCA-DD9C-4555-9C7B-1FDA3D1F7EB3",
     "lastInspectionDate": "2026-03-31",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "1058",
@@ -1165,7 +1305,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=38DAE4AF-0359-4BEA-9EF7-90396B9347FA",
     "lastInspectionDate": "2026-03-25",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2059",
@@ -1173,7 +1314,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=314F7A19-DED5-45BF-B9F0-F11DDCC3629A",
     "lastInspectionDate": "2026-04-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4120",
@@ -1181,7 +1323,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E47F328B-2AA2-4106-B4D3-F6907DA77EA1",
     "lastInspectionDate": "",
     "lastInspectionType": "",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2111",
@@ -1189,7 +1332,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=08B2266E-42EB-4D8C-855E-1D9440F4322E",
     "lastInspectionDate": "2026-02-27",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2801",
@@ -1197,7 +1341,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3D7B48B7-6F73-4993-A07C-7E923C5EC558",
     "lastInspectionDate": "2026-04-02",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "2956",
@@ -1205,7 +1350,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=90022D1A-CFF6-4E1E-B5D6-DDB931452E94",
     "lastInspectionDate": "2026-05-04",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "2094",
@@ -1213,7 +1359,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=65FBBAED-3877-4DFF-8D5D-C9E37F2784AD",
     "lastInspectionDate": "2026-01-29",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "1654",
@@ -1221,7 +1368,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=712F4C4E-BD53-4BBD-8F7E-7F1848F576E7",
     "lastInspectionDate": "2026-05-06",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "4674",
@@ -1229,7 +1377,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=CC5714F5-16C6-454C-9874-BD7AA13C3F30",
     "lastInspectionDate": "2026-05-21",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1964",
@@ -1237,7 +1386,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DEABDB09-B7FA-4C85-9B02-6B4DE51B0D5C",
     "lastInspectionDate": "2025-12-22",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5948",
@@ -1245,7 +1395,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F7C5FE78-27BC-4DD4-846D-B37736E9259B",
     "lastInspectionDate": "2026-01-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "287",
@@ -1253,7 +1404,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=14FA4E55-3927-4290-AAB1-F253C5820DE3",
     "lastInspectionDate": "2026-05-13",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "5706",
@@ -1261,7 +1413,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=EA473688-E651-4720-8002-65208529B1AF",
     "lastInspectionDate": "2026-03-12",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1955",
@@ -1269,7 +1422,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=48E8B0FB-F38F-4EAF-8AE4-D81AD0309CB8",
     "lastInspectionDate": "2026-04-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age)"
   },
   {
     "facilityId": "2658",
@@ -1277,7 +1431,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E996C7BF-5213-4F38-82A5-8F1AC2093B1A",
     "lastInspectionDate": "2026-03-06",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "657",
@@ -1285,7 +1440,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=436D0404-6A4D-48DE-B722-DEE126C25069",
     "lastInspectionDate": "2026-03-10",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "2520",
@@ -1293,7 +1449,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=687CEDD3-B0EE-4FD4-95F9-6CB22FCDC957",
     "lastInspectionDate": "2026-02-03",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "1956",
@@ -1301,7 +1458,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DFEEFD3F-FEB2-4C21-A4AC-38D8D4516BE9",
     "lastInspectionDate": "2026-05-06",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "113",
@@ -1309,7 +1467,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C7451F16-2947-4E47-A455-1722C11AC209",
     "lastInspectionDate": "2026-04-23",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "216",
@@ -1317,7 +1476,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=35CD6656-F07E-4BD6-ABE6-FFADC312E9B4",
     "lastInspectionDate": "2026-03-31",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "3066",
@@ -1325,7 +1485,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=1F0CA019-812F-4A87-BBF7-547084E1573F",
     "lastInspectionDate": "2026-04-27",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "2365",
@@ -1333,7 +1494,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F5FDC0E7-79C0-4E11-880A-20E7AEDEF946",
     "lastInspectionDate": "2026-04-28",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1553",
@@ -1341,7 +1503,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=2240EA83-D48C-428D-80C0-BFCB163AAD2D",
     "lastInspectionDate": "2026-05-14",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5898",
@@ -1349,7 +1512,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=BB0ED9E5-E779-416A-A9B3-C2D3D9C30860",
     "lastInspectionDate": "2026-05-06",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "549",
@@ -1357,7 +1521,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=BFA08CB0-360D-491B-91AF-40CCC822031B",
     "lastInspectionDate": "2026-01-13",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "2473",
@@ -1365,7 +1530,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F9DD44B1-E863-478E-8B11-8F96A26C6DCC",
     "lastInspectionDate": "2026-01-16",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "165",
@@ -1373,7 +1539,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=95A62FAC-A5E2-4E8C-BEC5-7DACE5E8A435",
     "lastInspectionDate": "2025-12-02",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "3747",
@@ -1381,7 +1548,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B72F7BB8-0409-4BC8-A397-14E79FB9C569",
     "lastInspectionDate": "2026-01-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "5937",
@@ -1389,7 +1557,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=66201220-7834-4C14-8FEF-64F48D0CF4B0",
     "lastInspectionDate": "2025-07-11",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "623",
@@ -1397,7 +1566,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D837D603-0963-4A14-BD50-AB93CCBE3167",
     "lastInspectionDate": "2026-04-10",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "3191",
@@ -1405,7 +1575,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=765A876C-C661-4632-B107-C301AE06AFE5",
     "lastInspectionDate": "2026-03-23",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "3585",
@@ -1413,7 +1584,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B0D595B8-4C15-42DF-B9A3-A4F7E98EE963",
     "lastInspectionDate": "2026-01-19",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "1777",
@@ -1421,7 +1593,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=28AEEE00-D694-4113-84BD-904FC249145D",
     "lastInspectionDate": "2026-05-14",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "630",
@@ -1429,7 +1602,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=1AC01C47-2A79-4400-8CEA-8500CDAB652F",
     "lastInspectionDate": "2025-07-16",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "3587",
@@ -1437,7 +1611,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C61DF07B-A760-41E5-BB9B-58176596956E",
     "lastInspectionDate": "2025-10-30",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "666",
@@ -1445,7 +1620,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=9E9105E2-7109-4169-B368-32410DD5D58D",
     "lastInspectionDate": "2025-11-06",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "38",
@@ -1453,7 +1629,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=A7581D48-8F33-45F2-A311-F381D931570B",
     "lastInspectionDate": "2026-03-25",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "4365",
@@ -1461,7 +1638,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=A13FCEB1-4A0F-44F5-979C-FE1472007D15",
     "lastInspectionDate": "2026-01-14",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "5926",
@@ -1469,7 +1647,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=66A255A9-C587-4C9B-8A8E-370448F3989D",
     "lastInspectionDate": "2025-10-16",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "310 Multi - Age Child Care"
   },
   {
     "facilityId": "3892",
@@ -1477,7 +1656,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=92BFC8A3-3B54-4CF1-AEF9-5455B9BDA876",
     "lastInspectionDate": "2026-04-27",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "310 Multi - Age Child Care"
   },
   {
     "facilityId": "5478",
@@ -1485,7 +1665,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=6FCC2182-1F3B-44E5-B9C8-B0A6C9CE17DD",
     "lastInspectionDate": "2026-04-08",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "2702",
@@ -1493,7 +1674,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=6200BB71-00C1-4B8C-ADBE-B82280F0C95D",
     "lastInspectionDate": "2026-04-28",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "2948",
@@ -1501,7 +1683,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=4BF75987-20AF-476D-B219-2C0282C84E7A",
     "lastInspectionDate": "2025-11-10",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "1736",
@@ -1509,7 +1692,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=768F419C-157F-499C-BF99-2381ED6AA825",
     "lastInspectionDate": "2026-05-19",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2507",
@@ -1517,7 +1701,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=7A8ECDEC-57F4-4F3E-8051-4E526CFAC1A4",
     "lastInspectionDate": "2025-11-17",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "310 Multi - Age Child Care"
   },
   {
     "facilityId": "123",
@@ -1525,7 +1710,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=198E001C-727D-479E-ADA9-A639CF4D2046",
     "lastInspectionDate": "2026-03-31",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "755",
@@ -1533,7 +1719,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D91F378B-D869-4210-AECA-7633A9EE637A",
     "lastInspectionDate": "2026-05-20",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "5972",
@@ -1541,7 +1728,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E2571955-E614-41EB-BFBD-F6D27B4CE595",
     "lastInspectionDate": "2026-04-29",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1106",
@@ -1549,7 +1737,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DEF4E785-5F6F-498B-941D-0218AD140DAE",
     "lastInspectionDate": "2025-06-23",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "310 Multi - Age Child Care"
   },
   {
     "facilityId": "5956",
@@ -1557,7 +1746,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=5F6A98B5-CD31-4175-9D52-DE98445F85D5",
     "lastInspectionDate": "2026-04-14",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "714",
@@ -1565,7 +1755,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=714AAA78-2D96-4054-93A1-EDDA7D5FB2FA",
     "lastInspectionDate": "2025-06-18",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "1038",
@@ -1573,7 +1764,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=6821BACA-09F2-428C-A2F5-ECEB8237C941",
     "lastInspectionDate": "2026-05-13",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "1509",
@@ -1581,7 +1773,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0D6AB068-463D-4E43-8402-380E05D32C3E",
     "lastInspectionDate": "2025-12-18",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "247",
@@ -1589,7 +1782,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=A9913EED-7D83-4DD6-8613-854F10D5F30D",
     "lastInspectionDate": "2026-04-14",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4414",
@@ -1597,7 +1791,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=1C29B5A6-2A93-473A-8801-D60527E50596",
     "lastInspectionDate": "2026-01-27",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "4842",
@@ -1605,7 +1800,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E1A16535-5C24-4B11-B392-AA3CA1B4DD4E",
     "lastInspectionDate": "2026-04-08",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "1383",
@@ -1613,7 +1809,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=51F12255-5604-4A5C-A52B-9A8CFA4DAB2E",
     "lastInspectionDate": "2026-04-29",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "310 Multi - Age Child Care"
   },
   {
     "facilityId": "5310",
@@ -1621,7 +1818,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=7A7C946E-767C-422E-A5D6-ADF1E7997319",
     "lastInspectionDate": "2026-01-07",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5689",
@@ -1629,7 +1827,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=452B8753-1E1B-4FAF-8DD0-337E9D91DA69",
     "lastInspectionDate": "2025-11-24",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "580",
@@ -1637,7 +1836,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=6E9DC98E-F1D8-45EA-AF86-7C021C1B1880",
     "lastInspectionDate": "2025-12-17",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4248",
@@ -1645,7 +1845,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0AC5FA6E-F677-4A6A-AA48-706C44849B4E",
     "lastInspectionDate": "2025-07-11",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "4947",
@@ -1653,7 +1854,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E9741742-B905-456C-9FD6-DBA8DA845EAD",
     "lastInspectionDate": "2025-11-10",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age)"
   },
   {
     "facilityId": "4504",
@@ -1661,7 +1863,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=2A2B6B1D-FC80-462A-AA52-3FBABB97B38D",
     "lastInspectionDate": "2026-05-12",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "3864",
@@ -1669,7 +1872,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=05527AFD-5691-476B-9AAC-F5CCAD39AC3C",
     "lastInspectionDate": "2026-05-14",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "3305",
@@ -1677,7 +1881,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=91A206E9-259D-4190-9554-D3F5B5FF7894",
     "lastInspectionDate": "2026-05-13",
     "lastInspectionType": "Complaint",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "4077",
@@ -1685,7 +1890,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D54746CC-8F3D-4E09-BAA5-3FF4AAF6B51A",
     "lastInspectionDate": "",
     "lastInspectionType": "",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "3914",
@@ -1693,7 +1899,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=1E0B3BF5-9ED4-4B4C-8150-D8A946609178",
     "lastInspectionDate": "2026-03-09",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "558",
@@ -1701,7 +1908,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=CB467497-0AE7-46DC-8841-271D8D447A19",
     "lastInspectionDate": "2026-05-11",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age)"
   },
   {
     "facilityId": "388",
@@ -1709,7 +1917,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0C318B9E-7E7F-4C19-8EF4-03A93ACAAA4E",
     "lastInspectionDate": "2026-05-07",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "4331",
@@ -1717,7 +1926,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F9BA1E98-626D-48CF-857B-C878EBEBD573",
     "lastInspectionDate": "2026-01-21",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1072",
@@ -1725,7 +1935,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=61054DB4-AB2E-4241-9736-8E4EAD243CFA",
     "lastInspectionDate": "2026-01-30",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1603",
@@ -1733,7 +1944,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=73EDB925-314C-4238-94D1-2152E7495960",
     "lastInspectionDate": "2026-02-17",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "1470",
@@ -1741,7 +1953,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0D965462-8396-4614-BAB0-2ACBABE49643",
     "lastInspectionDate": "2026-01-26",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "2452",
@@ -1749,7 +1962,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E6EEDD22-CFD5-4DE5-8DD6-72601E135B2E",
     "lastInspectionDate": "2026-02-06",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1315",
@@ -1757,7 +1971,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=966482FD-96BA-462F-9E6A-1F9C348C7DD0",
     "lastInspectionDate": "2026-01-12",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4712",
@@ -1765,7 +1980,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=8F91C559-C019-4B28-8BD9-85952FA7CF84",
     "lastInspectionDate": "2026-03-10",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4736",
@@ -1773,7 +1989,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=2DD6CD94-B678-41E1-A7A6-B7F6C843E3C6",
     "lastInspectionDate": "2025-09-16",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4920",
@@ -1781,7 +1998,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=09837A6F-3C97-48EA-AAEE-43ECE520656F",
     "lastInspectionDate": "2026-02-12",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "90",
@@ -1789,7 +2007,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E248EB38-DD1D-424F-B3F5-4A8E453A5BD4",
     "lastInspectionDate": "2025-08-21",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "909",
@@ -1797,7 +2016,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B6F45907-D355-431A-AEBF-E6A6974D7B10",
     "lastInspectionDate": "2026-05-07",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1114",
@@ -1805,7 +2025,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=33FA34B3-34CD-4A21-B2B1-2F453131754E",
     "lastInspectionDate": "2026-02-06",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "4214",
@@ -1813,7 +2034,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=22A685DD-1842-441D-903F-623A0ADDD3E4",
     "lastInspectionDate": "2026-01-13",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "1373",
@@ -1821,7 +2043,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=6EC1B6C5-8BBE-4E0F-B0C1-D335DB056E2F",
     "lastInspectionDate": "2026-03-12",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1715",
@@ -1829,7 +2052,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D85A83E5-B9CA-4CB4-BCAA-B69181883368",
     "lastInspectionDate": "2025-10-14",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "3074",
@@ -1837,7 +2061,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D85A83E5-B9CA-4CB4-BCAA-B69181883368",
     "lastInspectionDate": "2025-10-14",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "5804",
@@ -1845,7 +2070,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=05113C3E-143E-448A-815D-842EED8BCE0C",
     "lastInspectionDate": "2026-05-15",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "4446",
@@ -1853,7 +2079,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=98801088-5223-47D7-BAF7-64EA743E32A6",
     "lastInspectionDate": "2025-08-22",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "212",
@@ -1861,7 +2088,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DCFFF4BD-34F3-48A5-BB7C-AA26DAFB2BAD",
     "lastInspectionDate": "2025-06-24",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "5487",
@@ -1869,7 +2097,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=BBD6101B-5907-4E18-B0E8-786125739167",
     "lastInspectionDate": "2025-11-19",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5493",
@@ -1877,7 +2106,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=45EECFD8-D520-423C-A20D-0F1E02FF2CA2",
     "lastInspectionDate": "2025-09-10",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4505",
@@ -1885,7 +2115,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=57C9BCFC-3DB6-4ACE-8712-F04DD39F2A65",
     "lastInspectionDate": "2026-01-07",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age)"
   },
   {
     "facilityId": "4500",
@@ -1893,7 +2124,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=025DC2F7-B686-4EBB-A8A7-6384DD61C7BD",
     "lastInspectionDate": "2025-07-03",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "4503",
@@ -1901,7 +2133,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F401C6D8-C6A0-4757-9470-979BFE154653",
     "lastInspectionDate": "2025-10-14",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "4507",
@@ -1909,7 +2142,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B66E0BA1-A2C6-4BC6-8AE2-12F892AFB1AD",
     "lastInspectionDate": "2026-05-12",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "4501",
@@ -1917,7 +2151,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=84873667-D8B8-4008-B063-823F23C94797",
     "lastInspectionDate": "2026-01-29",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "4502",
@@ -1925,7 +2160,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=42E1004A-7DF6-4F53-8ED6-AE1A51E54BD5",
     "lastInspectionDate": "2026-04-10",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "4499",
@@ -1933,7 +2169,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F7F4F535-6D5A-47A6-BAB5-C61EDB444700",
     "lastInspectionDate": "2025-06-09",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age)"
   },
   {
     "facilityId": "5923",
@@ -1941,7 +2178,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=FF36E222-A068-4AF0-8637-103476CDC296",
     "lastInspectionDate": "2026-02-20",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2606",
@@ -1949,7 +2187,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=19722253-EFE4-46B7-BDE9-D3F242168C58",
     "lastInspectionDate": "2026-01-14",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4482",
@@ -1957,7 +2196,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=21580076-66AE-40D3-AACE-68A9F640EFAF",
     "lastInspectionDate": "2025-07-02",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "515",
@@ -1965,7 +2205,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E829055A-9E0D-4C34-9ABF-D729DBC906E1",
     "lastInspectionDate": "2026-01-15",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "2541",
@@ -1973,7 +2214,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=2E695F47-F76C-407A-B8C9-845E455D0ADB",
     "lastInspectionDate": "2026-03-12",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5642",
@@ -1981,7 +2223,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=AF55F700-41A8-46F2-B10F-78B55A227852",
     "lastInspectionDate": "2026-01-26",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age),303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "4609",
@@ -1989,7 +2232,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=9BE4859B-A271-4BC9-8893-7EDB0747E60D",
     "lastInspectionDate": "2026-04-20",
     "lastInspectionType": "Complaint",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds"
   },
   {
     "facilityId": "5177",
@@ -1997,7 +2241,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=BE25F6D4-1709-4DE8-9308-CA8EE0B99945",
     "lastInspectionDate": "2025-10-01",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "4401",
@@ -2005,7 +2250,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=40CE7536-C051-490B-B728-9121342DFEDB",
     "lastInspectionDate": "2026-03-23",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "103",
@@ -2013,7 +2259,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F489EFDA-8F53-460C-9394-6D09EC8A8917",
     "lastInspectionDate": "2026-04-15",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "303 Preschool (30 Months to School Age)"
   },
   {
     "facilityId": "881",
@@ -2021,7 +2268,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=62243455-2A5B-4651-A529-64B1F3B6D7DE",
     "lastInspectionDate": "2025-10-17",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4884",
@@ -2029,7 +2277,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=4632EAEC-B222-4B35-B375-1F0C10A4602A",
     "lastInspectionDate": "2026-04-14",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "311 In Home Multi Age Child Care"
   },
   {
     "facilityId": "3139",
@@ -2037,7 +2286,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=5CBB2F2F-64BC-4293-A9C9-D9EBFB421605",
     "lastInspectionDate": "2026-06-04",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),301 Group Child Care (Under 36 Months)"
   },
   {
     "facilityId": "618",
@@ -2045,7 +2295,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=CB3FFD44-1BA5-4B54-9AFD-125CBDC3A5F8",
     "lastInspectionDate": "2026-02-03",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "1206",
@@ -2053,7 +2304,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=41AB2121-F355-4982-BC8F-455E5B49F990",
     "lastInspectionDate": "2025-01-20",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "2305",
@@ -2061,7 +2313,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=51765A3C-617C-4A51-AA5F-12BBAA8EE648",
     "lastInspectionDate": "2026-04-20",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "310 Multi - Age Child Care"
   },
   {
     "facilityId": "5033",
@@ -2069,7 +2322,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=8DFEFA2D-E0B2-473F-8FFC-E74AFBC9DA09",
     "lastInspectionDate": "2025-05-26",
     "lastInspectionType": "Non-Visit Follow-up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "4456",
@@ -2077,7 +2331,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D26D7121-A8DF-422C-BC07-6C43315D0160",
     "lastInspectionDate": "2026-04-14",
     "lastInspectionType": "Routine",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)"
   },
   {
     "facilityId": "5664",
@@ -2085,7 +2340,8 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=AA899FE3-0395-4E1B-8AEE-DC8D722E0E4B",
     "lastInspectionDate": "2026-05-19",
     "lastInspectionType": "Follow-Up",
-    "contraventions": []
+    "contraventions": [],
+    "serviceType": "304 Family Child Care"
   },
   {
     "facilityId": "5174",

@@ -1,6 +1,15 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { TrackerEntry, TrackerStatus } from "./types";
+import { useAuth } from "./lib/auth";
+import {
+  pushEntry,
+  pushAllEntries,
+  subscribeToRemote,
+  unsubscribeFromRemote,
+  pauseSync,
+  resumeSync,
+} from "./lib/sync";
 
 interface AppState {
   trackerEntries: Record<string, TrackerEntry>;
@@ -16,6 +25,7 @@ interface AppState {
   setSelectedFacility: (id: string | null) => void;
   exportData: () => string;
   importData: (json: string) => void;
+  mergeRemoteEntries: (entries: Record<string, TrackerEntry>) => void;
 }
 
 const defaultTrackerEntry = (facilityId: string): TrackerEntry => ({
@@ -40,13 +50,25 @@ export const useStore = create<AppState>()(
           const existing =
             state.trackerEntries[facilityId] ??
             defaultTrackerEntry(facilityId);
+          const updated = { ...existing, [field]: value };
           return {
             trackerEntries: {
               ...state.trackerEntries,
-              [facilityId]: { ...existing, [field]: value },
+              [facilityId]: updated,
             },
           };
         });
+
+        // Push to Firestore if signed in
+        const uid = useAuth.getState().user?.uid;
+        if (uid) {
+          const entry = get().trackerEntries[facilityId];
+          if (entry) {
+            pauseSync();
+            pushEntry(uid, facilityId, entry);
+            setTimeout(resumeSync, 1000);
+          }
+        }
       },
 
       setActiveTab: (tab) => set({ activeTab: tab }),
@@ -60,10 +82,21 @@ export const useStore = create<AppState>()(
       importData: (json) => {
         try {
           const data = JSON.parse(json);
-          if (data.trackerEntries) set({ trackerEntries: data.trackerEntries });
+          if (data.trackerEntries) {
+            set({ trackerEntries: data.trackerEntries });
+            // Also push imported data to Firestore
+            const uid = useAuth.getState().user?.uid;
+            if (uid) pushAllEntries(uid, data.trackerEntries);
+          }
         } catch {
           console.error("Failed to import data");
         }
+      },
+
+      mergeRemoteEntries: (entries) => {
+        set((state) => ({
+          trackerEntries: { ...state.trackerEntries, ...entries },
+        }));
       },
     }),
     {
@@ -74,3 +107,19 @@ export const useStore = create<AppState>()(
     },
   ),
 );
+
+// React to auth state changes: start/stop sync
+useAuth.subscribe((authState, prevAuthState) => {
+  const uid = authState.user?.uid;
+  const prevUid = prevAuthState.user?.uid;
+
+  if (uid && uid !== prevUid) {
+    // User just signed in — upload local data, then subscribe to remote
+    const { trackerEntries, mergeRemoteEntries } = useStore.getState();
+    pushAllEntries(uid, trackerEntries);
+    subscribeToRemote(uid, mergeRemoteEntries);
+  } else if (!uid && prevUid) {
+    // User signed out — stop listening
+    unsubscribeFromRemote();
+  }
+});

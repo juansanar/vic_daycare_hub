@@ -62,6 +62,7 @@ interface APIFacility {
   inspectionID: string;
   inspectionDate: string;
   purpose: string;
+  ServiceType?: string;
 }
 
 interface Contravention {
@@ -78,6 +79,7 @@ interface InspectionRecord {
   inspectionUrl: string;
   lastInspectionDate: string;
   lastInspectionType: string;
+  serviceType?: string;
   contraventions: Contravention[];
 }
 
@@ -424,12 +426,16 @@ async function main() {
       contraventions = existing.contraventions;
     }
 
+    const serviceType =
+      entry.apiData.ServiceType ?? existing?.serviceType ?? "";
+
     inspections.push({
       facilityId: entry.facilityId,
       permitID: entry.permitID,
       inspectionUrl,
       lastInspectionDate,
       lastInspectionType,
+      serviceType: serviceType || undefined,
       contraventions,
     });
   }

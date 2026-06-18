@@ -1,5 +1,6 @@
 import { useStore } from "../store";
 import type { Facility, TrackerStatus, InspectionRecord } from "../types";
+import { resolveAgeGroupLabels } from "../lib/ages";
 import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
 
@@ -39,6 +40,10 @@ export default function FacilityDetail({
     ?? `https://inspections.myhealthdepartment.com/island-health/program-ccfl?facility_name=${encodeURIComponent(facility.name)}`;
 
   const uncorrectedContraventions = inspection?.contraventions.filter((c) => !c.corrected) ?? [];
+  const ageLabels = resolveAgeGroupLabels(
+    facility.ageGroups ?? [],
+    inspection?.serviceType,
+  );
 
   return (
     <div className="space-y-4">
@@ -83,6 +88,29 @@ export default function FacilityDetail({
           </a>
         )}
         <p className="text-[11px] text-gray-300">{facility.serviceType}</p>
+      </div>
+
+      {/* Age groups */}
+      <div className="space-y-1.5">
+        <p className="text-[11px] font-medium uppercase tracking-wide text-gray-400">
+          Ages served
+        </p>
+        {ageLabels.length > 0 ? (
+          <div className="flex flex-wrap gap-1.5">
+            {ageLabels.map((label) => (
+              <span
+                key={label}
+                className="rounded-full bg-stone-100 px-2.5 py-0.5 text-[11px] font-medium text-gray-600"
+              >
+                {label}
+              </span>
+            ))}
+          </div>
+        ) : (
+          <p className="text-[11px] text-gray-400">
+            Not reported in government records
+          </p>
+        )}
       </div>
 
       {/* Badges */}

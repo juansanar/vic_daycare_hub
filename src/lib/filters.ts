@@ -1,4 +1,11 @@
-import type { Facility, TrackerEntry, TrackerStatus, CRDRegion } from "../types";
+import type { Facility, TrackerEntry, TrackerStatus, CRDRegion, InspectionRecord } from "../types";
+import { facilityMatchesAgeFilter } from "./ages";
+import inspectionsData from "../../data/inspections.json";
+
+const inspections = inspectionsData as InspectionRecord[];
+const inspectionServiceTypeByFacility = new Map(
+  inspections.map((r) => [r.facilityId, r.serviceType]),
+);
 
 export interface FilterState {
   region: CRDRegion | "all";
@@ -35,7 +42,11 @@ export function filterFacilities(
 
     if (
       filters.ageGroup &&
-      !f.serviceType.toLowerCase().includes(filters.ageGroup.toLowerCase())
+      !facilityMatchesAgeFilter(
+        f.ageGroups ?? [],
+        filters.ageGroup,
+        inspectionServiceTypeByFacility.get(f.id),
+      )
     )
       return false;
 
