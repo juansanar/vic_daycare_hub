@@ -12,15 +12,15 @@ export default function Landing() {
           Free &middot; Open source &middot; No sign-up
         </div>
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-          Greater Victoria Daycare Hub
+          Victoria Childcare Hub
         </h1>
         <p className="mx-auto mt-4 text-sm text-gray-400">
           Victoria · Saanich · Oak Bay · View Royal · Langford · Colwood · Sooke · Central Saanich · Sidney
         </p>
         <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-gray-500">
-          {meta.count}+ licensed childcare facilities across the Capital Regional
-          District — on an interactive map with filters, inspection data, and a
-          personal tracker. Completely free for families.
+          {meta.count}+ licensed childcare facilities across Victoria and
+          surrounding areas — on an interactive map with filters, inspection
+          data, and a personal tracker. Completely free for families.
         </p>
         <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a
@@ -141,7 +141,7 @@ export default function Landing() {
               },
               {
                 q: "What areas are covered?",
-                a: "The Capital Regional District: Victoria, Saanich, Oak Bay, View Royal (Core), Langford, Colwood, Sooke (Westshore), and Central Saanich & Sidney (Peninsula).",
+                a: "Victoria and surrounding areas: Victoria, Saanich, Oak Bay, View Royal, Langford, Colwood, Sooke, Central Saanich, and Sidney.",
               },
               {
                 q: "What's the $10/day program?",
@@ -196,6 +196,10 @@ export default function Landing() {
             </a>
             . Always confirm details directly with facilities.
           </p>
+          <p className="text-[11px] text-gray-300">
+            Independent community project — not affiliated with the BC
+            government, Island Health, or any childcare facility.
+          </p>
           <div className="flex gap-4">
             <a
               href={`https://buymeacoffee.com/${bmcUsername}`}
@@ -215,8 +219,8 @@ export default function Landing() {
             </a>
           </div>
           <p className="text-[11px] text-gray-300">
-            Open-source &middot; MIT License &middot; A community project for
-            CRD families
+            victoriachildcarehub.ca &middot; Open-source &middot; MIT License
+            &middot; A community project for Victoria area families
           </p>
         </div>
       </footer>

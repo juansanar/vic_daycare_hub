@@ -88,7 +88,7 @@ export default function TrackerApp() {
           href="#/"
           className="text-base font-semibold tracking-tight text-emerald-700"
         >
-          Greater Victoria Daycare Hub
+          Victoria Childcare Hub
         </a>
         <div className="flex items-center gap-3">
           <nav className="flex gap-0.5">
@@ -149,9 +149,14 @@ export default function TrackerApp() {
         {activeTab === "resources" && <Resources />}
       </main>
 
-      <footer className="flex items-center justify-between border-t border-stone-200 bg-white px-4 py-2 text-[11px] text-gray-400">
-        <ExportImport />
-        <div className="flex items-center gap-3">
+      <footer className="border-t border-stone-200 bg-white px-4 py-2">
+        <p className="text-center text-[10px] text-gray-300">
+          Independent community project — not affiliated with the BC government,
+          Island Health, or any childcare facility.
+        </p>
+        <div className="mt-1 flex items-center justify-between text-[11px] text-gray-400">
+          <ExportImport />
+          <div className="flex items-center gap-3">
           <a
             href="https://github.com/juansanar/vic_daycare_hub/issues"
             target="_blank"
@@ -168,6 +173,7 @@ export default function TrackerApp() {
           >
             Support this project
           </a>
+        </div>
         </div>
       </footer>
     </div>

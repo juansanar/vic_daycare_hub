@@ -1,6 +1,6 @@
-# Victoria Daycare Hub
+# Victoria Childcare Hub
 
-A free, open-source childcare tracker for Victoria and Westshore BC. Find every licensed daycare facility in one place, with interactive maps, personal tracking, $10/day flags, and resources.
+A free, open-source childcare hub for Victoria and surrounding areas. Find licensed childcare facilities on an interactive map, with personal tracking, $10/day flags, and inspection data.
 
 **Live app:** (deployment URL will go here once published)
 
