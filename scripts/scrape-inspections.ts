@@ -15,6 +15,10 @@ import { parse } from "node-html-parser";
 import { writeFileSync, readFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  islandHealthNamesMatch,
+  normalizeIslandHealthName,
+} from "./lib/island-health-names.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = resolve(__dirname, "../data");
@@ -36,13 +40,6 @@ const BROWSER_HEADERS = {
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
-}
-
-function normalize(s: string): string {
-  return s
-    .toLowerCase()
-    .replace(/&/g, "and")
-    .replace(/[^a-z0-9]/g, "");
 }
 
 interface OurFacility {
@@ -293,7 +290,7 @@ async function main() {
   // Build normalized name index for matching
   const nameIndex = new Map<string, OurFacility>();
   for (const f of ourFacilities) {
-    nameIndex.set(normalize(f.name), f);
+    nameIndex.set(normalizeIslandHealthName(f.name), f);
   }
 
   // Discover all facilities from Island Health API
@@ -303,10 +300,20 @@ async function main() {
   const matched: Map<string, { facilityId: string; permitID: string; apiData: APIFacility }> = new Map();
 
   for (const disc of discovered) {
-    const normalizedName = normalize(disc.permitName || disc.establishmentName);
+    const discName = disc.permitName || disc.establishmentName;
+    const normalizedName = normalizeIslandHealthName(discName);
     const ourFacility = nameIndex.get(normalizedName);
     if (ourFacility) {
       matched.set(ourFacility.id, { facilityId: ourFacility.id, permitID: disc.permitID, apiData: disc });
+      continue;
+    }
+
+    for (const f of ourFacilities) {
+      if (matched.has(f.id)) continue;
+      if (islandHealthNamesMatch(f.name, discName)) {
+        matched.set(f.id, { facilityId: f.id, permitID: disc.permitID, apiData: disc });
+        break;
+      }
     }
   }
 
@@ -342,9 +349,8 @@ async function main() {
 
       if (Array.isArray(searchResult)) {
         for (const disc of searchResult as APIFacility[]) {
-          const normalizedDisc = normalize(disc.permitName || disc.establishmentName);
-          const normalizedOur = normalize(f.name);
-          if (normalizedDisc === normalizedOur) {
+          const discName = disc.permitName || disc.establishmentName;
+          if (islandHealthNamesMatch(f.name, discName)) {
             matched.set(f.id, { facilityId: f.id, permitID: disc.permitID, apiData: disc });
             searchMatches++;
             break;

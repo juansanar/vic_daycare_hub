@@ -322,6 +322,15 @@
     "serviceType": "304 Family Child Care"
   },
   {
+    "facilityId": "1066",
+    "permitID": "3F4758A3-403B-4F27-A59D-78D25B2562DD",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3F4758A3-403B-4F27-A59D-78D25B2562DD",
+    "lastInspectionDate": "2026-01-22",
+    "lastInspectionType": "Routine",
+    "contraventions": [],
+    "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)"
+  },
+  {
     "facilityId": "1069",
     "permitID": "C9902B6D-AF59-41AA-B1B5-2893EF76E239",
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=C9902B6D-AF59-41AA-B1B5-2893EF76E239",

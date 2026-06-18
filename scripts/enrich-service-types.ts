@@ -6,6 +6,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { islandHealthNamesMatch } from "./lib/island-health-names.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = resolve(__dirname, "../data");
@@ -23,10 +24,6 @@ const BROWSER_HEADERS = {
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
-}
-
-function normalize(s: string): string {
-  return s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]/g, "");
 }
 
 async function searchServiceType(name: string): Promise<string> {
@@ -52,10 +49,11 @@ async function searchServiceType(name: string): Promise<string> {
   if (!res.ok) return "";
   const data = await res.json();
   if (!Array.isArray(data)) return "";
-  const target = normalize(name);
   for (const row of data) {
-    const rowName = normalize(row.permitName || row.establishmentName || "");
-    if (rowName === target && row.ServiceType) return String(row.ServiceType);
+    const rowName = row.permitName || row.establishmentName || "";
+    if (islandHealthNamesMatch(name, rowName) && row.ServiceType) {
+      return String(row.ServiceType);
+    }
   }
   return "";
 }
