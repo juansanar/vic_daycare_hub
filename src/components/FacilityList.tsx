@@ -3,6 +3,7 @@ import { useStore } from "../store";
 import { filterFacilities, defaultFilters } from "../lib/filters";
 import type { FilterState } from "../lib/filters";
 import type { Facility, InspectionRecord } from "../types";
+import { hasVacancyReported } from "../lib/vacancy";
 import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
 import Filters from "./Filters";
@@ -60,8 +61,11 @@ export default function FacilityList() {
                         $10/day
                       </span>
                     )}
-                    {f.vacancyInd === "Y" && (
-                      <span className="rounded-full bg-sky-50 px-2 py-0.5 text-[10px] font-medium text-sky-700">
+                    {hasVacancyReported(f) && (
+                      <span
+                        className="rounded-full bg-sky-50 px-2 py-0.5 text-[10px] font-medium text-sky-700"
+                        title="Self-reported by the provider to BC's Child Care Map"
+                      >
                         Vacancy
                       </span>
                     )}

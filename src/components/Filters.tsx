@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import type { FilterState } from "../lib/filters";
 import { defaultFilters, getMunicipalities } from "../lib/filters";
 import type { Facility, CRDRegion } from "../types";
+import { BC_CHILD_CARE_MAP_URL } from "../lib/vacancy";
 import facilitiesData from "../../data/facilities.json";
 
 const facilities = facilitiesData as Facility[];
@@ -88,7 +89,10 @@ export default function Filters({ onChange }: FiltersProps) {
         $10/day
       </label>
 
-      <label className="flex items-center gap-1.5 text-xs text-gray-600">
+      <label
+        className="flex items-center gap-1.5 text-xs text-gray-600"
+        title="Vacancies are self-reported by providers to BC's Child Care Map"
+      >
         <input
           type="checkbox"
           checked={filters.vacancyOnly}
@@ -97,6 +101,21 @@ export default function Filters({ onChange }: FiltersProps) {
         />
         Vacancy
       </label>
+
+      {filters.vacancyOnly && (
+        <span className="text-[10px] text-gray-400">
+          From{" "}
+          <a
+            href={BC_CHILD_CARE_MAP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-emerald-600 hover:underline"
+          >
+            BC Child Care Map
+          </a>
+          {" "}(provider self-reported)
+        </span>
+      )}
 
       <select
         value={filters.trackerStatus}

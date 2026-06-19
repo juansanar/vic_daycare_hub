@@ -11,6 +11,13 @@ import { filterFacilities, defaultFilters } from "../lib/filters";
 import type { FilterState } from "../lib/filters";
 import FacilityDetail from "./FacilityDetail";
 import Filters from "./Filters";
+import {
+  BC_CHILD_CARE_MAP_URL,
+  CONTACT_CENTRE_COPY,
+  hasVacancyReported,
+  VACANCY_SOURCE_COPY,
+  vacancyDetailLines,
+} from "../lib/vacancy";
 import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
 
@@ -43,9 +50,15 @@ function buildPopupHtml(f: Facility): string {
   const website = f.website
     ? `<div><a href="${f.website}" target="_blank" rel="noopener noreferrer" style="color:#047857;">Visit website</a></div>`
     : "";
-  const vacancy = f.vacancyInd === "Y"
-    ? `<span style="display:inline-block;background:#dbeafe;color:#1d4ed8;font-size:11px;padding:2px 6px;border-radius:9999px;margin-top:4px;">Vacancy reported</span>`
+  const vacancy = hasVacancyReported(f)
+    ? `<div style="margin-top:6px;padding:6px 8px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:6px;font-size:11px;color:#1e40af;line-height:1.4;">
+        <strong>Vacancy reported</strong><br/>
+        <span style="display:block;color:#374151;margin-top:2px;">${VACANCY_SOURCE_COPY}</span>
+        ${vacancyDetailLines(f).map((line) => `<span style="display:block;color:#374151;margin-top:2px;">${line}</span>`).join("")}
+        <span style="display:block;margin-top:4px;color:#374151;">Source: <a href="${BC_CHILD_CARE_MAP_URL}" target="_blank" rel="noopener noreferrer" style="color:#0369a1;">BC Child Care Map</a></span>
+      </div>`
     : "";
+  const contactNote = `<div style="margin-top:6px;padding:6px 8px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:6px;font-size:11px;color:#57534e;line-height:1.4;">${CONTACT_CENTRE_COPY}</div>`;
 
   let inspectionHtml = "";
   if (inspection && inspection.lastInspectionDate) {
@@ -67,6 +80,7 @@ function buildPopupHtml(f: Facility): string {
       ${email}
       ${website}
       ${vacancy}
+      ${contactNote}
       ${inspectionHtml}
       <div style="margin-top:8px;border-top:1px solid #e5e7eb;padding-top:8px;display:flex;gap:6px;flex-wrap:wrap;">
         <button onclick="window.dispatchEvent(new CustomEvent('open-tracker',{detail:'${f.id}'}))" style="background:#059669;color:white;border:none;padding:5px 12px;border-radius:6px;font-size:12px;cursor:pointer;">

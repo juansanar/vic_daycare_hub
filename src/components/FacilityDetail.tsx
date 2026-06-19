@@ -1,6 +1,13 @@
 import { useStore } from "../store";
 import type { Facility, TrackerStatus, InspectionRecord } from "../types";
 import { resolveAgeGroupLabels } from "../lib/ages";
+import {
+  BC_CHILD_CARE_MAP_URL,
+  CONTACT_CENTRE_COPY,
+  hasVacancyReported,
+  VACANCY_SOURCE_COPY,
+  vacancyDetailLines,
+} from "../lib/vacancy";
 import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
 
@@ -90,6 +97,10 @@ export default function FacilityDetail({
         <p className="text-[11px] text-gray-300">{facility.serviceType}</p>
       </div>
 
+      <div className="rounded-lg border border-stone-200 bg-stone-50 p-3">
+        <p className="text-xs leading-relaxed text-gray-600">{CONTACT_CENTRE_COPY}</p>
+      </div>
+
       {/* Age groups */}
       <div className="space-y-1.5">
         <p className="text-[11px] font-medium uppercase tracking-wide text-gray-400">
@@ -120,12 +131,32 @@ export default function FacilityDetail({
             $10/day ChildCareBC
           </span>
         )}
-        {facility.vacancyInd === "Y" && (
-          <span className="rounded-full bg-sky-50 px-2.5 py-0.5 text-[11px] font-medium text-sky-700">
+      </div>
+
+      {hasVacancyReported(facility) && (
+        <div className="space-y-1.5 rounded-lg border border-sky-200 bg-sky-50/50 p-3">
+          <span className="inline-block rounded-full bg-sky-100 px-2.5 py-0.5 text-[11px] font-medium text-sky-800">
             Vacancy reported
           </span>
-        )}
-      </div>
+          <p className="text-[11px] leading-relaxed text-gray-600">{VACANCY_SOURCE_COPY}</p>
+          {vacancyDetailLines(facility).map((line) => (
+            <p key={line} className="text-[11px] leading-relaxed text-gray-600">
+              {line}
+            </p>
+          ))}
+          <p className="text-[11px] leading-relaxed text-gray-500">
+            Source:{" "}
+            <a
+              href={BC_CHILD_CARE_MAP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-sky-700 hover:underline"
+            >
+              BC Child Care Map ↗
+            </a>
+          </p>
+        </div>
+      )}
 
       {/* Inspection Section */}
       <div className="rounded-lg border border-stone-200 bg-stone-50 p-3 space-y-2">

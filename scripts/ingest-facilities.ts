@@ -199,6 +199,8 @@ interface Facility {
   serviceType: string;
   ageGroups: string[];
   vacancyInd: string;
+  vacancyForLicense: string;
+  vacancyLastUpdated: string;
   isTenDollarDay: boolean;
 }
 
@@ -257,6 +259,8 @@ async function main() {
       serviceType: String(a.SERVICE_TYPE_DESC ?? ""),
       ageGroups: getAgeGroups(a),
       vacancyInd: String(a.VACANCY_IND ?? ""),
+      vacancyForLicense: String(a.VACANCY_FOR_LICENSE ?? ""),
+      vacancyLastUpdated: String(a.VACANCY_LAST_UPDATE_DATE ?? ""),
       isTenDollarDay,
     };
   });

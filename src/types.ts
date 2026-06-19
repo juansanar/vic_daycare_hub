@@ -16,6 +16,8 @@ export interface Facility {
   serviceType: string;
   ageGroups: string[];
   vacancyInd: string;
+  vacancyForLicense?: string;
+  vacancyLastUpdated?: string;
   isTenDollarDay: boolean;
 }
 

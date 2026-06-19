@@ -1,6 +1,6 @@
 [
   {
-    "id": "5352",
+    "id": "5353",
     "name": "A Growing Place Early Childhood Centre",
     "address": "4749 William Head Rd",
     "locality": "Victoria",
@@ -15,10 +15,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/22",
     "isTenDollarDay": false
   },
   {
-    "id": "2552",
+    "id": "2551",
     "name": "A League Of Their Own",
     "address": "7325 Chatwell Dr",
     "locality": "Saanichton",
@@ -33,10 +35,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/18",
     "isTenDollarDay": false
   },
   {
-    "id": "4210",
+    "id": "4211",
     "name": "Abc Infant Care",
     "address": "2700 Scott St",
     "locality": "Victoria",
@@ -53,10 +57,12 @@
       "under36"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2905",
+    "id": "2904",
     "name": "Acekids Daycare",
     "address": "117-1911 Sooke Rd",
     "locality": "Victoria",
@@ -71,10 +77,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2889",
+    "id": "2888",
     "name": "Acre Wood Daycare And Early Learning Inc.",
     "address": "108 - 2360 Beacon Ave",
     "locality": "Sidney",
@@ -89,6 +97,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
@@ -107,10 +117,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3168",
+    "id": "3167",
     "name": "Acre Wood Daycare And Early Learning Incorportated",
     "address": "103-9830 Second St",
     "locality": "Sidney",
@@ -125,10 +137,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2673",
+    "id": "2672",
     "name": "Adventure Awaits Childcare Inc.",
     "address": "3326 Painter Rd",
     "locality": "Victoria",
@@ -143,10 +157,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5515",
+    "id": "5516",
     "name": "Adventure Island Childcare",
     "address": "4355 Okano Pl",
     "locality": "Victoria",
@@ -161,10 +177,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/11",
     "isTenDollarDay": false
   },
   {
-    "id": "5124",
+    "id": "5125",
     "name": "Almosthome Goldstream It",
     "address": "999 Goldstream Ave",
     "locality": "Victoria",
@@ -179,6 +197,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
@@ -197,10 +217,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
-    "id": "4950",
+    "id": "4951",
     "name": "Almosthome Luxton",
     "address": "1040 Marwood Ave",
     "locality": "Victoria",
@@ -215,6 +237,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
@@ -233,6 +257,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
@@ -251,6 +277,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
@@ -269,10 +297,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
-    "id": "2927",
+    "id": "2926",
     "name": "Almosthome Strawberry Hill",
     "address": "3897 Holland Ave",
     "locality": "Victoria",
@@ -287,10 +317,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
-    "id": "5386",
+    "id": "5387",
     "name": "Almosthome Tillicum",
     "address": "2964 Tillicum Rd",
     "locality": "Victoria",
@@ -305,10 +337,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
-    "id": "5828",
+    "id": "5829",
     "name": "Alphabet Zoo Early Learning Centre",
     "address": "2619 Sooke Rd",
     "locality": "Langford",
@@ -323,10 +357,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "2834",
+    "id": "2833",
     "name": "Alphabet Zoo Early Learning Centre (Fulton)",
     "address": "3322 Fulton Rd",
     "locality": "Victoria",
@@ -341,6 +377,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -359,10 +397,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3027",
+    "id": "3026",
     "name": "Anchors Wood Playcare",
     "address": "3542 Charnley Pl",
     "locality": "Victoria",
@@ -377,10 +417,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
-    "id": "5838",
+    "id": "5839",
     "name": "Anklebyters Out-Of-School Care",
     "address": "3751 Grange Rd",
     "locality": "Victoria",
@@ -395,10 +437,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/22",
     "isTenDollarDay": false
   },
   {
-    "id": "4644",
+    "id": "4645",
     "name": "Apples And Bananas",
     "address": "2838 Adelaide Ave",
     "locality": "Victoria",
@@ -413,6 +457,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/24",
     "isTenDollarDay": false
   },
   {
@@ -431,10 +477,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
-    "id": "5129",
+    "id": "5130",
     "name": "Artscalibre Academy",
     "address": "3220 Cedar Hill Rd",
     "locality": "Victoria",
@@ -449,6 +497,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
@@ -467,6 +517,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/04/29",
     "isTenDollarDay": false
   },
   {
@@ -485,10 +537,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3493",
+    "id": "3492",
     "name": "Baby's Day Out",
     "address": "3241 Lodmell Rd",
     "locality": "Langford",
@@ -506,6 +560,8 @@
       "preschool30to5"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
@@ -524,6 +580,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/06",
     "isTenDollarDay": false
   },
   {
@@ -542,10 +600,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3026",
+    "id": "3025",
     "name": "Bee Happy Montessori House",
     "address": "526 Normandy Rd",
     "locality": "Victoria",
@@ -560,6 +620,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -578,10 +640,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
-    "id": "2627",
+    "id": "2626",
     "name": "Beloved Kids Family Childcare",
     "address": "7266 Chatwell Dr",
     "locality": "Saanichton",
@@ -596,10 +660,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5976",
+    "id": "5977",
     "name": "Best Buddies Childcare",
     "address": "2746 Scott St",
     "locality": "Victoria",
@@ -619,10 +685,12 @@
       "schoolAge"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5627",
+    "id": "5628",
     "name": "Best Neighbour Childcare Centre",
     "address": "5148 Lochside Dr",
     "locality": "Victoria",
@@ -637,6 +705,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -655,10 +725,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "3641",
+    "id": "3640",
     "name": "Bgc South Vancouver Island - Colwood Club",
     "address": "3000 Wishart Rd",
     "locality": "Victoria",
@@ -673,6 +745,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
@@ -691,10 +765,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "3640",
+    "id": "3639",
     "name": "Bgc South Vancouver Island - David Cameron Club",
     "address": "675 Meaford Ave",
     "locality": "Victoria",
@@ -709,10 +785,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "3642",
+    "id": "3641",
     "name": "Bgc South Vancouver Island - Happy Valley Club",
     "address": "3291 Happy Valley Rd",
     "locality": "Victoria",
@@ -727,6 +805,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
@@ -745,6 +825,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
@@ -763,6 +845,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/22",
     "isTenDollarDay": false
   },
   {
@@ -781,10 +865,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "3643",
+    "id": "3642",
     "name": "Bgc South Vancouver Island - Scianew Stelitkel Club",
     "address": "802 Latoria Rd",
     "locality": "Victoria",
@@ -799,10 +885,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "5618",
+    "id": "5619",
     "name": "Bgc South Vancouver Island - Westshore Club",
     "address": "345 Wale Rd",
     "locality": "Victoria",
@@ -817,10 +905,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "3639",
+    "id": "3638",
     "name": "Bgc South Vancouver Island - Wishart Club",
     "address": "3310 Wishart Rd",
     "locality": "Victoria",
@@ -835,10 +925,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "5547",
+    "id": "5548",
     "name": "Bloom Montessori",
     "address": "101-1701 Island Hwy",
     "locality": "Victoria",
@@ -853,10 +945,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/12",
     "isTenDollarDay": false
   },
   {
-    "id": "2486",
+    "id": "2485",
     "name": "Bloom Montessori (View Royal)",
     "address": "286 Island Hwy",
     "locality": "Victoria",
@@ -871,10 +965,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/12",
     "isTenDollarDay": false
   },
   {
-    "id": "2242",
+    "id": "2241",
     "name": "Blossom Early Childhood Center",
     "address": "3937 Quadra St",
     "locality": "Victoria",
@@ -889,6 +985,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/02",
     "isTenDollarDay": false
   },
   {
@@ -907,6 +1005,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
@@ -925,6 +1025,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
@@ -943,6 +1045,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -961,6 +1065,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/20",
     "isTenDollarDay": false
   },
   {
@@ -979,10 +1085,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/20",
     "isTenDollarDay": false
   },
   {
-    "id": "3284",
+    "id": "3283",
     "name": "Bright Young Minds Daycare",
     "address": "7080 Silverdale Pl",
     "locality": "Brentwood Bay",
@@ -997,6 +1105,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
@@ -1015,6 +1125,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/20",
     "isTenDollarDay": false
   },
   {
@@ -1033,10 +1145,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
-    "id": "2814",
+    "id": "2813",
     "name": "Bubby's Early Learning Childcare",
     "address": "2410 Malaview Ave",
     "locality": "Sidney",
@@ -1051,10 +1165,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
-    "id": "4691",
+    "id": "4692",
     "name": "Burnside Child Care Centre",
     "address": "471 Cecelia Rd",
     "locality": "Victoria",
@@ -1069,6 +1185,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/05",
     "isTenDollarDay": false
   },
   {
@@ -1087,6 +1205,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
@@ -1105,6 +1225,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -1123,6 +1245,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
@@ -1141,6 +1265,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
@@ -1159,6 +1285,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/27",
     "isTenDollarDay": false
   },
   {
@@ -1177,10 +1305,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4421",
+    "id": "4422",
     "name": "Carousel Child Care Centre",
     "address": "301 Richmond Ave",
     "locality": "Victoria",
@@ -1195,6 +1325,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
@@ -1213,6 +1345,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
@@ -1231,10 +1365,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "3796",
+    "id": "3795",
     "name": "Cecelia Childcare Centre",
     "address": "496 Cecelia Road 101",
     "locality": "Victoria",
@@ -1249,6 +1385,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/05",
     "isTenDollarDay": false
   },
   {
@@ -1267,6 +1405,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/02",
     "isTenDollarDay": false
   },
   {
@@ -1285,6 +1425,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/04/15",
     "isTenDollarDay": false
   },
   {
@@ -1303,10 +1445,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/04/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4120",
+    "id": "4119",
     "name": "Cefa Early Learning Victoria University Heights",
     "address": "200-3960 Shelbourne St",
     "locality": "Victoria",
@@ -1321,10 +1465,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Unknown",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "Unknown",
     "isTenDollarDay": false
   },
   {
-    "id": "5576",
+    "id": "5577",
     "name": "Centennial Day Care Centre",
     "address": "106-740 Hillside Ave",
     "locality": "Victoria",
@@ -1339,6 +1485,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
@@ -1357,10 +1505,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
-    "id": "2801",
+    "id": "2800",
     "name": "Cherry Blossom Childcare Downtown",
     "address": "932 Balmoral Road",
     "locality": "Victoria",
@@ -1375,10 +1525,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
-    "id": "2956",
+    "id": "2955",
     "name": "Cherry Lane Childcare",
     "address": "4260 Ponderosa Cres",
     "locality": "Victoria",
@@ -1393,6 +1545,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -1411,6 +1565,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
@@ -1429,10 +1585,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4674",
+    "id": "4675",
     "name": "Child's Play Family Child Care",
     "address": "2825 Pickford Rd",
     "locality": "Victoria",
@@ -1447,6 +1605,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -1465,10 +1625,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/05",
     "isTenDollarDay": false
   },
   {
-    "id": "5948",
+    "id": "5949",
     "name": "Choo Choo, Let's Go! Early Learning Centre",
     "address": "2340 Sunriver Way",
     "locality": "Sooke",
@@ -1483,10 +1645,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5650",
+    "id": "5651",
     "name": "Christ Church Cathedral Childcare",
     "address": "1670 Richardson St",
     "locality": "Victoria",
@@ -1501,6 +1665,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
@@ -1519,10 +1685,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5706",
+    "id": "5707",
     "name": "Cloverdale Child Care - Scout Hall",
     "address": "3266 Glasgow Ave",
     "locality": "Victoria",
@@ -1537,6 +1705,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/29",
     "isTenDollarDay": false
   },
   {
@@ -1555,10 +1725,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Unknown",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "Unknown",
     "isTenDollarDay": false
   },
   {
-    "id": "2658",
+    "id": "2657",
     "name": "Coastline Early Learning Centre",
     "address": "845 Caledonia Ave",
     "locality": "Victoria",
@@ -1573,6 +1745,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
@@ -1591,10 +1765,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/28",
     "isTenDollarDay": false
   },
   {
-    "id": "2520",
+    "id": "2519",
     "name": "Colwood Kids Early Childhood Center",
     "address": "1949 Sooke Rd",
     "locality": "Victoria",
@@ -1609,6 +1785,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
@@ -1630,6 +1808,8 @@
       "preschool30to5"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -1648,6 +1828,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -1666,6 +1848,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/09",
     "isTenDollarDay": false
   },
   {
@@ -1684,10 +1868,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3066",
+    "id": "3065",
     "name": "Cozy Corner Childcare",
     "address": "971 Gade Rd",
     "locality": "Langford",
@@ -1702,10 +1888,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2365",
+    "id": "2364",
     "name": "Cradle To Crayons",
     "address": "2727 Scafe Rd",
     "locality": "Langford",
@@ -1720,6 +1908,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
@@ -1738,10 +1928,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "5898",
+    "id": "5899",
     "name": "Ctots Childhood Education Centre",
     "address": "2955 Glasgow St",
     "locality": "Victoria",
@@ -1756,6 +1948,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
@@ -1774,6 +1968,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
@@ -1792,10 +1988,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2473",
+    "id": "2472",
     "name": "Daybwaywin Nature School",
     "address": "3202 Young Lake Rd",
     "locality": "Sooke",
@@ -1810,6 +2008,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
@@ -1828,6 +2028,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
@@ -1846,10 +2048,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/11",
     "isTenDollarDay": false
   },
   {
-    "id": "3747",
+    "id": "3746",
     "name": "Double Joy Daycare",
     "address": "2532 Prior St",
     "locality": "Victoria",
@@ -1866,10 +2070,12 @@
       "under36"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/05",
     "isTenDollarDay": false
   },
   {
-    "id": "5937",
+    "id": "5938",
     "name": "Down By The Bay Childcare Centre",
     "address": "1055 Damelart Way",
     "locality": "Brentwood Bay",
@@ -1884,6 +2090,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -1902,10 +2110,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5839",
+    "id": "5840",
     "name": "Eagle View Out Of School Care",
     "address": "97 Talcott Rd",
     "locality": "Victoria",
@@ -1920,10 +2130,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/22",
     "isTenDollarDay": false
   },
   {
-    "id": "3191",
+    "id": "3190",
     "name": "Early Bird Daycare",
     "address": "6573 Steeple Chase",
     "locality": "Sooke",
@@ -1938,10 +2150,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3585",
+    "id": "3584",
     "name": "Ecole John Stubbs - Osc",
     "address": "301 Zealous Crescent",
     "locality": "Victoria",
@@ -1956,6 +2170,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
@@ -1974,6 +2190,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
@@ -1992,10 +2210,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/06",
     "isTenDollarDay": false
   },
   {
-    "id": "3587",
+    "id": "3586",
     "name": "Ecole Poirier Elementary - Osc",
     "address": "6526 Throup Rd",
     "locality": "Sooke",
@@ -2010,6 +2230,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
@@ -2028,6 +2250,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -2050,10 +2274,12 @@
       "schoolAge"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "4365",
+    "id": "4366",
     "name": "Esquimalt Recreation Centre Osc",
     "address": "527 Fraser St",
     "locality": "Esquimalt",
@@ -2068,10 +2294,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "5926",
+    "id": "5927",
     "name": "Fabe's Childcare",
     "address": "938 Walfred Rd",
     "locality": "Victoria",
@@ -2086,10 +2314,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/22",
     "isTenDollarDay": false
   },
   {
-    "id": "3892",
+    "id": "3891",
     "name": "Faby's Childcare Ltd.",
     "address": "940 Walfred Rd",
     "locality": "Langford",
@@ -2104,10 +2334,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/22",
     "isTenDollarDay": false
   },
   {
-    "id": "5478",
+    "id": "5479",
     "name": "Family First Child Care",
     "address": "83 Battleford Ave",
     "locality": "Victoria",
@@ -2125,10 +2357,12 @@
       "preschool30to5"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2702",
+    "id": "2701",
     "name": "Family Roots - At Home Daycare",
     "address": "3599 Kelly Dawn Pl",
     "locality": "Victoria",
@@ -2143,10 +2377,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/13",
     "isTenDollarDay": false
   },
   {
-    "id": "2948",
+    "id": "2947",
     "name": "Ferncove Family Daycare",
     "address": "275 Bellamy Link",
     "locality": "Langford",
@@ -2164,6 +2400,8 @@
       "preschool30to5"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -2182,10 +2420,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "2507",
+    "id": "2506",
     "name": "Flower Patch Kids",
     "address": "795B Gladiola Ave",
     "locality": "Victoria",
@@ -2200,6 +2440,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -2218,6 +2460,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -2236,10 +2480,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3901",
+    "id": "3900",
     "name": "Fueling Brains Academy",
     "address": "201-1319 Cook St",
     "locality": "Victoria",
@@ -2254,10 +2500,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
-    "id": "5405",
+    "id": "5406",
     "name": "Full O' Beans Preschool",
     "address": "3100 Tillicum Rd",
     "locality": "Victoria",
@@ -2272,6 +2520,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/26",
     "isTenDollarDay": false
   },
   {
@@ -2290,6 +2540,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/26",
     "isTenDollarDay": false
   },
   {
@@ -2308,10 +2560,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/29",
     "isTenDollarDay": false
   },
   {
-    "id": "5972",
+    "id": "5973",
     "name": "Garderie Pomme D'api Daycare",
     "address": "22 Erskine Lane",
     "locality": "Victoria",
@@ -2326,6 +2580,28 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/14",
+    "isTenDollarDay": false
+  },
+  {
+    "id": "4139",
+    "name": "Gentle Bloom Daycare",
+    "address": "4157 Carey Rd",
+    "locality": "Victoria",
+    "postalCode": "V8Z 4G7",
+    "municipality": "Saanich",
+    "region": "core",
+    "lat": 48.4783,
+    "lng": -123.398651,
+    "phone": "250-516-4404",
+    "email": "",
+    "website": "",
+    "serviceType": "Licensed Group",
+    "ageGroups": [],
+    "vacancyInd": "Unknown",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "Unknown",
     "isTenDollarDay": false
   },
   {
@@ -2344,10 +2620,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5956",
+    "id": "5957",
     "name": "Giggles & Grins Daycare",
     "address": "1203 Burnside Rd W",
     "locality": "Victoria",
@@ -2362,10 +2640,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/23",
     "isTenDollarDay": false
   },
   {
-    "id": "5544",
+    "id": "5545",
     "name": "Gillybird Nature Academy",
     "address": "2750 Roseberry Ave",
     "locality": "Victoria",
@@ -2380,6 +2660,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/20",
     "isTenDollarDay": false
   },
   {
@@ -2398,6 +2680,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/20",
     "isTenDollarDay": false
   },
   {
@@ -2416,6 +2700,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/20",
     "isTenDollarDay": false
   },
   {
@@ -2434,6 +2720,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/20",
     "isTenDollarDay": false
   },
   {
@@ -2452,10 +2740,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/22",
     "isTenDollarDay": false
   },
   {
-    "id": "4414",
+    "id": "4415",
     "name": "Glenlyon Norfolk School Daycare",
     "address": "1701 Beach Dr",
     "locality": "Victoria",
@@ -2475,10 +2765,12 @@
       "schoolAge"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/02",
     "isTenDollarDay": false
   },
   {
-    "id": "2526",
+    "id": "2525",
     "name": "Gnome Place Like Home",
     "address": "4116 Happy Valley Rd",
     "locality": "Victoria",
@@ -2493,10 +2785,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4842",
+    "id": "4843",
     "name": "Gonzales Preschool Group",
     "address": "2928 Eastdowne Rd",
     "locality": "Victoria",
@@ -2511,6 +2805,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
@@ -2529,6 +2825,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
@@ -2547,10 +2845,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/05",
     "isTenDollarDay": false
   },
   {
-    "id": "3005",
+    "id": "3004",
     "name": "Hampton House Society",
     "address": "3200-4464 Markham St",
     "locality": "Victoria",
@@ -2565,6 +2865,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -2583,10 +2885,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
-    "id": "3677",
+    "id": "3676",
     "name": "Hans Helgesen Ymca-Ywca Child Care",
     "address": "4983 Rocky Point Rd",
     "locality": "Victoria",
@@ -2601,10 +2905,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": true
   },
   {
-    "id": "5310",
+    "id": "5311",
     "name": "Happy Campers - Kelly",
     "address": "647 Kelly Rd",
     "locality": "Victoria",
@@ -2619,10 +2925,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "5689",
+    "id": "5690",
     "name": "Happy Campers - Otter Point",
     "address": "2080 Otter Point Rd",
     "locality": "Sooke",
@@ -2637,6 +2945,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -2655,10 +2965,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4248",
+    "id": "4249",
     "name": "Happy Campers Childcare",
     "address": "3424 Metchosin Rd",
     "locality": "Victoria",
@@ -2673,10 +2985,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4947",
+    "id": "4948",
     "name": "Happy Campers Osc - Dunford",
     "address": "948 Dunford Ave",
     "locality": "Victoria",
@@ -2691,10 +3005,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4928",
+    "id": "4929",
     "name": "Happy Campers Osc - Forge",
     "address": "2612 Sooke Rd",
     "locality": "Victoria",
@@ -2709,10 +3025,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4504",
+    "id": "4505",
     "name": "Happy Campers Osc - Mt View",
     "address": "510 Mount View Ave",
     "locality": "Victoria",
@@ -2727,10 +3045,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "3864",
+    "id": "3863",
     "name": "Happy Hours Early Learning Centre",
     "address": "1551 Brooke Street",
     "locality": "Victoria",
@@ -2745,10 +3065,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "3305",
+    "id": "3304",
     "name": "Happy Learner Daycare Centre",
     "address": "3478 Trumpeter St",
     "locality": "Victoria",
@@ -2763,10 +3085,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/23",
     "isTenDollarDay": false
   },
   {
-    "id": "4077",
+    "id": "4076",
     "name": "Harbourvista Learning Centre",
     "address": "3281 Harriet Rd",
     "locality": "Victoria",
@@ -2781,10 +3105,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Unknown",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "Unknown",
     "isTenDollarDay": false
   },
   {
-    "id": "2955",
+    "id": "2954",
     "name": "Hello Friends Child Care Corporation 103",
     "address": "103-2787 Jacklin Rd",
     "locality": "Victoria",
@@ -2801,10 +3127,12 @@
       "preschool30to5"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
-    "id": "3914",
+    "id": "3913",
     "name": "Hello Friends Child Care Corporation 111",
     "address": "111-2787 Jacklin Road",
     "locality": "Victoria",
@@ -2819,10 +3147,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
-    "id": "3513",
+    "id": "3512",
     "name": "Hello Friends Child Care Corporation On Camli",
     "address": "110 Camli Pl",
     "locality": "Langford",
@@ -2837,6 +3167,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -2855,6 +3187,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/02",
     "isTenDollarDay": false
   },
   {
@@ -2873,6 +3207,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -2891,10 +3227,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
-    "id": "4331",
+    "id": "4332",
     "name": "His Kids Early Education And Child Care Centre",
     "address": "1289 Parkdale Dr",
     "locality": "Victoria",
@@ -2909,6 +3247,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
@@ -2927,6 +3267,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/28",
     "isTenDollarDay": false
   },
   {
@@ -2945,6 +3287,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -2966,6 +3310,8 @@
       "preschool30to5"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -2984,6 +3330,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -3002,10 +3350,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2452",
+    "id": "2451",
     "name": "Ilm - Eagle View",
     "address": "97 Talcott Rd",
     "locality": "Victoria",
@@ -3020,6 +3370,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -3038,10 +3390,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2698",
+    "id": "2697",
     "name": "Ilm-Craigflower",
     "address": "2766 Admirals Rd",
     "locality": "Victoria",
@@ -3056,10 +3410,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3390",
+    "id": "3389",
     "name": "Ilm-Dellwood",
     "address": "936 Dellwood Rd",
     "locality": "Esquimalt",
@@ -3074,10 +3430,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3032",
+    "id": "3031",
     "name": "Ilm-Willows",
     "address": "2290 Musgrave St",
     "locality": "Victoria",
@@ -3092,10 +3450,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2604",
+    "id": "2603",
     "name": "Imaginarium Daycare",
     "address": "881 Darwin Ave",
     "locality": "Victoria",
@@ -3110,6 +3470,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
@@ -3128,10 +3490,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4712",
+    "id": "4713",
     "name": "Island Kids Academy Centre 2 (Forrest)",
     "address": "542 Fraser St",
     "locality": "Victoria",
@@ -3146,10 +3510,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4736",
+    "id": "4737",
     "name": "Island Kids Academy Esquimalt Centre 1 (Ocean)",
     "address": "538 Fraser St",
     "locality": "Victoria",
@@ -3164,10 +3530,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4920",
+    "id": "4921",
     "name": "Island Montessori House School",
     "address": "5575 West Saanich Rd",
     "locality": "Victoria",
@@ -3184,6 +3552,8 @@
       "preschool30to5"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
@@ -3202,6 +3572,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
@@ -3220,6 +3592,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/11",
     "isTenDollarDay": false
   },
   {
@@ -3238,10 +3612,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
-    "id": "4214",
+    "id": "4215",
     "name": "Juan De Fuca Childcare Centre",
     "address": "1767 Island Hwy",
     "locality": "Victoria",
@@ -3256,6 +3632,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/04/24",
     "isTenDollarDay": false
   },
   {
@@ -3274,6 +3652,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
@@ -3292,10 +3672,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3074",
+    "id": "3073",
     "name": "Just Peachy Child Care Ltd.",
     "address": "1785 Hovey Rd",
     "locality": "Saanichton",
@@ -3310,10 +3692,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5804",
+    "id": "5805",
     "name": "Karen Hambley Daycare",
     "address": "1781 Ash Rd",
     "locality": "Victoria",
@@ -3328,10 +3712,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/12",
     "isTenDollarDay": false
   },
   {
-    "id": "3871",
+    "id": "3870",
     "name": "Kasama Childcare & Preschool Centre Ltd.",
     "address": "3-772 Bay Street",
     "locality": "Victoria",
@@ -3346,10 +3732,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/30",
     "isTenDollarDay": false
   },
   {
-    "id": "4446",
+    "id": "4447",
     "name": "Keating Out Of School Care (Lions Hall)",
     "address": "6994 East Saanich Rd",
     "locality": "Saanichton",
@@ -3364,6 +3752,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
@@ -3382,10 +3772,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "5487",
+    "id": "5488",
     "name": "Kids & Company Victoria",
     "address": "131 3500 Uptown Blvd",
     "locality": "Victoria",
@@ -3400,10 +3792,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/09",
     "isTenDollarDay": false
   },
   {
-    "id": "5493",
+    "id": "5494",
     "name": "Kids And Company Langford",
     "address": "Building D 965 Langford Parkway",
     "locality": "Victoria",
@@ -3418,10 +3812,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/09",
     "isTenDollarDay": false
   },
   {
-    "id": "4506",
+    "id": "4507",
     "name": "Kids Klub - Lakewood Elementary",
     "address": "2363 Setchfield Ave",
     "locality": "Victoria",
@@ -3436,10 +3832,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4505",
+    "id": "4506",
     "name": "Kids Klub - Pearkes Recreation Centre",
     "address": "3100 Tillicum Rd",
     "locality": "Victoria",
@@ -3454,10 +3852,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4500",
+    "id": "4501",
     "name": "Kids Klub Beaver Lake School",
     "address": "4828 West Saanich Rd",
     "locality": "Victoria",
@@ -3472,10 +3872,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4503",
+    "id": "4504",
     "name": "Kids Klub Braefoot Elementary School",
     "address": "1440 Harrop Rd",
     "locality": "Victoria",
@@ -3490,10 +3892,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4507",
+    "id": "4508",
     "name": "Kids Klub Centre Lakehill Site",
     "address": "1031 Lucas Ave",
     "locality": "Victoria",
@@ -3508,10 +3912,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4501",
+    "id": "4502",
     "name": "Kids Klub Mckenzie School",
     "address": "4005 Raymond St N",
     "locality": "Victoria",
@@ -3526,10 +3932,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4502",
+    "id": "4503",
     "name": "Kids Klub Northridge",
     "address": "4190 Carey Rd",
     "locality": "Victoria",
@@ -3544,10 +3952,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "4499",
+    "id": "4500",
     "name": "Kids Klub Western #1",
     "address": "935 Goldstream Ave",
     "locality": "Victoria",
@@ -3562,10 +3972,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "5923",
+    "id": "5924",
     "name": "Kidspace Learning Centres Eagle Creek Inc.",
     "address": "110-25 Helmcken Rd",
     "locality": "Victoria",
@@ -3580,10 +3992,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2606",
+    "id": "2605",
     "name": "Kidspace Learning Centres Saanichton Ltd.",
     "address": "7925 East Saanich Rd",
     "locality": "Saanichton",
@@ -3598,10 +4012,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4482",
+    "id": "4483",
     "name": "Kiminy Kricket's Family Childcare",
     "address": "7193 Hagan Rd",
     "locality": "Brentwood Bay",
@@ -3616,6 +4032,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -3634,10 +4052,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3361",
+    "id": "3360",
     "name": "Kineret Tamim Academy",
     "address": "2936 Quadra St",
     "locality": "Victoria",
@@ -3652,10 +4072,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
-    "id": "2541",
+    "id": "2540",
     "name": "King's Kids Montessori House",
     "address": "3311 B Sangster Lane",
     "locality": "Victoria",
@@ -3670,10 +4092,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/29",
     "isTenDollarDay": false
   },
   {
-    "id": "5642",
+    "id": "5643",
     "name": "Kingfisher Preschool",
     "address": "105 - 6672 Wadams Way",
     "locality": "Sooke",
@@ -3688,10 +4112,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
-    "id": "4609",
+    "id": "4610",
     "name": "La Garderie Saute-Mouton",
     "address": "637 Head St",
     "locality": "Victoria",
@@ -3710,10 +4136,12 @@
       "schoolAge"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/26",
     "isTenDollarDay": false
   },
   {
-    "id": "5177",
+    "id": "5178",
     "name": "La Pre-Maternelle Appletree Preschool",
     "address": "500 Admirals Rd",
     "locality": "Victoria",
@@ -3728,10 +4156,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4401",
+    "id": "4402",
     "name": "Ladybug Child Care",
     "address": "2665 Asquith St",
     "locality": "Victoria",
@@ -3746,6 +4176,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
@@ -3764,10 +4196,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/09",
     "isTenDollarDay": false
   },
   {
-    "id": "2813",
+    "id": "2812",
     "name": "Lakepoint Childcare And Learning Centre Inc.",
     "address": "205-1331 Westhills Dr",
     "locality": "Langford",
@@ -3782,6 +4216,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/24",
     "isTenDollarDay": false
   },
   {
@@ -3800,10 +4236,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
-    "id": "4884",
+    "id": "4885",
     "name": "Langford Montessori Junior Kindergarten",
     "address": "1033 Jenkins Ave",
     "locality": "Victoria",
@@ -3818,10 +4256,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3139",
+    "id": "3138",
     "name": "Leap Forward",
     "address": "101-2717 Peatt Rd",
     "locality": "Langford",
@@ -3836,10 +4276,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
-    "id": "5353",
+    "id": "5354",
     "name": "Leap Forward",
     "address": "2758 Peatt Rd",
     "locality": "Victoria",
@@ -3854,6 +4296,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
@@ -3872,10 +4316,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/02",
     "isTenDollarDay": false
   },
   {
-    "id": "4428",
+    "id": "4429",
     "name": "Learning Tree Preschool",
     "address": "2250 Sooke Rd",
     "locality": "Victoria",
@@ -3890,10 +4336,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
-    "id": "3482",
+    "id": "3481",
     "name": "Lee-Anneâ€™S Little Ladybugs",
     "address": "609 Evans Dr",
     "locality": "Victoria",
@@ -3908,6 +4356,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -3929,10 +4379,12 @@
       "preschool30to5"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/26",
     "isTenDollarDay": false
   },
   {
-    "id": "2305",
+    "id": "2304",
     "name": "Lil Starz Childcare Inc.",
     "address": "3725 Tillicum Rd",
     "locality": "Victoria",
@@ -3947,10 +4399,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/29",
     "isTenDollarDay": false
   },
   {
-    "id": "5033",
+    "id": "5034",
     "name": "Little Acorn Care Centre",
     "address": "2629 Victor St",
     "locality": "Victoria",
@@ -3965,10 +4419,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/02",
     "isTenDollarDay": false
   },
   {
-    "id": "4456",
+    "id": "4457",
     "name": "Little Bears Early Childhood Education Centre",
     "address": "623 Kelly Rd",
     "locality": "Victoria",
@@ -3983,10 +4439,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "5664",
+    "id": "5665",
     "name": "Little Boom Daycare",
     "address": "1115 Finlayson St",
     "locality": "Victoria",
@@ -4001,6 +4459,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -4019,10 +4479,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5174",
+    "id": "5175",
     "name": "Little Critters Family Daycare",
     "address": "4177 Carey Rd",
     "locality": "Victoria",
@@ -4037,10 +4499,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "5971",
+    "id": "5972",
     "name": "Little Ducklings Daycare",
     "address": "6724 Rhodonite Dr",
     "locality": "Sooke",
@@ -4055,10 +4519,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3624",
+    "id": "3623",
     "name": "Little Explorers Academy Ltd.",
     "address": "909 Mcnaughton Avenue",
     "locality": "Esquimalt",
@@ -4073,10 +4539,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/12",
     "isTenDollarDay": false
   },
   {
-    "id": "3904",
+    "id": "3903",
     "name": "Little Explorers Family Childcare",
     "address": "1940 Kings Rd",
     "locality": "Saanich",
@@ -4091,10 +4559,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/28",
     "isTenDollarDay": false
   },
   {
-    "id": "4329",
+    "id": "4330",
     "name": "Little Friends Childcare Center Inc.",
     "address": "40 High St",
     "locality": "Victoria",
@@ -4109,10 +4579,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5708",
+    "id": "5709",
     "name": "Little Genius Academy",
     "address": "1121 Dominion Rd",
     "locality": "Victoria",
@@ -4127,10 +4599,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/11",
     "isTenDollarDay": false
   },
   {
-    "id": "5509",
+    "id": "5510",
     "name": "Little Hands Child Care Humboldt",
     "address": "792 Humboldt St",
     "locality": "Victoria",
@@ -4145,6 +4619,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
@@ -4163,10 +4639,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5404",
+    "id": "5405",
     "name": "Little Owl Early Learning",
     "address": "1648 Richardson St",
     "locality": "Victoria",
@@ -4181,6 +4659,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
@@ -4199,10 +4679,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
-    "id": "4046",
+    "id": "4045",
     "name": "Little Owl Early Learning 3",
     "address": "1642 Richardson St",
     "locality": "Victoria",
@@ -4217,10 +4699,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
-    "id": "4230",
+    "id": "4231",
     "name": "Little Roos Family Daycare",
     "address": "6392 Oldfield Rd",
     "locality": "Saanichton",
@@ -4235,6 +4719,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/14",
     "isTenDollarDay": false
   },
   {
@@ -4253,6 +4739,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
@@ -4271,6 +4759,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
@@ -4289,10 +4779,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "5134",
+    "id": "5135",
     "name": "Love Bugs Family Childcare",
     "address": "1062 Jenkins Ave",
     "locality": "Victoria",
@@ -4307,24 +4799,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
-    "isTenDollarDay": false
-  },
-  {
-    "id": "2225",
-    "name": "Love N Care Childcare",
-    "address": "911 Wild Ridge Way",
-    "locality": "Victoria",
-    "postalCode": "V9C 0H1",
-    "municipality": "Colwood",
-    "region": "westshore",
-    "lat": 48.407877,
-    "lng": -123.532225,
-    "phone": "250-739-9429",
-    "email": "",
-    "website": "",
-    "serviceType": "Licensed Family",
-    "ageGroups": [],
-    "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/02",
     "isTenDollarDay": false
   },
   {
@@ -4343,6 +4819,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -4361,10 +4839,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "3646",
+    "id": "3645",
     "name": "Magical And Empowering Childcare",
     "address": "6647 Pineridge Place E",
     "locality": "Sooke",
@@ -4379,6 +4859,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -4397,6 +4879,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/04/23",
     "isTenDollarDay": false
   },
   {
@@ -4418,6 +4902,8 @@
       "preschool30to5"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
@@ -4439,10 +4925,12 @@
       "preschool30to5"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
-    "id": "5805",
+    "id": "5806",
     "name": "Maple Tree Children's Centre Aldersmith",
     "address": "100 Aldersmith Pl",
     "locality": "Victoria",
@@ -4460,10 +4948,12 @@
       "preschool30to5"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
-    "id": "4060",
+    "id": "4059",
     "name": "Maple Tree Children's Centre Blanshard",
     "address": "1880 Blanshard St",
     "locality": "Victoria",
@@ -4478,10 +4968,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/27",
     "isTenDollarDay": false
   },
   {
-    "id": "5783",
+    "id": "5784",
     "name": "Marco's Daycare",
     "address": "3816 Kremlin St",
     "locality": "Victoria",
@@ -4496,6 +4988,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/06",
     "isTenDollarDay": false
   },
   {
@@ -4514,10 +5008,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
-    "id": "4682",
+    "id": "4683",
     "name": "Maria Montessori Academy",
     "address": "1841 Fairburn Dr",
     "locality": "Victoria",
@@ -4532,10 +5028,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4508",
+    "id": "4509",
     "name": "Marigold Kids Klub",
     "address": "505 Marigold Rd",
     "locality": "Victoria",
@@ -4550,10 +5048,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "3041",
+    "id": "3040",
     "name": "Mary Poppins Daycare",
     "address": "1185 Natures Gate",
     "locality": "Langford",
@@ -4568,6 +5068,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -4586,6 +5088,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -4604,10 +5108,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "3017",
+    "id": "3016",
     "name": "Metchosin Preschool",
     "address": "1023-4495 Happy Valley Rd",
     "locality": "Victoria",
@@ -4622,6 +5128,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
@@ -4640,10 +5148,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
-    "id": "2683",
+    "id": "2682",
     "name": "Mi Mundo Childcare Center",
     "address": "3145 Blackwood St",
     "locality": "Victoria",
@@ -4658,6 +5168,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -4676,10 +5188,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
-    "id": "4185",
+    "id": "4186",
     "name": "Military Family Resource Centre Daycare",
     "address": "2610 Rosebank Rd",
     "locality": "Victoria",
@@ -4694,10 +5208,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4184",
+    "id": "4185",
     "name": "Military Family Resource Centre Out Of School Care",
     "address": "720 Galiano Cres",
     "locality": "Victoria",
@@ -4712,6 +5228,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -4730,10 +5248,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "2358",
+    "id": "2357",
     "name": "Miss Sarah's Daycare",
     "address": "923 Walfred Rd",
     "locality": "Langford",
@@ -4748,10 +5268,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5582",
+    "id": "5583",
     "name": "Mud Puddle Daycare",
     "address": "1170 Gerda Rd",
     "locality": "Victoria",
@@ -4766,10 +5288,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2401",
+    "id": "2400",
     "name": "Muddy Boots Child Care",
     "address": "3168 Pearkes Rd",
     "locality": "Victoria",
@@ -4784,6 +5308,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
@@ -4802,10 +5328,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
-    "id": "2420",
+    "id": "2419",
     "name": "My Chosen Child Care Ltd.",
     "address": "3307 Wishart Rd",
     "locality": "Victoria",
@@ -4820,10 +5348,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "3546",
+    "id": "3545",
     "name": "My Chosen Child Care Ltd. - Willway",
     "address": "2939 Mount Wells Dr",
     "locality": "Langford",
@@ -4838,10 +5368,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "5835",
+    "id": "5836",
     "name": "Nancy's Little Angels",
     "address": "1180 Dunsterville Ave",
     "locality": "Victoria",
@@ -4856,6 +5388,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
@@ -4874,10 +5408,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "5424",
+    "id": "5425",
     "name": "Nette's Family Childcare",
     "address": "3175 Stevenson Pl",
     "locality": "Victoria",
@@ -4892,10 +5428,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/28",
     "isTenDollarDay": false
   },
   {
-    "id": "3249",
+    "id": "3248",
     "name": "New Kids On The Block Daycare",
     "address": "2969 Earl Grey St",
     "locality": "Victoria",
@@ -4910,6 +5448,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -4928,6 +5468,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -4946,10 +5488,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3582",
+    "id": "3581",
     "name": "Next Level Childcare Society Borden",
     "address": "102-3962 Borden Street",
     "locality": "Victoria",
@@ -4964,10 +5508,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2431",
+    "id": "2430",
     "name": "Next Level Childcare Society Royal Bay",
     "address": "204-345D Latoria Blvd",
     "locality": "Victoria",
@@ -4982,6 +5528,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -5000,10 +5548,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "5766",
+    "id": "5767",
     "name": "Northridge Neighbours Daycare",
     "address": "4231 Carey Rd",
     "locality": "Victoria",
@@ -5018,6 +5568,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/27",
     "isTenDollarDay": false
   },
   {
@@ -5036,10 +5588,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "3009",
+    "id": "3008",
     "name": "Nurture Early Childhood Education Centre Ltd.",
     "address": "477 Joffre St S",
     "locality": "Esquimalt",
@@ -5054,10 +5608,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "4003",
+    "id": "4002",
     "name": "Nurture Nook Academy",
     "address": "200-1623 Mckenzie Ave",
     "locality": "Victoria",
@@ -5076,6 +5632,8 @@
       "licensedPreschool"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/27",
     "isTenDollarDay": false
   },
   {
@@ -5094,6 +5652,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Unknown",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "Unknown",
     "isTenDollarDay": false
   },
   {
@@ -5112,6 +5672,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
@@ -5130,10 +5692,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "5670",
+    "id": "5671",
     "name": "Oaklands Out Of School Care #2",
     "address": "2736 Fernwood Rd",
     "locality": "Victoria",
@@ -5148,10 +5712,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "4202",
+    "id": "4203",
     "name": "Oakridge Family Care Centre",
     "address": "4163 Oakridge Cres",
     "locality": "Victoria",
@@ -5166,6 +5732,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
@@ -5187,10 +5755,12 @@
       "preschool30to5"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "2332",
+    "id": "2331",
     "name": "Ocean Rain International Daycare Center - Shelbourne",
     "address": "100-3941 Shelbourne St",
     "locality": "Victoria",
@@ -5211,6 +5781,8 @@
       "schoolAge"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -5228,7 +5800,9 @@
     "website": "",
     "serviceType": "Licensed Family",
     "ageGroups": [],
-    "vacancyInd": "Y",
+    "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
@@ -5247,10 +5821,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/04/27",
     "isTenDollarDay": false
   },
   {
-    "id": "4447",
+    "id": "4448",
     "name": "Pacific Christian Pre-School",
     "address": "671 Agnes St",
     "locality": "Victoria",
@@ -5265,6 +5841,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
@@ -5283,6 +5861,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Unknown",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "Unknown",
     "isTenDollarDay": false
   },
   {
@@ -5301,10 +5881,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Unknown",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "Unknown",
     "isTenDollarDay": false
   },
   {
-    "id": "5791",
+    "id": "5792",
     "name": "Painted Turtle Early Childcare Centre",
     "address": "4526 William Head Rd",
     "locality": "Victoria",
@@ -5319,6 +5901,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -5337,6 +5921,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
@@ -5355,10 +5941,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
-    "id": "4534",
+    "id": "4535",
     "name": "Parachute Express Playschool Ltd.",
     "address": "9565B Hurricane Rd",
     "locality": "North Saanich",
@@ -5376,10 +5964,12 @@
       "preschool30to5"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3462",
+    "id": "3461",
     "name": "Park Lane Preschool",
     "address": "1924 Carrick St",
     "locality": "Victoria",
@@ -5394,6 +5984,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/13",
     "isTenDollarDay": false
   },
   {
@@ -5412,6 +6004,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -5430,10 +6024,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/02",
     "isTenDollarDay": false
   },
   {
-    "id": "3678",
+    "id": "3677",
     "name": "Pexsisen Ymca-Ywca Child Care",
     "address": "3100 Constellation Avenue",
     "locality": "Langford",
@@ -5448,10 +6044,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": true
   },
   {
-    "id": "4256",
+    "id": "4257",
     "name": "Piccolo's Childcare Centre",
     "address": "4143 Auldfarm Lane",
     "locality": "Victoria",
@@ -5466,6 +6064,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -5484,10 +6084,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "5554",
+    "id": "5555",
     "name": "Playville Early Childhood Centre",
     "address": "1939 Bourchier St",
     "locality": "Victoria",
@@ -5504,7 +6106,9 @@
       "under36",
       "preschool30to5"
     ],
-    "vacancyInd": "Y",
+    "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
@@ -5523,10 +6127,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "2232",
+    "id": "2231",
     "name": "Polly's Playhouse",
     "address": "9625 Sixth St",
     "locality": "Sidney",
@@ -5541,10 +6147,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5321",
+    "id": "5322",
     "name": "Positive Path Early Learning",
     "address": "2269 Mills Rd",
     "locality": "Sidney",
@@ -5559,6 +6167,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/02",
     "isTenDollarDay": false
   },
   {
@@ -5580,10 +6190,12 @@
       "preschool30to5"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "5549",
+    "id": "5550",
     "name": "Puddle Jumpers Childcare Centre",
     "address": "6453 Birchview Way",
     "locality": "Sooke",
@@ -5598,10 +6210,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/11",
     "isTenDollarDay": false
   },
   {
-    "id": "4233",
+    "id": "4234",
     "name": "Quadra Out Of School Care Program",
     "address": "3031 Quadra St",
     "locality": "Victoria",
@@ -5616,10 +6230,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/05",
     "isTenDollarDay": false
   },
   {
-    "id": "4569",
+    "id": "4570",
     "name": "Quadra Village Community Childcare",
     "address": "901 Kings Rd",
     "locality": "Victoria",
@@ -5634,10 +6250,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/09",
     "isTenDollarDay": false
   },
   {
-    "id": "5832",
+    "id": "5833",
     "name": "Quail's  Nest Daycare",
     "address": "18 Camden Ave",
     "locality": "Victoria",
@@ -5652,6 +6270,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -5670,10 +6290,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
-    "id": "4639",
+    "id": "4640",
     "name": "Queenswood Family Child Care",
     "address": "2590 Arbutus Rd",
     "locality": "Victoria",
@@ -5688,6 +6310,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
@@ -5706,6 +6330,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -5724,10 +6350,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/28",
     "isTenDollarDay": false
   },
   {
-    "id": "4145",
+    "id": "4146",
     "name": "Rainbows And Dreams",
     "address": "4184 Keewatin Pl",
     "locality": "Victoria",
@@ -5742,6 +6370,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/12",
     "isTenDollarDay": false
   },
   {
@@ -5760,10 +6390,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4358",
+    "id": "4359",
     "name": "Ross Bay Preschool Ltd",
     "address": "1620 Earle St",
     "locality": "Victoria",
@@ -5778,10 +6410,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/27",
     "isTenDollarDay": false
   },
   {
-    "id": "2867",
+    "id": "2866",
     "name": "Ruth King Elementary School - Osc",
     "address": "2764 Jacklin Rd",
     "locality": "Victoria",
@@ -5796,10 +6430,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
-    "id": "5667",
+    "id": "5668",
     "name": "Sandy's Daycare",
     "address": "4648 West Saanich Rd",
     "locality": "Victoria",
@@ -5814,10 +6450,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
-    "id": "3586",
+    "id": "3585",
     "name": "Sangster Elementary School-Osc",
     "address": "3325 Metchosin Rd",
     "locality": "Victoria",
@@ -5832,10 +6470,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
-    "id": "5574",
+    "id": "5575",
     "name": "Sarah's Lil' Monkeys",
     "address": "647 Kenneth St",
     "locality": "Victoria",
@@ -5850,10 +6490,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3584",
+    "id": "3583",
     "name": "Savory Elementary School - Osc",
     "address": "2721 Grainger Rd",
     "locality": "Langford",
@@ -5868,10 +6510,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
-    "id": "5830",
+    "id": "5831",
     "name": "Seedlings Daycare",
     "address": "3025 Cadboro Bay Rd",
     "locality": "Victoria",
@@ -5886,6 +6530,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
@@ -5904,6 +6550,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
@@ -5922,10 +6570,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
-    "id": "2896",
+    "id": "2895",
     "name": "Sesisej Childcare Centre",
     "address": "7420 Veyaness Rd",
     "locality": "Saanichton",
@@ -5940,10 +6590,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/03/24",
     "isTenDollarDay": false
   },
   {
-    "id": "5132",
+    "id": "5133",
     "name": "Shalom Day Care",
     "address": "1461 Blanshard",
     "locality": "Victoria",
@@ -5958,6 +6610,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
@@ -5976,6 +6630,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
@@ -5994,10 +6650,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/02",
     "isTenDollarDay": false
   },
   {
-    "id": "5392",
+    "id": "5393",
     "name": "Simply Fun Finlayson",
     "address": "3069 Highview St",
     "locality": "Victoria",
@@ -6012,6 +6670,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
@@ -6030,6 +6690,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/06",
     "isTenDollarDay": false
   },
   {
@@ -6048,6 +6710,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
@@ -6066,6 +6730,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/06",
     "isTenDollarDay": false
   },
   {
@@ -6084,6 +6750,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
@@ -6102,6 +6770,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
@@ -6120,6 +6790,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
@@ -6143,6 +6815,8 @@
       "schoolAge"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
@@ -6161,6 +6835,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/12",
     "isTenDollarDay": false
   },
   {
@@ -6179,10 +6855,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "5724",
+    "id": "5725",
     "name": "Small Wonders Daycare",
     "address": "7022 Bickstan Pl",
     "locality": "Brentwood Bay",
@@ -6197,6 +6875,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -6215,10 +6895,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
-    "id": "2919",
+    "id": "2918",
     "name": "Smilekids Childcare Hillside",
     "address": "2715 Forbes St",
     "locality": "Victoria",
@@ -6233,10 +6915,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
-    "id": "3431",
+    "id": "3430",
     "name": "Smilekids Childcare Oakland",
     "address": "1509 Oakland Ave",
     "locality": "Victoria",
@@ -6251,6 +6935,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
@@ -6269,6 +6955,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -6287,10 +6975,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
-    "id": "3558",
+    "id": "3557",
     "name": "Sophia Grace Montessori Preschool",
     "address": "1572 Oakland Ave",
     "locality": "Victoria",
@@ -6305,6 +6995,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -6323,6 +7015,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
@@ -6341,10 +7035,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3793",
+    "id": "3792",
     "name": "Sprouts House - Early Learning Center Ltd.",
     "address": "1580 Cook St",
     "locality": "Victoria",
@@ -6359,10 +7055,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/26",
     "isTenDollarDay": false
   },
   {
-    "id": "3791",
+    "id": "3790",
     "name": "Sprouts In The Garden Childcare Ltd.",
     "address": "2295 Weiler Avenue",
     "locality": "Sidney",
@@ -6379,6 +7077,8 @@
       "under36"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
@@ -6397,10 +7097,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2957",
+    "id": "2956",
     "name": "St Christopher's Montessori School Casa",
     "address": "2451 Windsor Rd",
     "locality": "Victoria",
@@ -6415,6 +7117,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
@@ -6433,10 +7137,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
-    "id": "5412",
+    "id": "5413",
     "name": "St. Joseph's Early Learning Centre",
     "address": "757 Burnside Rd W",
     "locality": "Victoria",
@@ -6451,10 +7157,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
-    "id": "4240",
+    "id": "4241",
     "name": "St. Margaret's School",
     "address": "1080 Lucas Ave",
     "locality": "Victoria",
@@ -6469,10 +7177,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Unknown",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "Unknown",
     "isTenDollarDay": false
   },
   {
-    "id": "4465",
+    "id": "4466",
     "name": "St. Michaels University School - Junior School",
     "address": "820 Victoria Ave",
     "locality": "Victoria",
@@ -6487,10 +7197,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/10",
     "isTenDollarDay": false
   },
   {
-    "id": "4738",
+    "id": "4739",
     "name": "St. Patrick's Catholic School",
     "address": "2368 Trent St",
     "locality": "Victoria",
@@ -6505,6 +7217,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/25",
     "isTenDollarDay": false
   },
   {
@@ -6523,6 +7237,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -6541,6 +7257,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -6559,10 +7277,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4354",
+    "id": "4355",
     "name": "Strawberry Vale Out Of School Care",
     "address": "4109 Rosedale Ave",
     "locality": "Victoria",
@@ -6577,6 +7297,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/21",
     "isTenDollarDay": false
   },
   {
@@ -6595,10 +7317,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/09",
     "isTenDollarDay": false
   },
   {
-    "id": "2545",
+    "id": "2544",
     "name": "Stronger Together Academy",
     "address": "588 Heatherly Rd",
     "locality": "Victoria",
@@ -6613,10 +7337,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/20",
     "isTenDollarDay": false
   },
   {
-    "id": "4290",
+    "id": "4291",
     "name": "Sum-Sha-Thut-Lellum",
     "address": "2155 Lazzar Rd",
     "locality": "Sooke",
@@ -6631,10 +7357,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
-    "id": "2336",
+    "id": "2335",
     "name": "Summer Breeze Early Care And Learning Centre",
     "address": "1028 Lomalinda Dr",
     "locality": "Langford",
@@ -6649,6 +7377,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -6667,10 +7397,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "5796",
+    "id": "5797",
     "name": "Sundance Playschool",
     "address": "1733 Bank St",
     "locality": "Victoria",
@@ -6685,10 +7417,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/08",
     "isTenDollarDay": false
   },
   {
-    "id": "2707",
+    "id": "2706",
     "name": "Sunflower Playhouse",
     "address": "1006 Dunkirk Lane",
     "locality": "Victoria",
@@ -6703,6 +7437,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/26",
     "isTenDollarDay": false
   },
   {
@@ -6721,10 +7457,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "5397",
+    "id": "5398",
     "name": "Sunshine Early Childhood Centre",
     "address": "2225 Sooke Rd",
     "locality": "Victoria",
@@ -6743,10 +7481,12 @@
       "schoolAge"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5779",
+    "id": "5780",
     "name": "Super Genius Daycare",
     "address": "780 Dominion Rd",
     "locality": "Victoria",
@@ -6761,10 +7501,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/05",
     "isTenDollarDay": false
   },
   {
-    "id": "2821",
+    "id": "2820",
     "name": "Super Genius Daycare Fernwood",
     "address": "1340 Balmoral Rd",
     "locality": "Victoria",
@@ -6779,10 +7521,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/05",
     "isTenDollarDay": false
   },
   {
-    "id": "5378",
+    "id": "5379",
     "name": "Sweet Kids Family Daycare",
     "address": "3142 Alder St",
     "locality": "Victoria",
@@ -6795,12 +7539,18 @@
     "email": "",
     "website": "",
     "serviceType": "Licensed Family",
-    "ageGroups": [],
+    "ageGroups": [
+      "under36",
+      "preschool30to5",
+      "kindergarten"
+    ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "3803",
+    "id": "3802",
     "name": "Sweet Petal Playcare",
     "address": "2139 Maple Ave N",
     "locality": "Sooke",
@@ -6818,10 +7568,12 @@
       "preschool30to5"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3275",
+    "id": "3274",
     "name": "Sweetsteps Childcare",
     "address": "4366 Majestic Dr",
     "locality": "Victoria",
@@ -6836,10 +7588,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2787",
+    "id": "2786",
     "name": "Taryn's Ohana Academy Ltd.",
     "address": "2325 Central Ave",
     "locality": "Victoria",
@@ -6854,10 +7608,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
-    "id": "3267",
+    "id": "3266",
     "name": "The B.C. Muslim Association",
     "address": "1359 Mckenzie Ave",
     "locality": "Victoria",
@@ -6872,10 +7628,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/04",
     "isTenDollarDay": false
   },
   {
-    "id": "3751",
+    "id": "3750",
     "name": "The Burrow Early Learning Centre Ltd",
     "address": "2710 Lakehurst Dr",
     "locality": "Langford",
@@ -6890,10 +7648,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3206",
+    "id": "3205",
     "name": "The Dogwood Pre-K Academy",
     "address": "1574 Dufour Rd",
     "locality": "Sooke",
@@ -6908,6 +7668,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -6926,6 +7688,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -6944,10 +7708,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/22",
     "isTenDollarDay": false
   },
   {
-    "id": "3111",
+    "id": "3110",
     "name": "The Victoria School For Ideal Education",
     "address": "2828 Belmont Ave",
     "locality": "Victoria",
@@ -6965,10 +7731,12 @@
       "schoolAge"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/03/11",
     "isTenDollarDay": false
   },
   {
-    "id": "3450",
+    "id": "3449",
     "name": "Three Little Limes",
     "address": "1304 Roy Rd",
     "locality": "Victoria",
@@ -6983,10 +7751,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
-    "id": "4834",
+    "id": "4835",
     "name": "Tigger's Playschool",
     "address": "1161 Princess Ave",
     "locality": "Victoria",
@@ -7001,10 +7771,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5414",
+    "id": "5415",
     "name": "Tigger's Too Playschool",
     "address": "7577 Wallace Dr",
     "locality": "Saanichton",
@@ -7019,6 +7791,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -7037,6 +7811,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/05",
     "isTenDollarDay": false
   },
   {
@@ -7055,6 +7831,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/05",
     "isTenDollarDay": false
   },
   {
@@ -7073,10 +7851,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2915",
+    "id": "2914",
     "name": "Tiny Toes Child Care",
     "address": "1331 Justine Pl",
     "locality": "Langford",
@@ -7091,10 +7871,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4023",
+    "id": "4022",
     "name": "Tiny Turtles Daycare",
     "address": "44 Simcoe St",
     "locality": "Victoria",
@@ -7113,10 +7895,12 @@
       "kindergarten"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/13",
     "isTenDollarDay": false
   },
   {
-    "id": "2710",
+    "id": "2709",
     "name": "Toddington Daycare",
     "address": "963 St. Patrick St",
     "locality": "Victoria",
@@ -7131,10 +7915,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/15",
     "isTenDollarDay": false
   },
   {
-    "id": "3978",
+    "id": "3977",
     "name": "Tolmie Childcare Center",
     "address": "556 Boleskine Rd",
     "locality": "Victoria",
@@ -7149,10 +7935,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/20",
     "isTenDollarDay": false
   },
   {
-    "id": "5140",
+    "id": "5141",
     "name": "Torquay School Kids Klub",
     "address": "4413 Torquay Dr",
     "locality": "Victoria",
@@ -7167,6 +7955,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -7185,10 +7975,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/27",
     "isTenDollarDay": false
   },
   {
-    "id": "3349",
+    "id": "3348",
     "name": "Tseycum First Nation Daycare",
     "address": "1294 Sunbird Cre",
     "locality": "North Saanich",
@@ -7206,10 +7998,12 @@
       "preschool30to5"
     ],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "5365",
+    "id": "5366",
     "name": "Tune Town Childcare Centre",
     "address": "101-3179 Jacklin Rd",
     "locality": "Victoria",
@@ -7224,6 +8018,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -7242,6 +8038,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/29",
     "isTenDollarDay": false
   },
   {
@@ -7260,6 +8058,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -7278,6 +8078,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -7296,10 +8098,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5464",
+    "id": "5465",
     "name": "Victoria Nature School Gordon Head",
     "address": "4100 Lambrick Way",
     "locality": "Victoria",
@@ -7314,6 +8118,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
@@ -7332,10 +8138,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/27",
     "isTenDollarDay": false
   },
   {
-    "id": "5356",
+    "id": "5357",
     "name": "Victory Hill Daycare",
     "address": "287 Pallisier Ave",
     "locality": "Victoria",
@@ -7350,10 +8158,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "2832",
+    "id": "2831",
     "name": "View Royal Childcare @ Strathmore",
     "address": "2773 Strathmore Road",
     "locality": "Langford",
@@ -7368,6 +8178,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/05/05",
     "isTenDollarDay": false
   },
   {
@@ -7386,6 +8198,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/06",
     "isTenDollarDay": false
   },
   {
@@ -7403,11 +8217,13 @@
     "website": "",
     "serviceType": "Licensed Group",
     "ageGroups": [],
-    "vacancyInd": "Y",
+    "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/17",
     "isTenDollarDay": false
   },
   {
-    "id": "2404",
+    "id": "2403",
     "name": "View Royal Out Of School Club",
     "address": "279 Island Highway",
     "locality": "Victoria",
@@ -7422,10 +8238,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "5197",
+    "id": "5198",
     "name": "Vme Montessori Educare",
     "address": "1012 Falaise Pl",
     "locality": "Victoria",
@@ -7440,10 +8258,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/05/29",
     "isTenDollarDay": false
   },
   {
-    "id": "5282",
+    "id": "5283",
     "name": "Vwca Little Steps Childcare",
     "address": "521 Craigflower Rd",
     "locality": "Victoria",
@@ -7458,10 +8278,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/27",
     "isTenDollarDay": false
   },
   {
-    "id": "3322",
+    "id": "3321",
     "name": "Wee Urchins Family Daycare",
     "address": "294 Meade Ave",
     "locality": "Victoria",
@@ -7476,6 +8298,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/05/19",
     "isTenDollarDay": false
   },
   {
@@ -7494,10 +8318,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
-    "id": "2572",
+    "id": "2571",
     "name": "Westcoast Cubs Childcare",
     "address": "3055 Phillips Rd",
     "locality": "Sooke",
@@ -7512,10 +8338,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/14",
     "isTenDollarDay": false
   },
   {
-    "id": "3644",
+    "id": "3643",
     "name": "Westcoast Sprouts Childcare",
     "address": "6038 Sooke Road",
     "locality": "Sooke",
@@ -7530,6 +8358,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/28",
     "isTenDollarDay": false
   },
   {
@@ -7548,10 +8378,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4304",
+    "id": "4305",
     "name": "Wiggles N' Giggles",
     "address": "4400 Viewmont Ave",
     "locality": "Victoria",
@@ -7566,10 +8398,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "4032",
+    "id": "4031",
     "name": "Wild Coast Daycare - Esquimalt",
     "address": "108-612 Constance Ave",
     "locality": "Esquimalt",
@@ -7584,10 +8418,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/05/20",
     "isTenDollarDay": false
   },
   {
-    "id": "3887",
+    "id": "3886",
     "name": "Wild Roots Child Care",
     "address": "1947 Highland Rd",
     "locality": "Victoria",
@@ -7606,6 +8442,8 @@
       "schoolAge"
     ],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -7624,6 +8462,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
+    "vacancyForLicense": "Y_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -7642,6 +8482,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/01",
     "isTenDollarDay": false
   },
   {
@@ -7660,6 +8502,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
@@ -7678,10 +8522,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/03",
     "isTenDollarDay": false
   },
   {
-    "id": "3216",
+    "id": "3215",
     "name": "Wizisland Childcare And Education Centre",
     "address": "2-612 Head St",
     "locality": "Esquimalt",
@@ -7696,6 +8542,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
@@ -7714,6 +8562,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/04/23",
     "isTenDollarDay": false
   },
   {
@@ -7732,10 +8582,12 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/15",
     "isTenDollarDay": false
   },
   {
-    "id": "2947",
+    "id": "2946",
     "name": "Yellow Kite Early Learning Centre Ltd.",
     "address": "2154 Nicklaus Dr",
     "locality": "Langford",
@@ -7750,10 +8602,12 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
-    "id": "2313",
+    "id": "2312",
     "name": "Yellow Mellow Daycare",
     "address": "2285 Bellamy Rd",
     "locality": "Victoria",
@@ -7768,6 +8622,8 @@
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Group",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   },
   {
@@ -7786,6 +8642,8 @@
     "serviceType": "Licensed Family",
     "ageGroups": [],
     "vacancyInd": "N",
+    "vacancyForLicense": "N_Licensed Family",
+    "vacancyLastUpdated": "2026/06/16",
     "isTenDollarDay": false
   }
 ]
