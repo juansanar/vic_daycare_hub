@@ -146,250 +146,121 @@ export function CamasLogo({ size = 48, className }: { size?: number; className?:
   );
 }
 
-// 3. Custom Municipal Glyphs (designed with stroke for standard size and customization)
-export function VictoriaIcon({ size = 20, className, ...props }: IconProps) {
-  // Heritage Lighthouse / Harbour Light
+// 3. Custom Municipal Glyphs (PNG icons with white backgrounds removed and tightly cropped)
+export interface MuniIconProps extends React.ImgHTMLAttributes<HTMLImageElement> {
+  size?: number;
+}
+
+export function VictoriaIcon({ size = 20, className, ...props }: MuniIconProps) {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <img
+      src="/icons/victoria.png"
+      alt="Victoria Lighthouse Icon"
+      style={{ width: size, height: size, objectFit: "contain" }}
       className={className}
       {...props}
-    >
-      {/* Water line */}
-      <path d="M2 22h20" />
-      {/* Lighthouse tower */}
-      <path d="M8 22l2-12h4l2 12" />
-      {/* Light cabin */}
-      <path d="M10 10h4V7h-4z" />
-      {/* Dome */}
-      <path d="M12 7c-1.5 0-2-1-2-1h4s-.5 1-2 1z" />
-      {/* Light beams */}
-      <path d="M6 8L3 9" opacity="0.6" />
-      <path d="M18 8l3 9" opacity="0.6" />
-      <path d="M5 12l-3-1" opacity="0.6" />
-      <path d="M19 12l3 1" opacity="0.6" />
-    </svg>
+    />
   );
 }
 
-export function SaanichIcon({ size = 20, className, ...props }: IconProps) {
-  // Sprout / Agriculture & Parks (rural roots)
+export function SaanichIcon({ size = 20, className, ...props }: MuniIconProps) {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <img
+      src="/icons/saanich.png"
+      alt="Saanich Sprout Icon"
+      style={{ width: size, height: size, objectFit: "contain" }}
       className={className}
       {...props}
-    >
-      <path d="M12 22C12 17 14 12 20 8" />
-      <path d="M20 8c-3-2-7 0-8 4-1-4-5-6-8-4 0 4 3 8 8 8" />
-      <path d="M12 12c-1-3-4-4-6-3" />
-    </svg>
+    />
   );
 }
 
-export function OakBayIcon({ size = 20, className, ...props }: IconProps) {
-  // Oak leaf and acorn
+export function OakBayIcon({ size = 20, className, ...props }: MuniIconProps) {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <img
+      src="/icons/oak_bay.png"
+      alt="Oak Bay Oak Leaf & Acorn Icon"
+      style={{ width: size, height: size, objectFit: "contain" }}
       className={className}
       {...props}
-    >
-      {/* Oak leaf lobe paths */}
-      <path d="M12 2v20" />
-      <path d="M12 4c-3 1-5 3-4 6 1 1-1 3-3 3s-2 2-2 4 3 3 6 1" />
-      <path d="M12 4c3 1 5 3 4 6-1 1 1 3 3 3s2 2 2 4-3 3-6 1" />
-      {/* Acorn hanging off the stem */}
-      <path d="M9 18a3 3 0 0 0 6 0" fill="currentColor" fillOpacity="0.2" />
-      <path d="M8.5 16.5h7" />
-    </svg>
+    />
   );
 }
 
-export function ViewRoyalIcon({ size = 20, className, ...props }: IconProps) {
-  // Royal crown and coastal ocean waves
+export function ViewRoyalIcon({ size = 20, className, ...props }: MuniIconProps) {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <img
+      src="/icons/view_royal.png"
+      alt="View Royal Crown & Waves Icon"
+      style={{ width: size, height: size, objectFit: "contain" }}
       className={className}
       {...props}
-    >
-      {/* Crown */}
-      <path d="M4 14l2-8 4 4 2-5 2 5 4-4 2 8H4z" fill="currentColor" fillOpacity="0.1" />
-      {/* Waves */}
-      <path d="M2 18c2-1 4-1 6 0s4 1 6 0 4-1 6 0" />
-      <path d="M2 21c2-1 4-1 6 0s4 1 6 0 4-1 6 0" opacity="0.6" />
-    </svg>
+    />
   );
 }
 
-export function LangfordIcon({ size = 20, className, ...props }: IconProps) {
-  // Rolling hills and outdoor recreational pine trees
+export function LangfordIcon({ size = 20, className, ...props }: MuniIconProps) {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <img
+      src="/icons/langford.png"
+      alt="Langford Hills & Pine Icon"
+      style={{ width: size, height: size, objectFit: "contain" }}
       className={className}
       {...props}
-    >
-      {/* Hills */}
-      <path d="M2 20c4-3 7-3 11-1s6 2 9 0" />
-      <path d="M10 18c3-4 6-4 9-2" opacity="0.8" />
-      {/* Pine tree on hill */}
-      <path d="M6 16l3-5h-2l2.5-4 2.5 4h-2l3 5H6z" fill="currentColor" fillOpacity="0.1" />
-      <path d="M8.5 16v3" />
-    </svg>
+    />
   );
 }
 
-export function ColwoodIcon({ size = 20, className, ...props }: IconProps) {
-  // Castle Turret (Hatley Castle)
+export function ColwoodIcon({ size = 20, className, ...props }: MuniIconProps) {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <img
+      src="/icons/colwood.png"
+      alt="Colwood Castle Turret Icon"
+      style={{ width: size, height: size, objectFit: "contain" }}
       className={className}
       {...props}
-    >
-      {/* Castle turret base & walls */}
-      <path d="M6 22V9l-1-2V4h14v3l-1 2v13" fill="currentColor" fillOpacity="0.1" />
-      {/* Crenellations */}
-      <path d="M5 4h2v2h3V4h2v2h3V4h2v2h2" />
-      {/* Window */}
-      <rect x="10" y="8" width="4" height="5" rx="1" />
-      {/* Gate */}
-      <path d="M9 22v-4a3 3 0 0 1 6 0v4" />
-    </svg>
+    />
   );
 }
 
-export function SookeIcon({ size = 20, className, ...props }: IconProps) {
-  // Wild coast salmon jumping
+export function SookeIcon({ size = 20, className, ...props }: MuniIconProps) {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <img
+      src="/icons/sooke.png"
+      alt="Sooke Salmon Icon"
+      style={{ width: size, height: size, objectFit: "contain" }}
       className={className}
       {...props}
-    >
-      {/* Water splash splash */}
-      <path d="M2 19c3-1 6 1 9 1s6-2 11-1" />
-      {/* Jumping Salmon */}
-      <path d="M4 14c2-5 7-8 12-6 2.5 1 4.5 3.5 5 6-.5 0-3-.5-5-1-1.5 2-4 3.5-7 3.5-2.5 0-4.5-.5-5-2.5" fill="currentColor" fillOpacity="0.1" />
-      {/* Fin */}
-      <path d="M11 8l2 2" />
-      <path d="M12 15l-1 2" />
-      {/* Tail */}
-      <path d="M3 13l-2-2 1.5 3-1 2.5 2.5-1.5z" />
-    </svg>
+    />
   );
 }
 
-export function CentralSaanichIcon({ size = 20, className, ...props }: IconProps) {
-  // Garden Butterfly (Butchart Gardens)
+export function CentralSaanichIcon({ size = 20, className, ...props }: MuniIconProps) {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <img
+      src="/icons/central_saanich.png"
+      alt="Central Saanich Butterfly Icon"
+      style={{ width: size, height: size, objectFit: "contain" }}
       className={className}
       {...props}
-    >
-      {/* Butterfly body */}
-      <line x1="12" y1="5" x2="12" y2="19" />
-      <circle cx="12" cy="4" r="1.5" />
-      {/* Left Wings */}
-      <path d="M12 8C8 3 3 5 3 10c0 4 4 3 9 5" fill="currentColor" fillOpacity="0.1" />
-      <path d="M12 14c-4 0-7 2-7 5s3 3 7-1" fill="currentColor" fillOpacity="0.05" />
-      {/* Right Wings */}
-      <path d="M12 8c4-5 9-3 9 2 0 4-4 3-9 5" fill="currentColor" fillOpacity="0.1" />
-      <path d="M12 14c4 0 7 2 7 5s-3 3-7-1" fill="currentColor" fillOpacity="0.05" />
-    </svg>
+    />
   );
 }
 
-export function SidneyIcon({ size = 20, className, ...props }: IconProps) {
-  // Sailboat (Sidney-by-the-Sea)
+export function SidneyIcon({ size = 20, className, ...props }: MuniIconProps) {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+    <img
+      src="/icons/sidney.png"
+      alt="Sidney Sailboat Icon"
+      style={{ width: size, height: size, objectFit: "contain" }}
       className={className}
       {...props}
-    >
-      {/* Waves */}
-      <path d="M2 20c3.5-1 6.5 1 10 0s6.5-1 10 0" />
-      {/* Hull */}
-      <path d="M4 17l2 3h12l2-3H4z" fill="currentColor" fillOpacity="0.2" />
-      {/* Mast */}
-      <line x1="12" y1="4" x2="12" y2="17" />
-      {/* Main Sail */}
-      <path d="M12 5l6 8H12V5z" fill="currentColor" fillOpacity="0.1" />
-      {/* Jib Sail */}
-      <path d="M12 6L7 13h5V6z" />
-    </svg>
+    />
   );
 }
 
 // 4. Unified Municipality Glyph switcher
-interface MunicipalityGlyphProps extends IconProps {
+interface MunicipalityGlyphProps extends MuniIconProps {
   municipality: string;
 }
 

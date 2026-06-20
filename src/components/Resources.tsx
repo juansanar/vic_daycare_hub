@@ -369,11 +369,11 @@ export default function Resources() {
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {[
-            { name: "Victoria", icon: <VictoriaIcon size={20} className="text-emerald-600" />, desc: "Heritage lighthouse (guiding light)" },
+            { name: "Victoria", icon: <VictoriaIcon size={20} className="text-emerald-600" />, desc: "Legislature dome silhouette" },
             { name: "Saanich", icon: <SaanichIcon size={20} className="text-emerald-600" />, desc: "Agricultural sprout & parks" },
-            { name: "Oak Bay", icon: <OakBayIcon size={20} className="text-emerald-600" />, desc: "Stylized Garry Oak leaf & acorn" },
+            { name: "Oak Bay", icon: <OakBayIcon size={20} className="text-emerald-600" />, desc: "Tudor-style heritage building" },
             { name: "View Royal", icon: <ViewRoyalIcon size={20} className="text-emerald-600" />, desc: "Royal crown cradled by ocean waves" },
-            { name: "Langford", icon: <LangfordIcon size={20} className="text-emerald-600" />, desc: "Overlapping hills and pine tree" },
+            { name: "Langford", icon: <LangfordIcon size={20} className="text-emerald-600" />, desc: "Towering pine on green hills" },
             { name: "Colwood", icon: <ColwoodIcon size={20} className="text-emerald-600" />, desc: "Castle turret (Hatley Castle)" },
             { name: "Sooke", icon: <SookeIcon size={20} className="text-emerald-600" />, desc: "Jumping wild coastal salmon" },
             { name: "Central Saanich", icon: <CentralSaanichIcon size={20} className="text-emerald-600" />, desc: "Garden butterfly (Butchart Gardens)" },
