@@ -180,7 +180,7 @@ function LocateButton() {
     <button
       onClick={handleLocate}
       disabled={locating}
-      className="absolute bottom-4 right-4 z-[1000] rounded-lg bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 disabled:opacity-50"
+      className="absolute bottom-4 right-4 z-[1000] rounded-lg bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-md hover:bg-gray-50 disabled:opacity-50 dark:bg-stone-900 dark:text-stone-300 dark:hover:bg-stone-800 dark:border-stone-800"
     >
       {locating ? "Locating..." : "Center on me"}
     </button>
@@ -189,21 +189,21 @@ function LocateButton() {
 
 function MapLegend() {
   return (
-    <div className="absolute bottom-4 left-4 z-[1000] rounded-lg border border-stone-200 bg-white p-3 shadow-md space-y-2 text-[11px] pointer-events-auto">
-      <p className="font-bold text-gray-500 uppercase tracking-wider text-[9px] mb-1">
+    <div className="absolute bottom-4 left-4 z-[1000] rounded-lg border border-stone-200 bg-white p-3 shadow-md space-y-2 text-[11px] pointer-events-auto dark:border-stone-800 dark:bg-stone-900">
+      <p className="font-bold text-gray-500 uppercase tracking-wider text-[9px] mb-1 dark:text-stone-400">
         Map Legend
       </p>
       <div className="flex items-center gap-2">
         <span className="h-3 w-3 rounded-full border border-white bg-[#059669] shadow-sm ring-1 ring-stone-900/10"></span>
-        <span className="text-gray-600 font-medium">Licensed Facility</span>
+        <span className="text-gray-600 font-medium dark:text-stone-300">Licensed Facility</span>
       </div>
       <div className="flex items-center gap-2">
         <span className="h-3 w-3 rounded-full border border-white bg-[#4f46e5] shadow-sm ring-1 ring-stone-900/10"></span>
-        <span className="text-gray-600 font-medium">$10/day ChildCareBC</span>
+        <span className="text-gray-600 font-medium dark:text-stone-300">$10/day ChildCareBC</span>
       </div>
       <div className="flex items-center gap-2">
         <span className="h-3 w-3 rounded-full border border-white bg-[#d97706] shadow-sm ring-1 ring-stone-900/10"></span>
-        <span className="text-gray-600 font-medium">Outstanding Issues</span>
+        <span className="text-gray-600 font-medium dark:text-stone-300">Outstanding Issues</span>
       </div>
     </div>
   );
@@ -229,7 +229,7 @@ export default function FacilityMap() {
   return (
     <div className="flex flex-1 flex-col overflow-hidden">
       <Filters onChange={setFilters} />
-      <p className="border-b border-stone-200 bg-white px-4 py-1.5 text-xs text-gray-400">
+      <p className="border-b border-stone-200 bg-white px-4 py-1.5 text-xs text-gray-400 dark:border-stone-800 dark:bg-stone-900 dark:text-stone-500">
         {filtered.length} facilities on map
       </p>
       <div className="relative flex flex-1 overflow-hidden">
@@ -249,7 +249,7 @@ export default function FacilityMap() {
           </MapContainer>
         </div>
         {selectedFacilityId && (
-          <aside className="w-80 overflow-y-auto border-l border-stone-200 bg-white p-4">
+          <aside className="w-80 overflow-y-auto border-l border-stone-200 bg-white p-4 dark:border-stone-800 dark:bg-stone-900">
             <FacilityDetail facilityId={selectedFacilityId} />
           </aside>
         )}

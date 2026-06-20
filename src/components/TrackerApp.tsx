@@ -6,6 +6,7 @@ import FacilityList from "./FacilityList";
 import FacilityDetail from "./FacilityDetail";
 import Resources from "./Resources";
 import ExportImport from "./ExportImport";
+import ThemeToggle from "./ThemeToggle";
 import { lazy, Suspense } from "react";
 
 const FacilityMap = lazy(() => import("./FacilityMap"));
@@ -22,12 +23,12 @@ function AuthButton() {
   const { user, loading, signInWithGoogle, signOut } = useAuth();
 
   if (!firebaseEnabled) return null;
-  if (loading) return <span className="text-[11px] text-gray-300">...</span>;
+  if (loading) return <span className="text-[11px] text-gray-300 dark:text-stone-700">...</span>;
 
   if (user) {
     return (
       <div className="flex items-center gap-2">
-        <span className="hidden text-[11px] text-gray-400 sm:inline">
+        <span className="hidden text-[11px] text-gray-400 sm:inline dark:text-stone-500">
           {user.displayName?.split(" ")[0] ?? user.email}
         </span>
         {user.photoURL && (
@@ -40,7 +41,7 @@ function AuthButton() {
         )}
         <button
           onClick={signOut}
-          className="rounded-full border border-stone-200 px-2.5 py-0.5 text-[11px] text-gray-500 transition hover:bg-stone-100"
+          className="rounded-full border border-stone-200 px-2.5 py-0.5 text-[11px] text-gray-500 transition hover:bg-stone-100 dark:border-stone-800 dark:text-stone-400 dark:hover:bg-stone-800"
         >
           Sign out
         </button>
@@ -51,7 +52,7 @@ function AuthButton() {
   return (
     <button
       onClick={signInWithGoogle}
-      className="flex items-center gap-1.5 rounded-full border border-stone-200 px-3 py-1 text-[11px] font-medium text-gray-600 transition hover:bg-stone-100"
+      className="flex items-center gap-1.5 rounded-full border border-stone-200 px-3 py-1 text-[11px] font-medium text-gray-600 transition hover:bg-stone-100 dark:border-stone-800 dark:text-stone-300 dark:hover:bg-stone-800"
     >
       <svg className="h-3 w-3" viewBox="0 0 24 24">
         <path
@@ -83,11 +84,11 @@ export default function TrackerApp() {
   const setSelectedFacility = useStore((s) => s.setSelectedFacility);
 
   return (
-    <div className="flex h-screen flex-col bg-stone-50">
-      <header className="flex items-center justify-between border-b border-stone-200 bg-white px-4 py-2.5">
+    <div className="flex h-screen flex-col bg-stone-50 text-gray-900 transition-colors duration-200 dark:bg-stone-950 dark:text-stone-100 theme-transition">
+      <header className="flex items-center justify-between border-b border-stone-200 bg-white px-4 py-2.5 dark:border-stone-800 dark:bg-stone-900">
         <a
           href="#/"
-          className="flex items-center gap-1 text-base font-semibold tracking-tight text-emerald-700 group"
+          className="flex items-center gap-1 text-base font-semibold tracking-tight text-emerald-700 group dark:text-emerald-450"
         >
           <img
             src="/logo.png"
@@ -104,8 +105,8 @@ export default function TrackerApp() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`flex items-center gap-1.5 rounded-full px-4 py-1.5 text-xs font-medium transition ${
                   activeTab === tab.id
-                    ? "bg-emerald-50 text-emerald-700"
-                    : "text-gray-500 hover:bg-stone-100 hover:text-gray-700"
+                    ? "bg-emerald-50 text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400"
+                    : "text-gray-500 hover:bg-stone-100 hover:text-gray-700 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-stone-200"
                 }`}
               >
                 <span className="text-[10px]">{tab.icon}</span>
@@ -113,6 +114,7 @@ export default function TrackerApp() {
               </button>
             ))}
           </nav>
+          <ThemeToggle />
           <AuthButton />
         </div>
       </header>
@@ -122,17 +124,17 @@ export default function TrackerApp() {
           <div className="flex flex-1 overflow-hidden">
             <FacilityList />
             {selectedFacilityId && (
-              <aside className="hidden w-96 overflow-y-auto border-l border-stone-200 bg-white p-4 md:block">
+              <aside className="hidden w-96 overflow-y-auto border-l border-stone-200 bg-white p-4 md:block dark:border-stone-800 dark:bg-stone-900">
                 <FacilityDetail facilityId={selectedFacilityId} />
               </aside>
             )}
             {selectedFacilityId && (
               <div className="fixed inset-0 z-50 flex md:hidden">
                 <div
-                  className="absolute inset-0 bg-black/20"
+                  className="absolute inset-0 bg-black/20 dark:bg-black/50"
                   onClick={() => setSelectedFacility(null)}
                 />
-                <div className="relative ml-auto h-full w-full max-w-sm overflow-y-auto bg-white p-4 shadow-xl">
+                <div className="relative ml-auto h-full w-full max-w-sm overflow-y-auto bg-white p-4 shadow-xl dark:bg-stone-900">
                   <FacilityDetail facilityId={selectedFacilityId} />
                 </div>
               </div>
@@ -143,7 +145,7 @@ export default function TrackerApp() {
         {activeTab === "map" && (
           <Suspense
             fallback={
-              <div className="flex flex-1 items-center justify-center text-sm text-gray-400">
+              <div className="flex flex-1 items-center justify-center text-sm text-gray-400 dark:text-stone-550">
                 Loading map...
               </div>
             }
@@ -155,31 +157,31 @@ export default function TrackerApp() {
         {activeTab === "resources" && <Resources />}
       </main>
 
-      <footer className="border-t border-stone-200 bg-white px-4 py-2">
-        <p className="text-center text-[10px] text-gray-300">
+      <footer className="border-t border-stone-200 bg-white px-4 py-2 dark:border-stone-800 dark:bg-stone-900">
+        <p className="text-center text-[10px] text-gray-300 dark:text-stone-600">
           Independent community project — not affiliated with the BC government,
           Island Health, or any childcare facility.
         </p>
-        <div className="mt-1 flex items-center justify-between text-[11px] text-gray-400">
+        <div className="mt-1 flex items-center justify-between text-[11px] text-gray-400 dark:text-stone-500">
           <ExportImport />
           <div className="flex items-center gap-3">
-          <a
-            href="https://github.com/juansanar/vic_daycare_hub/issues"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition hover:text-emerald-600"
-          >
-            Suggest a correction
-          </a>
-          <a
-            href={`https://buymeacoffee.com/${bmcUsername}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition hover:text-emerald-600"
-          >
-            Support this project
-          </a>
-        </div>
+            <a
+              href="https://github.com/juansanar/vic_daycare_hub/issues"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-emerald-600 dark:hover:text-emerald-450"
+            >
+              Suggest a correction
+            </a>
+            <a
+              href={`https://buymeacoffee.com/${bmcUsername}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-emerald-600 dark:hover:text-emerald-450"
+            >
+              Support this project
+            </a>
+          </div>
         </div>
       </footer>
     </div>

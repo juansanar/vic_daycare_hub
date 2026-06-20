@@ -38,14 +38,14 @@ export default function ExportImport() {
     <div className="flex items-center gap-2">
       <button
         onClick={handleExport}
-        className="hover:text-emerald-600 transition"
+        className="hover:text-emerald-600 dark:hover:text-emerald-450 transition"
       >
         Export
       </button>
-      <span className="text-gray-300">|</span>
+      <span className="text-gray-300 dark:text-stone-700">|</span>
       <button
         onClick={handleImport}
-        className="hover:text-emerald-600 transition"
+        className="hover:text-emerald-600 dark:hover:text-emerald-450 transition"
       >
         Import
       </button>

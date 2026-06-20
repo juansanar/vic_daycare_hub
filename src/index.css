@@ -1,1 +1,65 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:is(.dark, .dark *));
+
+html {
+  color-scheme: light dark;
+}
+
+/* Smooth transition for theme colors */
+.theme-transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/* Map dark mode adjustments */
+html.dark .leaflet-layer,
+html.dark .leaflet-control-zoom-in,
+html.dark .leaflet-control-zoom-out,
+html.dark .leaflet-control-attribution {
+  filter: invert(100%) hue-rotate(185deg) brightness(85%) contrast(90%);
+}
+
+html.dark .leaflet-container {
+  background: #0c0a09 !important; /* stone-950 */
+}
+
+/* Custom scrollbars for dark mode details pane or sidebar */
+html.dark ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #1c1917; /* stone-900 */
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #44403c; /* stone-700 */
+  border-radius: 4px;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #57534e; /* stone-600 */
+}
+
+/* Dark mode Leaflet Popups */
+html.dark .leaflet-popup-content-wrapper {
+  background-color: #1c1917 !important; /* stone-900 */
+  color: #f5f5f4 !important; /* stone-100 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 12px !important;
+}
+
+html.dark .leaflet-popup-tip {
+  background-color: #1c1917 !important; /* stone-900 */
+}
+
+html.dark .leaflet-popup-content a {
+  color: #34d399 !important; /* emerald-400 */
+}
+
+html.dark .leaflet-popup-content button {
+  color: #ffffff !important;
+}

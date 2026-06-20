@@ -85,10 +85,10 @@ export default function FacilityDetail({
     <div className="space-y-4">
       {/* Header */}
       <div className="flex items-start justify-between gap-2">
-        <h2 className="text-base font-semibold text-gray-900">{facility.name}</h2>
+        <h2 className="text-base font-semibold text-gray-900 dark:text-stone-100">{facility.name}</h2>
         <button
           onClick={() => setSelectedFacility(null)}
-          className="rounded p-0.5 text-gray-300 transition hover:bg-stone-100 hover:text-gray-500"
+          className="rounded p-0.5 text-gray-300 transition hover:bg-stone-100 hover:text-gray-500 dark:text-stone-600 dark:hover:bg-stone-800 dark:hover:text-stone-400"
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
             <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -97,21 +97,21 @@ export default function FacilityDetail({
       </div>
 
       {/* Contact info */}
-      <div className="space-y-1.5 text-xs text-gray-500">
+      <div className="space-y-1.5 text-xs text-gray-500 dark:text-stone-400">
         <p className="flex items-center gap-1.5">
-          <MunicipalityGlyph municipality={facility.municipality} size={14} className="text-emerald-600 shrink-0" />
+          <MunicipalityGlyph municipality={facility.municipality} size={14} className="text-emerald-600 dark:text-emerald-450 shrink-0" />
           <span>{facility.address}, {facility.municipality} {facility.postalCode}</span>
         </p>
         {facility.phone && (
           <p>
-            <a href={`tel:${facility.phone}`} className="text-emerald-600 hover:underline">
+            <a href={`tel:${facility.phone}`} className="text-emerald-600 hover:underline dark:text-emerald-450">
               {facility.phone}
             </a>
           </p>
         )}
         {facility.email && (
           <p>
-            <a href={`mailto:${facility.email}`} className="text-emerald-600 hover:underline">
+            <a href={`mailto:${facility.email}`} className="text-emerald-600 hover:underline dark:text-emerald-450">
               {facility.email}
             </a>
           </p>
@@ -122,7 +122,7 @@ export default function FacilityDetail({
               href={facility.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-emerald-600 hover:underline"
+              className="text-emerald-600 hover:underline dark:text-emerald-450"
             >
               Website ↗
             </a>
@@ -130,22 +130,22 @@ export default function FacilityDetail({
           {facility.lat && facility.lng && (
             <button
               onClick={() => setActiveTab("map")}
-              className="text-emerald-600 hover:underline text-left font-medium"
+              className="text-emerald-600 hover:underline text-left font-medium dark:text-emerald-450"
             >
               {activeTab === "map" ? "Centered on map 🎯" : "Show on map 🗺️"}
             </button>
           )}
         </div>
-        <p className="text-[11px] text-gray-300">{facility.serviceType}</p>
+        <p className="text-[11px] text-gray-300 dark:text-stone-600">{facility.serviceType}</p>
       </div>
 
-      <div className="rounded-lg border border-stone-200 bg-stone-50 p-3">
-        <p className="text-xs leading-relaxed text-gray-600">{CONTACT_CENTRE_COPY}</p>
+      <div className="rounded-lg border border-stone-200 bg-stone-50 p-3 dark:border-stone-800 dark:bg-stone-900/40">
+        <p className="text-xs leading-relaxed text-gray-600 dark:text-stone-450">{CONTACT_CENTRE_COPY}</p>
       </div>
 
       {/* Age groups */}
       <div className="space-y-1.5">
-        <p className="text-[11px] font-medium uppercase tracking-wide text-gray-400">
+        <p className="text-[11px] font-medium uppercase tracking-wide text-gray-400 dark:text-stone-500">
           Ages served
         </p>
         {ageLabels.length > 0 ? (
@@ -153,48 +153,48 @@ export default function FacilityDetail({
             {ageLabels.map((label) => (
               <span
                 key={label}
-                className="rounded-full bg-stone-100 px-2.5 py-0.5 text-[11px] font-medium text-gray-600"
+                className="rounded-full bg-stone-100 px-2.5 py-0.5 text-[11px] font-medium text-gray-600 dark:bg-stone-800 dark:text-stone-300"
               >
                 {label}
               </span>
             ))}
           </div>
         ) : (
-          <p className="text-[11px] text-gray-400">
+          <p className="text-[11px] text-gray-400 dark:text-stone-600">
             Not reported in government records
           </p>
         )}
       </div>
 
       {/* Availability Section */}
-      <div className="rounded-xl border border-stone-200 bg-white p-4 space-y-3">
+      <div className="rounded-xl border border-stone-200 bg-white p-4 space-y-3 dark:border-stone-800 dark:bg-stone-900/60">
         <div className="flex items-center justify-between">
-          <span className="text-[11px] font-medium uppercase tracking-wide text-gray-400">
+          <span className="text-[11px] font-medium uppercase tracking-wide text-gray-400 dark:text-stone-500">
             Availability
           </span>
           {facility.vacancyLastUpdated && (
-            <span className="text-[10px] text-gray-400">
+            <span className="text-[10px] text-gray-400 dark:text-stone-500">
               Updated: {facility.vacancyLastUpdated}
             </span>
           )}
         </div>
         
-        <div className="divide-y divide-stone-100">
+        <div className="divide-y divide-stone-100 dark:divide-stone-800">
           {gridItems.map((item) => (
             <div key={item.label} className="flex items-center justify-between py-2 text-xs">
-              <span className="font-medium text-gray-700">{item.label}</span>
+              <span className="font-medium text-gray-700 dark:text-stone-300">{item.label}</span>
               {item.served ? (
                 item.vacant ? (
-                  <span className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-0.5 text-[10px] font-semibold text-emerald-700 ring-1 ring-emerald-600/10 animate-pulse">
+                  <span className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-0.5 text-[10px] font-semibold text-emerald-700 ring-1 ring-emerald-600/10 dark:bg-emerald-950/30 dark:text-emerald-450 dark:ring-emerald-500/20 animate-pulse">
                     Spaces available
                   </span>
                 ) : (
-                  <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-[10px] font-medium text-amber-800 ring-1 ring-amber-600/10">
+                  <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-[10px] font-medium text-amber-800 ring-1 ring-amber-600/10 dark:bg-amber-950/30 dark:text-amber-450 dark:ring-amber-500/20">
                     No spaces (Waitlist)
                   </span>
                 )
               ) : (
-                <span className="inline-flex items-center rounded-full bg-stone-50 px-2.5 py-0.5 text-[10px] font-normal text-stone-400 ring-1 ring-stone-500/5">
+                <span className="inline-flex items-center rounded-full bg-stone-50 px-2.5 py-0.5 text-[10px] font-normal text-stone-400 ring-1 ring-stone-500/5 dark:bg-stone-800/40 dark:text-stone-500 dark:ring-stone-500/10">
                   Not offered
                 </span>
               )}
@@ -202,13 +202,13 @@ export default function FacilityDetail({
           ))}
         </div>
         
-        <p className="text-[10px] leading-relaxed text-gray-400">
+        <p className="text-[10px] leading-relaxed text-gray-400 dark:text-stone-500">
           Source:{" "}
           <a
             href={BC_CHILD_CARE_MAP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium text-emerald-600 hover:underline hover:text-emerald-700"
+            className="font-medium text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-450 dark:hover:text-emerald-400"
           >
             BC Child Care Map ↗
           </a>
@@ -217,35 +217,35 @@ export default function FacilityDetail({
 
       {/* Fees & Funding Card */}
       {facility.isTenDollarDay ? (
-        <div className="rounded-xl border border-indigo-100 bg-indigo-50/50 p-3.5 space-y-1.5 shadow-sm">
+        <div className="rounded-xl border border-indigo-100 bg-indigo-50/50 p-3.5 space-y-1.5 shadow-sm dark:border-indigo-950/30 dark:bg-indigo-950/10">
           <div className="flex items-center gap-2">
-            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold shadow-sm">
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold shadow-sm dark:bg-indigo-900 dark:text-indigo-300">
               $
             </span>
-            <h4 className="text-xs font-bold text-indigo-800">$10 a Day ChildCareBC</h4>
+            <h4 className="text-xs font-bold text-indigo-800 dark:text-indigo-300">$10 a Day ChildCareBC</h4>
           </div>
-          <p className="text-[11px] leading-relaxed text-indigo-700/90 font-medium">
+          <p className="text-[11px] leading-relaxed text-indigo-700/90 font-medium dark:text-indigo-400/90">
             This facility is a participating $10/day childcare site. Full-time parent fees are capped at a maximum of $200 per month.
           </p>
         </div>
       ) : facility.isCcfri ? (
-        <div className="rounded-xl border border-sky-100 bg-sky-50/50 p-3.5 space-y-1.5 shadow-sm">
+        <div className="rounded-xl border border-sky-100 bg-sky-50/50 p-3.5 space-y-1.5 shadow-sm dark:border-sky-950/30 dark:bg-sky-950/10">
           <div className="flex items-center gap-2">
-            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-sky-100 text-sky-700 text-xs font-bold shadow-sm">
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-sky-100 text-sky-700 text-xs font-bold shadow-sm dark:bg-sky-900 dark:text-sky-300">
               ✓
             </span>
-            <h4 className="text-xs font-bold text-sky-800">CCFRI Participant</h4>
+            <h4 className="text-xs font-bold text-sky-800 dark:text-sky-300">CCFRI Participant</h4>
           </div>
-          <p className="text-[11px] leading-relaxed text-sky-700/90 font-medium">
+          <p className="text-[11px] leading-relaxed text-sky-700/90 font-medium dark:text-sky-400/90">
             Participates in the Child Care Fee Reduction Initiative. Eligible families receive direct fee reductions (up to $900/month) applied directly to their invoices.
           </p>
         </div>
       ) : null}
 
       {/* Inspection Section */}
-      <div className="rounded-xl border border-stone-200 bg-white p-4 space-y-3">
+      <div className="rounded-xl border border-stone-200 bg-white p-4 space-y-3 dark:border-stone-800 dark:bg-stone-900/60">
         <div className="flex items-center justify-between">
-          <span className="text-[11px] font-medium uppercase tracking-wide text-gray-400">
+          <span className="text-[11px] font-medium uppercase tracking-wide text-gray-400 dark:text-stone-500">
             Inspection History
           </span>
           <a
@@ -253,7 +253,7 @@ export default function FacilityDetail({
             target="_blank"
             rel="noopener noreferrer"
             referrerPolicy="no-referrer"
-            className="text-[11px] font-medium text-emerald-600 hover:underline hover:text-emerald-700"
+            className="text-[11px] font-medium text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-450 dark:hover:text-emerald-400"
           >
             Island Health Records ↗
           </a>
@@ -271,32 +271,32 @@ export default function FacilityDetail({
               return (
                 <details
                   key={insp.id || index}
-                  className="group rounded-lg border border-stone-200 bg-stone-50 overflow-hidden [&_summary::-webkit-details-marker]:hidden"
+                  className="group rounded-lg border border-stone-200 bg-stone-50 overflow-hidden [&_summary::-webkit-details-marker]:hidden dark:border-stone-800 dark:bg-stone-900/40"
                   open={index === 0}
                 >
-                  <summary className="flex cursor-pointer items-center justify-between p-3 select-none hover:bg-stone-100 transition">
+                  <summary className="flex cursor-pointer items-center justify-between p-3 select-none hover:bg-stone-100 dark:hover:bg-stone-800 transition">
                     <div className="space-y-0.5">
-                      <p className="text-xs font-semibold text-gray-700">
+                      <p className="text-xs font-semibold text-gray-700 dark:text-stone-300">
                         {insp.date}
                       </p>
-                      <p className="text-[11px] text-gray-400 font-medium">
+                      <p className="text-[11px] text-gray-400 dark:text-stone-500 font-medium">
                         {insp.type} Inspection
                       </p>
                     </div>
                     <div className="flex items-center gap-2">
                       {violationCount === 0 ? (
-                        <span className="inline-flex items-center rounded-full bg-emerald-100/80 px-2 py-0.5 text-[10px] font-semibold text-emerald-800 border border-emerald-200/50">
+                        <span className="inline-flex items-center rounded-full bg-emerald-100/80 px-2 py-0.5 text-[10px] font-semibold text-emerald-800 border border-emerald-200/50 dark:bg-emerald-950/30 dark:text-emerald-400 dark:border-emerald-900/40">
                           No violations
                         </span>
                       ) : (
-                        <span className="inline-flex items-center rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-semibold text-amber-800 border border-amber-200">
+                        <span className="inline-flex items-center rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-semibold text-amber-800 border border-amber-200 dark:bg-amber-950/30 dark:text-amber-400 dark:border-amber-900/50">
                           {violationCount} infraction{violationCount > 1 ? "s" : ""}
                           {uncorrectedCount > 0 && ` (${uncorrectedCount} outstanding)`}
                         </span>
                       )}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4 text-gray-400 transition-transform group-open:rotate-180"
+                        className="h-4 w-4 text-gray-400 transition-transform group-open:rotate-180 dark:text-stone-600"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -305,47 +305,47 @@ export default function FacilityDetail({
                       </svg>
                     </div>
                   </summary>
-                  <div className="border-t border-stone-200 bg-white p-3 space-y-3">
+                  <div className="border-t border-stone-200 bg-white p-3 space-y-3 dark:border-stone-800 dark:bg-stone-900">
                     {violationCount === 0 ? (
-                      <div className="rounded-lg bg-emerald-50/50 border border-emerald-100 p-2.5 flex items-start gap-2">
-                        <span className="text-emerald-600 text-xs">✓</span>
-                        <p className="text-[11px] leading-relaxed text-emerald-800 font-medium">
+                      <div className="rounded-lg bg-emerald-50/50 border border-emerald-100 p-2.5 flex items-start gap-2 dark:bg-emerald-950/20 dark:border-emerald-950/40">
+                        <span className="text-emerald-600 dark:text-emerald-450 text-xs">✓</span>
+                        <p className="text-[11px] leading-relaxed text-emerald-800 dark:text-emerald-400 font-medium">
                           No violations found during this inspection.
                         </p>
                       </div>
                     ) : (
                       <div className="space-y-3">
                         {insp.contraventions.map((c, i) => (
-                          <div key={i} className="space-y-1 text-[11px] border-b border-stone-100 last:border-0 pb-2.5 last:pb-0">
+                          <div key={i} className="space-y-1 text-[11px] border-b border-stone-100 dark:border-stone-800 last:border-0 pb-2.5 last:pb-0">
                             <div className="flex items-start justify-between gap-2">
-                              <span className="font-semibold text-gray-800 block">
+                              <span className="font-semibold text-gray-800 dark:text-stone-200 block">
                                 {c.code}
                               </span>
                               {c.corrected ? (
-                                <span className="inline-flex items-center rounded bg-emerald-50 px-1.5 py-0.5 text-[9px] font-semibold text-emerald-700 ring-1 ring-emerald-600/10">
+                                <span className="inline-flex items-center rounded bg-emerald-50 px-1.5 py-0.5 text-[9px] font-semibold text-emerald-700 ring-1 ring-emerald-600/10 dark:bg-emerald-950/30 dark:text-emerald-400">
                                   Corrected
                                 </span>
                               ) : (
-                                <span className="inline-flex items-center rounded bg-amber-50 px-1.5 py-0.5 text-[9px] font-semibold text-amber-700 ring-1 ring-amber-600/10">
+                                <span className="inline-flex items-center rounded bg-amber-50 px-1.5 py-0.5 text-[9px] font-semibold text-amber-700 ring-1 ring-amber-600/10 dark:bg-amber-950/30 dark:text-amber-450">
                                   Outstanding
                                 </span>
                               )}
                             </div>
                             {c.description && (
-                              <p className="text-gray-500 leading-normal font-medium">
+                              <p className="text-gray-500 dark:text-stone-400 leading-normal font-medium">
                                 {c.description}
                               </p>
                             )}
                             {c.observations && (
-                              <div className="bg-stone-50 border-l-2 border-stone-300 p-1.5 rounded-r">
-                                <span className="block text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-0.5">Observations</span>
-                                <p className="text-gray-600 italic leading-relaxed">
+                              <div className="bg-stone-50 dark:bg-stone-800 border-l-2 border-stone-300 dark:border-stone-700 p-1.5 rounded-r">
+                                <span className="block text-[10px] text-gray-400 dark:text-stone-500 font-bold uppercase tracking-wider mb-0.5">Observations</span>
+                                <p className="text-gray-600 dark:text-stone-350 italic leading-relaxed">
                                   {c.observations}
                                 </p>
                               </div>
                             )}
                             {!c.corrected && c.correctByDate && (
-                              <p className="text-[10px] text-amber-600 font-medium">
+                              <p className="text-[10px] text-amber-600 dark:text-amber-450 font-medium">
                                 To be corrected by: {c.correctByDate}
                               </p>
                             )}
@@ -353,13 +353,13 @@ export default function FacilityDetail({
                         ))}
                       </div>
                     )}
-                    <div className="pt-1.5 border-t border-stone-100 flex justify-end">
+                    <div className="pt-1.5 border-t border-stone-100 dark:border-stone-800 flex justify-end">
                       <a
                         href={reportUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                         referrerPolicy="no-referrer"
-                        className="text-[11px] font-semibold text-emerald-600 hover:underline hover:text-emerald-700 flex items-center gap-0.5"
+                        className="text-[11px] font-semibold text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-450 dark:hover:text-emerald-400 flex items-center gap-0.5"
                       >
                         View official report ↗
                       </a>
@@ -370,21 +370,21 @@ export default function FacilityDetail({
             })}
           </div>
         ) : (
-          <p className="text-[11px] text-gray-400">
+          <p className="text-[11px] text-gray-400 dark:text-stone-600">
             No inspection data available yet
           </p>
         )}
       </div>
 
-      <hr className="border-stone-200" />
+      <hr className="border-stone-200 dark:border-stone-800" />
 
       {/* Tracker fields */}
       <div className="space-y-3">
-        <h3 className="text-xs font-medium uppercase tracking-wide text-gray-400">
+        <h3 className="text-xs font-medium uppercase tracking-wide text-gray-400 dark:text-stone-500">
           Your Tracker
         </h3>
 
-        <label className="block text-xs text-gray-600">
+        <label className="block text-xs text-gray-600 dark:text-stone-400">
           Status
           <select
             value={entry?.status ?? "none"}
@@ -395,17 +395,17 @@ export default function FacilityDetail({
                 e.target.value as TrackerStatus,
               )
             }
-            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none"
+            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none dark:border-stone-800 dark:bg-stone-900 dark:text-stone-100 dark:focus:border-emerald-700 dark:focus:ring-emerald-800/40"
           >
             {STATUS_OPTIONS.map((o) => (
-              <option key={o.value} value={o.value}>
+              <option key={o.value} value={o.value} className="dark:bg-stone-900">
                 {o.label}
               </option>
             ))}
           </select>
         </label>
 
-        <label className="block text-xs text-gray-600">
+        <label className="block text-xs text-gray-600 dark:text-stone-400">
           Waitlist date
           <input
             type="date"
@@ -413,11 +413,11 @@ export default function FacilityDetail({
             onChange={(e) =>
               setTrackerField(facilityId, "waitlistDate", e.target.value)
             }
-            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none"
+            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none dark:border-stone-800 dark:bg-stone-900 dark:text-stone-100 dark:focus:border-emerald-700 dark:focus:ring-emerald-800/40"
           />
         </label>
 
-        <label className="block text-xs text-gray-600">
+        <label className="block text-xs text-gray-600 dark:text-stone-400">
           Cost notes
           <input
             type="text"
@@ -426,11 +426,11 @@ export default function FacilityDetail({
               setTrackerField(facilityId, "costNotes", e.target.value)
             }
             placeholder="e.g. $1200/month infant"
-            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs placeholder:text-gray-300 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none"
+            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs placeholder:text-gray-300 dark:placeholder:text-stone-600 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none dark:border-stone-800 dark:bg-stone-900 dark:text-stone-100 dark:focus:border-emerald-700 dark:focus:ring-emerald-800/40"
           />
         </label>
 
-        <label className="block text-xs text-gray-600">
+        <label className="block text-xs text-gray-600 dark:text-stone-400">
           Food info
           <input
             type="text"
@@ -439,11 +439,11 @@ export default function FacilityDetail({
               setTrackerField(facilityId, "foodNotes", e.target.value)
             }
             placeholder="e.g. Lunch & snacks provided"
-            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs placeholder:text-gray-300 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none"
+            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs placeholder:text-gray-300 dark:placeholder:text-stone-600 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none dark:border-stone-800 dark:bg-stone-900 dark:text-stone-100 dark:focus:border-emerald-700 dark:focus:ring-emerald-800/40"
           />
         </label>
 
-        <label className="block text-xs text-gray-600">
+        <label className="block text-xs text-gray-600 dark:text-stone-400">
           CCFRI notes
           <input
             type="text"
@@ -452,11 +452,11 @@ export default function FacilityDetail({
               setTrackerField(facilityId, "ccfriNotes", e.target.value)
             }
             placeholder="e.g. Fee reduction applied"
-            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs placeholder:text-gray-300 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none"
+            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs placeholder:text-gray-300 dark:placeholder:text-stone-600 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none dark:border-stone-800 dark:bg-stone-900 dark:text-stone-100 dark:focus:border-emerald-700 dark:focus:ring-emerald-800/40"
           />
         </label>
 
-        <label className="block text-xs text-gray-600">
+        <label className="block text-xs text-gray-600 dark:text-stone-400">
           Notes
           <textarea
             value={entry?.notes ?? ""}
@@ -465,7 +465,7 @@ export default function FacilityDetail({
             }
             rows={3}
             placeholder="Any other details..."
-            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs placeholder:text-gray-300 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none"
+            className="mt-1 block w-full rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs placeholder:text-gray-300 dark:placeholder:text-stone-600 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none dark:border-stone-800 dark:bg-stone-900 dark:text-stone-100 dark:focus:border-emerald-700 dark:focus:ring-emerald-800/40"
           />
         </label>
       </div>

@@ -1,19 +1,23 @@
 import meta from "../../data/meta.json";
-
-
+import ThemeToggle from "./ThemeToggle";
 
 const bmcUsername = import.meta.env.VITE_BMC_USERNAME || "vic_daycare_hub";
 
 export default function Landing() {
   return (
-    <div className="min-h-screen bg-stone-50">
+    <div className="min-h-screen bg-stone-50 text-gray-900 transition-colors duration-200 dark:bg-stone-950 dark:text-stone-100 theme-transition">
+      {/* Theme Toggle Container */}
+      <div className="absolute top-4 right-4 z-20">
+        <ThemeToggle />
+      </div>
+
       {/* Hero */}
       <header className="mx-auto max-w-3xl px-6 pt-16 pb-16 text-center md:pt-24 md:pb-20">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-xs font-medium text-emerald-700">
+        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-xs font-medium text-emerald-700 dark:border-emerald-900/40 dark:bg-emerald-950/20 dark:text-emerald-450">
           <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-500" />
           Free &middot; Open source &middot; No sign-up required
         </div>
-        <h1 className="flex flex-col items-center justify-center gap-1 text-4xl font-bold tracking-tight text-gray-900 sm:flex-row sm:gap-1.5 sm:text-5xl">
+        <h1 className="flex flex-col items-center justify-center gap-1 text-4xl font-bold tracking-tight text-gray-900 sm:flex-row sm:gap-1.5 sm:text-5xl dark:text-stone-50">
           <img
             src="/logo.png"
             alt=""
@@ -21,10 +25,10 @@ export default function Landing() {
           />
           <span>Victoria Childcare Hub</span>
         </h1>
-        <p className="mx-auto mt-4 text-sm text-gray-400">
+        <p className="mx-auto mt-4 text-sm text-gray-400 dark:text-stone-500">
           Victoria · Saanich · Oak Bay · View Royal · Langford · Colwood · Sooke · Central Saanich · Sidney
         </p>
-        <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-gray-500">
+        <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-gray-500 dark:text-stone-400">
           {meta.count}+ licensed childcare facilities across Victoria and
           surrounding areas — on an interactive map with filters, inspection
           data, and a personal tracker. Completely free for families.
@@ -32,7 +36,7 @@ export default function Landing() {
         <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a
             href="#/app/map"
-            className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-7 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700 hover:shadow-md"
+            className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-7 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700 hover:shadow-md dark:bg-emerald-700 dark:hover:bg-emerald-600"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
@@ -41,7 +45,7 @@ export default function Landing() {
           </a>
           <a
             href="#/app/list"
-            className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-7 py-3 text-sm font-semibold text-gray-700 shadow-sm transition hover:border-gray-300 hover:shadow-md"
+            className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-7 py-3 text-sm font-semibold text-gray-700 shadow-sm transition hover:border-gray-300 hover:shadow-md dark:border-stone-800 dark:bg-stone-900 dark:text-stone-300 dark:hover:border-stone-700 dark:hover:bg-stone-800"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
@@ -49,32 +53,32 @@ export default function Landing() {
             Browse the list
           </a>
         </div>
-        <p className="mt-5 text-xs text-gray-400">
+        <p className="mt-5 text-xs text-gray-400 dark:text-stone-500">
           Works in any browser — desktop or mobile. No app to install.
         </p>
       </header>
 
       {/* Stats */}
-      <section className="border-y border-stone-200 bg-white py-10">
+      <section className="border-y border-stone-200 bg-white py-10 dark:border-stone-800 dark:bg-stone-900">
         <div className="mx-auto grid max-w-3xl grid-cols-3 gap-6 px-6 text-center">
           <div>
-            <p className="text-2xl font-bold text-gray-900">{meta.count}+</p>
-            <p className="mt-1 text-xs text-gray-500">Licensed facilities</p>
+            <p className="text-2xl font-bold text-gray-900 dark:text-stone-50">{meta.count}+</p>
+            <p className="mt-1 text-xs text-gray-500 dark:text-stone-400">Licensed facilities</p>
           </div>
           <div>
-            <p className="text-2xl font-bold text-gray-900">9</p>
-            <p className="mt-1 text-xs text-gray-500">Municipalities covered</p>
+            <p className="text-2xl font-bold text-gray-900 dark:text-stone-50">9</p>
+            <p className="mt-1 text-xs text-gray-500 dark:text-stone-400">Municipalities covered</p>
           </div>
           <div>
-            <p className="text-2xl font-bold text-gray-900">$0</p>
-            <p className="mt-1 text-xs text-gray-500">Always free</p>
+            <p className="text-2xl font-bold text-gray-900 dark:text-stone-50">$0</p>
+            <p className="mt-1 text-xs text-gray-500 dark:text-stone-400">Always free</p>
           </div>
         </div>
       </section>
 
       {/* Features */}
       <section className="mx-auto max-w-3xl px-6 py-16">
-        <h2 className="text-center text-lg font-semibold text-gray-900">
+        <h2 className="text-center text-lg font-semibold text-gray-900 dark:text-stone-50">
           What you can do
         </h2>
         <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -112,13 +116,13 @@ export default function Landing() {
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-xl border border-stone-200 bg-white p-5 transition hover:shadow-sm"
+              className="rounded-xl border border-stone-200 bg-white p-5 transition hover:shadow-sm dark:border-stone-800 dark:bg-stone-900 dark:hover:shadow-md"
             >
               <span className="text-lg">{item.icon}</span>
-              <h3 className="mt-2 text-sm font-semibold text-gray-900">
+              <h3 className="mt-2 text-sm font-semibold text-gray-900 dark:text-stone-100">
                 {item.title}
               </h3>
-              <p className="mt-1 text-xs leading-relaxed text-gray-500">
+              <p className="mt-1 text-xs leading-relaxed text-gray-500 dark:text-stone-400">
                 {item.desc}
               </p>
             </div>
@@ -127,9 +131,9 @@ export default function Landing() {
       </section>
 
       {/* FAQ */}
-      <section className="border-t border-stone-200 bg-white py-16">
+      <section className="border-t border-stone-200 bg-white py-16 dark:border-stone-800 dark:bg-stone-900">
         <div className="mx-auto max-w-2xl px-6">
-          <h2 className="text-center text-lg font-semibold text-gray-900">
+          <h2 className="text-center text-lg font-semibold text-gray-900 dark:text-stone-50">
             Common questions
           </h2>
           <dl className="mt-8 space-y-6">
@@ -156,8 +160,8 @@ export default function Landing() {
               },
             ].map((item) => (
               <div key={item.q}>
-                <dt className="text-sm font-medium text-gray-900">{item.q}</dt>
-                <dd className="mt-1 text-xs leading-relaxed text-gray-500">
+                <dt className="text-sm font-medium text-gray-900 dark:text-stone-200">{item.q}</dt>
+                <dd className="mt-1 text-xs leading-relaxed text-gray-500 dark:text-stone-400">
                   {item.a}
                 </dd>
               </div>
@@ -167,21 +171,21 @@ export default function Landing() {
       </section>
 
       {/* CTA */}
-      <section className="border-t border-stone-200 bg-emerald-600 px-6 py-12 text-center">
+      <section className="border-t border-stone-200 bg-emerald-600 px-6 py-12 text-center dark:border-stone-800 dark:bg-emerald-700/80">
         <h2 className="text-xl font-bold text-white">Ready to start?</h2>
-        <p className="mt-2 text-sm text-emerald-100">
+        <p className="mt-2 text-sm text-emerald-100 dark:text-stone-200">
           No sign-up required. No payment. Just open the hub.
         </p>
         <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a
             href="#/app/map"
-            className="inline-block rounded-full bg-white px-7 py-3 text-sm font-semibold text-emerald-700 shadow transition hover:bg-emerald-50"
+            className="inline-block rounded-full bg-white px-7 py-3 text-sm font-semibold text-emerald-700 shadow transition hover:bg-emerald-50 dark:bg-stone-900 dark:text-emerald-450 dark:hover:bg-stone-800"
           >
             Open the map
           </a>
           <a
             href="#/app/list"
-            className="inline-block rounded-full border border-emerald-400 px-7 py-3 text-sm font-semibold text-white transition hover:bg-emerald-700"
+            className="inline-block rounded-full border border-emerald-400 px-7 py-3 text-sm font-semibold text-white transition hover:bg-emerald-700 dark:border-emerald-500 dark:hover:bg-emerald-800/40"
           >
             Browse the list
           </a>
@@ -189,21 +193,21 @@ export default function Landing() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-stone-200 bg-stone-50 px-6 py-8">
-        <div className="mx-auto flex max-w-3xl flex-col items-center gap-3 text-center text-xs text-gray-400">
+      <footer className="border-t border-stone-200 bg-stone-50 px-6 py-8 dark:border-stone-800 dark:bg-stone-950">
+        <div className="mx-auto flex max-w-3xl flex-col items-center gap-3 text-center text-xs text-gray-400 dark:text-stone-550">
           <p>
             Data from the{" "}
             <a
               href="https://catalogue.data.gov.bc.ca/dataset/4cc207cc-ff03-44f8-8c5f-415af5224646"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-emerald-600 hover:underline"
+              className="text-emerald-600 hover:underline dark:text-emerald-450"
             >
               BC Community Care Facility Registry
             </a>
             . Always confirm details directly with facilities.
           </p>
-          <p className="text-[11px] text-gray-300">
+          <p className="text-[11px] text-gray-300 dark:text-stone-600">
             Independent community project — not affiliated with the BC
             government, Island Health, or any childcare facility.
           </p>
@@ -212,7 +216,7 @@ export default function Landing() {
               href={`https://buymeacoffee.com/${bmcUsername}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-emerald-600"
+              className="hover:text-emerald-600 dark:hover:text-emerald-450"
             >
               Buy me a coffee
             </a>
@@ -220,12 +224,12 @@ export default function Landing() {
               href="https://github.com/juansanar/vic_daycare_hub"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-emerald-600"
+              className="hover:text-emerald-600 dark:hover:text-emerald-450"
             >
               GitHub
             </a>
           </div>
-          <p className="text-[11px] text-gray-300">
+          <p className="text-[11px] text-gray-300 dark:text-stone-600">
             victoriachildcarehub.ca &middot; Open-source &middot; MIT License
             &middot; A community project for Victoria area families
           </p>
