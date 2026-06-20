@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "ingest": "tsx scripts/ingest-facilities.ts",
     "scrape-inspections": "tsx scripts/scrape-inspections.ts",
-    "enrich-service-types": "tsx scripts/enrich-service-types.ts"
+    "enrich-service-types": "tsx scripts/enrich-service-types.ts",
+    "scrape-websites": "tsx scripts/scrape-websites.ts"
   },
   "dependencies": {
     "firebase": "^12.15.0",

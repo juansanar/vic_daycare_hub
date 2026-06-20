@@ -9,7 +9,7 @@ import inspectionsData from "../../data/inspections.json";
 import Filters from "./Filters";
 
 const facilities = facilitiesData as Facility[];
-const inspections = inspectionsData as InspectionRecord[];
+const inspections = inspectionsData as unknown as InspectionRecord[];
 
 const inspectionMap = new Map<string, InspectionRecord>();
 for (const rec of inspections) {
@@ -34,7 +34,8 @@ export default function FacilityList() {
         <ul className="divide-y divide-stone-100">
           {filtered.map((f) => {
             const inspection = inspectionMap.get(f.id);
-            const hasWarning = inspection?.contraventions.some((c) => !c.corrected);
+            const latestInspection = inspection?.inspections?.[0];
+            const hasWarning = latestInspection?.contraventions?.some((c) => !c.corrected) ?? false;
             return (
               <li
                 key={f.id}
@@ -57,7 +58,7 @@ export default function FacilityList() {
                   </div>
                   <div className="flex flex-col items-end gap-1">
                     {f.isTenDollarDay && (
-                      <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium text-emerald-700">
+                      <span className="rounded-full bg-indigo-50 px-2 py-0.5 text-[10px] font-medium text-indigo-700">
                         $10/day
                       </span>
                     )}

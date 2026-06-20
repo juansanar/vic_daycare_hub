@@ -22,7 +22,7 @@ import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
 
 const allFacilities = facilitiesData as Facility[];
-const inspections = inspectionsData as InspectionRecord[];
+const inspections = inspectionsData as unknown as InspectionRecord[];
 
 const inspectionMap = new Map<string, InspectionRecord>();
 for (const rec of inspections) {
@@ -36,10 +36,11 @@ function buildPopupHtml(f: Facility): string {
   const inspectionLink = inspection?.inspectionUrl
     ?? `https://inspections.myhealthdepartment.com/island-health/program-ccfl?facility_name=${encodeURIComponent(f.name)}`;
 
-  const uncorrected = inspection?.contraventions.filter((c) => !c.corrected) ?? [];
+  const latestInspection = inspection?.inspections?.[0];
+  const uncorrected = latestInspection?.contraventions?.filter((c) => !c.corrected) ?? [];
 
   const badge = f.isTenDollarDay
-    ? `<span style="display:inline-block;background:#dcfce7;color:#15803d;font-size:11px;padding:2px 6px;border-radius:9999px;margin-bottom:4px;">$10/day</span><br/>`
+    ? `<span style="display:inline-block;background:#e0e7ff;color:#4338ca;font-size:11px;padding:2px 6px;border-radius:9999px;margin-bottom:4px;">$10/day</span><br/>`
     : "";
   const phone = f.phone
     ? `<div style="margin-top:4px;"><strong>Phone:</strong> <a href="tel:${f.phone}">${f.phone}</a></div>`
@@ -61,12 +62,12 @@ function buildPopupHtml(f: Facility): string {
   const contactNote = `<div style="margin-top:6px;padding:6px 8px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:6px;font-size:11px;color:#57534e;line-height:1.4;">${CONTACT_CENTRE_COPY}</div>`;
 
   let inspectionHtml = "";
-  if (inspection && inspection.lastInspectionDate) {
-    inspectionHtml += `<div style="font-size:11px;color:#6b7280;margin-top:4px;">Last inspected: ${inspection.lastInspectionDate} (${inspection.lastInspectionType})</div>`;
+  if (inspection && latestInspection) {
+    inspectionHtml += `<div style="font-size:11px;color:#6b7280;margin-top:4px;">Last inspected: ${latestInspection.date} (${latestInspection.type})</div>`;
   }
   if (uncorrected.length > 0) {
     inspectionHtml += `<div style="margin-top:4px;background:#fef3c7;border:1px solid #fcd34d;border-radius:4px;padding:4px 6px;font-size:11px;color:#92400e;">&#9888; ${uncorrected.length} outstanding issue${uncorrected.length > 1 ? "s" : ""}</div>`;
-  } else if (inspection && inspection.lastInspectionDate) {
+  } else if (inspection && latestInspection) {
     inspectionHtml += `<div style="margin-top:4px;font-size:11px;color:#16a34a;">&#10003; No outstanding issues</div>`;
   }
 
@@ -86,7 +87,7 @@ function buildPopupHtml(f: Facility): string {
         <button onclick="window.dispatchEvent(new CustomEvent('open-tracker',{detail:'${f.id}'}))" style="background:#059669;color:white;border:none;padding:5px 12px;border-radius:6px;font-size:12px;cursor:pointer;">
           Open in tracker
         </button>
-        <a href="${inspectionLink}" target="_blank" rel="noopener noreferrer" style="background:#fef3c7;color:#92400e;border:none;padding:5px 12px;border-radius:6px;font-size:12px;text-decoration:none;">
+        <a href="${inspectionLink}" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" style="background:#fef3c7;color:#92400e;border:none;padding:5px 12px;border-radius:6px;font-size:12px;text-decoration:none;">
           Inspections
         </a>
       </div>
@@ -106,8 +107,9 @@ function MarkerLayer({ facilities }: { facilities: Facility[] }) {
     facilities.forEach((f) => {
       if (!f.lat || !f.lng) return;
       const inspection = inspectionMap.get(f.id);
-      const hasWarning = inspection?.contraventions.some((c) => !c.corrected) ?? false;
-      const color = hasWarning ? "#d97706" : f.isTenDollarDay ? "#16a34a" : "#059669";
+      const latestInspection = inspection?.inspections?.[0];
+      const hasWarning = latestInspection?.contraventions?.some((c) => !c.corrected) ?? false;
+      const color = hasWarning ? "#d97706" : f.isTenDollarDay ? "#4f46e5" : "#059669";
       const marker = L.marker([f.lat, f.lng]);
       marker.setIcon(
         L.divIcon({
@@ -165,6 +167,28 @@ function LocateButton() {
   );
 }
 
+function MapLegend() {
+  return (
+    <div className="absolute bottom-4 left-4 z-[1000] rounded-lg border border-stone-200 bg-white p-3 shadow-md space-y-2 text-[11px] pointer-events-auto">
+      <p className="font-bold text-gray-500 uppercase tracking-wider text-[9px] mb-1">
+        Map Legend
+      </p>
+      <div className="flex items-center gap-2">
+        <span className="h-3 w-3 rounded-full border border-white bg-[#059669] shadow-sm ring-1 ring-stone-900/10"></span>
+        <span className="text-gray-600 font-medium">Licensed Facility</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <span className="h-3 w-3 rounded-full border border-white bg-[#4f46e5] shadow-sm ring-1 ring-stone-900/10"></span>
+        <span className="text-gray-600 font-medium">$10/day ChildCareBC</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <span className="h-3 w-3 rounded-full border border-white bg-[#d97706] shadow-sm ring-1 ring-stone-900/10"></span>
+        <span className="text-gray-600 font-medium">Outstanding Issues</span>
+      </div>
+    </div>
+  );
+}
+
 export default function FacilityMap() {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
   const trackerEntries = useStore((s) => s.trackerEntries);
@@ -201,6 +225,7 @@ export default function FacilityMap() {
             />
             <MarkerLayer facilities={filtered} />
             <LocateButton />
+            <MapLegend />
           </MapContainer>
         </div>
         {selectedFacilityId && (

@@ -202,6 +202,11 @@ interface Facility {
   vacancyForLicense: string;
   vacancyLastUpdated: string;
   isTenDollarDay: boolean;
+  isCcfri: boolean;
+  vacancyUnder36: boolean;
+  vacancy30mos5yrs: boolean;
+  vacancyLicpre: boolean;
+  vacancyOosGr1Age12: boolean;
 }
 
 async function main() {
@@ -213,6 +218,16 @@ async function main() {
   const tenDollarOverrides: Record<string, boolean> =
     tenDollarRaw.overrides ?? {};
   const normalizedTenDollar = new Set(tenDollarNames.map(normalize));
+
+  console.log("Loading website overrides...");
+  let websiteOverrides: Record<string, string> = {};
+  try {
+    websiteOverrides = JSON.parse(
+      readFileSync(resolve(DATA_DIR, "website-overrides.json"), "utf-8"),
+    );
+  } catch {
+    // Fallback to empty if file not present or unparseable
+  }
 
   console.log("Fetching facilities from BC ArcGIS API...");
   let features: RawFeature[];
@@ -255,13 +270,18 @@ async function main() {
       lng: Number(a.LONGITUDE) || 0,
       phone: String(a.CONTACT_PHONE ?? ""),
       email: String(a.CONTACT_EMAIL ?? ""),
-      website: String(a.WEBSITE_URL ?? ""),
+      website: websiteOverrides[id] || String(a.WEBSITE_URL ?? ""),
       serviceType: String(a.SERVICE_TYPE_DESC ?? ""),
       ageGroups: getAgeGroups(a),
       vacancyInd: String(a.VACANCY_IND ?? ""),
       vacancyForLicense: String(a.VACANCY_FOR_LICENSE ?? ""),
       vacancyLastUpdated: String(a.VACANCY_LAST_UPDATE_DATE ?? ""),
       isTenDollarDay,
+      isCcfri: a.IS_CCFRI_AUTH_IND === "Y",
+      vacancyUnder36: a.VACANCY_SRVC_UNDER36_IND === "Y",
+      vacancy30mos5yrs: a.VACANCY_SRVC_30MOS_5YRS_IND === "Y",
+      vacancyLicpre: a.VACANCY_SRVC_LICPRE_IND === "Y",
+      vacancyOosGr1Age12: a.VACANCY_SRVC_OOS_GR1_AGE12_IND === "Y",
     };
   });
 

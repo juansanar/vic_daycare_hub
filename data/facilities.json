@@ -17,7 +17,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/22",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2551",
@@ -37,7 +42,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/18",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4211",
@@ -51,7 +61,7 @@
     "lng": -123.335303,
     "phone": "250-598-9700",
     "email": "",
-    "website": "",
+    "website": "https://www.oakbay.ca/parks-recreation/programs-registration-services/licensed-childcare/",
     "serviceType": "Licensed Group",
     "ageGroups": [
       "under36"
@@ -59,7 +69,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2904",
@@ -73,13 +88,18 @@
     "lng": -123.470024,
     "phone": "604-910-2451",
     "email": "",
-    "website": "",
+    "website": "https://acekidsdaycare.ca/",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2888",
@@ -93,13 +113,18 @@
     "lng": -123.401167,
     "phone": "613-252-4833",
     "email": "",
-    "website": "",
+    "website": "https://www.acrewooddaycareandearlylearning.ca/",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2223",
@@ -113,13 +138,18 @@
     "lng": -123.402554,
     "phone": "613-252-4833",
     "email": "",
-    "website": "",
+    "website": "https://www.acrewooddaycareandearlylearning.ca/",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3167",
@@ -133,13 +163,18 @@
     "lng": -123.396879,
     "phone": "613-252-4833",
     "email": "",
-    "website": "",
+    "website": "https://www.acrewooddaycareandearlylearning.ca/",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2672",
@@ -159,7 +194,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5516",
@@ -179,7 +219,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/11",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5125",
@@ -193,13 +238,18 @@
     "lng": -123.512168,
     "phone": "250-590-7666",
     "email": "",
-    "website": "",
+    "website": "https://www.almosthomecare.com/",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "105",
@@ -213,13 +263,18 @@
     "lng": -123.507271,
     "phone": "250-590-7666",
     "email": "",
-    "website": "",
+    "website": "https://www.almosthomecare.com/",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4951",
@@ -239,7 +294,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "635",
@@ -253,13 +313,18 @@
     "lng": -123.399301,
     "phone": "250-590-7666",
     "email": "",
-    "website": "",
+    "website": "https://www.almosthomecare.com/",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1306",
@@ -273,13 +338,18 @@
     "lng": -123.643235,
     "phone": "250-590-7666",
     "email": "",
-    "website": "",
+    "website": "https://www.almosthomecare.com/",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1690",
@@ -293,13 +363,18 @@
     "lng": -123.407501,
     "phone": "250-590-7666",
     "email": "",
-    "website": "",
+    "website": "https://www.almosthomecare.com/locations.html",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2926",
@@ -313,13 +388,18 @@
     "lng": -123.422399,
     "phone": "250-590-7666",
     "email": "",
-    "website": "",
+    "website": "https://www.almosthomecare.com/",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5387",
@@ -333,13 +413,18 @@
     "lng": -123.398894,
     "phone": "250-590-7666",
     "email": "",
-    "website": "",
+    "website": "https://www.almosthomecare.com/",
     "serviceType": "Licensed Group",
     "ageGroups": [],
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5829",
@@ -359,7 +444,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2833",
@@ -379,7 +469,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1069",
@@ -399,7 +494,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3026",
@@ -419,7 +519,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5839",
@@ -439,7 +544,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/22",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4645",
@@ -459,7 +569,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/24",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "101",
@@ -479,7 +594,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5130",
@@ -499,7 +619,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2207",
@@ -519,7 +644,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/04/29",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "483",
@@ -539,7 +669,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3492",
@@ -562,7 +697,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1815",
@@ -582,7 +722,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/06",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1588",
@@ -602,7 +747,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3025",
@@ -622,7 +772,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "155",
@@ -642,7 +797,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": true,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2626",
@@ -662,7 +822,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5977",
@@ -687,7 +852,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5628",
@@ -707,7 +877,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1494",
@@ -727,7 +902,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3640",
@@ -747,7 +927,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "985",
@@ -767,7 +952,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3639",
@@ -787,7 +977,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3641",
@@ -807,7 +1002,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "387",
@@ -827,7 +1027,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1290",
@@ -847,7 +1052,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/22",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "386",
@@ -867,7 +1077,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3642",
@@ -887,7 +1102,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5619",
@@ -907,7 +1127,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3638",
@@ -927,7 +1152,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5548",
@@ -947,7 +1177,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/12",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2485",
@@ -967,7 +1202,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/12",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2241",
@@ -987,7 +1227,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/02",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1735",
@@ -1007,7 +1252,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "999",
@@ -1027,7 +1277,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "982",
@@ -1047,7 +1302,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2063",
@@ -1067,7 +1327,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/20",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "2219",
@@ -1087,7 +1352,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/20",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "3283",
@@ -1107,7 +1377,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1224",
@@ -1127,7 +1402,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/20",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1574",
@@ -1147,7 +1427,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2813",
@@ -1167,7 +1452,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4692",
@@ -1187,7 +1477,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "1010",
@@ -1207,7 +1502,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "129",
@@ -1227,7 +1527,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "13",
@@ -1247,7 +1552,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "14",
@@ -1267,7 +1577,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "180",
@@ -1287,7 +1602,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/27",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "548",
@@ -1307,7 +1627,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4422",
@@ -1327,7 +1652,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "12",
@@ -1347,7 +1677,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1217",
@@ -1367,7 +1702,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3795",
@@ -1387,7 +1727,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "128",
@@ -1407,7 +1752,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/02",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1058",
@@ -1427,7 +1777,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/04/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2059",
@@ -1447,7 +1802,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/04/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4119",
@@ -1467,7 +1827,12 @@
     "vacancyInd": "Unknown",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "Unknown",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5577",
@@ -1487,7 +1852,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2111",
@@ -1507,7 +1877,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2800",
@@ -1527,7 +1902,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2955",
@@ -1547,7 +1927,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2094",
@@ -1567,7 +1952,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1654",
@@ -1587,7 +1977,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4675",
@@ -1607,7 +2002,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1964",
@@ -1627,7 +2027,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5949",
@@ -1647,7 +2052,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5651",
@@ -1667,7 +2077,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "287",
@@ -1687,7 +2102,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5707",
@@ -1707,7 +2127,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/29",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1955",
@@ -1727,7 +2152,12 @@
     "vacancyInd": "Unknown",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "Unknown",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2657",
@@ -1747,7 +2177,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "657",
@@ -1767,7 +2202,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/28",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2519",
@@ -1787,7 +2227,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1956",
@@ -1810,7 +2255,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "113",
@@ -1830,7 +2280,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": true,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "216",
@@ -1850,7 +2305,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/09",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": true,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "521",
@@ -1870,7 +2330,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3065",
@@ -1890,7 +2355,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2364",
@@ -1910,7 +2380,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "1553",
@@ -1930,7 +2405,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5899",
@@ -1950,7 +2430,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1687",
@@ -1970,7 +2455,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "549",
@@ -1990,7 +2480,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2472",
@@ -2010,7 +2505,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "165",
@@ -2030,7 +2530,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "419",
@@ -2050,7 +2555,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/11",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": true,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3746",
@@ -2072,7 +2582,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5938",
@@ -2092,7 +2607,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "623",
@@ -2112,7 +2632,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5840",
@@ -2132,7 +2657,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/22",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "3190",
@@ -2152,7 +2682,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3584",
@@ -2172,7 +2707,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1777",
@@ -2192,7 +2732,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "630",
@@ -2212,7 +2757,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/06",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3586",
@@ -2232,7 +2782,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "666",
@@ -2252,7 +2807,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "38",
@@ -2276,7 +2836,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4366",
@@ -2296,7 +2861,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5927",
@@ -2316,7 +2886,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/22",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3891",
@@ -2336,7 +2911,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/22",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5479",
@@ -2359,7 +2939,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2701",
@@ -2379,7 +2964,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/13",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2947",
@@ -2402,7 +2992,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1736",
@@ -2422,7 +3017,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2506",
@@ -2442,7 +3042,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "123",
@@ -2462,7 +3067,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "755",
@@ -2482,7 +3092,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "3900",
@@ -2502,7 +3117,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5406",
@@ -2522,7 +3142,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/26",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1630",
@@ -2542,7 +3167,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/26",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1737",
@@ -2562,7 +3192,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/29",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "5973",
@@ -2582,7 +3217,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4139",
@@ -2602,7 +3242,12 @@
     "vacancyInd": "Unknown",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "Unknown",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1106",
@@ -2622,7 +3267,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5957",
@@ -2642,7 +3292,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/23",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5545",
@@ -2662,7 +3317,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/20",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "714",
@@ -2682,7 +3342,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/20",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1038",
@@ -2702,7 +3367,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/20",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1509",
@@ -2722,7 +3392,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/20",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "247",
@@ -2742,7 +3417,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/22",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4415",
@@ -2767,7 +3447,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/02",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2525",
@@ -2787,7 +3472,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "4843",
@@ -2807,7 +3497,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1383",
@@ -2827,7 +3522,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2038",
@@ -2847,7 +3547,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3004",
@@ -2867,7 +3572,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "518",
@@ -2887,7 +3597,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3676",
@@ -2907,7 +3622,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": true
+    "isTenDollarDay": true,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "5311",
@@ -2927,7 +3647,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5690",
@@ -2947,7 +3672,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "580",
@@ -2967,7 +3697,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4249",
@@ -2987,7 +3722,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "4948",
@@ -3007,7 +3747,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "4929",
@@ -3027,7 +3772,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "4505",
@@ -3047,7 +3797,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "3863",
@@ -3067,7 +3822,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3304",
@@ -3087,7 +3847,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/23",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4076",
@@ -3107,7 +3872,12 @@
     "vacancyInd": "Unknown",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "Unknown",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2954",
@@ -3129,7 +3899,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3913",
@@ -3149,7 +3924,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3512",
@@ -3169,7 +3949,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "558",
@@ -3189,7 +3974,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/02",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "204",
@@ -3209,7 +3999,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "388",
@@ -3229,7 +4024,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "4332",
@@ -3249,7 +4049,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "1072",
@@ -3269,7 +4074,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/28",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1603",
@@ -3289,7 +4099,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2060",
@@ -3312,7 +4127,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "967",
@@ -3332,7 +4152,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1470",
@@ -3352,7 +4177,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2451",
@@ -3372,7 +4202,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "751",
@@ -3392,7 +4227,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2697",
@@ -3412,7 +4252,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "3389",
@@ -3432,7 +4277,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3031",
@@ -3452,7 +4302,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "2603",
@@ -3472,7 +4327,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1315",
@@ -3492,7 +4352,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4713",
@@ -3512,7 +4377,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4737",
@@ -3532,7 +4402,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4921",
@@ -3554,7 +4429,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "90",
@@ -3574,7 +4454,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "909",
@@ -3594,7 +4479,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/11",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "1114",
@@ -3614,7 +4504,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4215",
@@ -3634,7 +4529,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/04/24",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "1373",
@@ -3654,7 +4554,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1715",
@@ -3674,7 +4579,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3073",
@@ -3694,7 +4604,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5805",
@@ -3714,7 +4629,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/12",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3870",
@@ -3734,7 +4654,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/30",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4447",
@@ -3754,7 +4679,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "212",
@@ -3774,7 +4704,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "5488",
@@ -3794,7 +4729,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/09",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5494",
@@ -3814,7 +4754,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/09",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4507",
@@ -3834,7 +4779,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4506",
@@ -3854,7 +4804,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4501",
@@ -3874,7 +4829,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4504",
@@ -3894,7 +4854,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4508",
@@ -3914,7 +4879,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4502",
@@ -3934,7 +4904,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4503",
@@ -3954,7 +4929,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4500",
@@ -3974,7 +4954,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5924",
@@ -3994,7 +4979,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2605",
@@ -4014,7 +5004,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4483",
@@ -4034,7 +5029,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "515",
@@ -4054,7 +5054,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3360",
@@ -4074,7 +5079,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "2540",
@@ -4094,7 +5104,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/29",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5643",
@@ -4114,7 +5129,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": true,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4610",
@@ -4138,7 +5158,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/26",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5178",
@@ -4158,7 +5183,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": true,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4402",
@@ -4178,7 +5208,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "103",
@@ -4198,7 +5233,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/09",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": true,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2812",
@@ -4218,7 +5258,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/24",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "881",
@@ -4238,7 +5283,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4885",
@@ -4258,7 +5308,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3138",
@@ -4278,7 +5333,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5354",
@@ -4298,7 +5358,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "618",
@@ -4318,7 +5383,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/02",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4429",
@@ -4338,7 +5408,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3481",
@@ -4358,7 +5433,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1206",
@@ -4381,7 +5461,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/26",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2304",
@@ -4401,7 +5486,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/29",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5034",
@@ -4421,7 +5511,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/02",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4457",
@@ -4441,7 +5536,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5665",
@@ -4461,7 +5561,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1859",
@@ -4481,7 +5586,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5175",
@@ -4501,7 +5611,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5972",
@@ -4521,7 +5636,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "3623",
@@ -4541,7 +5661,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/12",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3903",
@@ -4561,7 +5686,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/28",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4330",
@@ -4581,7 +5711,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5709",
@@ -4601,7 +5736,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/11",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5510",
@@ -4621,7 +5761,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "832",
@@ -4641,7 +5786,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5405",
@@ -4661,7 +5811,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1477",
@@ -4681,7 +5836,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4045",
@@ -4701,7 +5861,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4231",
@@ -4721,7 +5886,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1042",
@@ -4741,7 +5911,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "168",
@@ -4761,7 +5936,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2040",
@@ -4781,7 +5961,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5135",
@@ -4801,7 +5986,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/02",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1148",
@@ -4821,7 +6011,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "364",
@@ -4841,7 +6036,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "3645",
@@ -4861,7 +6061,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "564",
@@ -4881,7 +6086,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/04/23",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1366",
@@ -4904,7 +6114,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1144",
@@ -4927,7 +6142,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5806",
@@ -4950,7 +6170,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4059",
@@ -4970,7 +6195,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/27",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5784",
@@ -4990,7 +6220,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/06",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "117",
@@ -5010,7 +6245,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "4683",
@@ -5030,7 +6270,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4509",
@@ -5050,7 +6295,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3040",
@@ -5070,7 +6320,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1963",
@@ -5090,7 +6345,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1237",
@@ -5110,7 +6370,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3016",
@@ -5130,7 +6395,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": true,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "718",
@@ -5150,7 +6420,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2682",
@@ -5170,7 +6445,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1210",
@@ -5190,7 +6470,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4186",
@@ -5210,7 +6495,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4185",
@@ -5230,7 +6520,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "683",
@@ -5250,7 +6545,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "2357",
@@ -5270,7 +6570,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5583",
@@ -5290,7 +6595,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2400",
@@ -5310,7 +6620,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2018",
@@ -5330,7 +6645,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2419",
@@ -5350,7 +6670,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "3545",
@@ -5370,7 +6695,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "5836",
@@ -5390,7 +6720,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "1469",
@@ -5410,7 +6745,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5425",
@@ -5430,7 +6770,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/28",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3248",
@@ -5450,7 +6795,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "290",
@@ -5470,7 +6820,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2001",
@@ -5490,7 +6845,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3581",
@@ -5510,7 +6870,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2430",
@@ -5530,7 +6895,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "406",
@@ -5550,7 +6920,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5767",
@@ -5570,7 +6945,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/27",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1328",
@@ -5590,7 +6970,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3008",
@@ -5610,7 +6995,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4002",
@@ -5634,7 +7024,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/27",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "266",
@@ -5654,7 +7049,12 @@
     "vacancyInd": "Unknown",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "Unknown",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "629",
@@ -5674,7 +7074,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "402",
@@ -5694,7 +7099,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5671",
@@ -5714,7 +7124,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4203",
@@ -5734,7 +7149,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2222",
@@ -5757,7 +7177,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2331",
@@ -5783,7 +7208,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1156",
@@ -5803,7 +7233,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "210",
@@ -5823,7 +7258,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/04/27",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4448",
@@ -5843,7 +7283,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "853",
@@ -5863,7 +7308,12 @@
     "vacancyInd": "Unknown",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "Unknown",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1496",
@@ -5883,7 +7333,12 @@
     "vacancyInd": "Unknown",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "Unknown",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5792",
@@ -5903,7 +7358,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "36",
@@ -5923,7 +7383,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1797",
@@ -5943,7 +7408,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4535",
@@ -5966,7 +7436,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3461",
@@ -5986,7 +7461,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/13",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1888",
@@ -6006,7 +7486,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "275",
@@ -6026,7 +7511,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/02",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3677",
@@ -6046,7 +7536,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": true
+    "isTenDollarDay": true,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4257",
@@ -6066,7 +7561,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "522",
@@ -6086,7 +7586,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5555",
@@ -6109,7 +7614,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1563",
@@ -6129,7 +7639,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2231",
@@ -6149,7 +7664,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5322",
@@ -6169,7 +7689,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/02",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "519",
@@ -6192,7 +7717,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5550",
@@ -6212,7 +7742,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/11",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4234",
@@ -6232,7 +7767,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "4570",
@@ -6252,7 +7792,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/09",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "5833",
@@ -6272,7 +7817,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1195",
@@ -6292,7 +7842,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4640",
@@ -6312,7 +7867,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1922",
@@ -6332,7 +7892,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "206",
@@ -6352,7 +7917,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/28",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4146",
@@ -6372,7 +7942,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/12",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "520",
@@ -6392,7 +7967,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4359",
@@ -6412,7 +7992,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/27",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2866",
@@ -6432,7 +8017,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5668",
@@ -6452,7 +8042,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3585",
@@ -6472,7 +8067,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5575",
@@ -6492,7 +8092,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3583",
@@ -6512,7 +8117,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5831",
@@ -6532,7 +8142,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1800",
@@ -6552,7 +8167,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "182",
@@ -6572,7 +8192,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "2895",
@@ -6592,7 +8217,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/03/24",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5133",
@@ -6612,7 +8242,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "924",
@@ -6632,7 +8267,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "517",
@@ -6652,7 +8292,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/02",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5393",
@@ -6672,7 +8317,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1875",
@@ -6692,7 +8342,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/06",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1150",
@@ -6712,7 +8367,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "702",
@@ -6732,7 +8392,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/06",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "837",
@@ -6752,7 +8417,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1149",
@@ -6772,7 +8442,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1826",
@@ -6792,7 +8467,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "80",
@@ -6817,7 +8497,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": true,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1171",
@@ -6837,7 +8522,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/12",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "365",
@@ -6857,7 +8547,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5725",
@@ -6877,7 +8572,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2088",
@@ -6897,7 +8597,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2918",
@@ -6917,7 +8622,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3430",
@@ -6937,7 +8647,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "550",
@@ -6957,7 +8672,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "906",
@@ -6977,7 +8697,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3557",
@@ -6997,7 +8722,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "62",
@@ -7017,7 +8747,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "22",
@@ -7037,7 +8772,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3792",
@@ -7057,7 +8797,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/26",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3790",
@@ -7079,7 +8824,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1683",
@@ -7099,7 +8849,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2956",
@@ -7119,7 +8874,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "67",
@@ -7139,7 +8899,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5413",
@@ -7159,7 +8924,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4241",
@@ -7179,7 +8949,12 @@
     "vacancyInd": "Unknown",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "Unknown",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4466",
@@ -7199,7 +8974,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/10",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4739",
@@ -7219,7 +8999,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/25",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "749",
@@ -7239,7 +9024,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "885",
@@ -7259,7 +9049,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1491",
@@ -7279,7 +9074,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4355",
@@ -7299,7 +9099,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/21",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "169",
@@ -7319,7 +9124,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/09",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": true,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2544",
@@ -7339,7 +9149,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/20",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4291",
@@ -7359,7 +9174,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2335",
@@ -7379,7 +9199,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "118",
@@ -7399,7 +9224,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5797",
@@ -7419,7 +9249,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/08",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2706",
@@ -7439,7 +9274,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/26",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1485",
@@ -7459,7 +9299,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5398",
@@ -7483,7 +9328,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5780",
@@ -7503,7 +9353,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2820",
@@ -7523,7 +9378,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5379",
@@ -7547,7 +9407,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3802",
@@ -7570,7 +9435,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3274",
@@ -7590,7 +9460,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2786",
@@ -7610,7 +9485,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3266",
@@ -7630,7 +9510,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/04",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3750",
@@ -7650,7 +9535,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3205",
@@ -7670,7 +9560,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "956",
@@ -7690,7 +9585,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "973",
@@ -7710,7 +9610,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/22",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3110",
@@ -7733,7 +9638,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/03/11",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3449",
@@ -7753,7 +9663,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4835",
@@ -7773,7 +9688,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5415",
@@ -7793,7 +9713,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "181",
@@ -7813,7 +9738,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "276",
@@ -7833,7 +9763,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "631",
@@ -7853,7 +9788,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2914",
@@ -7873,7 +9813,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4022",
@@ -7897,7 +9842,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/13",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2709",
@@ -7917,7 +9867,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3977",
@@ -7937,7 +9892,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/20",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5141",
@@ -7957,7 +9917,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1216",
@@ -7977,7 +9942,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/27",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3348",
@@ -8000,7 +9970,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5366",
@@ -8020,7 +9995,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4",
@@ -8040,7 +10020,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/29",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1093",
@@ -8060,7 +10045,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1981",
@@ -8080,7 +10070,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "942",
@@ -8100,7 +10095,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5465",
@@ -8120,7 +10120,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1066",
@@ -8140,7 +10145,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/27",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "5357",
@@ -8160,7 +10170,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2831",
@@ -8180,7 +10195,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/05/05",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "324",
@@ -8200,7 +10220,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/06",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "163",
@@ -8220,7 +10245,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/17",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2403",
@@ -8240,7 +10270,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5198",
@@ -8260,7 +10295,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/05/29",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "5283",
@@ -8280,7 +10320,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/27",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "3321",
@@ -8300,7 +10345,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/05/19",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "102",
@@ -8320,7 +10370,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "2571",
@@ -8340,7 +10395,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/14",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3643",
@@ -8360,7 +10420,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/28",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": false,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": true
   },
   {
     "id": "1926",
@@ -8380,7 +10445,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4305",
@@ -8400,7 +10470,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "4031",
@@ -8420,7 +10495,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/05/20",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": true,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3886",
@@ -8444,7 +10524,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "770",
@@ -8464,7 +10549,12 @@
     "vacancyInd": "Y",
     "vacancyForLicense": "Y_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": true,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "952",
@@ -8484,7 +10574,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/01",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1235",
@@ -8504,7 +10599,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "166",
@@ -8524,7 +10624,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/03",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "3215",
@@ -8544,7 +10649,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1824",
@@ -8564,7 +10674,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/04/23",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1590",
@@ -8584,7 +10699,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/15",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2946",
@@ -8604,7 +10724,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "2312",
@@ -8624,7 +10749,12 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Group",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   },
   {
     "id": "1663",
@@ -8644,6 +10774,11 @@
     "vacancyInd": "N",
     "vacancyForLicense": "N_Licensed Family",
     "vacancyLastUpdated": "2026/06/16",
-    "isTenDollarDay": false
+    "isTenDollarDay": false,
+    "isCcfri": true,
+    "vacancyUnder36": false,
+    "vacancy30mos5yrs": false,
+    "vacancyLicpre": false,
+    "vacancyOosGr1Age12": false
   }
 ]

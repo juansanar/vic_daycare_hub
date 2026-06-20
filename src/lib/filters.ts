@@ -2,7 +2,7 @@ import type { Facility, TrackerEntry, TrackerStatus, CRDRegion, InspectionRecord
 import { facilityMatchesAgeFilter } from "./ages";
 import inspectionsData from "../../data/inspections.json";
 
-const inspections = inspectionsData as InspectionRecord[];
+const inspections = inspectionsData as unknown as InspectionRecord[];
 const inspectionServiceTypeByFacility = new Map(
   inspections.map((r) => [r.facilityId, r.serviceType]),
 );

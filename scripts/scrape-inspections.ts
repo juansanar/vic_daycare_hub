@@ -70,33 +70,44 @@ interface Contravention {
   corrected: boolean;
 }
 
+interface InspectionDetail {
+  id: string;
+  date: string;
+  type: string;
+  contraventions: Contravention[];
+}
+
 interface InspectionRecord {
   facilityId: string;
   permitID: string;
   inspectionUrl: string;
-  lastInspectionDate: string;
-  lastInspectionType: string;
   serviceType?: string;
-  contraventions: Contravention[];
+  inspections: InspectionDetail[];
+  allFetched?: boolean;
 }
 
 async function fetchJson(body: object): Promise<unknown> {
-  const res = await fetch(`${BASE_URL}/`, {
-    method: "POST",
-    headers: {
-      ...BROWSER_HEADERS,
-      "Content-Type": "application/json",
-      Accept: "application/json",
-      Origin: BASE_URL,
-      Referer: `${BASE_URL}/island-health/program-ccfl`,
-    },
-    body: JSON.stringify(body),
-  });
-  if (!res.ok) {
-    console.warn(`  API returned ${res.status}`);
+  try {
+    const res = await fetch(`${BASE_URL}/`, {
+      method: "POST",
+      headers: {
+        ...BROWSER_HEADERS,
+        "Content-Type": "application/json",
+        Accept: "application/json",
+        Origin: BASE_URL,
+        Referer: `${BASE_URL}/island-health/program-ccfl`,
+      },
+      body: JSON.stringify(body),
+    });
+    if (!res.ok) {
+      console.warn(`  API returned ${res.status}`);
+      return null;
+    }
+    return res.json();
+  } catch (err) {
+    console.warn(`  fetchJson error:`, err);
     return null;
   }
-  return res.json();
 }
 
 async function fetchHtml(url: string): Promise<string | null> {
@@ -276,15 +287,33 @@ async function main() {
   console.log(`Loaded ${ourFacilities.length} facilities from our data`);
 
   // Load existing inspection data to preserve contraventions on rate-limited re-runs
-  let existingInspections: InspectionRecord[] = [];
+  let existingInspections: any[] = [];
   try {
     existingInspections = JSON.parse(
       readFileSync(resolve(DATA_DIR, "inspections.json"), "utf-8"),
     );
   } catch { /* no existing data */ }
-  const existingMap = new Map<string, InspectionRecord>();
+
+  const cache = new Map<string, InspectionDetail>();
+  const oldMigrationMap = new Map<string, { date: string; type: string; contraventions: Contravention[] }>();
+  const existingRecordsMap = new Map<string, any>();
+
   for (const rec of existingInspections) {
-    existingMap.set(rec.facilityId, rec);
+    existingRecordsMap.set(rec.facilityId, rec);
+    
+    // If it has inspections array, load them into the cache
+    if (rec.inspections && Array.isArray(rec.inspections)) {
+      for (const insp of rec.inspections) {
+        cache.set(insp.id, insp);
+      }
+    } else if (rec.permitID && rec.lastInspectionDate && rec.lastInspectionType) {
+      // It's the old format - record for migration fallback
+      oldMigrationMap.set(rec.permitID, {
+        date: rec.lastInspectionDate,
+        type: rec.lastInspectionType,
+        contraventions: rec.contraventions || [],
+      });
+    }
   }
 
   // Build normalized name index for matching
@@ -298,6 +327,28 @@ async function main() {
 
   // Match discovered facilities to ours
   const matched: Map<string, { facilityId: string; permitID: string; apiData: APIFacility }> = new Map();
+
+  // Pre-populate matched map from existing records to save API searches
+  for (const rec of existingInspections) {
+    if (rec.permitID && rec.facilityId) {
+      matched.set(rec.facilityId, {
+        facilityId: rec.facilityId,
+        permitID: rec.permitID,
+        apiData: {
+          permitID: rec.permitID,
+          establishmentName: "",
+          permitName: "",
+          addressLine1: "",
+          city: "",
+          zip: "",
+          inspectionID: "",
+          inspectionDate: rec.inspections?.[0]?.date ? `${rec.inspections[0].date}T00:00:00` : "",
+          purpose: rec.inspections?.[0]?.type || "",
+          ServiceType: rec.serviceType || "",
+        },
+      });
+    }
+  }
 
   for (const disc of discovered) {
     const discName = disc.permitName || disc.establishmentName;
@@ -371,6 +422,21 @@ async function main() {
   const inspections: InspectionRecord[] = [];
   const matchedEntries = Array.from(matched.values());
 
+  // Prioritize "Hampton House Society" (facilityId "3004") and other unfetched facilities
+  matchedEntries.sort((a, b) => {
+    if (a.facilityId === "3004") return -1;
+    if (b.facilityId === "3004") return 1;
+
+    const existingA = existingRecordsMap.get(a.facilityId);
+    const existingB = existingRecordsMap.get(b.facilityId);
+    const fetchedA = existingA?.allFetched || false;
+    const fetchedB = existingB?.allFetched || false;
+
+    if (!fetchedA && fetchedB) return -1;
+    if (fetchedA && !fetchedB) return 1;
+    return 0;
+  });
+
   console.log(`\nFetching inspection details for ${matchedEntries.length} facilities...`);
 
   let rateLimited = false;
@@ -384,65 +450,127 @@ async function main() {
     }
 
     const inspectionUrl = FACILITY_PAGE_URL(entry.permitID);
+    const facilityInspections: InspectionDetail[] = [];
+    const existing = existingRecordsMap.get(entry.facilityId);
+    let successfullyFetched = false;
 
-    // Use API data for basic info (always available)
-    const lastInspectionDate = entry.apiData.inspectionDate
+    // Check if cache is up-to-date based on the latest inspection date from the API
+    const apiLatestDate = entry.apiData.inspectionDate
       ? entry.apiData.inspectionDate.split("T")[0]
       : "";
-    const lastInspectionType = entry.apiData.purpose || "";
-    let contraventions: Contravention[] = [];
+      
+    let cacheIsUpToDate = false;
+    if (existing && existing.allFetched && Array.isArray(existing.inspections) && existing.inspections.length > 0) {
+      const cachedLatestDate = existing.inspections[0].date;
+      if (cachedLatestDate === apiLatestDate) {
+        cacheIsUpToDate = true;
+      }
+    }
 
-    // Only fetch HTML detail pages if not rate-limited
-    if (!rateLimited) {
+    if (cacheIsUpToDate && existing) {
+      facilityInspections.push(...existing.inspections);
+    } else if (!rateLimited) {
       await sleep(DELAY_MS);
 
       const inspList = await fetchFacilityInspections(entry.permitID);
 
       if (inspList.length > 0) {
-        // Find most recent routine inspection to check for contraventions
-        const routine = inspList.find((insp) => /routine/i.test(insp.type));
-        if (routine) {
-          await sleep(DELAY_MS);
-          contraventions = await fetchContraventions(routine.inspectionID);
-
-          // Check if there's a follow-up after the routine that resolved issues
-          const routineIdx = inspList.indexOf(routine);
-          if (routineIdx > 0 && contraventions.length > 0) {
-            const laterEntries = inspList.slice(0, routineIdx);
-            const followUp = laterEntries.find((insp) => /follow/i.test(insp.type));
-            if (followUp) {
+        successfullyFetched = true;
+        // Fetch details for top 6 inspections
+        const top6 = inspList.slice(0, 6);
+        for (const insp of top6) {
+          let contraventions: Contravention[] = [];
+          if (cache.has(insp.inspectionID)) {
+            contraventions = cache.get(insp.inspectionID)!.contraventions;
+          } else {
+            // Try migrating from old migration map
+            const oldMig = oldMigrationMap.get(entry.permitID);
+            if (oldMig && oldMig.date === insp.date && oldMig.type === insp.type) {
+              contraventions = oldMig.contraventions;
+              cache.set(insp.inspectionID, {
+                id: insp.inspectionID,
+                date: insp.date,
+                type: insp.type,
+                contraventions,
+              });
+            } else {
               await sleep(DELAY_MS);
-              const followUpContras = await fetchContraventions(followUp.inspectionID);
-              if (followUpContras.length === 0) {
-                contraventions = contraventions.map((c) => ({ ...c, corrected: true }));
+              const fetched = await fetchContraventions(insp.inspectionID);
+              contraventions = fetched;
+              cache.set(insp.inspectionID, {
+                id: insp.inspectionID,
+                date: insp.date,
+                type: insp.type,
+                contraventions,
+              });
+            }
+          }
+          facilityInspections.push({
+            id: insp.inspectionID,
+            date: insp.date,
+            type: insp.type,
+            contraventions,
+          });
+        }
+
+        // Apply correction logic on facilityInspections
+        for (const rd of facilityInspections) {
+          if (/routine/i.test(rd.type)) {
+            const hasNewerCleanFollowUp = facilityInspections.some(
+              (other) =>
+                /follow/i.test(other.type) &&
+                other.date > rd.date &&
+                other.contraventions.length === 0
+            );
+            if (hasNewerCleanFollowUp) {
+              rd.contraventions = rd.contraventions.map((c) => ({
+                ...c,
+                corrected: true,
+              }));
+              // Update cache
+              const cached = cache.get(rd.id);
+              if (cached) {
+                cached.contraventions = rd.contraventions;
               }
             }
           }
         }
       } else if (inspList.length === 0 && i > 5) {
         // Likely rate-limited — stop fetching HTML but continue writing records
-        console.log(`  Rate limited after ${i} facilities. Continuing with API data only.`);
+        console.log(`  Rate limited after ${i} facilities. Continuing with cached/API data only.`);
         rateLimited = true;
       }
     }
 
-    // If we didn't get fresh contraventions, preserve existing ones
-    const existing = existingMap.get(entry.facilityId);
-    if (contraventions.length === 0 && existing?.contraventions?.length) {
-      contraventions = existing.contraventions;
+    // Fallback: If we couldn't get inspections (rate-limited, or network failure), restore from cache or old migration map
+    if (facilityInspections.length === 0) {
+      if (existing) {
+        if (existing.inspections && Array.isArray(existing.inspections)) {
+          facilityInspections.push(...existing.inspections);
+        } else if (existing.lastInspectionDate) {
+          // Old format fallback
+          const oldMig = oldMigrationMap.get(entry.permitID);
+          if (oldMig) {
+            facilityInspections.push({
+              id: "migrated-unknown-id",
+              date: oldMig.date,
+              type: oldMig.type,
+              contraventions: oldMig.contraventions,
+            });
+          }
+        }
+      }
     }
 
-    const serviceType =
-      entry.apiData.ServiceType ?? existing?.serviceType ?? "";
+    const serviceType = entry.apiData.ServiceType ?? existing?.serviceType ?? "";
 
     inspections.push({
       facilityId: entry.facilityId,
       permitID: entry.permitID,
       inspectionUrl,
-      lastInspectionDate,
-      lastInspectionType,
       serviceType: serviceType || undefined,
-      contraventions,
+      inspections: facilityInspections,
+      allFetched: cacheIsUpToDate ? existing?.allFetched : successfullyFetched,
     });
   }
 
@@ -451,9 +579,9 @@ async function main() {
   writeFileSync(outputPath, JSON.stringify(inspections, null, 2));
   console.log(`\nDone! Wrote ${inspections.length} inspection records to ${outputPath}`);
 
-  const withContraventions = inspections.filter((r) => r.contraventions.length > 0);
+  const withContraventions = inspections.filter((r) => r.inspections.some((i) => i.contraventions.length > 0));
   const uncorrected = inspections.filter((r) =>
-    r.contraventions.some((c) => !c.corrected),
+    r.inspections.some((i) => i.contraventions.some((c) => !c.corrected)),
   );
   console.log(`  With contraventions: ${withContraventions.length}`);
   console.log(`  With uncorrected issues: ${uncorrected.length}`);

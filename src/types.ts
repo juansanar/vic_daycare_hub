@@ -19,6 +19,11 @@ export interface Facility {
   vacancyForLicense?: string;
   vacancyLastUpdated?: string;
   isTenDollarDay: boolean;
+  isCcfri: boolean;
+  vacancyUnder36: boolean;
+  vacancy30mos5yrs: boolean;
+  vacancyLicpre: boolean;
+  vacancyOosGr1Age12: boolean;
 }
 
 export type TrackerStatus =
@@ -52,12 +57,18 @@ export interface Contravention {
   corrected: boolean;
 }
 
+export interface InspectionDetail {
+  id: string;
+  date: string;
+  type: string;
+  contraventions: Contravention[];
+}
+
 export interface InspectionRecord {
   facilityId: string;
   permitID: string;
   inspectionUrl: string;
-  lastInspectionDate: string;
-  lastInspectionType: string;
   serviceType?: string;
-  contraventions: Contravention[];
+  inspections: InspectionDetail[];
+  allFetched?: boolean;
 }
