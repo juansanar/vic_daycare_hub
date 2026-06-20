@@ -7,6 +7,8 @@ import { hasVacancyReported } from "../lib/vacancy";
 import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
 import Filters from "./Filters";
+import { MunicipalityGlyph } from "./Icons";
+
 
 const facilities = facilitiesData as Facility[];
 const inspections = inspectionsData as unknown as InspectionRecord[];
@@ -49,8 +51,13 @@ export default function FacilityList() {
                     <p className="truncate text-sm font-medium text-gray-900">
                       {f.name}
                     </p>
-                    <p className="mt-0.5 truncate text-xs text-gray-400">
-                      {f.address}, {f.municipality}
+                    <p className="mt-0.5 flex items-center gap-1.5 truncate text-xs text-gray-400">
+                      <span className="truncate">{f.address}</span>
+                      <span className="inline-block h-2.5 w-px bg-stone-200" />
+                      <span className="flex items-center gap-1 text-gray-500 font-medium">
+                        <MunicipalityGlyph municipality={f.municipality} size={11} className="text-emerald-600 shrink-0" />
+                        {f.municipality}
+                      </span>
                     </p>
                     <p className="mt-0.5 text-[11px] text-gray-300">
                       {f.serviceType}

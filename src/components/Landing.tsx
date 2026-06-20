@@ -1,18 +1,25 @@
 import meta from "../../data/meta.json";
 
+
+
 const bmcUsername = import.meta.env.VITE_BMC_USERNAME || "vic_daycare_hub";
 
 export default function Landing() {
   return (
     <div className="min-h-screen bg-stone-50">
       {/* Hero */}
-      <header className="mx-auto max-w-3xl px-6 pt-20 pb-16 text-center md:pt-28 md:pb-20">
+      <header className="mx-auto max-w-3xl px-6 pt-16 pb-16 text-center md:pt-24 md:pb-20">
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-xs font-medium text-emerald-700">
           <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-500" />
-          Free &middot; Open source &middot; No sign-up
+          Free &middot; Open source &middot; No sign-up required
         </div>
-        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-          Victoria Childcare Hub
+        <h1 className="flex flex-col items-center justify-center gap-1 text-4xl font-bold tracking-tight text-gray-900 sm:flex-row sm:gap-1.5 sm:text-5xl">
+          <img
+            src="/logo.png"
+            alt=""
+            className="h-16 w-16 sm:h-20 sm:w-20 object-contain transform hover:scale-105 transition-transform duration-300 drop-shadow-sm rounded-2xl shrink-0"
+          />
+          <span>Victoria Childcare Hub</span>
         </h1>
         <p className="mx-auto mt-4 text-sm text-gray-400">
           Victoria · Saanich · Oak Bay · View Royal · Langford · Colwood · Sooke · Central Saanich · Sidney
@@ -85,7 +92,7 @@ export default function Landing() {
             {
               icon: "📋",
               title: "Personal tracker",
-              desc: "Mark facilities as contacted, waitlisted, or ruled out. Add notes, dates, and cost info — saved in your browser.",
+              desc: "Mark facilities as contacted, waitlisted, or ruled out. Add notes, dates, and cost info — saved locally or synced securely.",
             },
             {
               icon: "🏥",
@@ -100,7 +107,7 @@ export default function Landing() {
             {
               icon: "💾",
               title: "Export your data",
-              desc: "Back up your tracker as JSON. Import it on another device. Your data belongs to you — nothing leaves your browser.",
+              desc: "Back up your tracker as JSON. Import it on another device. Your data belongs to you — it stays in your browser by default, or syncs securely if you sign in.",
             },
           ].map((item) => (
             <div
@@ -137,7 +144,7 @@ export default function Landing() {
               },
               {
                 q: "Are my notes private?",
-                a: "Yes. Everything stays in your browser's local storage. Nothing is sent to a server. No accounts, no analytics, no tracking.",
+                a: "Yes. By default, everything stays on your device in local storage and is never sent to a server. If you choose to sign in to sync your data across devices, your tracker entries and notes are sent securely to our database in Canada (stored in the northamerica-northeast2 region) and are only accessible through your authenticated account.",
               },
               {
                 q: "What areas are covered?",
@@ -163,7 +170,7 @@ export default function Landing() {
       <section className="border-t border-stone-200 bg-emerald-600 px-6 py-12 text-center">
         <h2 className="text-xl font-bold text-white">Ready to start?</h2>
         <p className="mt-2 text-sm text-emerald-100">
-          No sign-up. No payment. Just open the hub.
+          No sign-up required. No payment. Just open the hub.
         </p>
         <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a

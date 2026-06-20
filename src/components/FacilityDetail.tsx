@@ -1,6 +1,7 @@
 import { useStore } from "../store";
 import type { Facility, TrackerStatus, InspectionRecord } from "../types";
 import { resolveAgeGroupLabels, parseIslandHealthServiceType } from "../lib/ages";
+import { MunicipalityGlyph } from "./Icons";
 import {
   BC_CHILD_CARE_MAP_URL,
   CONTACT_CENTRE_COPY,
@@ -94,8 +95,11 @@ export default function FacilityDetail({
       </div>
 
       {/* Contact info */}
-      <div className="space-y-1 text-xs text-gray-500">
-        <p>{facility.address}, {facility.municipality} {facility.postalCode}</p>
+      <div className="space-y-1.5 text-xs text-gray-500">
+        <p className="flex items-center gap-1.5">
+          <MunicipalityGlyph municipality={facility.municipality} size={14} className="text-emerald-600 shrink-0" />
+          <span>{facility.address}, {facility.municipality} {facility.postalCode}</span>
+        </p>
         {facility.phone && (
           <p>
             <a href={`tel:${facility.phone}`} className="text-emerald-600 hover:underline">

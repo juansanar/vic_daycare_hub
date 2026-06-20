@@ -1,6 +1,7 @@
 import { useStore } from "../store";
 import { useAuth } from "../lib/auth";
 import { firebaseEnabled } from "../lib/firebase";
+
 import FacilityList from "./FacilityList";
 import FacilityDetail from "./FacilityDetail";
 import Resources from "./Resources";
@@ -86,9 +87,14 @@ export default function TrackerApp() {
       <header className="flex items-center justify-between border-b border-stone-200 bg-white px-4 py-2.5">
         <a
           href="#/"
-          className="text-base font-semibold tracking-tight text-emerald-700"
+          className="flex items-center gap-1 text-base font-semibold tracking-tight text-emerald-700 group"
         >
-          Victoria Childcare Hub
+          <img
+            src="/logo.png"
+            alt=""
+            className="h-7 w-7 object-contain rounded-md transform group-hover:scale-105 transition-transform duration-200"
+          />
+          <span>Victoria Childcare Hub</span>
         </a>
         <div className="flex items-center gap-3">
           <nav className="flex gap-0.5">
