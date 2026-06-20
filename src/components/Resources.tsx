@@ -1,3 +1,15 @@
+import {
+  VictoriaIcon,
+  SaanichIcon,
+  OakBayIcon,
+  ViewRoyalIcon,
+  LangfordIcon,
+  ColwoodIcon,
+  SookeIcon,
+  CentralSaanichIcon,
+  SidneyIcon,
+} from "./Icons";
+
 export default function Resources() {
   return (
     <div className="flex-1 overflow-y-auto p-6">
@@ -347,6 +359,37 @@ export default function Resources() {
             </a>
           </li>
         </ul>
+      </section>
+
+      {/* Municipal Icons Glossary */}
+      <section className="mt-8 border-t border-stone-200 pt-6">
+        <h3 className="mb-2 text-lg font-medium">Municipal Icons Glossary</h3>
+        <p className="mb-4 text-xs text-gray-500">
+          We use custom regional glyphs to represent the unique local character of the 9 municipalities covered by the hub:
+        </p>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+          {[
+            { name: "Victoria", icon: <VictoriaIcon size={20} className="text-emerald-600" />, desc: "Heritage lighthouse (guiding light)" },
+            { name: "Saanich", icon: <SaanichIcon size={20} className="text-emerald-600" />, desc: "Agricultural sprout & parks" },
+            { name: "Oak Bay", icon: <OakBayIcon size={20} className="text-emerald-600" />, desc: "Stylized Garry Oak leaf & acorn" },
+            { name: "View Royal", icon: <ViewRoyalIcon size={20} className="text-emerald-600" />, desc: "Royal crown cradled by ocean waves" },
+            { name: "Langford", icon: <LangfordIcon size={20} className="text-emerald-600" />, desc: "Overlapping hills and pine tree" },
+            { name: "Colwood", icon: <ColwoodIcon size={20} className="text-emerald-600" />, desc: "Castle turret (Hatley Castle)" },
+            { name: "Sooke", icon: <SookeIcon size={20} className="text-emerald-600" />, desc: "Jumping wild coastal salmon" },
+            { name: "Central Saanich", icon: <CentralSaanichIcon size={20} className="text-emerald-600" />, desc: "Garden butterfly (Butchart Gardens)" },
+            { name: "Sidney", icon: <SidneyIcon size={20} className="text-emerald-600" />, desc: "Sailboat (Sidney-by-the-Sea)" },
+          ].map((m) => (
+            <div key={m.name} className="flex items-center gap-3 rounded-lg border border-stone-100 p-2.5 bg-stone-50/50">
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white border border-stone-200/60 shadow-sm">
+                {m.icon}
+              </span>
+              <div className="min-w-0">
+                <p className="text-xs font-semibold text-gray-900">{m.name}</p>
+                <p className="text-[10px] text-gray-500 truncate" title={m.desc}>{m.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
     </div>
   );
