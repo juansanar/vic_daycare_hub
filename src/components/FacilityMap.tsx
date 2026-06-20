@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback, useRef } from "react";
-import { MapContainer, TileLayer, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, useMap, GeoJSON } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster/dist/MarkerCluster.css";
@@ -187,7 +187,105 @@ function LocateButton() {
   );
 }
 
-function MapLegend() {
+function getSchoolColor(schoolName: string): string {
+  let hash = 0;
+  for (let i = 0; i < schoolName.length; i++) {
+    hash = schoolName.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const h = Math.abs(hash % 360);
+  return `hsl(${h}, 65%, 55%)`;
+}
+
+function getCatchmentStyle(feature: any) {
+  const schoolName = feature?.properties?.school || "";
+  const isDistrictOutline = schoolName.includes("Sooke SD62");
+
+  if (isDistrictOutline) {
+    return {
+      fill: false,
+      color: "#ef4444",
+      weight: 2.5,
+      dashArray: "5, 5",
+      opacity: 0.85
+    };
+  }
+
+  const color = getSchoolColor(schoolName);
+  return {
+    fillColor: color,
+    fillOpacity: 0.2,
+    color: color,
+    weight: 1.5,
+    opacity: 0.7
+  };
+}
+
+const onEachFeature = (feature: any, layer: any) => {
+  const schoolName = feature.properties.school;
+  const isDistrictOutline = schoolName.includes("Sooke SD62");
+
+  if (isDistrictOutline) {
+    layer.bindTooltip(`Sooke SD62 District Boundary`, { sticky: true });
+    layer.bindPopup(`
+      <div style="font-family:system-ui,sans-serif;font-size:12px;line-height:1.4;">
+        <strong style="font-size:13px;color:#ef4444;">Sooke School District (SD62)</strong>
+        <div style="margin-top:4px;color:#4b5563;">School district boundary line. Elementary school catchments are not shown for this district.</div>
+      </div>
+    `);
+  } else {
+    const district = feature.properties.district || "SD61";
+    layer.bindTooltip(`${schoolName} Catchment`, { sticky: true });
+    layer.bindPopup(`
+      <div style="font-family:system-ui,sans-serif;font-size:12px;line-height:1.4;">
+        <strong style="font-size:13px;color:#059669;">${schoolName}</strong>
+        <div style="margin-top:4px;color:#4b5563;">${district} Elementary School Catchment area.</div>
+      </div>
+    `);
+  }
+
+  layer.on({
+    mouseover: (e: any) => {
+      const l = e.target;
+      l.setStyle({
+        weight: isDistrictOutline ? 4.0 : 3.0,
+        fillOpacity: isDistrictOutline ? 0 : 0.4,
+      });
+    },
+    mouseout: (e: any) => {
+      const l = e.target;
+      l.setStyle({
+        weight: isDistrictOutline ? 2.5 : 1.5,
+        fillOpacity: isDistrictOutline ? 0 : 0.2,
+      });
+    }
+  });
+};
+
+function CatchmentToggle({
+  active,
+  onChange,
+}: {
+  active: boolean;
+  onChange: (val: boolean) => void;
+}) {
+  return (
+    <div className="absolute top-4 right-4 z-[1000] pointer-events-auto">
+      <button
+        onClick={() => onChange(!active)}
+        className={`flex items-center gap-2 rounded-lg border px-3 py-2 text-xs font-semibold shadow-md transition-all backdrop-blur-md ${
+          active
+            ? "border-emerald-500 bg-emerald-500/10 text-emerald-700 dark:border-emerald-450 dark:bg-emerald-450/15 dark:text-emerald-400"
+            : "border-stone-200 bg-white/90 text-gray-700 hover:bg-stone-50 dark:border-stone-850 dark:bg-stone-900/90 dark:text-stone-300 dark:hover:bg-stone-800"
+        }`}
+      >
+        <span className="text-[14px]">🎒</span>
+        {active ? "Hide Elementary School Catchments" : "Show Elementary School Catchments"}
+      </button>
+    </div>
+  );
+}
+
+function MapLegend({ showCatchments }: { showCatchments: boolean }) {
   return (
     <div className="absolute bottom-4 left-4 z-[1000] rounded-lg border border-stone-200 bg-white p-3 shadow-md space-y-2 text-[11px] pointer-events-auto dark:border-stone-800 dark:bg-stone-900">
       <p className="font-bold text-gray-500 uppercase tracking-wider text-[9px] mb-1 dark:text-stone-400">
@@ -205,12 +303,27 @@ function MapLegend() {
         <span className="h-3 w-3 rounded-full border border-white bg-[#d97706] shadow-sm ring-1 ring-stone-900/10"></span>
         <span className="text-gray-600 font-medium dark:text-stone-300">Outstanding Issues</span>
       </div>
+      {showCatchments && (
+        <>
+          <div className="h-px bg-stone-200 dark:bg-stone-800 my-1.5"></div>
+          <div className="flex items-center gap-2">
+            <span className="h-3 w-5 rounded border border-emerald-500 bg-emerald-500/20 shadow-sm"></span>
+            <span className="text-gray-600 font-medium dark:text-stone-300">SD61 / SD63 Elem. Catchment</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="h-0 w-5 border-t border-dashed border-red-500"></span>
+            <span className="text-gray-600 font-medium dark:text-stone-300">SD62 district boundary</span>
+          </div>
+        </>
+      )}
     </div>
   );
 }
 
 export default function FacilityMap() {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
+  const [showCatchments, setShowCatchments] = useState(false);
+  const [catchmentData, setCatchmentData] = useState<any>(null);
   const trackerEntries = useStore((s) => s.trackerEntries);
   const selectedFacilityId = useStore((s) => s.selectedFacilityId);
   const setSelectedFacility = useStore((s) => s.setSelectedFacility);
@@ -225,6 +338,15 @@ export default function FacilityMap() {
     window.addEventListener("open-tracker", handler);
     return () => window.removeEventListener("open-tracker", handler);
   }, [setSelectedFacility]);
+
+  useEffect(() => {
+    if (showCatchments && !catchmentData) {
+      fetch("/school_catchments.geojson")
+        .then((res) => res.json())
+        .then((data) => setCatchmentData(data))
+        .catch((err) => console.error("Error loading catchments:", err));
+    }
+  }, [showCatchments, catchmentData]);
 
   return (
     <div className="flex flex-1 flex-col overflow-hidden">
@@ -243,9 +365,17 @@ export default function FacilityMap() {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
+            {showCatchments && catchmentData && (
+              <GeoJSON
+                data={catchmentData}
+                style={getCatchmentStyle}
+                onEachFeature={onEachFeature}
+              />
+            )}
             <MarkerLayer facilities={filtered} />
             <LocateButton />
-            <MapLegend />
+            <CatchmentToggle active={showCatchments} onChange={setShowCatchments} />
+            <MapLegend showCatchments={showCatchments} />
           </MapContainer>
         </div>
         {selectedFacilityId && (
