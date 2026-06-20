@@ -41,7 +41,7 @@ function AuthButton() {
         )}
         <button
           onClick={signOut}
-          className="rounded-full border border-stone-200 px-2.5 py-0.5 text-[11px] text-gray-500 transition hover:bg-stone-100 dark:border-stone-800 dark:text-stone-400 dark:hover:bg-stone-800"
+          className="rounded-full border border-stone-200 px-1.5 py-0.5 sm:px-2.5 text-[11px] text-gray-500 transition hover:bg-stone-100 dark:border-stone-800 dark:text-stone-400 dark:hover:bg-stone-800"
         >
           Sign out
         </button>
@@ -52,9 +52,9 @@ function AuthButton() {
   return (
     <button
       onClick={signInWithGoogle}
-      className="flex items-center gap-1.5 rounded-full border border-stone-200 px-3 py-1 text-[11px] font-medium text-gray-600 transition hover:bg-stone-100 dark:border-stone-800 dark:text-stone-300 dark:hover:bg-stone-800"
+      className="flex items-center gap-1 rounded-full border border-stone-200 px-2 py-1 sm:gap-1.5 sm:px-3 text-[11px] font-medium text-gray-600 transition hover:bg-stone-100 dark:border-stone-800 dark:text-stone-300 dark:hover:bg-stone-800"
     >
-      <svg className="h-3 w-3" viewBox="0 0 24 24">
+      <svg className="h-3 w-3 shrink-0" viewBox="0 0 24 24">
         <path
           d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
           fill="#4285F4"
@@ -72,7 +72,8 @@ function AuthButton() {
           fill="#EA4335"
         />
       </svg>
-      Sign in to sync
+      <span className="hidden sm:inline">Sign in to sync</span>
+      <span className="sm:hidden">Sign in</span>
     </button>
   );
 }
@@ -85,32 +86,33 @@ export default function TrackerApp() {
 
   return (
     <div className="flex h-screen flex-col bg-stone-50 text-gray-900 transition-colors duration-200 dark:bg-stone-950 dark:text-stone-100 theme-transition">
-      <header className="flex items-center justify-between border-b border-stone-200 bg-white px-4 py-2.5 dark:border-stone-800 dark:bg-stone-900">
+      <header className="flex items-center justify-between border-b border-stone-200 bg-white px-2 py-2 sm:px-4 sm:py-2.5 dark:border-stone-800 dark:bg-stone-900">
         <a
           href="#/"
-          className="flex items-center gap-1 text-base font-semibold tracking-tight text-emerald-700 group dark:text-emerald-450"
+          className="flex items-center gap-1 sm:gap-1.5 text-base font-semibold tracking-tight text-emerald-700 group dark:text-emerald-450"
         >
           <img
             src="/logo.png"
             alt=""
-            className="h-7 w-7 object-contain rounded-md transform group-hover:scale-105 transition-transform duration-200"
+            className="h-7 w-7 shrink-0 object-contain rounded-md transform group-hover:scale-105 transition-transform duration-200"
           />
-          <span>Victoria Childcare Hub</span>
+          <span className="hidden md:inline">Victoria Childcare Hub</span>
+          <span className="md:hidden">Vic Childcare Hub</span>
         </a>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1.5 sm:gap-3">
           <nav className="flex gap-0.5">
             {TABS.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center gap-1.5 rounded-full px-4 py-1.5 text-xs font-medium transition ${
+                className={`flex items-center gap-1 sm:gap-1.5 rounded-full px-2.5 py-1 sm:px-4 sm:py-1.5 text-xs font-medium transition ${
                   activeTab === tab.id
                     ? "bg-emerald-50 text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400"
                     : "text-gray-500 hover:bg-stone-100 hover:text-gray-700 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-stone-200"
                 }`}
               >
                 <span className="text-[10px]">{tab.icon}</span>
-                {tab.label}
+                <span className="hidden sm:inline">{tab.label}</span>
               </button>
             ))}
           </nav>

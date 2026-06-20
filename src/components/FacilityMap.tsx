@@ -383,9 +383,20 @@ export default function FacilityMap() {
           </MapContainer>
         </div>
         {selectedFacilityId && (
-          <aside className="w-80 overflow-y-auto border-l border-stone-200 bg-white p-4 dark:border-stone-800 dark:bg-stone-900">
+          <aside className="hidden w-80 overflow-y-auto border-l border-stone-200 bg-white p-4 md:block dark:border-stone-800 dark:bg-stone-900">
             <FacilityDetail facilityId={selectedFacilityId} />
           </aside>
+        )}
+        {selectedFacilityId && (
+          <div className="fixed inset-0 z-[2000] flex md:hidden">
+            <div
+              className="absolute inset-0 bg-black/20 dark:bg-black/50"
+              onClick={() => setSelectedFacility(null)}
+            />
+            <div className="relative ml-auto h-full w-full max-w-sm overflow-y-auto bg-white p-4 shadow-xl dark:bg-stone-900">
+              <FacilityDetail facilityId={selectedFacilityId} />
+            </div>
+          </div>
         )}
       </div>
     </div>
