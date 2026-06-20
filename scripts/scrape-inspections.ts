@@ -112,7 +112,7 @@ async function fetchJson(body: object): Promise<unknown> {
 
 async function fetchHtml(url: string): Promise<string | null> {
   try {
-    const res = await fetch(url, { headers: BROWSER_HEADERS });
+    const res = await fetch(url, { headers: BROWSER_HEADERS, signal: AbortSignal.timeout(10000) });
     if (!res.ok) {
       console.warn(`  HTTP ${res.status} for ${url}`);
       return null;
@@ -192,9 +192,9 @@ function parseInspectionDate(dateStr: string): string {
 
 async function fetchFacilityInspections(
   permitID: string,
-): Promise<{ type: string; date: string; inspectionID: string }[]> {
+): Promise<{ type: string; date: string; inspectionID: string }[] | null> {
   const html = await fetchHtml(FACILITY_PAGE_URL(permitID));
-  if (!html) return [];
+  if (!html) return null;
 
   const root = parse(html);
   const inspections: { type: string; date: string; inspectionID: string }[] = [];
@@ -223,9 +223,9 @@ async function fetchFacilityInspections(
   return inspections;
 }
 
-async function fetchContraventions(inspectionID: string): Promise<Contravention[]> {
+async function fetchContraventions(inspectionID: string): Promise<Contravention[] | null> {
   const html = await fetchHtml(INSPECTION_PAGE_URL(inspectionID));
-  if (!html) return [];
+  if (!html) return null;
 
   const root = parse(html);
   const contraventions: Contravention[] = [];
@@ -322,8 +322,11 @@ async function main() {
     nameIndex.set(normalizeIslandHealthName(f.name), f);
   }
 
+  const skipDiscovery = process.argv.includes("--skip-discovery");
+  const targetFacilityId = process.argv.find(arg => arg.startsWith("--facility="))?.split("=")[1];
+
   // Discover all facilities from Island Health API
-  const discovered = await discoverAllFacilities();
+  const discovered = skipDiscovery ? [] : await discoverAllFacilities();
 
   // Match discovered facilities to ours
   const matched: Map<string, { facilityId: string; permitID: string; apiData: APIFacility }> = new Map();
@@ -368,11 +371,13 @@ async function main() {
     }
   }
 
-  console.log(`\nMatched ${matched.size} of ${ourFacilities.length} facilities after pagination`);
+  if (!skipDiscovery) {
+    console.log(`\nMatched ${matched.size} of ${ourFacilities.length} facilities after pagination`);
+  }
 
   // Phase 2: Search individually for unmatched facilities
   const unmatched = ourFacilities.filter((f) => !matched.has(f.id));
-  if (unmatched.length > 0 && unmatched.length < 400) {
+  if (unmatched.length > 0 && unmatched.length < 400 && !skipDiscovery) {
     console.log(`Searching for ${unmatched.length} unmatched facilities by name...`);
     let searchMatches = 0;
     for (let i = 0; i < unmatched.length; i++) {
@@ -440,12 +445,17 @@ async function main() {
   console.log(`\nFetching inspection details for ${matchedEntries.length} facilities...`);
 
   let rateLimited = false;
+  let consecutiveFailures = 0;
 
   for (let i = 0; i < matchedEntries.length; i++) {
     const entry = matchedEntries[i];
     if (!entry) continue;
 
-    if (i % 20 === 0) {
+    const isTarget = !targetFacilityId || entry.facilityId === targetFacilityId;
+
+    if (isTarget && targetFacilityId) {
+      console.log(`  Processing targeted facility ${entry.facilityId} (${entry.apiData.permitName || "ID " + entry.facilityId})...`);
+    } else if (i % 20 === 0 && !targetFacilityId) {
       console.log(`  Processing ${i + 1}/${matchedEntries.length}...`);
     }
 
@@ -467,78 +477,104 @@ async function main() {
       }
     }
 
-    if (cacheIsUpToDate && existing) {
+    if (!isTarget) {
+      if (existing && existing.inspections) {
+        facilityInspections.push(...existing.inspections);
+      }
+    } else if (cacheIsUpToDate && existing) {
       facilityInspections.push(...existing.inspections);
     } else if (!rateLimited) {
       await sleep(DELAY_MS);
 
       const inspList = await fetchFacilityInspections(entry.permitID);
 
-      if (inspList.length > 0) {
-        successfullyFetched = true;
-        // Fetch details for top 6 inspections
-        const top6 = inspList.slice(0, 6);
-        for (const insp of top6) {
-          let contraventions: Contravention[] = [];
-          if (cache.has(insp.inspectionID)) {
-            contraventions = cache.get(insp.inspectionID)!.contraventions;
-          } else {
-            // Try migrating from old migration map
-            const oldMig = oldMigrationMap.get(entry.permitID);
-            if (oldMig && oldMig.date === insp.date && oldMig.type === insp.type) {
-              contraventions = oldMig.contraventions;
-              cache.set(insp.inspectionID, {
-                id: insp.inspectionID,
-                date: insp.date,
-                type: insp.type,
-                contraventions,
-              });
-            } else {
-              await sleep(DELAY_MS);
-              const fetched = await fetchContraventions(insp.inspectionID);
-              contraventions = fetched;
-              cache.set(insp.inspectionID, {
-                id: insp.inspectionID,
-                date: insp.date,
-                type: insp.type,
-                contraventions,
-              });
-            }
-          }
-          facilityInspections.push({
-            id: insp.inspectionID,
-            date: insp.date,
-            type: insp.type,
-            contraventions,
-          });
+      if (inspList === null) {
+        consecutiveFailures++;
+        console.warn(`  Failed to fetch facility page for ${entry.permitID} (consecutive failures: ${consecutiveFailures}).`);
+        if (consecutiveFailures >= 5) {
+          console.error(`  Too many consecutive failures. Flagging as rate-limited/blocked.`);
+          rateLimited = true;
         }
+      } else {
+        let fetchSuccess = true;
+        if (inspList.length > 0) {
+          // Fetch details for top 6 inspections
+          const top6 = inspList.slice(0, 6);
+          for (const insp of top6) {
+            let contraventions: Contravention[] = [];
+            if (cache.has(insp.inspectionID)) {
+              contraventions = cache.get(insp.inspectionID)!.contraventions;
+            } else {
+              // Try migrating from old migration map
+              const oldMig = oldMigrationMap.get(entry.permitID);
+              if (oldMig && oldMig.date === insp.date && oldMig.type === insp.type) {
+                contraventions = oldMig.contraventions;
+                cache.set(insp.inspectionID, {
+                  id: insp.inspectionID,
+                  date: insp.date,
+                  type: insp.type,
+                  contraventions,
+                });
+              } else {
+                await sleep(DELAY_MS);
+                const fetched = await fetchContraventions(insp.inspectionID);
+                if (fetched === null) {
+                  consecutiveFailures++;
+                  console.warn(`  Failed to fetch contraventions for inspection ${insp.inspectionID} (consecutive failures: ${consecutiveFailures}).`);
+                  fetchSuccess = false;
+                  if (consecutiveFailures >= 5) {
+                    console.error(`  Too many consecutive failures. Flagging as rate-limited/blocked.`);
+                    rateLimited = true;
+                  }
+                  break;
+                }
+                contraventions = fetched;
+                cache.set(insp.inspectionID, {
+                  id: insp.inspectionID,
+                  date: insp.date,
+                  type: insp.type,
+                  contraventions,
+                });
+              }
+            }
+            facilityInspections.push({
+              id: insp.inspectionID,
+              date: insp.date,
+              type: insp.type,
+              contraventions,
+            });
+          }
 
-        // Apply correction logic on facilityInspections
-        for (const rd of facilityInspections) {
-          if (/routine/i.test(rd.type)) {
-            const hasNewerCleanFollowUp = facilityInspections.some(
-              (other) =>
-                /follow/i.test(other.type) &&
-                other.date > rd.date &&
-                other.contraventions.length === 0
-            );
-            if (hasNewerCleanFollowUp) {
-              rd.contraventions = rd.contraventions.map((c) => ({
-                ...c,
-                corrected: true,
-              }));
-              // Update cache
-              const cached = cache.get(rd.id);
-              if (cached) {
-                cached.contraventions = rd.contraventions;
+          if (fetchSuccess) {
+            // Apply correction logic on facilityInspections
+            for (const rd of facilityInspections) {
+              if (/routine/i.test(rd.type)) {
+                const hasNewerCleanFollowUp = facilityInspections.some(
+                  (other) =>
+                    /follow/i.test(other.type) &&
+                    other.date > rd.date &&
+                    other.contraventions.length === 0
+                );
+                if (hasNewerCleanFollowUp) {
+                  rd.contraventions = rd.contraventions.map((c) => ({
+                    ...c,
+                    corrected: true,
+                  }));
+                  // Update cache
+                  const cached = cache.get(rd.id);
+                  if (cached) {
+                    cached.contraventions = rd.contraventions;
+                  }
+                }
               }
             }
           }
         }
-      } else if (inspList.length === 0 && i > 5) {
-        // Likely rate-limited — stop fetching HTML but continue writing records
-        console.log(`  Rate limited after ${i} facilities. Continuing with cached/API data only.`);
-        rateLimited = true;
+
+        if (fetchSuccess) {
+          consecutiveFailures = 0;
+          successfullyFetched = true;
+        }
       }
     }
 
@@ -570,7 +606,7 @@ async function main() {
       inspectionUrl,
       serviceType: serviceType || undefined,
       inspections: facilityInspections,
-      allFetched: cacheIsUpToDate ? existing?.allFetched : successfullyFetched,
+      allFetched: !isTarget ? (existing?.allFetched ?? false) : (cacheIsUpToDate ? existing?.allFetched : successfullyFetched),
     });
   }
 
