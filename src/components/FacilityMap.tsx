@@ -261,6 +261,7 @@ const onEachFeature = (feature: any, layer: any) => {
   });
 };
 
+/*
 function CatchmentToggle({
   active,
   onChange,
@@ -284,6 +285,7 @@ function CatchmentToggle({
     </div>
   );
 }
+*/
 
 function MapLegend({ showCatchments }: { showCatchments: boolean }) {
   return (
@@ -322,7 +324,7 @@ function MapLegend({ showCatchments }: { showCatchments: boolean }) {
 
 export default function FacilityMap() {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
-  const [showCatchments, setShowCatchments] = useState(false);
+  const [showCatchments] = useState(false);
   const [catchmentData, setCatchmentData] = useState<any>(null);
   const trackerEntries = useStore((s) => s.trackerEntries);
   const selectedFacilityId = useStore((s) => s.selectedFacilityId);
@@ -374,7 +376,7 @@ export default function FacilityMap() {
             )}
             <MarkerLayer facilities={filtered} />
             <LocateButton />
-            <CatchmentToggle active={showCatchments} onChange={setShowCatchments} />
+            {/* <CatchmentToggle active={showCatchments} onChange={setShowCatchments} /> */}
             <MapLegend showCatchments={showCatchments} />
           </MapContainer>
         </div>

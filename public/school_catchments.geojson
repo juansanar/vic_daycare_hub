@@ -36936,6 +36936,390 @@
         "district": "SD63",
         "objectId": 1171784
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.5186,
+              48.437
+            ],
+            [
+              -123.548,
+              48.437
+            ],
+            [
+              -123.548,
+              48.465
+            ],
+            [
+              -123.515,
+              48.462
+            ],
+            [
+              -123.5015,
+              48.456
+            ],
+            [
+              -123.5005,
+              48.4485
+            ],
+            [
+              -123.5042,
+              48.441
+            ],
+            [
+              -123.5186,
+              48.437
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "school": "Willway Elementary (SD62)",
+        "label": "",
+        "objectId": 5000,
+        "district": "SD62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.5005,
+              48.4485
+            ],
+            [
+              -123.4855,
+              48.4502
+            ],
+            [
+              -123.48,
+              48.458
+            ],
+            [
+              -123.5015,
+              48.456
+            ],
+            [
+              -123.5005,
+              48.4485
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "school": "Savory Elementary (SD62)",
+        "label": "",
+        "objectId": 5001,
+        "district": "SD62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.5005,
+              48.4485
+            ],
+            [
+              -123.495,
+              48.4496
+            ],
+            [
+              -123.496,
+              48.454
+            ],
+            [
+              -123.5015,
+              48.456
+            ],
+            [
+              -123.5005,
+              48.4485
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "school": "Ruth King Elementary (SD62)",
+        "label": "",
+        "objectId": 5002,
+        "district": "SD62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.5042,
+              48.441
+            ],
+            [
+              -123.5005,
+              48.4485
+            ],
+            [
+              -123.4855,
+              48.4502
+            ],
+            [
+              -123.4912,
+              48.4342
+            ],
+            [
+              -123.5042,
+              48.441
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "school": "David Cameron Elementary (SD62)",
+        "label": "",
+        "objectId": 5003,
+        "district": "SD62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.4912,
+              48.4342
+            ],
+            [
+              -123.4862,
+              48.4325
+            ],
+            [
+              -123.478,
+              48.432
+            ],
+            [
+              -123.4712,
+              48.4332
+            ],
+            [
+              -123.475,
+              48.428
+            ],
+            [
+              -123.48,
+              48.421
+            ],
+            [
+              -123.482,
+              48.414
+            ],
+            [
+              -123.488,
+              48.415
+            ],
+            [
+              -123.492,
+              48.411
+            ],
+            [
+              -123.4912,
+              48.4342
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "school": "Colwood Elementary (SD62)",
+        "label": "",
+        "objectId": 5004,
+        "district": "SD62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.4765,
+              48.4345
+            ],
+            [
+              -123.468,
+              48.4485
+            ],
+            [
+              -123.45,
+              48.44
+            ],
+            [
+              -123.4616,
+              48.4326
+            ],
+            [
+              -123.4712,
+              48.4332
+            ],
+            [
+              -123.4765,
+              48.4345
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "school": "Crystal View Elementary (SD62)",
+        "label": "",
+        "objectId": 5005,
+        "district": "SD62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.535,
+              48.411
+            ],
+            [
+              -123.548,
+              48.402
+            ],
+            [
+              -123.548,
+              48.437
+            ],
+            [
+              -123.5186,
+              48.437
+            ],
+            [
+              -123.522,
+              48.43
+            ],
+            [
+              -123.5255,
+              48.424
+            ],
+            [
+              -123.529,
+              48.419
+            ],
+            [
+              -123.535,
+              48.411
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "school": "Happy Valley Elementary (SD62)",
+        "label": "",
+        "objectId": 5006,
+        "district": "SD62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.4835,
+              48.412
+            ],
+            [
+              -123.4942,
+              48.4068
+            ],
+            [
+              -123.4975,
+              48.4075
+            ],
+            [
+              -123.529,
+              48.419
+            ],
+            [
+              -123.518,
+              48.426
+            ],
+            [
+              -123.4912,
+              48.4342
+            ],
+            [
+              -123.4835,
+              48.412
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "school": "Wishart Elementary (SD62)",
+        "label": "",
+        "objectId": 5007,
+        "district": "SD62"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.4835,
+              48.412
+            ],
+            [
+              -123.4942,
+              48.4068
+            ],
+            [
+              -123.4792,
+              48.398
+            ],
+            [
+              -123.4735,
+              48.4116
+            ],
+            [
+              -123.4688,
+              48.423
+            ],
+            [
+              -123.4835,
+              48.412
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "school": "Sangster Elementary (SD62)",
+        "label": "",
+        "objectId": 5008,
+        "district": "SD62"
+      }
     }
   ]
 }
