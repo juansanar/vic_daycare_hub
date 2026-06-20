@@ -84,7 +84,7 @@ export default function Filters({ onChange }: FiltersProps) {
           type="checkbox"
           checked={filters.tenDollarOnly}
           onChange={(e) => update({ tenDollarOnly: e.target.checked })}
-          className="rounded border-stone-300 bg-white text-emerald-600 focus:ring-emerald-200 dark:border-stone-700 dark:bg-stone-900 dark:focus:ring-emerald-800/40"
+          className="rounded border-stone-300 text-emerald-600 focus:ring-emerald-200 dark:border-stone-700 dark:focus:ring-emerald-800/40"
         />
         $10/day
       </label>
@@ -97,7 +97,7 @@ export default function Filters({ onChange }: FiltersProps) {
           type="checkbox"
           checked={filters.vacancyOnly}
           onChange={(e) => update({ vacancyOnly: e.target.checked })}
-          className="rounded border-stone-300 bg-white text-emerald-600 focus:ring-emerald-200 dark:border-stone-700 dark:bg-stone-900 dark:focus:ring-emerald-800/40"
+          className="rounded border-stone-300 text-emerald-600 focus:ring-emerald-200 dark:border-stone-700 dark:focus:ring-emerald-800/40"
         />
         Vacancy
       </label>
