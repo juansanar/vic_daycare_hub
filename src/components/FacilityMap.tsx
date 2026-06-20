@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { MapContainer, TileLayer, useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -97,12 +97,18 @@ function buildPopupHtml(f: Facility): string {
 
 function MarkerLayer({ facilities }: { facilities: Facility[] }) {
   const map = useMap();
+  const selectedFacilityId = useStore((s) => s.selectedFacilityId);
+  const markersRef = useRef<Map<string, L.Marker>>(new Map());
+  const clusterRef = useRef<any>(null);
 
   useEffect(() => {
     const cluster = L.markerClusterGroup({
       maxClusterRadius: 50,
       spiderfyOnMaxZoom: true,
     });
+    clusterRef.current = cluster;
+
+    markersRef.current.clear();
 
     facilities.forEach((f) => {
       if (!f.lat || !f.lng) return;
@@ -121,14 +127,28 @@ function MarkerLayer({ facilities }: { facilities: Facility[] }) {
       );
       marker.bindTooltip(f.name);
       marker.bindPopup(buildPopupHtml(f), { maxWidth: 300 });
+      
       cluster.addLayer(marker);
+      markersRef.current.set(f.id, marker);
     });
 
     map.addLayer(cluster);
     return () => {
       map.removeLayer(cluster);
+      clusterRef.current = null;
     };
   }, [map, facilities]);
+
+  // Center the map and open popup on the selected facility
+  useEffect(() => {
+    if (!selectedFacilityId || !clusterRef.current) return;
+    const marker = markersRef.current.get(selectedFacilityId);
+    if (marker) {
+      clusterRef.current.zoomToShowLayer(marker, () => {
+        marker.openPopup();
+      });
+    }
+  }, [selectedFacilityId, facilities]);
 
   return null;
 }

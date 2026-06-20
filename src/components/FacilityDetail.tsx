@@ -35,6 +35,8 @@ export default function FacilityDetail({
   const trackerEntries = useStore((s) => s.trackerEntries);
   const setTrackerField = useStore((s) => s.setTrackerField);
   const setSelectedFacility = useStore((s) => s.setSelectedFacility);
+  const activeTab = useStore((s) => s.activeTab);
+  const setActiveTab = useStore((s) => s.setActiveTab);
 
   if (!facility) return null;
 
@@ -114,16 +116,26 @@ export default function FacilityDetail({
             </a>
           </p>
         )}
-        {facility.website && (
-          <a
-            href={facility.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block text-emerald-600 hover:underline"
-          >
-            Website ↗
-          </a>
-        )}
+        <div className="flex flex-wrap gap-x-3 gap-y-1">
+          {facility.website && (
+            <a
+              href={facility.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-emerald-600 hover:underline"
+            >
+              Website ↗
+            </a>
+          )}
+          {facility.lat && facility.lng && (
+            <button
+              onClick={() => setActiveTab("map")}
+              className="text-emerald-600 hover:underline text-left font-medium"
+            >
+              {activeTab === "map" ? "Centered on map 🎯" : "Show on map 🗺️"}
+            </button>
+          )}
+        </div>
         <p className="text-[11px] text-gray-300">{facility.serviceType}</p>
       </div>
 

@@ -19,6 +19,7 @@ function getTabFromHash(): "list" | "map" | "resources" | null {
 
 export default function App() {
   const [view, setView] = useState<View>(getViewFromHash);
+  const activeTab = useStore((s) => s.activeTab);
   const setActiveTab = useStore((s) => s.setActiveTab);
 
   useEffect(() => {
@@ -35,6 +36,15 @@ export default function App() {
 
     return () => window.removeEventListener("hashchange", onHashChange);
   }, [setActiveTab]);
+
+  useEffect(() => {
+    if (view === "app") {
+      const currentTab = getTabFromHash();
+      if (currentTab !== activeTab) {
+        window.location.hash = `#/app/${activeTab}`;
+      }
+    }
+  }, [view, activeTab]);
 
   return view === "app" ? <TrackerApp /> : <Landing />;
 }
