@@ -259,6 +259,97 @@ export function SidneyIcon({ size = 20, className, ...props }: MuniIconProps) {
   );
 }
 
+export function EsquimaltIcon({ size = 20, className, ...props }: any) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      {...props}
+    >
+      <circle cx="12" cy="5" r="2" />
+      <line x1="12" y1="7" x2="12" y2="19" />
+      <line x1="8" y1="10" x2="16" y2="10" />
+      <path d="M5 13 C5 17.5 19 17.5 19 13" />
+      <line x1="5" y1="13" x2="3" y2="11" />
+      <line x1="19" y1="13" x2="21" y2="11" />
+    </svg>
+  );
+}
+
+export function NorthSaanichIcon({ size = 20, className, ...props }: any) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      {...props}
+    >
+      <path d="M22 17H2a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3Z" fill="currentColor" fillOpacity="0.1" />
+      <line x1="12" y1="3" x2="12" y2="17" />
+      <path d="M12 4 L19 13 H12 Z" fill="currentColor" fillOpacity="0.2" />
+      <path d="M12 5 L6 13 H12 Z" />
+    </svg>
+  );
+}
+
+export function MetchosinIcon({ size = 20, className, ...props }: any) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      {...props}
+    >
+      <path d="M2 19 Q 8 11, 14 15 T 22 11" />
+      <path d="M2 19 H 22 V 15 Q 16 17, 12 13 Q 7 10, 2 19 Z" fill="currentColor" fillOpacity="0.15" />
+      <path d="M16 11 V13" />
+      <circle cx="16" cy="9.5" r="2" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function HighlandsIcon({ size = 20, className, ...props }: any) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      {...props}
+    >
+      <path d="M3 19 L10 7 L16 15 L21 10 L23 13" />
+      <path d="M3 19 H22 V13 L21 10 L16 15 L10 7 Z" fill="currentColor" fillOpacity="0.1" />
+      <path d="M7 19 V15" />
+      <path d="M7 12 L4 16 H10 Z" fill="currentColor" fillOpacity="0.2" />
+      <path d="M7 9 L5 13 H9 Z" />
+    </svg>
+  );
+}
+
 // 4. Unified Municipality Glyph switcher
 interface MunicipalityGlyphProps extends MuniIconProps {
   municipality: string;
@@ -286,6 +377,14 @@ export function MunicipalityGlyph({ municipality, size = 18, className, ...props
       return <CentralSaanichIcon size={size} className={className} {...props} />;
     case "sidney":
       return <SidneyIcon size={size} className={className} {...props} />;
+    case "esquimalt":
+      return <EsquimaltIcon size={size} className={className} {...props} />;
+    case "north saanich":
+      return <NorthSaanichIcon size={size} className={className} {...props} />;
+    case "metchosin":
+      return <MetchosinIcon size={size} className={className} {...props} />;
+    case "highlands":
+      return <HighlandsIcon size={size} className={className} {...props} />;
     default:
       // Fallback sprout icon
       return <SaanichIcon size={size} className={className} {...props} />;

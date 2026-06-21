@@ -324,6 +324,8 @@ async function main() {
 
   const skipDiscovery = process.argv.includes("--skip-discovery");
   const targetFacilityId = process.argv.find(arg => arg.startsWith("--facility="))?.split("=")[1];
+  const limitArg = process.argv.find(arg => arg.startsWith("--limit="))?.split("=")[1];
+  const limit = limitArg ? (limitArg === "none" || limitArg === "0" ? Infinity : parseInt(limitArg, 10)) : 30;
 
   // Discover all facilities from Island Health API
   const discovered = skipDiscovery ? [] : await discoverAllFacilities();
@@ -445,6 +447,8 @@ async function main() {
   console.log(`\nFetching inspection details for ${matchedEntries.length} facilities...`);
 
   let rateLimited = false;
+  let limitReached = false;
+  let newFetchesCount = 0;
   let consecutiveFailures = 0;
 
   for (let i = 0; i < matchedEntries.length; i++) {
@@ -477,13 +481,23 @@ async function main() {
       }
     }
 
+    const needFetch = isTarget && (!cacheIsUpToDate || !existing);
+    if (needFetch && !rateLimited && !limitReached) {
+      if (newFetchesCount >= limit) {
+        console.log(`  [Batch Limit] Reached limit of ${limit} new fetches. Skipping remaining new fetches.`);
+        limitReached = true;
+      } else {
+        newFetchesCount++;
+      }
+    }
+
     if (!isTarget) {
       if (existing && existing.inspections) {
         facilityInspections.push(...existing.inspections);
       }
     } else if (cacheIsUpToDate && existing) {
       facilityInspections.push(...existing.inspections);
-    } else if (!rateLimited) {
+    } else if (!rateLimited && !limitReached) {
       await sleep(DELAY_MS);
 
       const inspList = await fetchFacilityInspections(entry.permitID);

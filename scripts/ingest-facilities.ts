@@ -146,12 +146,63 @@ function normalize(s: string): string {
   return s.toLowerCase().replace(/[^a-z0-9]/g, "");
 }
 
-function getMunicipality(locality: string, postalCode: string): string {
-  const fsa = postalCode.replace(/\s/g, "").slice(0, 3).toUpperCase();
-  if (FSA_TO_MUNICIPALITY[fsa]) return FSA_TO_MUNICIPALITY[fsa];
+function getMunicipality(locality: string, postalCode: string, address: string): string {
   const localLower = locality.toLowerCase().trim();
-  if (LOCALITY_TO_MUNICIPALITY[localLower]) return LOCALITY_TO_MUNICIPALITY[localLower];
-  return locality || "Unknown";
+  if (localLower !== "victoria" && LOCALITY_TO_MUNICIPALITY[localLower]) {
+    return LOCALITY_TO_MUNICIPALITY[localLower];
+  }
+  const fsa = postalCode.replace(/\s/g, "").slice(0, 3).toUpperCase();
+  
+  if (fsa === "V9A") {
+    const addrLower = address.toLowerCase().trim();
+    const numMatch = addrLower.match(/^(\d+)/);
+    const streetNumber = numMatch ? parseInt(numMatch[1], 10) : 0;
+
+    if (addrLower.includes("tillicum") || addrLower.includes("albina") || addrLower.includes("adelaide") || addrLower.includes("earl grey") || addrLower.includes("obed") || addrLower.includes("dunkirk")) {
+      return "Saanich";
+    }
+    if (addrLower.includes("admirals")) {
+      if (streetNumber >= 2000) return "Saanich";
+      if (streetNumber >= 1000) return "View Royal";
+      return "Esquimalt";
+    }
+    if (addrLower.includes("craigflower")) {
+      if (streetNumber >= 800) return "Esquimalt";
+      return "Victoria";
+    }
+    if (addrLower.includes("dominion")) {
+      if (streetNumber >= 1000) return "Victoria";
+      return "Esquimalt";
+    }
+    if (addrLower.includes("wilson") || addrLower.includes("russell") || addrLower.includes("skinner") || addrLower.includes("front") || addrLower.includes("sherk")) {
+      return "Victoria";
+    }
+    if (addrLower.includes("galiano")) {
+      return "Colwood";
+    }
+    if (addrLower.includes("aldersmith")) {
+      return "View Royal";
+    }
+    if (
+      addrLower.includes("juno") ||
+      addrLower.includes("fraser") ||
+      addrLower.includes("head") ||
+      addrLower.includes("lampson") ||
+      addrLower.includes("mcnaughton") ||
+      addrLower.includes("phoenix") ||
+      addrLower.includes("joffre") ||
+      addrLower.includes("colville") ||
+      addrLower.includes("constance") ||
+      addrLower.includes("wychbury") ||
+      addrLower.includes("dellwood") ||
+      addrLower.includes("rockcrest")
+    ) {
+      return "Esquimalt";
+    }
+  }
+
+  if (FSA_TO_MUNICIPALITY[fsa]) return FSA_TO_MUNICIPALITY[fsa];
+  return LOCALITY_TO_MUNICIPALITY[localLower] || locality || "Unknown";
 }
 
 function getRegion(municipality: string): CRDRegion {
@@ -247,6 +298,7 @@ async function main() {
     const name = String(a.OCCUPANT_NAME ?? "");
     const locality = String(a.LOCALITY ?? "");
     const postalCode = String(a.POSTAL_CODE ?? "");
+    const address = String(a.STREET_ADDRESS ?? "");
 
     let isTenDollarDay = false;
     if (tenDollarOverrides[id] !== undefined) {
@@ -255,13 +307,13 @@ async function main() {
       isTenDollarDay = normalizedTenDollar.has(normalize(name));
     }
 
-    const municipality = getMunicipality(locality, postalCode);
+    const municipality = getMunicipality(locality, postalCode, address);
     const region = getRegion(municipality);
 
     return {
       id,
       name,
-      address: String(a.STREET_ADDRESS ?? ""),
+      address,
       locality,
       postalCode,
       municipality,
