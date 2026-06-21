@@ -8,6 +8,10 @@ import {
   SookeIcon,
   CentralSaanichIcon,
   SidneyIcon,
+  EsquimaltIcon,
+  NorthSaanichIcon,
+  MetchosinIcon,
+  HighlandsIcon,
 } from "./Icons";
 
 export default function Resources() {
@@ -365,7 +369,7 @@ export default function Resources() {
       <section className="mt-8 border-t border-stone-200 dark:border-stone-800 pt-6">
         <h3 className="mb-2 text-lg font-medium text-gray-900 dark:text-stone-100">Municipal Icons Glossary</h3>
         <p className="mb-4 text-xs text-gray-500 dark:text-stone-500">
-          We use custom regional glyphs to represent the unique local character of the 9 municipalities covered by the hub:
+          We use custom regional glyphs to represent the unique local character of the 13 municipalities covered by the hub:
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {[
@@ -378,6 +382,10 @@ export default function Resources() {
             { name: "Sooke", icon: <SookeIcon size={20} className="text-emerald-600 dark:text-emerald-450" />, desc: "Jumping wild coastal salmon" },
             { name: "Central Saanich", icon: <CentralSaanichIcon size={20} className="text-emerald-600 dark:text-emerald-450" />, desc: "Garden butterfly (Butchart Gardens)" },
             { name: "Sidney", icon: <SidneyIcon size={20} className="text-emerald-600 dark:text-emerald-450" />, desc: "Sailboat (Sidney-by-the-Sea)" },
+            { name: "Esquimalt", icon: <EsquimaltIcon size={20} className="text-emerald-600 dark:text-emerald-450" />, desc: "Nautical anchor" },
+            { name: "Metchosin", icon: <MetchosinIcon size={20} className="text-emerald-600 dark:text-emerald-450" />, desc: "Rolling pastoral hills" },
+            { name: "North Saanich", icon: <NorthSaanichIcon size={20} className="text-emerald-600 dark:text-emerald-450" />, desc: "Airport runway & ferry hub" },
+            { name: "Highlands", icon: <HighlandsIcon size={20} className="text-emerald-600 dark:text-emerald-450" />, desc: "Mountain peaks & forest hills" },
           ].map((m) => (
             <div key={m.name} className="flex items-center gap-3 rounded-lg border border-stone-100 p-2.5 bg-stone-50/50 dark:border-stone-800 dark:bg-stone-900/40">
               <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white border border-stone-200/60 shadow-sm dark:bg-stone-800 dark:border-stone-800">

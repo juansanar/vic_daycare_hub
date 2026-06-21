@@ -2091,6 +2091,113 @@
     "allFetched": false
   },
   {
+    "facilityId": "1824",
+    "permitID": "72A44F26-C582-45D6-A733-A6027DE42AD5",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=72A44F26-C582-45D6-A733-A6027DE42AD5",
+    "serviceType": "310 Multi - Age Child Care",
+    "inspections": [],
+    "allFetched": false
+  },
+  {
+    "facilityId": "1590",
+    "permitID": "3218A556-3489-4A79-AF96-FBE24B72CBA4",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3218A556-3489-4A79-AF96-FBE24B72CBA4",
+    "serviceType": "303 Preschool (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)",
+    "inspections": [],
+    "allFetched": false
+  },
+  {
+    "facilityId": "2312",
+    "permitID": "9C0C1018-0124-40FA-8327-4D349A4EFDD0",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=9C0C1018-0124-40FA-8327-4D349A4EFDD0",
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)",
+    "inspections": [],
+    "allFetched": false
+  },
+  {
+    "facilityId": "1663",
+    "permitID": "CF0C53E4-AF35-47FF-B884-6196413DDDFE",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=CF0C53E4-AF35-47FF-B884-6196413DDDFE",
+    "serviceType": "304 Family Child Care",
+    "inspections": [],
+    "allFetched": false
+  },
+  {
+    "facilityId": "1066",
+    "permitID": "3F4758A3-403B-4F27-A59D-78D25B2562DD",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3F4758A3-403B-4F27-A59D-78D25B2562DD",
+    "serviceType": "312 School Age Care on School Grounds",
+    "inspections": [
+      {
+        "id": "97F83425-3B3B-4E6E-937E-EF4E377213C1",
+        "date": "2026-01-22",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "15B42636-42A2-454A-83D0-53AE84C052F2",
+        "date": "2025-10-16",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "35DA9218-9616-4442-B4C9-249B85AD2393",
+        "date": "2025-02-28",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "D89BE770-BF27-49C5-8861-C21916AF8704",
+        "date": "2025-02-19",
+        "type": "Follow-Up",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(1)(a)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
+            "observations": "Licensing audited four staff files and one file did not contain a criminal record check.",
+            "correctByDate": "February 12, 2025",
+            "corrected": false
+          },
+          {
+            "code": "3020 - CCLR 56(1)(c)",
+            "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "24F1A1B9-5FB1-4B4D-B04C-57798C68F52F",
+        "date": "2025-01-30",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(1)(a)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
+            "observations": "Licensing audited four staff files and one file did not contain a criminal record check.",
+            "correctByDate": "February 12, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3020 - CCLR 56(1)(c)",
+            "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
+            "observations": "Licensing observed a current record regarding implementation of monthly fire drill system and yearly emergency plan practices was not kept. Manager corrected the item during the inspection.",
+            "correctByDate": "",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "C952449C-EC23-4E6A-AB87-1361431F1DD7",
+        "date": "2024-03-15",
+        "type": "Follow-Up",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
     "facilityId": "3215",
     "permitID": "D27AEF59-A516-4034-8D2C-727F167DD49B",
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D27AEF59-A516-4034-8D2C-727F167DD49B",
@@ -2152,38 +2259,6 @@
       }
     ],
     "allFetched": true
-  },
-  {
-    "facilityId": "1824",
-    "permitID": "72A44F26-C582-45D6-A733-A6027DE42AD5",
-    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=72A44F26-C582-45D6-A733-A6027DE42AD5",
-    "serviceType": "310 Multi - Age Child Care",
-    "inspections": [],
-    "allFetched": false
-  },
-  {
-    "facilityId": "1590",
-    "permitID": "3218A556-3489-4A79-AF96-FBE24B72CBA4",
-    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3218A556-3489-4A79-AF96-FBE24B72CBA4",
-    "serviceType": "303 Preschool (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)",
-    "inspections": [],
-    "allFetched": false
-  },
-  {
-    "facilityId": "2312",
-    "permitID": "9C0C1018-0124-40FA-8327-4D349A4EFDD0",
-    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=9C0C1018-0124-40FA-8327-4D349A4EFDD0",
-    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)",
-    "inspections": [],
-    "allFetched": false
-  },
-  {
-    "facilityId": "1663",
-    "permitID": "CF0C53E4-AF35-47FF-B884-6196413DDDFE",
-    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=CF0C53E4-AF35-47FF-B884-6196413DDDFE",
-    "serviceType": "304 Family Child Care",
-    "inspections": [],
-    "allFetched": false
   },
   {
     "facilityId": "5488",
