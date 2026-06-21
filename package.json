@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run test && tsc -b && vite build",
     "preview": "vite preview",
     "ingest": "tsx scripts/ingest-facilities.ts",
     "scrape-inspections": "tsx scripts/scrape-inspections.ts",

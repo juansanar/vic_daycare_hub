@@ -42,6 +42,11 @@ function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+function sleepJitter(minMs = 2000, maxMs = 4000) {
+  const ms = Math.floor(Math.random() * (maxMs - minMs + 1)) + minMs;
+  return new Promise((r) => setTimeout(r, ms));
+}
+
 interface OurFacility {
   id: string;
   name: string;
@@ -180,7 +185,7 @@ async function discoverAllFacilities(): Promise<APIFacility[]> {
       hasMore = false;
     } else {
       start += PAGE_SIZE;
-      await sleep(DELAY_MS);
+      await sleepJitter();
     }
   }
 
@@ -408,7 +413,7 @@ async function main() {
       if (i % 50 === 0 && i > 0) {
         console.log(`  Searched ${i}/${unmatched.length} (${searchMatches} found)...`);
       }
-      await sleep(DELAY_MS);
+      await sleepJitter();
 
       const searchResult = await fetchJson({
         data: {
@@ -519,7 +524,7 @@ async function main() {
     } else if (cacheIsUpToDate && existing) {
       facilityInspections.push(...existing.inspections);
     } else if (!rateLimited && !limitReached) {
-      await sleep(DELAY_MS);
+      await sleepJitter();
 
       const inspList = await fetchFacilityInspections(entry.permitID);
 
@@ -551,7 +556,7 @@ async function main() {
                   contraventions,
                 });
               } else {
-                await sleep(DELAY_MS);
+                await sleepJitter();
                 const fetched = await fetchContraventions(insp.inspectionID);
                 if (fetched === null) {
                   consecutiveFailures++;
@@ -643,6 +648,27 @@ async function main() {
       inspections: facilityInspections,
       allFetched: !isTarget ? (existing?.allFetched ?? false) : (cacheIsUpToDate ? existing?.allFetched : successfullyFetched),
     });
+
+    // Write progress periodically (every 5 new successful fetches)
+    if (needFetch && successfullyFetched && newFetchesCount % 5 === 0) {
+      const tempInspections = [...inspections];
+      const outputPath = resolve(DATA_DIR, "inspections.json");
+      for (let j = i + 1; j < matchedEntries.length; j++) {
+        const remainingEntry = matchedEntries[j];
+        const remainingExisting = existingRecordsMap.get(remainingEntry.facilityId);
+        const remainingServiceType = remainingEntry.apiData.ServiceType ?? remainingExisting?.serviceType ?? "";
+        tempInspections.push({
+          facilityId: remainingEntry.facilityId,
+          permitID: remainingEntry.permitID,
+          inspectionUrl: FACILITY_PAGE_URL(remainingEntry.permitID),
+          serviceType: remainingServiceType || undefined,
+          inspections: remainingExisting?.inspections ?? [],
+          allFetched: remainingExisting?.allFetched ?? false,
+        });
+      }
+      writeFileSync(outputPath, JSON.stringify(tempInspections, null, 2));
+      console.log(`  [Progress Saved] Wrote temporary inspections status to ${outputPath} (new fetches: ${newFetchesCount})`);
+    }
   }
 
   // Write results

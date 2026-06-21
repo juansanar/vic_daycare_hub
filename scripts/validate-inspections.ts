@@ -23,7 +23,7 @@ function main() {
 
   let hasErrors = false;
 
-  // 1. Verify general completeness of matched facilities
+  // 1. Verify general completeness of matched facilities (100% must be fully fetched)
   const uncompleted: string[] = [];
   let fetchedCount = 0;
   for (const record of inspections) {
@@ -39,12 +39,13 @@ function main() {
   console.log(`\nInspections Ingestion Status: ${fetchedCount} / ${inspections.length} matched facilities are fully fetched.`);
 
   if (uncompleted.length > 0) {
-    console.warn(`\n[WARNING] Found ${uncompleted.length} facilities with incomplete inspections (allFetched is false):`);
-    uncompleted.slice(0, 10).forEach((u) => console.warn(`  - ${u}`));
-    if (uncompleted.length > 10) {
-      console.warn(`  ... and ${uncompleted.length - 10} more.`);
+    console.error(`\n[ERROR] Found ${uncompleted.length} facilities with incomplete inspections (allFetched is false):`);
+    uncompleted.slice(0, 20).forEach((u) => console.error(`  - ${u}`));
+    if (uncompleted.length > 20) {
+      console.error(`  ... and ${uncompleted.length - 20} more.`);
     }
-    console.warn("\nTo ingest these, you can run: npm run scrape-inspections");
+    console.error("\nTo resolve this, please run: npm run scrape-inspections");
+    hasErrors = true;
   } else {
     console.log("[OK] All matched facilities have allFetched: true.");
   }
@@ -58,6 +59,61 @@ function main() {
     console.log(`[OK] Total fetched facilities count (${fetchedCount}) satisfies the minimum threshold of ${MIN_FETCHED_THRESHOLD}.`);
   }
 
+  // 1b. Verify structure of ingested inspection records
+  console.log("\nVerifying inspection records structure...");
+  let structureErrors = 0;
+  for (const record of inspections) {
+    if (record.allFetched && Array.isArray(record.inspections)) {
+      for (const insp of record.inspections) {
+        if (typeof insp.id !== "string" || !insp.id) {
+          console.error(`[ERROR] Facility ${record.facilityId} has inspection with invalid or missing ID`);
+          structureErrors++;
+        }
+        if (typeof insp.date !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(insp.date)) {
+          console.error(`[ERROR] Facility ${record.facilityId} has inspection ${insp.id || "unknown"} with invalid or missing date format: ${insp.date}`);
+          structureErrors++;
+        }
+        if (typeof insp.type !== "string" || !insp.type) {
+          console.error(`[ERROR] Facility ${record.facilityId} has inspection ${insp.id || "unknown"} with invalid or missing type`);
+          structureErrors++;
+        }
+        if (!Array.isArray(insp.contraventions)) {
+          console.error(`[ERROR] Facility ${record.facilityId} has inspection ${insp.id} where contraventions is not an array`);
+          structureErrors++;
+        } else {
+          for (const contra of insp.contraventions) {
+            if (typeof contra.code !== "string" || !contra.code) {
+              console.error(`[ERROR] Facility ${record.facilityId} has contravention with invalid or missing code`);
+              structureErrors++;
+            }
+            if (typeof contra.description !== "string") {
+              console.error(`[ERROR] Facility ${record.facilityId} has contravention ${contra.code} with invalid description`);
+              structureErrors++;
+            }
+            if (typeof contra.observations !== "string") {
+              console.error(`[ERROR] Facility ${record.facilityId} has contravention ${contra.code} with invalid observations`);
+              structureErrors++;
+            }
+            if (typeof contra.correctByDate !== "string") {
+              console.error(`[ERROR] Facility ${record.facilityId} has contravention ${contra.code} with invalid correctByDate`);
+              structureErrors++;
+            }
+            if (typeof contra.corrected !== "boolean") {
+              console.error(`[ERROR] Facility ${record.facilityId} has contravention ${contra.code} where corrected is not a boolean`);
+              structureErrors++;
+            }
+          }
+        }
+      }
+    }
+  }
+  if (structureErrors > 0) {
+    console.error(`[ERROR] Found ${structureErrors} structural validation errors in inspections.json.`);
+    hasErrors = true;
+  } else {
+    console.log("[OK] All fetched inspections have valid structures.");
+  }
+
   // 2. Verify specific regression list of critical facilities
   const criticalList = [
     { id: "165", name: "Deep Cove Kids Club", allowEmpty: false },
@@ -69,7 +125,13 @@ function main() {
     { id: "3004", name: "Hampton House Society", allowEmpty: false },
     { id: "4119", name: "CEFA University Heights", allowEmpty: true },
     { id: "5198", name: "Vme Montessori Educare", allowEmpty: false },
-    { id: "2038", name: "Hamilton Park", allowEmpty: false }
+    { id: "2038", name: "Hamilton Park", allowEmpty: false },
+    { id: "5805", name: "Karen Hambley Daycare", allowEmpty: false },
+    { id: "1235", name: "Wiseways Childcare", allowEmpty: false },
+    { id: "166", name: "Wiseways Preschool And Daycare", allowEmpty: false },
+    { id: "3676", name: "Hans Helgesen YMCA - YWCA Child Care", allowEmpty: false },
+    { id: "3016", name: "Metchosin Preschool", allowEmpty: false },
+    { id: "5792", name: "Painted Turtle Early Childcare Centre", allowEmpty: false }
   ];
 
   console.log("\nVerifying critical facilities regression check...");
