@@ -67,7 +67,9 @@ function main() {
     { id: "3886", name: "Wild Roots Child Care", allowEmpty: false },
     { id: "5488", name: "Kids & Company Victoria (Uptown)", allowEmpty: false },
     { id: "3004", name: "Hampton House Society", allowEmpty: false },
-    { id: "4119", name: "CEFA University Heights", allowEmpty: true }
+    { id: "4119", name: "CEFA University Heights", allowEmpty: true },
+    { id: "5198", name: "Vme Montessori Educare", allowEmpty: false },
+    { id: "2038", name: "Hamilton Park", allowEmpty: false }
   ];
 
   console.log("\nVerifying critical facilities regression check...");

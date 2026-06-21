@@ -150,6 +150,24 @@ function MarkerLayer({ facilities }: { facilities: Facility[] }) {
     }
   }, [selectedFacilityId, facilities]);
 
+  // Listen for manual center events (e.g. from the details panel)
+  useEffect(() => {
+    const handleCenter = (e: Event) => {
+      const id = (e as CustomEvent).detail;
+      if (!clusterRef.current) return;
+      const marker = markersRef.current.get(id);
+      if (marker) {
+        clusterRef.current.zoomToShowLayer(marker, () => {
+          marker.openPopup();
+        });
+      }
+    };
+    window.addEventListener("center-facility-on-map", handleCenter);
+    return () => {
+      window.removeEventListener("center-facility-on-map", handleCenter);
+    };
+  }, [facilities]);
+
   return null;
 }
 
@@ -268,8 +286,28 @@ function CatchmentToggle({
   active: boolean;
   onChange: (val: boolean) => void;
 }) {
+  const [isCollapsed, setIsCollapsed] = useState(true);
+
+  if (isCollapsed) {
+    return (
+      <div className="absolute top-4 right-4 z-[1000] pointer-events-auto">
+        <button
+          onClick={() => setIsCollapsed(false)}
+          title={active ? "School catchments toggled ON. Click to expand options." : "School catchments toggled OFF. Click to expand options."}
+          className={`flex items-center justify-center w-9 h-9 rounded-lg border shadow-md transition-all duration-200 hover:scale-105 active:scale-95 backdrop-blur-md ${
+            active
+              ? "border-emerald-500 bg-emerald-500/10 text-emerald-700 dark:border-emerald-450 dark:bg-emerald-450/15 dark:text-emerald-400"
+              : "border-stone-200 bg-white/90 text-gray-700 hover:bg-stone-50 dark:border-stone-850 dark:bg-stone-900/90 dark:text-stone-300 dark:hover:bg-stone-800"
+          }`}
+        >
+          <span className="text-[16px]">🎒</span>
+        </button>
+      </div>
+    );
+  }
+
   return (
-    <div className="absolute top-4 right-4 z-[1000] pointer-events-auto">
+    <div className="absolute top-4 right-4 z-[1000] pointer-events-auto flex items-center gap-1.5 animate-fadeIn">
       <button
         onClick={() => onChange(!active)}
         className={`flex items-center gap-2 rounded-lg border px-3 py-2 text-xs font-semibold shadow-md transition-all backdrop-blur-md ${
@@ -279,7 +317,14 @@ function CatchmentToggle({
         }`}
       >
         <span className="text-[14px]">🎒</span>
-        {active ? "Hide Elementary School Catchments" : "Show Elementary School Catchments"}
+        {active ? "Hide School Catchments" : "Show School Catchments"}
+      </button>
+      <button
+        onClick={() => setIsCollapsed(true)}
+        title="Collapse panel"
+        className="flex items-center justify-center w-8 h-8 rounded-lg border border-stone-200 bg-white/90 text-gray-400 hover:text-gray-650 hover:bg-stone-50 shadow-md backdrop-blur-md dark:border-stone-850 dark:bg-stone-900/90 dark:text-stone-500 dark:hover:text-stone-300 dark:hover:bg-stone-800 transition-all duration-200"
+      >
+        <span className="text-[10px]">❯</span>
       </button>
     </div>
   );

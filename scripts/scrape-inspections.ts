@@ -29,7 +29,7 @@ const FACILITY_PAGE_URL = (permitID: string) =>
 const INSPECTION_PAGE_URL = (inspectionID: string) =>
   `${BASE_URL}/island-health/program-ccfl/inspection/?inspectionID=${inspectionID}`;
 
-const DELAY_MS = 800;
+const DELAY_MS = 2000;
 const PAGE_SIZE = 25;
 
 const BROWSER_HEADERS = {
@@ -111,17 +111,38 @@ async function fetchJson(body: object): Promise<unknown> {
 }
 
 async function fetchHtml(url: string): Promise<string | null> {
-  try {
-    const res = await fetch(url, { headers: BROWSER_HEADERS, signal: AbortSignal.timeout(10000) });
-    if (!res.ok) {
-      console.warn(`  HTTP ${res.status} for ${url}`);
-      return null;
+  const maxRetries = 3;
+  let attempt = 0;
+  while (attempt < maxRetries) {
+    try {
+      const res = await fetch(url, { headers: BROWSER_HEADERS, signal: AbortSignal.timeout(10000) });
+      if (res.status === 403) {
+        attempt++;
+        if (attempt >= maxRetries) {
+          console.warn(`  HTTP 403 (Forbidden) on ${url} - max retries reached.`);
+          return null;
+        }
+        const waitTime = attempt * 60000; // 1 minute for 1st retry, 2 minutes for 2nd retry
+        console.warn(`  HTTP 403 (Forbidden) on ${url}. Rate limit hit. Pausing for ${waitTime / 1000}s before retry (attempt ${attempt}/${maxRetries - 1})...`);
+        await sleep(waitTime);
+        continue;
+      }
+      if (!res.ok) {
+        console.warn(`  HTTP ${res.status} for ${url}`);
+        return null;
+      }
+      return await res.text();
+    } catch (err) {
+      attempt++;
+      if (attempt >= maxRetries) {
+        console.warn(`  Fetch error for ${url}:`, err);
+        return null;
+      }
+      console.warn(`  Network error/timeout fetching ${url}. Retrying in 2s (attempt ${attempt}/${maxRetries - 1})...`);
+      await sleep(2000);
     }
-    return await res.text();
-  } catch (err) {
-    console.warn(`  Fetch error for ${url}:`, err);
-    return null;
   }
+  return null;
 }
 
 async function discoverAllFacilities(): Promise<APIFacility[]> {

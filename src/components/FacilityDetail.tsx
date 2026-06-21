@@ -129,10 +129,19 @@ export default function FacilityDetail({
           )}
           {facility.lat && facility.lng && (
             <button
-              onClick={() => setActiveTab("map")}
+              onClick={() => {
+                setActiveTab("map");
+                setTimeout(() => {
+                  window.dispatchEvent(
+                    new CustomEvent("center-facility-on-map", {
+                      detail: facilityId,
+                    })
+                  );
+                }, 50);
+              }}
               className="text-emerald-600 hover:underline text-left font-medium dark:text-emerald-450"
             >
-              {activeTab === "map" ? "Centered on map 🎯" : "Show on map 🗺️"}
+              {activeTab === "map" ? "Center on map 🎯" : "Show on map 🗺️"}
             </button>
           )}
         </div>
