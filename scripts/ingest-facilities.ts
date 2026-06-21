@@ -148,6 +148,37 @@ function normalize(s: string): string {
 
 function getMunicipality(locality: string, postalCode: string, address: string): string {
   const localLower = locality.toLowerCase().trim();
+  const addrLower = address.toLowerCase().trim();
+
+  // Explicit check for Metchosin based on street address keywords
+  if (
+    addrLower.includes("william head rd") ||
+    addrLower.includes("rocky point rd") ||
+    addrLower.includes("kangaroo rd") ||
+    addrLower.includes("albert head rd") ||
+    addrLower.includes("duke rd") ||
+    (addrLower.includes("metchosin rd") && !addrLower.includes("3325 metchosin") && !addrLower.includes("3424 metchosin")) ||
+    (addrLower.includes("happy valley rd") && (addrLower.includes("3650 happy valley") || addrLower.includes("4116 happy valley") || addrLower.includes("4495 happy valley")))
+  ) {
+    return "Metchosin";
+  }
+
+  // Explicit check for Highlands based on street address keywords
+  if (
+    addrLower.includes("highland rd") ||
+    addrLower.includes("munns rd") ||
+    addrLower.includes("caleb pike rd") ||
+    addrLower.includes("lost lake rd") ||
+    addrLower.includes("ross durrance rd") ||
+    (addrLower.includes("millstream rd") && (() => {
+      const numMatch = addrLower.match(/^(\d+)/);
+      const num = numMatch ? parseInt(numMatch[1], 10) : 0;
+      return num >= 1900;
+    })())
+  ) {
+    return "Highlands";
+  }
+
   if (localLower !== "victoria" && LOCALITY_TO_MUNICIPALITY[localLower]) {
     return LOCALITY_TO_MUNICIPALITY[localLower];
   }

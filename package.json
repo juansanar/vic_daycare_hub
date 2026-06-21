@@ -10,7 +10,8 @@
     "ingest": "tsx scripts/ingest-facilities.ts",
     "scrape-inspections": "tsx scripts/scrape-inspections.ts",
     "enrich-service-types": "tsx scripts/enrich-service-types.ts",
-    "scrape-websites": "tsx scripts/scrape-websites.ts"
+    "scrape-websites": "tsx scripts/scrape-websites.ts",
+    "test": "tsx scripts/validate-inspections.ts"
   },
   "dependencies": {
     "firebase": "^12.15.0",

@@ -26,7 +26,7 @@ export default function Landing() {
           <span>Victoria Childcare Hub</span>
         </h1>
         <p className="mx-auto mt-4 text-sm text-gray-400 dark:text-stone-500">
-          Victoria · Saanich · Oak Bay · View Royal · Langford · Colwood · Sooke · Central Saanich · Sidney
+          Victoria · Saanich · Oak Bay · View Royal · Langford · Colwood · Sooke · Central Saanich · Sidney · Esquimalt · Metchosin · North Saanich · Highlands
         </p>
         <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-gray-500 dark:text-stone-400">
           {meta.count}+ licensed childcare facilities across Victoria and
@@ -66,7 +66,7 @@ export default function Landing() {
             <p className="mt-1 text-xs text-gray-500 dark:text-stone-400">Licensed facilities</p>
           </div>
           <div>
-            <p className="text-2xl font-bold text-gray-900 dark:text-stone-50">9</p>
+            <p className="text-2xl font-bold text-gray-900 dark:text-stone-50">13</p>
             <p className="mt-1 text-xs text-gray-500 dark:text-stone-400">Municipalities covered</p>
           </div>
           <div>
@@ -152,7 +152,7 @@ export default function Landing() {
               },
               {
                 q: "What areas are covered?",
-                a: "Victoria and surrounding areas: Victoria, Saanich, Oak Bay, View Royal, Langford, Colwood, Sooke, Central Saanich, and Sidney.",
+                a: "Victoria and surrounding areas: Victoria, Saanich, Oak Bay, View Royal, Langford, Colwood, Sooke, Central Saanich, Sidney, Esquimalt, Metchosin, North Saanich, and Highlands.",
               },
               {
                 q: "What's the $10/day program?",
