@@ -118,11 +118,1535 @@
     "allFetched": true
   },
   {
+    "facilityId": "10002",
+    "permitID": "44DDF7DF-49D5-42D7-BCF2-6E31706704AA",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=44DDF7DF-49D5-42D7-BCF2-6E31706704AA",
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "92397DCC-25D0-4950-BDC1-B3A388258063",
+        "date": "2026-04-15",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "A4FC5955-6FCC-438E-8667-EBBB52F13867",
+        "date": "2025-10-22",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "76CCCF77-8125-4CD9-ADD3-8FD986D72645",
+        "date": "2025-10-15",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3070 - CCLR 57(2)(d)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
+            "observations": "Licensing audited five children's files, of which one was missing name and telephone number of an emergency contact.",
+            "correctByDate": "October 29, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 57(3)(b)",
+            "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
+            "observations": "Licensing audited five children's files, of which one was missing written consent to release a child to someone other than the parent.",
+            "correctByDate": "October 29, 2025",
+            "corrected": true
+          }
+        ]
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10004",
+    "permitID": "0260AA4D-57BA-4ABA-94B1-C13036CE3EAA",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0260AA4D-57BA-4ABA-94B1-C13036CE3EAA",
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)",
+    "inspections": [
+      {
+        "id": "5835F2C1-E8D6-44AD-A026-E0E962D7AF3A",
+        "date": "2026-01-13",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "0D8F310D-2870-4AFB-A1A7-BFCB6C387D04",
+        "date": "2025-07-21",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "CC296221-C863-4AEF-A91D-AA768EFCC645",
+        "date": "2024-12-20",
+        "type": "Non-Visit Follow-up",
+        "contraventions": []
+      },
+      {
+        "id": "D43E0D19-F62E-4387-8504-3DDF7289AA0D",
+        "date": "2024-12-17",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(1)(a)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
+            "observations": "Licensing audited six staff files, one file had a criminal record check that had expired on May 11, 2024. ECE stated they were waiting to receive the criminal record check from the criminal record and review program.",
+            "correctByDate": "January 17, 2025",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "28187A41-5701-45A2-842B-49413B9BA06C",
+        "date": "2024-09-09",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "DEBCF10F-7E51-4943-B400-034F01F5C09E",
+        "date": "2024-05-27",
+        "type": "Follow-Up",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10016",
+    "permitID": "0827D325-98FA-4F52-842A-661572185BDF",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0827D325-98FA-4F52-842A-661572185BDF",
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "93F272BF-4EBB-48A7-8C6A-8BC9F3723C4A",
+        "date": "2026-05-21",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "7B9B9992-2CF2-4B3A-8893-415F869A3047",
+        "date": "2026-02-05",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "F3BB01EF-7C8C-446F-B81E-994DEB9B4E85",
+        "date": "2025-05-30",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "1F544ACE-1166-4F0C-8A2D-B7578C0D5E8D",
+        "date": "2025-05-14",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 22(2)(c)",
+            "description": "A licensee must ensure that each employee practices implementing the emergency plan at least once each year.",
+            "observations": "Licensing observed an emergency plan was not implemented and recorded at least once each year.",
+            "correctByDate": "May 30, 2025",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "DFDB3AB4-B75F-4F07-8C90-06CC638A6513",
+        "date": "2024-07-08",
+        "type": "Non-Visit Follow-up",
+        "contraventions": []
+      },
+      {
+        "id": "63A60DB5-588F-43FF-8127-8EADE0883C14",
+        "date": "2024-05-10",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3070 - CCLR 59(a)",
+            "description": "In respect of a record referred to in this Division, a licensee must (a) keep in a single place at the community care facility the records referred to in sections 56 to 58,",
+            "observations": "Licensing observed that staff files were not stored on site.",
+            "correctByDate": "July 10, 2024",
+            "corrected": true
+          }
+        ]
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "406",
+    "permitID": "1604EA81-7BDE-49D9-B559-5B6B6D6117BC",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=1604EA81-7BDE-49D9-B559-5B6B6D6117BC",
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "1BD65008-5B61-412B-94FA-85160B971A4C",
+        "date": "2026-06-17",
+        "type": "Follow-Up",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(4)(a)",
+            "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          },
+          {
+            "code": "3020 - CCLR 56(1)(c)",
+            "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
+            "observations": "Licensing observed that the fire drill had not been recorded for the month of April. Staff stated they had not performed the fire drill for the month April.",
+            "correctByDate": "May 27, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3040 - CCLR 53(1)(b)",
+            "description": "If a licensee has agreed with a parent to give a child any medication prescribed by a medical practitioner or provided by the parent, the licensee and his or her employees must ensure that the medication is (b) readily accessible to employees.",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "88544549-877A-465C-9294-EFDFEC70D351",
+        "date": "2026-06-08",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "2C945CBA-B553-4107-BB8A-DB8B77AAD2F1",
+        "date": "2026-05-06",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 13(1)",
+            "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
+            "observations": "Licensing observed the fire extinguisher were expired. The fire extinguishers were to be service on or before \nApril 2026.",
+            "correctByDate": "May 27, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3000 - CCLR 15(1)(a)",
+            "description": "A licensee must supply equipment, furniture and supplies that are of sturdy and safe construction, easy to clean and free from hazards.",
+            "observations": "Licensing observed the outdoor area had a little play house with exposed nail that was sharp and accessible to the children, two metal chairs that were rusty with sharp chipping paint. One of the slides, being used by children at the time of inspection, with an exposed screw.",
+            "correctByDate": "May 27, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3000 - CCLR 17",
+            "description": "A licensee must ensure that children do not have access to any object or substance that may be hazardous to the health or safety of a child",
+            "observations": "Licensing observed that all of the rooms in Group Child Care (30 Months to School Age) and Group Child Care (Under 36 Months) had heavy objects stored high on shelves with intentional play spaces below.",
+            "correctByDate": "May 27, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3010 - CCLR 19(1)(b)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
+            "observations": "Licensing audited eight staff files. Two staff files had references listed but not date, notes or otherwise indicating that the references had been obtained.",
+            "correctByDate": "May 27, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3010 - CCLR 19(4)(a)",
+            "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
+            "observations": "Licensing audited eight staff files. Two staff files had expired verifications from 2025 and two staff files did not have verification completed.",
+            "correctByDate": "May 27, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3020 - CCLR 56(1)(c)",
+            "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
+            "observations": "Licensing observed that the fire drill had not been recorded for the month of April. Staff stated they had not performed the fire drill for the month April.",
+            "correctByDate": "May 27, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3030 - CCLR 34(2)(a)",
+            "description": "Without limiting subsection (1) a licensee must ensure that children attending a community care facility are divided into groups, with each group having no more children than that permitted in Schedule E, (except FCC/IHMACC/REC; child qualified if in age range or within one month (except GCC School Age)).",
+            "observations": "Licensing observed in the staff communication log that a child from the Group Child Care (30 Months to School Age) program was spending time in the Group Child Care (Under 36 Months) program on March 28, 2026. Staff stated that the child was four years old.",
+            "correctByDate": "May 27, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3040 - CCLR 53(1)(b)",
+            "description": "If a licensee has agreed with a parent to give a child any medication prescribed by a medical practitioner or provided by the parent, the licensee and his or her employees must ensure that the medication is (b) readily accessible to employees.",
+            "observations": "Licensing observed that one of the children that had a care plan for use of an epi pen was out on a field trip and did not have the epi pen in the emergency bag. The epi pen was in the office at the facility.",
+            "correctByDate": "May 6, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 58(2)(a)",
+            "description": "The licensee must develop the care plan in consultation,with a parent of the child requiring extra support and any person requested by the parent.",
+            "observations": "Licensing audited four care plans. One child had a puffer without a care plan created . The puffer was in in a bag with a staff signature sheet with signatures of staff when puffer was administered.",
+            "correctByDate": "May 27, 2026",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "12DEEAE3-9161-40D6-A0A3-70D0D11754A8",
+        "date": "2026-03-18",
+        "type": "Complaint",
+        "contraventions": [
+          {
+            "code": "3070 - CCLR 55(1)(b)",
+            "description": "A licensee must immediately notify a parent or emergency contact if, while under the care or supervision of the licensee, the child is involved in, or may have been involved in, a reportable incident described in Schedule H.",
+            "observations": "Regarding intake February 2, 2026. Through the investigation process, Licensing determined that [child A] was involved in a reportable incident as described in Schedule H on November 28, 2025. [Child A] was located in a washroom on their own. [Child A] was brought to a staff and returned to care. The Licensee did not immediately notify a parent or emergency contact of the incident where a child was missing or wandering.",
+            "correctByDate": "March 19, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3070 - CCLR 55(2)(a)",
+            "description": "A licensee must notify the medical health officer within 24 hours after (a) a child is involved in, or may have been involved in, a reportable incident described in Schedule H while under the care or supervision of the licensee,",
+            "observations": "Regarding intake February 2, 2026. Through the investigation process, Licensing determined that [child A] was missing or wandering, and it was not reported to the Medical Health Officer within 24 hours as required.",
+            "correctByDate": "March 19, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "93F87CE7-83D1-450D-998F-82A946428372",
+        "date": "2026-03-13",
+        "type": "Complaint",
+        "contraventions": [
+          {
+            "code": "3070 - CCLR 56(1)(f)",
+            "description": "A licensee must keep current records of each of the following: (f) a log of minor accidents, illnesses and unexpected events involving children, that did not require medical attention and were not reportable incidents described in Schedule H.",
+            "observations": "Regarding intake January 19, 2026. Through the investigation process, Licensing determined that staff had observed [child A] push, kick, and hit other children. Staff verbally informed parents of the minor incidents [child A] was involved in. While the incidents did not meet the criteria for submitting a reportable incident, the Licensee was required to maintain records of all minor accidents, illnesses and unexpected events that involved [child A]. Licensing did not observe any associated documentation at the facility that [child A] had pushed, kicked, and hit [unexpected events].",
+            "correctByDate": "March 16, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "B4A8A1CC-BE32-4096-B385-657710462458",
+        "date": "2026-02-24",
+        "type": "Complaint",
+        "contraventions": [
+          {
+            "code": "3010 - CCALA 7(1)(b)(i)",
+            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
+            "observations": "Regarding intake December 1, 2025, through the investigation process, Licensing determined that a staff member behaved disrespectfully toward coworkers on multiple occasions in the presence of children. Licensing confirmed two specific incidents that occurred. One was in the gym (exact date not recalled by staff), and another occurred on December 8, 2025, during which a staff member raised their voice and rolled their eyes at colleagues. The information gathered was consistent across sources and demonstrated conduct that was inappropriate and unprofessional in the child care setting.",
+            "correctByDate": "April 23, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3030 - CCLR 51(1)(a)",
+            "description": "A licensee must ensure that behavioural guidance is appropriate to the age and development of the child who is receiving the guidance,",
+            "observations": "Regarding intake December 1, 2025, through the investigation process, Licensing determined that the facility had a policy requiring staff to communicate clearly and set limits with children in a positive manner. Licensing found that a staff member did not set limits in a positive way. The staff member self-reported that they used a 'bear hug' to move a child as a behavioural guidance technique. Using a 'bear hug' to move a child is not consistent with positive guidance or the facility's policy.",
+            "correctByDate": "March 25, 2026",
+            "corrected": false
+          }
+        ]
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "635",
+    "permitID": "832556CE-F449-4046-8EE1-18D89AD2A0F6",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=832556CE-F449-4046-8EE1-18D89AD2A0F6",
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)",
+    "inspections": [
+      {
+        "id": "14255AA6-040B-4549-AB3E-F294E2F66A88",
+        "date": "2026-06-18",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 47",
+            "description": "A licensee, other than a licensee who provides a care program described as School Age Care on School Grounds, must ensure that any heated water accessible to children is heated to no more than 49° Celsius.",
+            "observations": "Licensing tested three sinks where children access hot water and the temperature were: 50.8; 51.5 and 54.1 ° Celsius. This represents an immediate risk to the health and safety of children in care and must be corrected immediately. The Licensee Contact stated the hot water for two sinks had been turned off and the staff would ensure the children did not have access to the hot water for the third sink. Full compliance will not be achieved until the plan has been implemented and completed.",
+            "correctByDate": "June 25, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "1A3D37AB-646F-40C8-9B30-C7FD8B2A6281",
+        "date": "2025-06-27",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "C97BAF35-91B4-42E4-9540-618CBAA69480",
+        "date": "2024-06-07",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "2DA77C69-816E-4FB6-BB53-82F7B0C2BC3D",
+        "date": "2023-06-23",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "31528EDB-DC08-4504-8D4B-19A8EB17F523",
+        "date": "2023-06-07",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "6DD320A7-0574-4F7E-B1E1-D38F2CF8389A",
+        "date": "2022-08-08",
+        "type": "Non-Visit Follow-up",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10018",
+    "permitID": "F6E98D41-4E58-4653-8EC4-F183A44386F0",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=F6E98D41-4E58-4653-8EC4-F183A44386F0",
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "9872C39F-C0C4-4D05-AD27-0E8A838BF6BB",
+        "date": "2026-06-15",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "92A37451-9B36-4BE3-811C-C2096089CE0F",
+        "date": "2026-06-10",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3070 - CCALA 7(1)(b)(i)",
+            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
+            "observations": "Licensing observed the log of outdoor inspections had not been checked off since June 3, 2026.",
+            "correctByDate": "June 24, 2026",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "0AD88771-9966-4AA8-80B7-C03DE79F774E",
+        "date": "2025-06-11",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "A7B85774-DEAE-458C-BD0E-3C90F732A1D8",
+        "date": "2024-07-29",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "198C3F5C-4744-452A-962B-2C4FEAB0AEC0",
+        "date": "2024-06-14",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(1)(a)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
+            "observations": "Licensing reviewed twelve staff files. One file contained an expired criminal record check.",
+            "correctByDate": "July 14, 2024",
+            "corrected": true
+          },
+          {
+            "code": "3080 - CCLR 11(4)",
+            "description": "A licensee must display in a prominent place in the community care facility the certificate of any educator or assistant employed to work in the community care facility.",
+            "observations": "Licensing observed that an Educator's certificate was not posted. This was corrected at the time of inspection.",
+            "correctByDate": "June 14, 2024",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "BBC06D9F-6728-4BDB-975C-B18B238E7CA7",
+        "date": "2023-05-25",
+        "type": "Routine",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10020",
+    "permitID": "20783F78-F590-4CD6-9EA4-335F9C515C1C",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=20783F78-F590-4CD6-9EA4-335F9C515C1C",
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "1E712ACD-1E97-4050-9A45-2BFD7E19C44A",
+        "date": "2026-06-12",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3070 - CCLR 57(2)(c)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (c) daily attendance record, indicating for each day whether the child is absent or, if the child is present, the time of arrival and departure",
+            "observations": "Licensing observed that attendance records were not showing time of arrival and departure of children in care. Dates: June 8, June 9, 2026.",
+            "correctByDate": "June 26, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "0AA4B617-1C2C-45E3-A1D0-7623DB771EBD",
+        "date": "2026-01-30",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "6E1BBE6B-E060-47E4-B9DF-13DD12A4BA2B",
+        "date": "2025-07-24",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "9378D529-9191-4E24-B6DB-66B0354EAD4C",
+        "date": "2025-07-11",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 13(1)",
+            "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
+            "observations": "Licensing observed fire extinguishers were not maintained. Expiry date: June 2025.",
+            "correctByDate": "July 25, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3010 - CCLR 19(1)(c)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a record of the person’s work history",
+            "observations": "Licensing audited seven staff files and one file did not contain record of work history.",
+            "correctByDate": "July 25, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCALA 7(1)(b)(i)",
+            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
+            "observations": "Licensing observed a log of all daily inspections, as well as maintenance and repairs of the outdoor play area were not performed and recorded.",
+            "correctByDate": "July 25, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 57(2)(c)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (c) daily attendance record, indicating for each day whether the child is absent or, if the child is present, the time of arrival and departure",
+            "observations": "Licensing observed records kept for each child in care showing daily attendance were not indicating for each day whether child was absent and time of departure.",
+            "correctByDate": "July 25, 2025",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "8C4B7979-B81C-40A7-A990-826F192217A3",
+        "date": "2024-07-29",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "3FB16E97-6910-4B8E-9067-10DC37503639",
+        "date": "2024-07-04",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(1)(a)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
+            "observations": "Licensing reviewed six staff files. One file did not contain a criminal record check for the employee.",
+            "correctByDate": "August 4, 2024",
+            "corrected": true
+          },
+          {
+            "code": "3010 - CCLR 19(1)(f)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
+            "observations": "Licensing reviewed six staff files. One file did not contain immunization status.",
+            "correctByDate": "August 4, 2024",
+            "corrected": true
+          },
+          {
+            "code": "3020 - CCLR 56(1)(c)",
+            "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
+            "observations": "Licensing observed that a record was not kept of the yearly emergency drill practice. Manager stated that the drill had been done but that the record was misplaced.",
+            "correctByDate": "August 4, 2024",
+            "corrected": true
+          }
+        ]
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10015",
+    "permitID": "65F1E575-CB35-44E5-BD33-CAB028BF3F36",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=65F1E575-CB35-44E5-BD33-CAB028BF3F36",
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)",
+    "inspections": [
+      {
+        "id": "28DAE894-CBF7-43B8-A0FE-FFCBC9C792D8",
+        "date": "2026-06-11",
+        "type": "Complaint",
+        "contraventions": [
+          {
+            "code": "3070 - CCALA 7(1)(b)(i)",
+            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
+            "observations": "Regarding intake May 6, 2026. Through the investigation process, Licensing determined that the care plan updates were not reviewed by the parent prior to implementation.",
+            "correctByDate": "June 18, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "1371265A-05B5-417F-8399-0CC2000AA37D",
+        "date": "2025-09-18",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "C922AB34-9488-4BA2-BA1F-5DFB14664D4E",
+        "date": "2025-08-28",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "3F057438-13F5-49E0-BB34-AAB34839F507",
+        "date": "2025-07-16",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 16(4)(b)",
+            "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are safely constructed, free from hazards and in good repair.",
+            "observations": "Licensing observed the outdoor play equipment composite climber. The platform to the entrance to the double slide had a sharp areas accessible to children.",
+            "correctByDate": "August 5, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 57(2)(a)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
+            "observations": "Licensing audited ten children's files. One child's file did not have a medical insurance number and immunization status.",
+            "correctByDate": "August 5, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3080 - CCLR 11(4)",
+            "description": "A licensee must display in a prominent place in the community care facility the certificate of any educator or assistant employed to work in the community care facility.",
+            "observations": "Licensing observed one Educator certificate was not posted. This was corrected during the inspection.",
+            "correctByDate": "August 5, 2025",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "FE213A4B-FF2E-48AF-9590-96F98C5B39BF",
+        "date": "2025-04-14",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "8EBA7253-E009-4F64-847F-E24AA4034A5A",
+        "date": "2024-09-19",
+        "type": "Follow-Up",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10019",
+    "permitID": "D7C24883-F890-4E1F-9528-C3812CD0F40B",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D7C24883-F890-4E1F-9528-C3812CD0F40B",
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "D3FF58CA-12BA-454C-AED1-EC8C410D5196",
+        "date": "2026-06-10",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "1E58B0EB-0D8C-4D94-A0C4-F707759569FC",
+        "date": "2025-06-11",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "18341AA5-06D5-44F6-8457-900599DB4413",
+        "date": "2024-10-01",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "9D76A81A-8A18-457D-8816-5DF05B9F72FB",
+        "date": "2024-06-14",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "48837D23-6077-40EE-A4B2-7E9A55A9C0E1",
+        "date": "2023-06-15",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "B2F99CA8-D647-4FFD-8125-3349E58DC037",
+        "date": "2023-05-25",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(1)(f)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
+            "observations": "Licensing reviewed six staff files. One file did not contain immunization status.",
+            "correctByDate": "June 25, 2023",
+            "corrected": true
+          }
+        ]
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10001",
+    "permitID": "650A06C9-161F-4DF3-8238-9BC5DDD26F5A",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=650A06C9-161F-4DF3-8238-9BC5DDD26F5A",
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)",
+    "inspections": [
+      {
+        "id": "640C02B8-2FC6-4544-8DC5-10B17C21D2F8",
+        "date": "2026-01-12",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "BD61635A-07FF-46FB-864B-8AFD4691A312",
+        "date": "2025-12-04",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 13(1)",
+            "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
+            "observations": "Licensing observed one cot with used bedding had been stacked on top of another cot with used bedding in the Group Child Care (30 Months to School Age) program.",
+            "correctByDate": "January 6, 2026",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "BDDA726C-779B-42FE-97A6-8D57488987E3",
+        "date": "2025-07-15",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "38C47EEA-4B49-4E37-8CC2-36DCAC6F5B9E",
+        "date": "2025-05-06",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "112E38A2-0BFA-4CDD-8EA8-1415CE685D8B",
+        "date": "2024-11-22",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "2A9848A2-F02E-4A72-ABF3-17929D409C71",
+        "date": "2024-08-27",
+        "type": "Follow-Up",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10003",
+    "permitID": "4AAE6581-0D13-4620-8674-FF9DD268A1A0",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=4AAE6581-0D13-4620-8674-FF9DD268A1A0",
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)",
+    "inspections": [
+      {
+        "id": "E42F73E8-BAB2-4945-B762-AC875DDE93AC",
+        "date": "2026-03-06",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "6298FB7C-C3DB-4936-85EF-3F8FAE6AB1AF",
+        "date": "2026-03-02",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 17",
+            "description": "A licensee must ensure that children do not have access to any object or substance that may be hazardous to the health or safety of a child",
+            "observations": "Licensing observed pest traps accessible to children in the Group Child Care (30 Months to School Age) program by the stove. Staff moved traps during inspection, making them inaccessible.",
+            "correctByDate": "March 2, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 57(2)(d)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
+            "observations": "Licensing audited 11 children's files of which one was missing name and telephone number of a medical practitioner.",
+            "correctByDate": "March 2, 2026",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "2FF82818-0DD7-436D-BAE8-C02C20F1B18C",
+        "date": "2025-05-13",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "31BB594B-B6F7-442A-BF9E-045E58D01949",
+        "date": "2025-03-10",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "6767E26E-BA5C-4913-977F-1E5F6BEA25AF",
+        "date": "2024-09-25",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "34AFF7F2-311B-4D7B-B927-F2AA40998AE7",
+        "date": "2024-04-22",
+        "type": "Follow-Up",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10007",
+    "permitID": "FB77C66E-C78B-4092-BC48-9A045121411D",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=FB77C66E-C78B-4092-BC48-9A045121411D",
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)",
+    "inspections": [
+      {
+        "id": "785FE13D-8732-4D37-B250-EA9F14980121",
+        "date": "2026-04-09",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "5D62AB77-F3D1-4BBD-A1C8-4E289FBDAE59",
+        "date": "2025-08-21",
+        "type": "Follow-Up",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 16(4)(a)",
+            "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are suitable for the age and development of the children,",
+            "observations": "Licensing measured depth of surfacing under equipment that was 6' in high was only 2\" deep and under a slide measuring 5' in height it was 4\" deep. The recommended surfacing as per the DOLSOP is a minimum of 6\" for 5' high equipment height minimum of 12\" for equipment 7' equipment height.",
+            "correctByDate": "September 29, 2025",
+            "corrected": false
+          },
+          {
+            "code": "3010 - CCLR 19(1)(a)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          },
+          {
+            "code": "3010 - CCLR 19(1)(b)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "E2312526-9D15-405A-9170-C33AD1E5F8A8",
+        "date": "2025-05-14",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 16(4)(a)",
+            "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are suitable for the age and development of the children,",
+            "observations": "Licensing measured depth of surfacing under equipment that was 6' in high was only 2\" deep and under a slide measuring 5' in height it was 4\" deep. The recommended surfacing as per the DOLSOP is a minimum of 6\" for 5' high equipment height minimum of 12\" for equipment 7' equipment height.",
+            "correctByDate": "June 14, 2025",
+            "corrected": false
+          },
+          {
+            "code": "3010 - CCLR 19(1)(a)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
+            "observations": "Licensing audited five staff files, one was missing a criminal record check.",
+            "correctByDate": "June 14, 2025",
+            "corrected": false
+          },
+          {
+            "code": "3010 - CCLR 19(1)(b)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
+            "observations": "Licensing audited five staff files, one was missing character references for an employee.",
+            "correctByDate": "June 14, 2025",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "8CB3DB26-33F8-4936-87ED-DC07557C340D",
+        "date": "2024-10-23",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "5332C032-68E6-4EC8-9259-EA5FF1B5680B",
+        "date": "2024-02-20",
+        "type": "Routine",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10005",
+    "permitID": "96D28898-39C8-4629-9403-7F2A1AB8A939",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=96D28898-39C8-4629-9403-7F2A1AB8A939",
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "B5FB06D6-21DD-4DC7-B1AD-B036C37DA3E6",
+        "date": "2026-03-12",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "88E19677-3F9A-4842-A25C-7AD5479E12C9",
+        "date": "2026-02-13",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "46D2BE66-2B8B-4B2F-AA0B-2AB8D93EC110",
+        "date": "2026-02-04",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "C5C31DED-B658-4078-9E56-FD2B1F15EB2B",
+        "date": "2025-03-10",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "DDA7B658-9A28-46E2-81EF-02052890805D",
+        "date": "2024-11-21",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "FAD20893-A973-4B2F-967B-A6D7C93D138F",
+        "date": "2024-01-24",
+        "type": "Routine",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "4150",
+    "permitID": "0EFF66F4-8450-4C63-9F57-92D8D9206A5D",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0EFF66F4-8450-4C63-9F57-92D8D9206A5D",
+    "inspections": [],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10009",
+    "permitID": "DCC29D77-C155-41C8-9E16-DD6B2372EAD0",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=DCC29D77-C155-41C8-9E16-DD6B2372EAD0",
+    "serviceType": "302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "BF267C00-C828-4387-8E2F-A43E0CCBC21C",
+        "date": "2026-04-10",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "7C6E0C83-A3F7-4B69-83B3-0CD446EABB16",
+        "date": "2026-03-06",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(1)(a)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
+            "observations": "Licensing audited four staff files. One file did not contain a Criminal Record Check.",
+            "correctByDate": "March 20, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3010 - CCLR 19(1)(b)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
+            "observations": "Licensing audited four staff files. One file did not contain a record of character references.",
+            "correctByDate": "March 20, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3020 - CCLR 56(1)(c)",
+            "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
+            "observations": "Licensing audited the monthly fire drill record, and observed the March, April and June 2025 fire drill were not kept. Staff stated they implemented the fire drills, but forgot to record them.",
+            "correctByDate": "March 20, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 57(3)(b)",
+            "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
+            "observations": "Licensing audited five children's files. One file did not contain a consent to release a child to someone other than the parent.",
+            "correctByDate": "March 20, 2026",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 59(b)",
+            "description": "In respect of a record referred to in this Division, a licensee must (b) keep a record other than one referred to in paragraph (a) in a place from which it can be retrieved within a reasonable time, on request,",
+            "observations": "Licensing observed the manager was not at the facility on this date. Staff stated that the character references had been completed electronically and that only the manager had access to the documentation.",
+            "correctByDate": "March 20, 2026",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "7B51D322-03B8-41E0-86A7-B5488E2DD866",
+        "date": "2025-09-16",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "0609E4CF-AA08-4D08-9057-89098626DD17",
+        "date": "2025-05-05",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "ED15B97C-4B77-4AFA-B701-1D86D47B0369",
+        "date": "2025-03-13",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(1)(b)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
+            "observations": "Licensing audited four staff files on this date. One file was missing character references in respect to the person.",
+            "correctByDate": "April 4, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3010 - CCLR 19(1)(c)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a record of the person’s work history",
+            "observations": "Licensing audited four staff files on this date. One file was missing a record of the person's work history.",
+            "correctByDate": "April 4, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 57(2)(j)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (j) a record of any person who is not permitted access to the child",
+            "observations": "Licensing audited five children's files on this date. There were no files showing a record of any person who is not permitted access to the child.",
+            "correctByDate": "April 4, 2025",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "FC6C6FD6-A230-4FE5-A8ED-87F6AABFF6A4",
+        "date": "2024-05-27",
+        "type": "Follow-Up",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10011",
+    "permitID": "871E6A4C-F7F0-4CE7-A871-0A70C56A06BB",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=871E6A4C-F7F0-4CE7-A871-0A70C56A06BB",
+    "serviceType": "302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "0806D90A-8151-42C1-9CFB-041CDCF54745",
+        "date": "2026-05-22",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "2AC28B20-9B2D-4C09-9006-5DD156C269F0",
+        "date": "2025-07-22",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "E24B173F-66CC-4F23-8DF4-66A3D2032FEA",
+        "date": "2025-07-04",
+        "type": "Complaint",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 16(4)(b)",
+            "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are safely constructed, free from hazards and in good repair.",
+            "observations": "Regarding intake dated March 21, 2025. Through the investigation process, Licensing determined that there were four bikes that had no padding on the handle and there was a helmet that did not have a strap to close the latch.",
+            "correctByDate": "July 8, 2025",
+            "corrected": false
+          },
+          {
+            "code": "3030 - CCLR 51(1)(a)",
+            "description": "A licensee must ensure that behavioural guidance is appropriate to the age and development of the child who is receiving the guidance,",
+            "observations": "Regarding intake dated March 21, 2025. Through the investigation process, Licensing determined that staff moved children physically and grabbed toys from children when they had taken it from another child.",
+            "correctByDate": "July 8, 2025",
+            "corrected": false
+          },
+          {
+            "code": "3030 - CCLR 52(2)(a)",
+            "description": "A licensee must ensure that a child is not, while under the care or supervision of the licensee, subjected to any of the following types of abuse or neglect: emotional abuse,",
+            "observations": "Regarding intake date March 21, 2025. Through the investigation process, Licensing determined that a staff had screamed at children.",
+            "correctByDate": "July 8, 2025",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "028209A2-27C9-4206-B509-FBA75C48E658",
+        "date": "2025-06-24",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "64C58845-30F1-416A-9D1D-4D9E88B3D7A2",
+        "date": "2024-08-02",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "CF57186C-97DD-4DD2-80F6-BD39DC263D87",
+        "date": "2024-06-14",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3070 - SPS DOLSOP (Log Kept)",
+            "description": "Log kept of all inspections, maintenance & repairs",
+            "observations": "Licensing observed a log was not kept for the playground inspections, maintenance and repairs.",
+            "correctByDate": "July 16, 2024",
+            "corrected": true
+          }
+        ]
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10012",
+    "permitID": "81A37761-A7FB-4698-BBFF-D6C1C3A35782",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=81A37761-A7FB-4698-BBFF-D6C1C3A35782",
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "03BB8C1F-43B4-49E4-9F22-78B6F35914D4",
+        "date": "2026-01-13",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "BF277C77-A284-42C7-88D0-40BA032D4DC5",
+        "date": "2025-09-22",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "67DAE76B-E50D-4AA9-9E3F-2CF1B1B19B12",
+        "date": "2025-01-21",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "EEE3EDF7-BB96-4335-B9D6-2479530966FE",
+        "date": "2024-02-07",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "AA4195E2-1A24-4EA0-A306-3534F5A65800",
+        "date": "2024-01-09",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 16(4)(b)",
+            "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are safely constructed, free from hazards and in good repair.",
+            "observations": "Licensing observed a plastic swimming pool in the Group Child Care (Under 36 Months) yard had a big crack in it that had sharp edges.",
+            "correctByDate": "February 9, 2024",
+            "corrected": true
+          },
+          {
+            "code": "3010 - CCLR 19(1)(a)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
+            "observations": "Licensing audited nine staff files and observed one missing CRC thought the CRRA.",
+            "correctByDate": "February 9, 2024",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 57(3)(b)",
+            "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
+            "observations": "Licensing audited ten children's files and observed one missing to release a child to someone other than a parent.",
+            "correctByDate": "February 9, 2024",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 58(2)(b)",
+            "description": "The licensee must review the care plan at least once each year with a parent of the child requiring extra support and any person requested by the parent.",
+            "observations": "Licensing audited five care plans and observed five had last been reviewed in July 2022. Manager stated the care plans had not been reviewed.",
+            "correctByDate": "February 9, 2024",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "03E14FDD-5C41-4160-836B-DE69DF72559B",
+        "date": "2023-02-02",
+        "type": "Follow-Up",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 17",
+            "description": "A licensee must ensure that children do not have access to any object or substance that may be hazardous to the health or safety of a child",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          },
+          {
+            "code": "3070 - CCLR 57(2)(b)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (b) date of enrolment in the community care facility",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          },
+          {
+            "code": "3080 - CCLR 11(4)",
+            "description": "A licensee must display in a prominent place in the community care facility the certificate of any educator or assistant employed to work in the community care facility.",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          }
+        ]
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10021",
+    "permitID": "E47E8319-FDF0-408F-ADFC-85E9AFCDF923",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E47E8319-FDF0-408F-ADFC-85E9AFCDF923",
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "1B9C08DA-F0BA-4827-BC31-1FF52A84BA6A",
+        "date": "2025-11-27",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "A016818A-9385-45F6-B2D6-159FE0A20992",
+        "date": "2024-11-18",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "FDF1F5F8-10FA-4F39-82C9-7817F334AF88",
+        "date": "2023-11-30",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "646E5540-FD83-40E6-9955-7913CF98D703",
+        "date": "2022-11-21",
+        "type": "Routine",
+        "contraventions": []
+      },
+      {
+        "id": "3CD3EAF9-C795-4057-9BF6-346C170E084F",
+        "date": "2022-03-03",
+        "type": "Follow-Up",
+        "contraventions": [
+          {
+            "code": "3000 - SPS DOLSOP (Clearance)",
+            "description": "A 1.8 metre (6 feet) clearance around equipment is considered safest",
+            "observations": "Licensing observed rocks and tires intended for climbing and jumping without adequate clearance.",
+            "correctByDate": "",
+            "corrected": false
+          },
+          {
+            "code": "3000 - SPS DOLSOP (Clearance)",
+            "description": "A 1.8 metre (6 feet) clearance around equipment is considered safest",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          },
+          {
+            "code": "3000 - SPS DOLSOP (Entanglement)",
+            "description": "Equipment is free of entanglement hazards in areas of uncontrolled motion. (Something around the child’s neck becomes caught on equipment) \r\nUse Entanglement test device",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          },
+          {
+            "code": "3000 - SPS DOLSOP (Entanglement)",
+            "description": "Equipment is free of entanglement hazards in areas of uncontrolled motion. (Something around the child’s neck becomes caught on equipment) \r\nUse Entanglement test device",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "337D8F53-822A-433E-8684-D6A0E2BCACE0",
+        "date": "2021-12-21",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - SPS DOLSOP (Clearance)",
+            "description": "A 1.8 metre (6 feet) clearance around equipment is considered safest",
+            "observations": "Licensing observed rocks and tires intended for climbing and jumping without adequate clearance.",
+            "correctByDate": "February 11, 2022",
+            "corrected": false
+          },
+          {
+            "code": "3000 - SPS DOLSOP (Entanglement)",
+            "description": "Equipment is free of entanglement hazards in areas of uncontrolled motion. (Something around the child’s neck becomes caught on equipment) \r\nUse Entanglement test device",
+            "observations": "Licensing used the entanglement device and detected entanglements on both sides of the blue slide in the toddler play area. This represents an immediate risk to the health and safety of children in care and must be corrected immediately. Staff stated that children will not use the slide until the entanglement can be corrected and tested to be free of entanglement.",
+            "correctByDate": "December 21, 2021",
+            "corrected": false
+          }
+        ]
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10014",
+    "permitID": "EC62D91B-2490-4F24-8CB2-EBCBF7DDBB27",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=EC62D91B-2490-4F24-8CB2-EBCBF7DDBB27",
+    "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "683F931B-1FDE-4802-A347-0462ECA73CF5",
+        "date": "2026-05-15",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "9266F478-3C54-4772-9DA2-5138F6EE702D",
+        "date": "2026-04-22",
+        "type": "Complaint",
+        "contraventions": [
+          {
+            "code": "3070 - CCLR 60(5)",
+            "description": "A licensee must keep a record referred to in section 57 [records for each child] for at least 2 years from the date the child who is the subject of the record is discharged from the community care facility.",
+            "observations": "Regarding intake March 30, 2026. Through the investigation process, Licensing determined that a file of a child no longer in care was not kept on site. Manager stated that they were unable to locate the file.",
+            "correctByDate": "May 18, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3080 - CCALA 7(1)(b)(i)",
+            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
+            "observations": "Regarding intake March 30, 2026. Through the investigation process, Licensing determined that a care plan for a person in care was not followed and was not updated to include strategies to guide behaviours such as physical guidance and use of sign language.",
+            "correctByDate": "May 18, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "65DE1094-D66F-42B3-A557-4444A74AD1E8",
+        "date": "2025-11-21",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "3BEA00C2-BCCF-415E-BCBC-507FDFC6ECAF",
+        "date": "2025-08-08",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "F47B0921-7B84-4FF0-8016-40CF63BF7040",
+        "date": "2025-08-08",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "FAB4A85B-CA8C-4C08-B8D5-5FD1131345E1",
+        "date": "2025-08-08",
+        "type": "Follow-Up",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
+    "facilityId": "4151",
+    "permitID": "D0C02FEF-6E8C-4C54-8DCB-681D72547217",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=D0C02FEF-6E8C-4C54-8DCB-681D72547217",
+    "serviceType": "302 Group Child Care (30 Months to School Age)",
+    "inspections": [],
+    "allFetched": true
+  },
+  {
+    "facilityId": "10000",
+    "permitID": "E1916F08-03FE-41CF-B6B1-177356A69BE9",
+    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E1916F08-03FE-41CF-B6B1-177356A69BE9",
+    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),303 Preschool (30 Months to School Age)",
+    "inspections": [
+      {
+        "id": "31ABBF3B-24E7-4922-8230-9A0049B117F5",
+        "date": "2026-04-28",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - CCLR 17",
+            "description": "A licensee must ensure that children do not have access to any object or substance that may be hazardous to the health or safety of a child",
+            "observations": "Licensing observed a wasp nest on the roof of wooden playhouse, prickles accessible to children in care and mushrooms growing on play materials.",
+            "correctByDate": "May 28, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3010 - CCLR 19(1)(a)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
+            "observations": "Licensing audited 12 staff files one staff file was missing a valid CRC.",
+            "correctByDate": "May 28, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3010 - CCLR 19(1)(f)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
+            "observations": "Licensing audited 12 staff files, one was missing immunization status.",
+            "correctByDate": "May 28, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3030 - CCLR 34(2)(b)",
+            "description": "Without limiting subsection (1), a licensee must ensure that the ratio of employees to children attending a community care facility is no less than that permitted in Schedule E.",
+            "observations": "Licensing observed three Early Childhood Educator Assistant's (ECEA) in the 301 GCC (Under 36 Months) program. There was no Infant and Toddler Educator (ITE) in program. The Infant and Toddler Educator is currently away on medical leave and to be returning in two weeks.",
+            "correctByDate": "May 28, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "EE94F500-C10F-4AF4-A844-F80AEE2F812B",
+        "date": "2025-04-08",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "4F05C76F-05C3-4D50-BEC9-851FC45C666F",
+        "date": "2025-04-01",
+        "type": "Follow-Up",
+        "contraventions": []
+      },
+      {
+        "id": "2950F750-1A77-44E7-AE65-F790A52DD565",
+        "date": "2025-03-05",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(4)(a)",
+            "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
+            "observations": "Licensing observed that one Educator Assistant certification had not been verified.",
+            "correctByDate": "April 5, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 57(2)(a)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
+            "observations": "Licensing reviewed ten children's files. One file did not indicate the sex of the child.",
+            "correctByDate": "April 5, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 57(2)(d)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
+            "observations": "Licensing reviewed ten children's files. One file did not contain the name and contact number for a medical practitioner.",
+            "correctByDate": "April 5, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3070 - CCLR 57(2)(j)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (j) a record of any person who is not permitted access to the child",
+            "observations": "Licensing reviewed ten children's files. Four files did not contain persons not permitted access.",
+            "correctByDate": "April 5, 2025",
+            "corrected": true
+          },
+          {
+            "code": "3080 - CCLR 11(4)",
+            "description": "A licensee must display in a prominent place in the community care facility the certificate of any educator or assistant employed to work in the community care facility.",
+            "observations": "Licensing observed two Educator's certificates were not posted.",
+            "correctByDate": "April 5, 2025",
+            "corrected": true
+          }
+        ]
+      },
+      {
+        "id": "7601DD8E-B37E-4662-9AF1-E5BA0EC007AE",
+        "date": "2024-12-10",
+        "type": "Complaint",
+        "contraventions": [
+          {
+            "code": "3090 - CCALA 7(1)(b)(i)",
+            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
+            "observations": "Regarding intake dated December 5, 2024. Through the investigation process, Licensing determined that the staff did not demonstrate the skills and abilities to carry out the duties assigned. Specifically the Manager had left a child unsupervised in a space that did not belong to the program and the Manager was aggressive with children in care.",
+            "correctByDate": "January 20, 2025",
+            "corrected": false
+          }
+        ]
+      },
+      {
+        "id": "942E6DD0-3CE2-42B4-A9DA-3E172CB160AC",
+        "date": "2024-04-16",
+        "type": "Routine",
+        "contraventions": []
+      }
+    ],
+    "allFetched": true
+  },
+  {
     "facilityId": "5415",
     "permitID": "B50302A5-DCFD-42E0-9549-53CF2E7889D1",
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=B50302A5-DCFD-42E0-9549-53CF2E7889D1",
     "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age)",
     "inspections": [
+      {
+        "id": "58A106D0-178A-4FCB-A3D0-9E29F9A4DC57",
+        "date": "2026-06-22",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3000 - SPS DOLSOP (scheduling UV rays)",
+            "description": "Minimize exposure to harmful UV rays by appropriate scheduling",
+            "observations": "",
+            "correctByDate": "",
+            "corrected": false
+          },
+          {
+            "code": "3030 - CCLR 34(2)(a)",
+            "description": "Without limiting subsection (1) a licensee must ensure that children attending a community care facility are divided into groups, with each group having no more children than that permitted in Schedule E, (except FCC/IHMACC/REC; child qualified if in age range or within one month (except GCC School Age)).",
+            "observations": "Licensing observed that a child enrolled in the Group Child Care (School Age) program was recorded in the attendance records for the Group Child Care (30 Months to School Age) program. The Manager stated that there was only one child registered in the Group Child Care (School Age) program and that child was currently attending the Group Child Care (30 Months to School Age) program so that the child would not be alone and was therefore recorded on that program's attendance sheet. There was no TPR approved for that child.",
+            "correctByDate": "July 10, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3060 - CCLR 46(1)",
+            "description": "A licensee must establish a program to instruct children in, and to practise the rules of, health and hygiene.",
+            "observations": "Licensing observed a staff member did not wash their hands and the child's hands after a diaper change. The staff member, after changing the diaper, continued their activities with the gloves on that were used during the diaper change and proceeded to handle children's toys and eating highchairs.",
+            "correctByDate": "July 10, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3070 - CCALA 7(1)(b)(i)",
+            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
+            "observations": "Licensing observed a log of all inspections, maintenance and repairs was not kept for the Group Child Care (School Age) program.",
+            "correctByDate": "July 10, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3070 - CCLR 57(2)(a)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
+            "observations": "Licensing audited seven children's files and two files did not contain immunization status.",
+            "correctByDate": "July 10, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3070 - CCLR 57(2)(d)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
+            "observations": "Licensing audited seven children's files and one file did not contain emergency contacts.",
+            "correctByDate": "July 10, 2026",
+            "corrected": false
+          }
+        ]
+      },
       {
         "id": "A6F5650F-E823-4F74-AA99-35A7C278BC19",
         "date": "2026-02-05",
@@ -201,34 +1725,6 @@
             "observations": "Licensing observed a child enrolled in the Group Child Care (30 Months to School Age) entered the Group Child Care (Under 36 Months) room and used the washroom designated to the Group Child Care (Under 36 Months) program. This action did not meet Schedule E.",
             "correctByDate": "August 5, 2025",
             "corrected": false
-          }
-        ]
-      },
-      {
-        "id": "61E0049F-041A-450A-BBC0-13EEA1466F4D",
-        "date": "2025-07-21",
-        "type": "Routine",
-        "contraventions": [
-          {
-            "code": "3000 - CCLR 13(1)",
-            "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
-            "observations": "Licensing observed a child in the playroom while staff was in the nap room [adjacent room], organizing and putting away children's beds. The child was playing next to a pedestal fan that was not secured and was wobbly. The child was not under direct supervision at that time.",
-            "correctByDate": "August 5, 2025",
-            "corrected": true
-          },
-          {
-            "code": "3000 - CCLR 16(4)(b)",
-            "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are safely constructed, free from hazards and in good repair.",
-            "observations": "Licensing observed five portable slides placed directly on concrete. The slides measured between 0.53 cm and 0.63 cm in height and were used by both the Group Child Care (Under 36 Months) and Group Child Care (30 Months to School Age) programs. The woodchips were unevenly distributed, and there was no depth to form a sufficient surface to reduce risk of injury from falls.",
-            "correctByDate": "August 5, 2025",
-            "corrected": true
-          },
-          {
-            "code": "3030 - CCLR 34(2)(a)",
-            "description": "Without limiting subsection (1) a licensee must ensure that children attending a community care facility are divided into groups, with each group having no more children than that permitted in Schedule E, (except FCC/IHMACC/REC; child qualified if in age range or within one month (except GCC School Age)).",
-            "observations": "Licensing observed a child enrolled in the Group Child Care (30 Months to School Age) entered the Group Child Care (Under 36 Months) room and used the washroom designated to the Group Child Care (Under 36 Months) program. This action did not meet Schedule E.",
-            "correctByDate": "August 5, 2025",
-            "corrected": true
           }
         ]
       }
@@ -6323,6 +7819,20 @@
     "serviceType": "310 Multi - Age Child Care",
     "inspections": [
       {
+        "id": "5E5774DD-5A39-4CD9-A084-4E4DEF3F4161",
+        "date": "2026-06-18",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(4)(a)",
+            "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
+            "observations": "Licensing audited two staff files. Two files was missing a certificate verified through the ECE Registry.",
+            "correctByDate": "June 24, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
         "id": "957DEC72-4628-4130-B222-C49AB003C636",
         "date": "2026-04-23",
         "type": "Follow-Up",
@@ -6366,12 +7876,6 @@
             "corrected": true
           }
         ]
-      },
-      {
-        "id": "60665CDD-937B-46B8-994F-E012DAFA0345",
-        "date": "2022-06-20",
-        "type": "Follow-Up",
-        "contraventions": []
       }
     ],
     "allFetched": true
@@ -7827,6 +9331,34 @@
     "serviceType": "305 Group Child Care (School Age),312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds",
     "inspections": [
       {
+        "id": "5909D794-F9D9-4379-ABE5-A909F8767620",
+        "date": "2026-06-18",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3070 - CCALA 7(1)(b)(i)",
+            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
+            "observations": "Licensing observed that a record of all inspections, maintenance, and repairs was missing on April 1 and 2. The Licensee Contact stated that they checked the play space but forgot to record it on the log.",
+            "correctByDate": "July 17, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3070 - CCLR 57(2)(d)",
+            "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
+            "observations": "Licensing audited ten children's files, and two files did not contain emergency contact information.",
+            "correctByDate": "July 17, 2026",
+            "corrected": false
+          },
+          {
+            "code": "3070 - CCLR 57(3)(b)",
+            "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
+            "observations": "Licensing audited ten children's files, and two files were missing written consent to release a child to someone other than a parent.",
+            "correctByDate": "July 17, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
         "id": "83E9C291-1D8E-412B-A76C-70D712880186",
         "date": "2025-06-19",
         "type": "Follow-Up",
@@ -7932,41 +9464,6 @@
             "description": "In respect of a record referred to in this Division, a licensee must (a) keep in a single place at the community care facility the records referred to in sections 56 to 58,",
             "observations": "Manager stated that references for one staff were at the main office off site.",
             "correctByDate": "June 11, 2024",
-            "corrected": true
-          }
-        ]
-      },
-      {
-        "id": "E0DD91E1-F688-4C5B-97DE-DDFBC2DDC5A6",
-        "date": "2023-05-16",
-        "type": "Routine",
-        "contraventions": [
-          {
-            "code": "3000 - CCLR 17",
-            "description": "A licensee must ensure that children do not have access to any object or substance that may be hazardous to the health or safety of a child",
-            "observations": "Licensing observed a metal piece of the chain link fence accessible to children.",
-            "correctByDate": "May 16, 2023",
-            "corrected": true
-          },
-          {
-            "code": "3010 - CCLR 19(1)(b)",
-            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
-            "observations": "Licensing audited five staff files and one staff file contained one character reference. Two character references are required for each staff file.",
-            "correctByDate": "June 6, 2023",
-            "corrected": true
-          },
-          {
-            "code": "3010 - CCLR 19(1)(d)",
-            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: copies of any diplomas, certificates or other evidence of the person’s training and skills",
-            "observations": "Licensing audited five staff files and one staff file was missing evidence of diplomas/certificates or evidence of training/skills. Licensee stated that staff had training/skills from previous work experiences.",
-            "correctByDate": "June 6, 2023",
-            "corrected": true
-          },
-          {
-            "code": "3070 - CCLR 57(2)(d)",
-            "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
-            "observations": "Licensing audited seven children's files, one missing name and telephone of medical practitioner.",
-            "correctByDate": "June 6, 2023",
             "corrected": true
           }
         ]
@@ -8630,6 +10127,12 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=3D3A4C5B-E931-40B8-A80D-6ACE7851F84C",
     "serviceType": "305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)",
     "inspections": [
+      {
+        "id": "58CFACF3-7426-4CFE-A0E1-33D9886B95F8",
+        "date": "2026-06-18",
+        "type": "Routine",
+        "contraventions": []
+      },
       {
         "id": "F3A0B61C-113E-45CF-B317-EB7A64894337",
         "date": "2026-03-13",
@@ -11182,6 +12685,12 @@
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=0F30A1EA-CE13-4D55-BE8B-6C890DB08407",
     "serviceType": "304 Family Child Care",
     "inspections": [
+      {
+        "id": "DDAD80E1-18D9-43F2-BAEA-ADFC99AEF05A",
+        "date": "2026-06-17",
+        "type": "Routine",
+        "contraventions": []
+      },
       {
         "id": "115016BA-5B4F-4834-8BBF-A4D04F5DE8FE",
         "date": "2025-08-13",
@@ -16372,6 +17881,20 @@
     "serviceType": "302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age),305 Group Child Care (School Age)",
     "inspections": [
       {
+        "id": "3749BE77-AFEA-43B3-9AE2-4AFC60115BC0",
+        "date": "2026-06-17",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 19(1)(f)",
+            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
+            "observations": "Licensing audited 17 staff files. One staff file was missing immunization status.",
+            "correctByDate": "July 9, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
         "id": "8A010BE1-AD3A-424F-96F9-53F5D631950B",
         "date": "2026-01-13",
         "type": "Follow-Up",
@@ -16415,69 +17938,6 @@
         "date": "2024-10-29",
         "type": "Follow-Up",
         "contraventions": []
-      },
-      {
-        "id": "F7F6D68D-9799-4E89-AA75-C8FC76796713",
-        "date": "2024-09-23",
-        "type": "Non-Visit Follow-up",
-        "contraventions": [
-          {
-            "code": "3000 - CCALA 7(1)(b)(i)",
-            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
-            "observations": "",
-            "correctByDate": "",
-            "corrected": false
-          },
-          {
-            "code": "3010 - CCLR 19(5)(b)",
-            "description": "Despite this section, a licensee may employ a person as a volunteer who does not provide care to children or supervise children if the licensee or the manager has first met with the person and obtained all of the following: character references in respect of the person",
-            "observations": "",
-            "correctByDate": "",
-            "corrected": false
-          },
-          {
-            "code": "3020 - CCLR 56(1)(c)",
-            "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
-            "observations": "Licensing observed that fire and emergency drills for the Langford and Highlands rooms which operate Group Child Care (School Age) program were not recorded.",
-            "correctByDate": "September 21, 2024",
-            "corrected": false
-          },
-          {
-            "code": "3050 - CCALA 7(1)(b)(i)",
-            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
-            "observations": "Licensing observed that the corrective action plan to mitigate the risk of lead in water was not being followed, specifically, a recorded log was missing for a morning flush conducted in the Metchosin room.",
-            "correctByDate": "September 21, 2024",
-            "corrected": false
-          },
-          {
-            "code": "3050 - CCLR 48(5)",
-            "description": "A licensee must ensure that safe drinking water is available to children.",
-            "observations": "Licensing observed that a two-minute flush of lead in water conducted on August 21, 2024 had not been recorded.",
-            "correctByDate": "September 21, 2024",
-            "corrected": false
-          },
-          {
-            "code": "3070 - CCLR 57(2)(a)",
-            "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
-            "observations": "",
-            "correctByDate": "",
-            "corrected": false
-          },
-          {
-            "code": "3070 - CCLR 57(2)(c)",
-            "description": "A licensee must keep, for each child, a record showing the following information: (c) daily attendance record, indicating for each day whether the child is absent or, if the child is present, the time of arrival and departure",
-            "observations": "Licensing audited attendance record for the week of August 19, 2024 and observed that one child was missing sign out time for Aug 20, 2024 and blank records were observed on Aug 19, 2024 that did not clearly indicate if children were present or absent.",
-            "correctByDate": "September 21, 2024",
-            "corrected": false
-          },
-          {
-            "code": "3090 - SPS DOLSOP (Teach Safe Play)",
-            "description": "Teach children how to be safe, act responsibly at playground, how to correctly use play equipment & to be aware of potential hazards",
-            "observations": "Licensing observed a child climbing and standing on top of the safety guardrails located on elevated equipment (7 feet) in the outdoor play area.",
-            "correctByDate": "September 21, 2024",
-            "corrected": false
-          }
-        ]
       }
     ],
     "allFetched": true
@@ -16700,6 +18160,20 @@
     "serviceType": "312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds,312 School Age Care on School Grounds",
     "inspections": [
       {
+        "id": "DCFE4D77-88B2-4B82-99AB-92183A1154C4",
+        "date": "2026-06-17",
+        "type": "Routine",
+        "contraventions": [
+          {
+            "code": "3010 - CCLR 18",
+            "description": "A licensee must not employ as a manager a person who, at the time that the person is managing the licensee’s community care facility, is also managing another community care facility.",
+            "observations": "Licensing observed an exemption from Section 18 of the Child Care Licensing Regulation allowing the manager to be the manager of two facilities was expired on March 22, 2026. Licensing had not received a renewal submission from the Licensee Contact.",
+            "correctByDate": "July 31, 2026",
+            "corrected": false
+          }
+        ]
+      },
+      {
         "id": "4DAEA28D-F310-42F7-A866-EF0209E3E709",
         "date": "2025-06-24",
         "type": "Routine",
@@ -16750,12 +18224,6 @@
             "corrected": true
           }
         ]
-      },
-      {
-        "id": "60027B7E-9C53-490D-8513-A9E36484721B",
-        "date": "2023-01-30",
-        "type": "Follow-Up",
-        "contraventions": []
       }
     ],
     "allFetched": true
@@ -26064,7 +27532,7 @@
     "facilityId": "4059",
     "permitID": "E4AA2123-EE75-4E3A-AB00-C924051410DB",
     "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=E4AA2123-EE75-4E3A-AB00-C924051410DB",
-    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)",
+    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age)",
     "inspections": [
       {
         "id": "61A29FD5-5734-4041-8226-8624428269A1",
@@ -26618,153 +28086,6 @@
       {
         "id": "BE79EF7F-B201-4D9E-A9D7-123B3A6D4E68",
         "date": "2023-06-05",
-        "type": "Follow-Up",
-        "contraventions": []
-      }
-    ],
-    "allFetched": true
-  },
-  {
-    "facilityId": "406",
-    "permitID": "1604EA81-7BDE-49D9-B559-5B6B6D6117BC",
-    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=1604EA81-7BDE-49D9-B559-5B6B6D6117BC",
-    "serviceType": "301 Group Child Care (Under 36 Months),302 Group Child Care (30 Months to School Age),302 Group Child Care (30 Months to School Age)",
-    "inspections": [
-      {
-        "id": "88544549-877A-465C-9294-EFDFEC70D351",
-        "date": "2026-06-08",
-        "type": "Follow-Up",
-        "contraventions": []
-      },
-      {
-        "id": "2C945CBA-B553-4107-BB8A-DB8B77AAD2F1",
-        "date": "2026-05-06",
-        "type": "Routine",
-        "contraventions": [
-          {
-            "code": "3000 - CCLR 13(1)",
-            "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
-            "observations": "Licensing observed the fire extinguisher were expired. The fire extinguishers were to be service on or before \nApril 2026.",
-            "correctByDate": "May 27, 2026",
-            "corrected": true
-          },
-          {
-            "code": "3000 - CCLR 15(1)(a)",
-            "description": "A licensee must supply equipment, furniture and supplies that are of sturdy and safe construction, easy to clean and free from hazards.",
-            "observations": "Licensing observed the outdoor area had a little play house with exposed nail that was sharp and accessible to the children, two metal chairs that were rusty with sharp chipping paint. One of the slides, being used by children at the time of inspection, with an exposed screw.",
-            "correctByDate": "May 27, 2026",
-            "corrected": true
-          },
-          {
-            "code": "3000 - CCLR 17",
-            "description": "A licensee must ensure that children do not have access to any object or substance that may be hazardous to the health or safety of a child",
-            "observations": "Licensing observed that all of the rooms in Group Child Care (30 Months to School Age) and Group Child Care (Under 36 Months) had heavy objects stored high on shelves with intentional play spaces below.",
-            "correctByDate": "May 27, 2026",
-            "corrected": true
-          },
-          {
-            "code": "3010 - CCLR 19(1)(b)",
-            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
-            "observations": "Licensing audited eight staff files. Two staff files had references listed but not date, notes or otherwise indicating that the references had been obtained.",
-            "correctByDate": "May 27, 2026",
-            "corrected": true
-          },
-          {
-            "code": "3010 - CCLR 19(4)(a)",
-            "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
-            "observations": "Licensing audited eight staff files. Two staff files had expired verifications from 2025 and two staff files did not have verification completed.",
-            "correctByDate": "May 27, 2026",
-            "corrected": true
-          },
-          {
-            "code": "3020 - CCLR 56(1)(c)",
-            "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
-            "observations": "Licensing observed that the fire drill had not been recorded for the month of April. Staff stated they had not performed the fire drill for the month April.",
-            "correctByDate": "May 27, 2026",
-            "corrected": true
-          },
-          {
-            "code": "3030 - CCLR 34(2)(a)",
-            "description": "Without limiting subsection (1) a licensee must ensure that children attending a community care facility are divided into groups, with each group having no more children than that permitted in Schedule E, (except FCC/IHMACC/REC; child qualified if in age range or within one month (except GCC School Age)).",
-            "observations": "Licensing observed in the staff communication log that a child from the Group Child Care (30 Months to School Age) program was spending time in the Group Child Care (Under 36 Months) program on March 28, 2026. Staff stated that the child was four years old.",
-            "correctByDate": "May 27, 2026",
-            "corrected": true
-          },
-          {
-            "code": "3040 - CCLR 53(1)(b)",
-            "description": "If a licensee has agreed with a parent to give a child any medication prescribed by a medical practitioner or provided by the parent, the licensee and his or her employees must ensure that the medication is (b) readily accessible to employees.",
-            "observations": "Licensing observed that one of the children that had a care plan for use of an epi pen was out on a field trip and did not have the epi pen in the emergency bag. The epi pen was in the office at the facility.",
-            "correctByDate": "May 6, 2026",
-            "corrected": true
-          },
-          {
-            "code": "3070 - CCLR 58(2)(a)",
-            "description": "The licensee must develop the care plan in consultation,with a parent of the child requiring extra support and any person requested by the parent.",
-            "observations": "Licensing audited four care plans. One child had a puffer without a care plan created . The puffer was in in a bag with a staff signature sheet with signatures of staff when puffer was administered.",
-            "correctByDate": "May 27, 2026",
-            "corrected": true
-          }
-        ]
-      },
-      {
-        "id": "12DEEAE3-9161-40D6-A0A3-70D0D11754A8",
-        "date": "2026-03-18",
-        "type": "Complaint",
-        "contraventions": [
-          {
-            "code": "3070 - CCLR 55(1)(b)",
-            "description": "A licensee must immediately notify a parent or emergency contact if, while under the care or supervision of the licensee, the child is involved in, or may have been involved in, a reportable incident described in Schedule H.",
-            "observations": "Regarding intake February 2, 2026. Through the investigation process, Licensing determined that [child A] was involved in a reportable incident as described in Schedule H on November 28, 2025. [Child A] was located in a washroom on their own. [Child A] was brought to a staff and returned to care. The Licensee did not immediately notify a parent or emergency contact of the incident where a child was missing or wandering.",
-            "correctByDate": "March 19, 2026",
-            "corrected": false
-          },
-          {
-            "code": "3070 - CCLR 55(2)(a)",
-            "description": "A licensee must notify the medical health officer within 24 hours after (a) a child is involved in, or may have been involved in, a reportable incident described in Schedule H while under the care or supervision of the licensee,",
-            "observations": "Regarding intake February 2, 2026. Through the investigation process, Licensing determined that [child A] was missing or wandering, and it was not reported to the Medical Health Officer within 24 hours as required.",
-            "correctByDate": "March 19, 2026",
-            "corrected": false
-          }
-        ]
-      },
-      {
-        "id": "93F87CE7-83D1-450D-998F-82A946428372",
-        "date": "2026-03-13",
-        "type": "Complaint",
-        "contraventions": [
-          {
-            "code": "3070 - CCLR 56(1)(f)",
-            "description": "A licensee must keep current records of each of the following: (f) a log of minor accidents, illnesses and unexpected events involving children, that did not require medical attention and were not reportable incidents described in Schedule H.",
-            "observations": "Regarding intake January 19, 2026. Through the investigation process, Licensing determined that staff had observed [child A] push, kick, and hit other children. Staff verbally informed parents of the minor incidents [child A] was involved in. While the incidents did not meet the criteria for submitting a reportable incident, the Licensee was required to maintain records of all minor accidents, illnesses and unexpected events that involved [child A]. Licensing did not observe any associated documentation at the facility that [child A] had pushed, kicked, and hit [unexpected events].",
-            "correctByDate": "March 16, 2026",
-            "corrected": false
-          }
-        ]
-      },
-      {
-        "id": "B4A8A1CC-BE32-4096-B385-657710462458",
-        "date": "2026-02-24",
-        "type": "Complaint",
-        "contraventions": [
-          {
-            "code": "3010 - CCALA 7(1)(b)(i)",
-            "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
-            "observations": "Regarding intake December 1, 2025, through the investigation process, Licensing determined that a staff member behaved disrespectfully toward coworkers on multiple occasions in the presence of children. Licensing confirmed two specific incidents that occurred. One was in the gym (exact date not recalled by staff), and another occurred on December 8, 2025, during which a staff member raised their voice and rolled their eyes at colleagues. The information gathered was consistent across sources and demonstrated conduct that was inappropriate and unprofessional in the child care setting.",
-            "correctByDate": "April 23, 2026",
-            "corrected": false
-          },
-          {
-            "code": "3030 - CCLR 51(1)(a)",
-            "description": "A licensee must ensure that behavioural guidance is appropriate to the age and development of the child who is receiving the guidance,",
-            "observations": "Regarding intake December 1, 2025, through the investigation process, Licensing determined that the facility had a policy requiring staff to communicate clearly and set limits with children in a positive manner. Licensing found that a staff member did not set limits in a positive way. The staff member self-reported that they used a 'bear hug' to move a child as a behavioural guidance technique. Using a 'bear hug' to move a child is not consistent with positive guidance or the facility's policy.",
-            "correctByDate": "March 25, 2026",
-            "corrected": false
-          }
-        ]
-      },
-      {
-        "id": "9D59C493-AD02-4631-BA0F-C7C21B29451B",
-        "date": "2026-01-23",
         "type": "Follow-Up",
         "contraventions": []
       }
@@ -31648,87 +32969,6 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
             "observations": "Licensing audited three staff files and one did not have a criminal record check. Manager stated they sent off for the criminal record check on March 13, 2023.",
             "correctByDate": "April 16, 2023",
-            "corrected": true
-          }
-        ]
-      }
-    ],
-    "allFetched": true
-  },
-  {
-    "facilityId": "635",
-    "permitID": "832556CE-F449-4046-8EE1-18D89AD2A0F6",
-    "inspectionUrl": "https://inspections.myhealthdepartment.com/island-health/ccfl-facility/?permitID=832556CE-F449-4046-8EE1-18D89AD2A0F6",
-    "serviceType": "301 Group Child Care (Under 36 Months),301 Group Child Care (Under 36 Months)",
-    "inspections": [
-      {
-        "id": "1A3D37AB-646F-40C8-9B30-C7FD8B2A6281",
-        "date": "2025-06-27",
-        "type": "Routine",
-        "contraventions": []
-      },
-      {
-        "id": "C97BAF35-91B4-42E4-9540-618CBAA69480",
-        "date": "2024-06-07",
-        "type": "Routine",
-        "contraventions": []
-      },
-      {
-        "id": "2DA77C69-816E-4FB6-BB53-82F7B0C2BC3D",
-        "date": "2023-06-23",
-        "type": "Follow-Up",
-        "contraventions": []
-      },
-      {
-        "id": "31528EDB-DC08-4504-8D4B-19A8EB17F523",
-        "date": "2023-06-07",
-        "type": "Routine",
-        "contraventions": []
-      },
-      {
-        "id": "6DD320A7-0574-4F7E-B1E1-D38F2CF8389A",
-        "date": "2022-08-08",
-        "type": "Non-Visit Follow-up",
-        "contraventions": []
-      },
-      {
-        "id": "2EA393D1-C573-41D1-A038-219127B95194",
-        "date": "2022-07-06",
-        "type": "Routine",
-        "contraventions": [
-          {
-            "code": "3000 - CCLR 17",
-            "description": "A licensee must ensure that children do not have access to any object or substance that may be hazardous to the health or safety of a child",
-            "observations": "Licensing observed an exposed electrical outlet and a hole in the wall in the Multi-Age Child Care program. Licensee Contact corrected during inspection.",
-            "correctByDate": "July 6, 2022",
-            "corrected": true
-          },
-          {
-            "code": "3010 - CCLR 19(1)(a)",
-            "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
-            "observations": "Licensing audited six staff files and two were missing criminal record checks. Licensee Contact stated the criminal record checks had been sent off and they were waiting for the results.",
-            "correctByDate": "August 6, 2022",
-            "corrected": true
-          },
-          {
-            "code": "3010 - CCLR 19(4)(a)",
-            "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
-            "observations": "Licensing audited six staff files and one had a certificate validation from a previous certificate. Licensee Contact validated certificate during inspection.",
-            "correctByDate": "July 6, 2022",
-            "corrected": true
-          },
-          {
-            "code": "3070 - CCLR 58(2)(b)",
-            "description": "The licensee must review the care plan at least once each year with a parent of the child requiring extra support and any person requested by the parent.",
-            "observations": "Licensing reviewed one care plan which indicated it had not been reviewed since July 5, 2021.",
-            "correctByDate": "July 20, 2022",
-            "corrected": true
-          },
-          {
-            "code": "3080 - CCLR 11(4)",
-            "description": "A licensee must display in a prominent place in the community care facility the certificate of any educator or assistant employed to work in the community care facility.",
-            "observations": "One certificate was not posted. Licensee Contact stated they were waiting for the certificate in the mail.",
-            "correctByDate": "August 6, 2022",
             "corrected": true
           }
         ]

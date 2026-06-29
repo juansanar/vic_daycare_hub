@@ -292,6 +292,28 @@ interface Facility {
 }
 
 async function main() {
+  console.log("Loading existing facilities for ID preservation...");
+  let existingFacilities: any[] = [];
+  try {
+    existingFacilities = JSON.parse(
+      readFileSync(resolve(DATA_DIR, "facilities.json"), "utf-8"),
+    );
+  } catch (err) {
+    console.log("No existing facilities.json found to preserve IDs from.");
+  }
+
+  const nameAddrToId = new Map<string, string>();
+  const nameToId = new Map<string, string>();
+  const usedIds = new Set<string>();
+
+  for (const f of existingFacilities) {
+    const normName = normalize(f.name);
+    const normAddr = normalize(f.address);
+    nameAddrToId.set(`${normName}|${normAddr}`, f.id);
+    nameToId.set(normName, f.id);
+    usedIds.add(f.id);
+  }
+
   console.log("Loading $10/day centres list...");
   const tenDollarRaw = JSON.parse(
     readFileSync(resolve(DATA_DIR, "ten-dollar-centres.json"), "utf-8"),
@@ -325,11 +347,28 @@ async function main() {
 
   const facilities: Facility[] = features.map((f) => {
     const a = f.attributes;
-    const id = String(a.FACILITY_ID ?? a.SEQUENCE_ID ?? "");
     const name = String(a.OCCUPANT_NAME ?? "");
+    const address = String(a.STREET_ADDRESS ?? "");
+
+    const normName = normalize(name);
+    const normAddr = normalize(address);
+    let id = nameAddrToId.get(`${normName}|${normAddr}`) || nameToId.get(normName);
+
+    if (!id) {
+      let fallbackId = String(a.FACILITY_ID ?? a.SEQUENCE_ID ?? "");
+      if (!fallbackId || usedIds.has(fallbackId)) {
+        let counter = 100000;
+        while (usedIds.has(String(counter))) {
+          counter++;
+        }
+        fallbackId = String(counter);
+      }
+      id = fallbackId;
+    }
+
+    usedIds.add(id);
     const locality = String(a.LOCALITY ?? "");
     const postalCode = String(a.POSTAL_CODE ?? "");
-    const address = String(a.STREET_ADDRESS ?? "");
 
     let isTenDollarDay = false;
     if (tenDollarOverrides[id] !== undefined) {
@@ -371,6 +410,19 @@ async function main() {
   const uniqueFacilities = Array.from(
     new Map(facilities.map((f) => [f.id, f])).values(),
   );
+
+  try {
+    const customPath = resolve(DATA_DIR, "custom-facilities.json");
+    const customRaw = JSON.parse(readFileSync(customPath, "utf-8"));
+    console.log(`Merging ${customRaw.length} custom facilities...`);
+    for (const cf of customRaw) {
+      if (!uniqueFacilities.some((uf) => uf.id === cf.id)) {
+        uniqueFacilities.push(cf);
+      }
+    }
+  } catch (err) {
+    console.log("No custom-facilities.json found or failed to read.");
+  }
 
   uniqueFacilities.sort((a, b) => a.name.localeCompare(b.name));
 

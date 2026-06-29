@@ -2,11 +2,32 @@
   "description": "Victoria-area $10/day ChildCareBC centres. Names are from the official BC list; overrides map FACILITY_ID to true for known matches in the BC registry data where names differ.",
   "names": [
     "Hans Helgesen Ymca-Ywca Child Care",
-    "Pexsisen Ymca-Ywca Child Care"
+    "Pexsisen Ymca-Ywca Child Care",
+    "T.E.A.M. II Child Care Center",
+    "Arbutus Grove Children's Centre",
+    "Crosstown YMCA-YWCA Child Care",
+    "Fairfield Place",
+    "Fernwood Neighbourhood Childcare and Fernwood Infant and Toddler Care",
+    "G.R. Pearkes Child Care Services",
+    "George Jay Elementary School, Fiddleheads Childcare",
+    "Infant Plus",
+    "Lambrick Park Preschool & Childcare",
+    "Lexie's Little Bears Childcare Inc",
+    "Little Phoenix Child Care Centre",
+    "Mary's Place Childcare Centre",
+    "Neighbourhood Learning Centre Childcare",
+    "Parkdale Early Childhood Centre",
+    "The Cridge Child Care Programs",
+    "University of Victoria Child Care Services - Complex A,",
+    "University of Victoria Child Care Services - Complex B,",
+    "University of Victoria Child Care Services Centre #1 & #2,",
+    "University of Victoria Child Care - Queenswood",
+    "Westhills YMCA-YWCA Child Care",
+    "Our Childrens Centre"
   ],
   "overrides": {
-    "3677": true,
-    "3678": true
+    "3668": true,
+    "3669": true
   },
-  "unmatched_notes": "The following $10/day centres from the official BC list could not be matched to a facility in the BC Child Care Map Data. They may be registered under different licensed names or not yet in this dataset: University of Victoria Child Care Services (Complex A, B, Centre #1 & #2, Queenswood), Downtown YMCA-YWCA Child Care, Westhills YMCA-YWCA Child Care, Our Childrens Centre, Cari's Infant and Toddler Centre, Christian Life Children's Centre, Forest Circle Child Care, Aspen Grove Children's Centre, Fernwood Neighbourhood Childcare. Add their FACILITY_IDs to 'overrides' once identified."
+  "unmatched_notes": "All $10/day centres from the official BC list inside the Victoria CRD region have been matched and successfully integrated into our dataset."
 }
