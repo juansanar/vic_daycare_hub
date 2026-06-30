@@ -145,14 +145,14 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "Licensing audited five children's files, of which one was missing name and telephone number of an emergency contact.",
             "correctByDate": "October 29, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(3)(b)",
             "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
             "observations": "Licensing audited five children's files, of which one was missing written consent to release a child to someone other than the parent.",
             "correctByDate": "October 29, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -289,7 +289,7 @@
             "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3020 - CCLR 56(1)(c)",
@@ -303,7 +303,7 @@
             "description": "If a licensee has agreed with a parent to give a child any medication prescribed by a medical practitioner or provided by the parent, the licensee and his or her employees must ensure that the medication is (b) readily accessible to employees.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       },
@@ -323,63 +323,63 @@
             "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
             "observations": "Licensing observed the fire extinguisher were expired. The fire extinguishers were to be service on or before \nApril 2026.",
             "correctByDate": "May 27, 2026",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3000 - CCLR 15(1)(a)",
             "description": "A licensee must supply equipment, furniture and supplies that are of sturdy and safe construction, easy to clean and free from hazards.",
             "observations": "Licensing observed the outdoor area had a little play house with exposed nail that was sharp and accessible to the children, two metal chairs that were rusty with sharp chipping paint. One of the slides, being used by children at the time of inspection, with an exposed screw.",
             "correctByDate": "May 27, 2026",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3000 - CCLR 17",
             "description": "A licensee must ensure that children do not have access to any object or substance that may be hazardous to the health or safety of a child",
             "observations": "Licensing observed that all of the rooms in Group Child Care (30 Months to School Age) and Group Child Care (Under 36 Months) had heavy objects stored high on shelves with intentional play spaces below.",
             "correctByDate": "May 27, 2026",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(b)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
             "observations": "Licensing audited eight staff files. Two staff files had references listed but not date, notes or otherwise indicating that the references had been obtained.",
             "correctByDate": "May 27, 2026",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(4)(a)",
             "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
             "observations": "Licensing audited eight staff files. Two staff files had expired verifications from 2025 and two staff files did not have verification completed.",
             "correctByDate": "May 27, 2026",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3020 - CCLR 56(1)(c)",
             "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
             "observations": "Licensing observed that the fire drill had not been recorded for the month of April. Staff stated they had not performed the fire drill for the month April.",
             "correctByDate": "May 27, 2026",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3030 - CCLR 34(2)(a)",
             "description": "Without limiting subsection (1) a licensee must ensure that children attending a community care facility are divided into groups, with each group having no more children than that permitted in Schedule E, (except FCC/IHMACC/REC; child qualified if in age range or within one month (except GCC School Age)).",
             "observations": "Licensing observed in the staff communication log that a child from the Group Child Care (30 Months to School Age) program was spending time in the Group Child Care (Under 36 Months) program on March 28, 2026. Staff stated that the child was four years old.",
             "correctByDate": "May 27, 2026",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3040 - CCLR 53(1)(b)",
             "description": "If a licensee has agreed with a parent to give a child any medication prescribed by a medical practitioner or provided by the parent, the licensee and his or her employees must ensure that the medication is (b) readily accessible to employees.",
             "observations": "Licensing observed that one of the children that had a care plan for use of an epi pen was out on a field trip and did not have the epi pen in the emergency bag. The epi pen was in the office at the facility.",
             "correctByDate": "May 6, 2026",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 58(2)(a)",
             "description": "The licensee must develop the care plan in consultation,with a parent of the child requiring extra support and any person requested by the parent.",
             "observations": "Licensing audited four care plans. One child had a puffer without a care plan created . The puffer was in in a bag with a staff signature sheet with signatures of staff when puffer was administered.",
             "correctByDate": "May 27, 2026",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -605,28 +605,28 @@
             "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
             "observations": "Licensing observed fire extinguishers were not maintained. Expiry date: June 2025.",
             "correctByDate": "July 25, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(c)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a record of the person’s work history",
             "observations": "Licensing audited seven staff files and one file did not contain record of work history.",
             "correctByDate": "July 25, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCALA 7(1)(b)(i)",
             "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
             "observations": "Licensing observed a log of all daily inspections, as well as maintenance and repairs of the outdoor play area were not performed and recorded.",
             "correctByDate": "July 25, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(c)",
             "description": "A licensee must keep, for each child, a record showing the following information: (c) daily attendance record, indicating for each day whether the child is absent or, if the child is present, the time of arrival and departure",
             "observations": "Licensing observed records kept for each child in care showing daily attendance were not indicating for each day whether child was absent and time of departure.",
             "correctByDate": "July 25, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -646,21 +646,21 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
             "observations": "Licensing reviewed six staff files. One file did not contain a criminal record check for the employee.",
             "correctByDate": "August 4, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(f)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
             "observations": "Licensing reviewed six staff files. One file did not contain immunization status.",
             "correctByDate": "August 4, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3020 - CCLR 56(1)(c)",
             "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
             "observations": "Licensing observed that a record was not kept of the yearly emergency drill practice. Manager stated that the drill had been done but that the record was misplaced.",
             "correctByDate": "August 4, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -709,21 +709,21 @@
             "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are safely constructed, free from hazards and in good repair.",
             "observations": "Licensing observed the outdoor play equipment composite climber. The platform to the entrance to the double slide had a sharp areas accessible to children.",
             "correctByDate": "August 5, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "Licensing audited ten children's files. One child's file did not have a medical insurance number and immunization status.",
             "correctByDate": "August 5, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3080 - CCLR 11(4)",
             "description": "A licensee must display in a prominent place in the community care facility the certificate of any educator or assistant employed to work in the community care facility.",
             "observations": "Licensing observed one Educator certificate was not posted. This was corrected during the inspection.",
             "correctByDate": "August 5, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -1537,35 +1537,35 @@
             "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
             "observations": "Licensing observed that one Educator Assistant certification had not been verified.",
             "correctByDate": "April 5, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "Licensing reviewed ten children's files. One file did not indicate the sex of the child.",
             "correctByDate": "April 5, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(d)",
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "Licensing reviewed ten children's files. One file did not contain the name and contact number for a medical practitioner.",
             "correctByDate": "April 5, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(j)",
             "description": "A licensee must keep, for each child, a record showing the following information: (j) a record of any person who is not permitted access to the child",
             "observations": "Licensing reviewed ten children's files. Four files did not contain persons not permitted access.",
             "correctByDate": "April 5, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3080 - CCLR 11(4)",
             "description": "A licensee must display in a prominent place in the community care facility the certificate of any educator or assistant employed to work in the community care facility.",
             "observations": "Licensing observed two Educator's certificates were not posted.",
             "correctByDate": "April 5, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -1710,7 +1710,7 @@
             "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3000 - CCLR 16(4)(b)",
@@ -1747,7 +1747,7 @@
             "description": "A licensee must notify the medical health officer within 24 hours after (a) a child is involved in, or may have been involved in, a reportable incident described in Schedule H while under the care or supervision of the licensee,",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3080 - CCLR 10(1)",
@@ -1795,14 +1795,14 @@
             "description": "A licensee, other than a licensee who provides a care program described as either Preschool (30 Months to School Age) or Group Child Care (School Age), must have in a community care facility a sturdy surface for changing diapers, located outside the food preparation area, next to a wash basin",
             "observations": "Licensing observed that a diaper change table had been positioned near a sink that was also used for food prep.",
             "correctByDate": "January 24, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3080 - CCLR 11(4)",
             "description": "A licensee must display in a prominent place in the community care facility the certificate of any educator or assistant employed to work in the community care facility.",
             "observations": "Licensing observed that the certificate of an Educator was not displayed in a prominent place.",
             "correctByDate": "February 10, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -5742,7 +5742,7 @@
             "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       },
@@ -5789,14 +5789,14 @@
             "description": "Minimize exposure to harmful UV rays by appropriate scheduling",
             "observations": "",
             "correctByDate": "",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 58(2)(b)",
             "description": "The licensee must review the care plan at least once each year with a parent of the child requiring extra support and any person requested by the parent.",
             "observations": "Licensing observed that a care plan for a child with an allegery had not been reviewed with a parent within the last year.",
             "correctByDate": "March 26, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -6223,14 +6223,14 @@
             "description": "A licensee must ensure that each employee practices implementing the emergency plan at least once each year.",
             "observations": "Licensee stated she did not implement an emergency drill in the past year.",
             "correctByDate": "February 5, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "Licensing observed seven of eight children's files did not have sex identification.",
             "correctByDate": "February 5, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -6250,7 +6250,7 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "Licensing reviewed eight children's files of which two were missing the name and telephone number of a medical practitioner.",
             "correctByDate": "December 7, 2023",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -6374,7 +6374,7 @@
             "description": "The licensee must review the care plan at least once each year with a parent of the child requiring extra support and any person requested by the parent.",
             "observations": "Licensing reviewed one care plan which had been last reviewed in 2022.",
             "correctByDate": "May 2, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -6394,7 +6394,7 @@
             "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
             "observations": "Licensing observed that the yearly emergency plan had not been recorded. Licensee stated that the plan had been implemented however not documented.",
             "correctByDate": "April 21, 2023",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -6415,7 +6415,7 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(2)(d)",
@@ -6436,14 +6436,14 @@
             "description": "A licensee must keep, for each child, a record showing the following information:(i) a photograph or digital image of the child, and other information that can be used to readily identify the child in an emergency",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - SPS DOLSOP (Log Kept)",
             "description": "Log kept of all inspections, maintenance & repairs",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - SPS DOLSOP (Log Kept)",
@@ -7687,42 +7687,42 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
             "observations": "Licensing performed an audit of three staff files this date. One file contained an expired criminal record check (CRC).",
             "correctByDate": "October 15, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(b)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
             "observations": "Licensing performed an audit of three staff files this date. One file was missing character references.",
             "correctByDate": "October 15, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(f)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
             "observations": "Licensing performed an audit of three staff files this date. One file was missing an immunization status.",
             "correctByDate": "October 15, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "Licensing observed six children's files. One file was missing a medical insurance plan number.",
             "correctByDate": "October 15, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(d)",
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "Licensing observed six children's files this date. Two files were missing medical practitioner information and one file was missing an emergency contact.",
             "correctByDate": "October 15, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(3)(b)",
             "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
             "observations": "Licensing observed six children's files this date. One file was missing consent to release the children to someone other than the parent.",
             "correctByDate": "October 15, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -7866,14 +7866,14 @@
             "description": "A licensee must ensure that children do not have access to any object or substance that may be hazardous to the health or safety of a child",
             "observations": "Licensing observed that there was heavier items located high on a shelf.",
             "correctByDate": "July 12, 2023",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3020 - CCLR 56(1)(c)",
             "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
             "observations": "Licensing observed that the annual emergency drill had not been recorded.",
             "correctByDate": "July 13, 2023",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -9380,21 +9380,21 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
             "observations": "Licensing audited five staff files.  Licensing observed two files missing character references.",
             "correctByDate": "June 11, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(d)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: copies of any diplomas, certificates or other evidence of the person’s training and skills",
             "observations": "Licensing audited five staff files. Three staff files were missing evidence of training.",
             "correctByDate": "June 11, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(f)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
             "observations": "Licensing audited five staff files. One staff file was observed missing immunization status.",
             "correctByDate": "June 11, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -9415,14 +9415,14 @@
             "description": "Without limiting subsection (1), a licensee must ensure that the ratio of employees to children attending a community care facility is no less than that permitted in Schedule E.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(3)(b)",
             "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 59(a)",
@@ -9443,28 +9443,28 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: copies of any diplomas, certificates or other evidence of the person’s training and skills",
             "observations": "Licensing performed an audit of three staff files this date. Two files did not contain evidence of training.",
             "correctByDate": "June 11, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3030 - CCLR 34(2)(b)",
             "description": "Without limiting subsection (1), a licensee must ensure that the ratio of employees to children attending a community care facility is no less than that permitted in Schedule E.",
             "observations": "Licensing observed two Responsible Adults (RAs) with a group of 24 children and one RA with a group of 20 children. An additional RA would be required for this grouping.",
             "correctByDate": "June 11, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(3)(b)",
             "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
             "observations": "Licensing performed an audit of eight children's files this date. Three files did not have written consent to release to someone other than the parent.",
             "correctByDate": "June 11, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 59(a)",
             "description": "In respect of a record referred to in this Division, a licensee must (a) keep in a single place at the community care facility the records referred to in sections 56 to 58,",
             "observations": "Manager stated that references for one staff were at the main office off site.",
             "correctByDate": "June 11, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -9637,28 +9637,28 @@
             "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3010 - CCLR 19(1)(d)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: copies of any diplomas, certificates or other evidence of the person’s training and skills",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3010 - CCLR 19(1)(f)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3020 - CCLR 56(1)(c)",
             "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 55(1)(a)",
@@ -9741,35 +9741,35 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
             "observations": "Licensing audited 10 staff files, of which one Criminal Record Check was expired.",
             "correctByDate": "February 13, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(b)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
             "observations": "Licensing audited 10 staff files; three staff were missing one character reference and one staff file was missing two character references.",
             "correctByDate": "February 13, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(f)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
             "observations": "Licensing audited 10 staff files, of which two were missing immunization status. Licensee Contact corrected during Routine Inspection.",
             "correctByDate": "January 13, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "Licensing audited 12 children's files, of which one was missing a medical insurance plan number. Licensee Contact corrected during Routine Inspection.",
             "correctByDate": "January 13, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(d)",
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "Licensing audited 12 children's files, of which two were missing name and telephone number of a medical practitioner. Licensee Contact corrected during Routine Inspection.",
             "correctByDate": "January 13, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -10316,7 +10316,7 @@
             "description": "A licensee, other than a licensee who provides a care program described as School Age Care on School Grounds, must ensure that any heated water accessible to children is heated to no more than 49° Celsius.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 10(1)",
@@ -10357,14 +10357,14 @@
             "description": "The licensee must not permit a person over the age of 12 to be ordinarily present on the premises of a community care facility while children are present, unless the person is of good character and the licensee has obtained a criminal record check for that person.",
             "observations": "Licensing observed that one person over the age of 12 who was ordinarily present had a criminal record check (CRC) from the RCMP when a CRC from the CRRP is required.",
             "correctByDate": "October 26, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(1)(a)",
             "description": "A licensee must keep current records for each child showing (a) the information set out in subsection (2)",
             "observations": "Licensing observed that two children registered in care did not have a file.",
             "correctByDate": "October 26, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -11644,7 +11644,7 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "Licensing audited seven children's files. Two children's files were missing the name and telephone number for a medical practitioner.",
             "correctByDate": "May 1, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -12057,28 +12057,28 @@
             "description": "A licensee must ensure that each employee practices implementing the fire drill system at least once each month,",
             "observations": "Licensing observed a fire drill system was not implemented and recorded in October 2024 and March 2025. Licensee stated they did not performed the drill in March due to spring break.",
             "correctByDate": "June 27, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3020 - CCLR 56(1)(c)",
             "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
             "observations": "Licensing observed a record regarding implementation of yearly emergency plan practices was not kept. Licensee stated they had performed the drill in October 2024 but was not recorded.",
             "correctByDate": "June 27, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "Licensing audited four children's files and one file did not contain child's sex.",
             "correctByDate": "June 27, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(b)",
             "description": "A licensee must keep, for each child, a record showing the following information: (b) date of enrolment in the community care facility",
             "observations": "Licensing audited four children's files and one file did not contain date of enrollment.",
             "correctByDate": "June 27, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -13130,7 +13130,7 @@
             "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3030 - CCLR 34(2)(b)",
@@ -13165,14 +13165,14 @@
             "description": "Without limiting subsection (1), a licensee must ensure that the ratio of employees to children attending a community care facility is no less than that permitted in Schedule E.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(2)(b)",
             "description": "A licensee must keep, for each child, a record showing the following information: (b) date of enrolment in the community care facility",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(3)(b)",
@@ -13802,14 +13802,14 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3010 - CCLR 19(4)(a)",
             "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3030 - CCLR 34(2)(b)",
@@ -13823,21 +13823,21 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(2)(d)",
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(3)(a)",
             "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (a) to call a medical practitioner or ambulance in case of accident or illness if the parent cannot immediately be reached,",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       },
@@ -13858,14 +13858,14 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a record of the person’s work history",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3010 - CCLR 19(1)(f)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3010 - CCLR 19(4)(a)",
@@ -14769,14 +14769,14 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (b) date of enrolment in the community care facility",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(2)(k)",
             "description": "A licensee must keep, for each child, a record showing the following information: (k) the date on which the child stops attending the community care facility.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       },
@@ -14824,56 +14824,56 @@
             "description": "A licensee must ensure that each employee practices implementing the fire drill system at least once each month,",
             "observations": "Licensing observed that a fire drill had not been practiced for September 2024.",
             "correctByDate": "December 2, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3030 - CCLR 34(2)(a)",
             "description": "Without limiting subsection (1) a licensee must ensure that children attending a community care facility are divided into groups, with each group having no more children than that permitted in Schedule E, (except FCC/IHMACC/REC; child qualified if in age range or within one month (except GCC School Age)).",
             "observations": "Licensing observed three children under two years of age in care on this date which is not complaint for Family Child Care.",
             "correctByDate": "December 2, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3060 - CCLR 46(1)",
             "description": "A licensee must establish a program to instruct children in, and to practise the rules of, health and hygiene.",
             "observations": "Licensing observed that the washing basin in the washroom did not have any hand towels for children to dry their hands. Licensee stated a new washing basin had been added to the living room for handwashing after washroom use, this meant that children who used the washroom had to wash their hands in the living room. The new sink in the living room did not have a soap dispenser. Licenisng also observed two portable toilets were added and located in the hallway and not next to a sink.",
             "correctByDate": "December 2, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(1)(a)",
             "description": "A licensee must keep current records for each child showing (a) the information set out in subsection (2)",
             "observations": "Licensing observed that no registration package had been obatined for a child in care.",
             "correctByDate": "December 2, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "Licensing audited five children's files, two files did not contain a record of immunization status for children in care.",
             "correctByDate": "December 2, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(c)",
             "description": "A licensee must keep, for each child, a record showing the following information: (c) daily attendance record, indicating for each day whether the child is absent or, if the child is present, the time of arrival and departure",
             "observations": "Licenisng observed that one child in care on this date was not listed on the attendance records.",
             "correctByDate": "December 2, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(h)(i)",
             "description": "A licensee must keep, for each child, a record showing the following information: (h) any special instruction respecting the child’s diet, medication, participation in a program of activities, or other matter relevant to the child’s care,given by the child’s parent to the licensee in writing,",
             "observations": "Licensee stated she was applying talcum powder to a child's neck as directed by a parent, this was not recorded in writing.",
             "correctByDate": "December 2, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(j)",
             "description": "A licensee must keep, for each child, a record showing the following information: (j) a record of any person who is not permitted access to the child",
             "observations": "Licensing audited five children's file, one file did not contain a record of persons not permitted access to a child.",
             "correctByDate": "December 2, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -15845,14 +15845,14 @@
             "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3030 - CCLR 34(2)(b)",
             "description": "Without limiting subsection (1), a licensee must ensure that the ratio of employees to children attending a community care facility is no less than that permitted in Schedule E.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
@@ -15866,14 +15866,14 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 58(2)(a)",
             "description": "The licensee must develop the care plan in consultation,with a parent of the child requiring extra support and any person requested by the parent.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       },
@@ -15935,14 +15935,14 @@
             "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
             "observations": "Licensing audited three staff flies and observed one missing ECE verification.",
             "correctByDate": "October 13, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "Licensing audited six children's flies and observed two missing immunization status.",
             "correctByDate": "October 13, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -15962,7 +15962,7 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3030 - CCLR 34(2)(b)",
@@ -16252,14 +16252,14 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "Licensing audited seven children's files, one was missing a name and telephone number of medical practitioner.",
             "correctByDate": "May 2, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - SPS DOLSOP (Log Kept)",
             "description": "Log kept of all inspections, maintenance & repairs",
             "observations": "Licensing audited a log for inspections, maintenance and repairs and noted five days had been recorded for the month of January 2024. Licensee stated they had conducted the inspections and not recorded them in a log.",
             "correctByDate": "May 2, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -16279,7 +16279,7 @@
             "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3060 - CCLR 46(2)",
@@ -16293,7 +16293,7 @@
             "description": "The licensee must review the care plan at least once each year with a parent of the child requiring extra support and any person requested by the parent.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       }
@@ -16875,14 +16875,14 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
             "observations": "Licensing audited three staff files. Immunization record for one staff file had not been obtained. This was corrected during the inspection.",
             "correctByDate": "April 29, 2026",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(4)(a)",
             "description": "A licensee must not employ a person in a community care facility as an educator or an assistant unless the person holds a valid certificate issued under Division 2 [Employee Qualifications], which must be verified by the licensee using a system established and maintained by the director of the early childhood educator registry",
             "observations": "Licensing audited three staff files. One staff files certificate was not verified by the ECE Registry.",
             "correctByDate": "April 29, 2026",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -16908,14 +16908,14 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (b) date of enrolment in the community care facility",
             "observations": "Licensing audited three children's files. One child's file did not have a date of enrollment. This was corrected during the inspection.",
             "correctByDate": "May 29, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(j)",
             "description": "A licensee must keep, for each child, a record showing the following information: (j) a record of any person who is not permitted access to the child",
             "observations": "Licensing audited three children's files. One child's file did not have a record of persons not permitted access to the child.",
             "correctByDate": "May 29, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -17690,7 +17690,7 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
             "observations": "Licensing audited six staff files. Two staff files did not have a CRC.",
             "correctByDate": "September 3, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -17710,35 +17710,35 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
             "observations": "Licensing audited six staff files. Two staff files did not have a CRC on file.",
             "correctByDate": "August 2, 2023",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(b)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
             "observations": "Licensing audited six staff files. Three staff files did not have character reference checks.",
             "correctByDate": "August 2, 2023",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3050 - CCALA 7(1)(b)(i)",
             "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
             "observations": "Licensing observed the corrective action plan for Lead In Water had not been implemented since July 4, 2023. The manager stated the flush had been completed by staff, but it had not documented on the daily log sheet.",
             "correctByDate": "July 12, 2023",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3050 - CCLR 48(5)",
             "description": "A licensee must ensure that safe drinking water is available to children.",
             "observations": "Licensing observed the corrective action plan for Lead In Water had not been implemented since July 4, 2023. The manager stated the flush had been completed by staff, but it had not documented on the daily log sheet.",
             "correctByDate": "July 12, 2023",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - SPS DOLSOP (Log Kept)",
             "description": "Log kept of all inspections, maintenance & repairs",
             "observations": "Licensing observed the Playground checklist had not been completed since July 4, 2023.",
             "correctByDate": "August 2, 2023",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -17984,7 +17984,7 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (c) daily attendance record, indicating for each day whether the child is absent or, if the child is present, the time of arrival and departure",
             "observations": "Licensing observed that a record showing daily attendance was not kept for two children in care.",
             "correctByDate": "April 11, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -18207,21 +18207,21 @@
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "Licensing audited 15 children's files. Four children's files did not have their immunization status.",
             "correctByDate": "June 23, 2023",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(d)",
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "Licensing audited 15 children's files. One child's file did not have a name and number for a medical practitioner.",
             "correctByDate": "June 23, 2023",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(i)",
             "description": "A licensee must keep, for each child, a record showing the following information:(i) a photograph or digital image of the child, and other information that can be used to readily identify the child in an emergency",
             "observations": "",
             "correctByDate": "",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -18599,21 +18599,21 @@
             "description": "Without limiting subsection (1), a licensee must ensure that the ratio of employees to children attending a community care facility is no less than that permitted in Schedule E.",
             "observations": "On arrival at the Group Child Care (30 Months to School Age ) program licensing observed one Early Childhood Educator (ECE), one Early Childhood Educator Assistant (ECEA) and an Responsible Adult (RA) with 19 children. Shortly after arrival the RA left the program and an ECE started her shift in the program. Schedule E of the Child Care Licensing Regulation required Group Child Care (30 Months to School Age) to have a minimum of one ECE and two ECEAs for 19 children.",
             "correctByDate": "May 8, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "Licensing audited nine children's files and observed one missing immunization status.",
             "correctByDate": "May 23, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 59(a)",
             "description": "In respect of a record referred to in this Division, a licensee must (a) keep in a single place at the community care facility the records referred to in sections 56 to 58,",
             "observations": "Licensing audited eight staff files and a ninth staff did not have a staff file this date that was working in ratio in the Gym 1 program at the time of inspection. The staff stated she did not have a staff file.",
             "correctByDate": "May 24, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -19433,14 +19433,14 @@
             "description": "A licensee must ensure that a healthy and safe environment is provided at all times while children are under the supervision of employees",
             "observations": "Licensing observed the fire extinguishers were  due for servicing in July 2023.",
             "correctByDate": "August 24, 2023",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(d)",
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "Licensing audited six children's files. One children's file was missing a name and number for a medical practitioner.",
             "correctByDate": "August 24, 2023",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -19879,14 +19879,14 @@
             "description": "A licensee must ensure that the community care facility and the furniture, equipment and fixtures within it are clean and in good repair while children are in attendance.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3000 - CCLR 16(4)(a)",
             "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are suitable for the age and development of the children,",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3000 - SPS DOLSOP (Clearance)",
@@ -19900,7 +19900,7 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3010 - CCLR 20(1)",
@@ -24003,28 +24003,28 @@
             "description": "A licensee, other than a licensee who provides a care program described as School Age Care on School Grounds, must ensure that any heated water accessible to children is heated to no more than 49° Celsius.",
             "observations": "Licensing tested hot water and observed that the temperature of hot water in Portable 1 was 53.4 degrees Celsius. This represents an immediate risk to the health and safety of persons in care and must be corrected immediately.  Manager stated staff will supervise children when handwashing occurred. Full compliance will not be achieved until the plan has been implemented and completed.",
             "correctByDate": "May 9, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCALA 7(1)(b)(i)",
             "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
             "observations": "Licensing observed a log of playground inspections was missing a record for April 25, 26, 31 March 26, 27, 28, 2025, Manager stated that the inspections were conducted but not recorded.",
             "correctByDate": "June 4, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3080 - CCALA 7(1)(b)(i)",
             "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
             "observations": "Licensing observed that a Group Child Care (School Age) program with 19 children and a Preschool (30 Months to School Age) program were being operated at the same time out of Portable 2. The facility Licence indicated that on times of school closures the Preschool (30 Months to School Age) will not be in operation however on this date the school has closed at 11:50 due to an early dismissal day and the preschool program was open until 1:00 pm.",
             "correctByDate": "June 1, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3080 - CCLR 11(4)",
             "description": "A licensee must display in a prominent place in the community care facility the certificate of any educator or assistant employed to work in the community care facility.",
             "observations": "Licensing observed that two certificates for Early Childhood Educator Assistants were not posted. Corrected a time of inspection.",
             "correctByDate": "June 1, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -24038,28 +24038,28 @@
             "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are suitable for the age and development of the children,",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3000 - SPS DOLSOP (Depth)",
             "description": "Depth guidelines for loose fill material (if protective surfacing used) : \r\nminimum 15 cm (6”) for 1.5 metre (5’) equipment height \r\nminimum 30 cm (12”) for 2.3 metre (7’) equipment height\r\n (Consider surfacing table, Triax, etc.)",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3010 - CCLR 22(2)(b)",
             "description": "A licensee must ensure that each employee practices implementing the fire drill system at least once each month,",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3010 - CCLR 22(2)(c)",
             "description": "A licensee must ensure that each employee practices implementing the emergency plan at least once each year.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3010 - CCLR 29(c)",
@@ -24073,7 +24073,7 @@
             "description": "Log kept of all inspections, maintenance & repairs",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       }
@@ -24096,7 +24096,7 @@
             "description": "Applicants for licences and licensees must notify a medical health officer immediately of any change in the information provided under section 9",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       },
@@ -25365,49 +25365,49 @@
             "description": "A licensee must keep current records of each of the following: (c) a record respecting compliance with section 22 (2) (b) and (c) [emergency training and equipment]",
             "observations": "Licensing observed a record of yearly emergency plan practices was not kept.",
             "correctByDate": "June 22, 2026",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCALA 7(1)(b)(i)",
             "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(2)(b)",
             "description": "A licensee must keep, for each child, a record showing the following information: (b) date of enrolment in the community care facility",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(2)(c)",
             "description": "A licensee must keep, for each child, a record showing the following information: (c) daily attendance record, indicating for each day whether the child is absent or, if the child is present, the time of arrival and departure",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(3)(b)",
             "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 58(2)(b)",
             "description": "The licensee must review the care plan at least once each year with a parent of the child requiring extra support and any person requested by the parent.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 59(a)",
             "description": "In respect of a record referred to in this Division, a licensee must (a) keep in a single place at the community care facility the records referred to in sections 56 to 58,",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       },
@@ -25439,14 +25439,14 @@
             "description": "Depth guidelines for loose fill material (if protective surfacing used) : \r\nminimum 15 cm (6”) for 1.5 metre (5’) equipment height \r\nminimum 30 cm (12”) for 2.3 metre (7’) equipment height\r\n (Consider surfacing table, Triax, etc.)",
             "observations": "Licensing observed the protective surfacing under the single spinning wheel, on the composite climber, measure one and a half inches.",
             "correctByDate": "April 5, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3030 - CCLR 39(1)",
             "description": "A licensee must ensure that children are supervised at all times by a person who is an educator, an assistant or a responsible adult.",
             "observations": "Licensing observed 15 children arrive to care after school. Two children returned to the school for a music lesson. These children were no longer supervised by an educator/assistance/responsible adult.",
             "correctByDate": "April 5, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -26919,28 +26919,28 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a record of the person’s work history",
             "observations": "Licensing audited five staff files and observed one missing record of work history.",
             "correctByDate": "June 10, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 23(1)(a)",
             "description": "A licensee must ensure that children have at all times immediate access to an employee who holds a valid first aid and CPR certificate, provided on completion of a course that meets the requirements of Schedule C,",
             "observations": "Licensing audited five staff files and observed three had no record of First Aid certificates and one staff First Aid expired on July 31,2024. Manager stated that only one staff, that worked two days a week, had a current First Aid certificate. Three days a week the facility did not have any staff with a current First Aid certificate.",
             "correctByDate": "June 10, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(2)(d)",
             "description": "A licensee must keep, for each child, a record showing the following information: (d) name and telephone number of a parent, medical practitioner (doctor's name and number does not apply to REC only) and emergency contact",
             "observations": "Licensing audited five children's files and observed two files missing name of medical practitioner with telephone number and one missing emergency contact.",
             "correctByDate": "June 10, 2025",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3070 - CCLR 57(3)(b)",
             "description": "A licensee must have in writing from a parent, and maintain at the community care facility, consent (b) to release a child to someone other than the parent.",
             "observations": "Licensing audited five children's files and observed one missing written consent from parent to pick up from someone other than a parent.",
             "correctByDate": "June 10, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -26960,7 +26960,7 @@
             "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are safely constructed, free from hazards and in good repair.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3000 - SPS DOLSOP (Entanglement)",
@@ -27016,42 +27016,42 @@
             "description": "A licensee must ensure that all indoor and outdoor play materials and equipment accessible to children are safely constructed, free from hazards and in good repair.",
             "observations": "Licensing observed on a climbing apparatus where the climbing materials were not secured.",
             "correctByDate": "May 30, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3000 - SPS DOLSOP (Entanglement)",
             "description": "Equipment is free of entanglement hazards in areas of uncontrolled motion. (Something around the child’s neck becomes caught on equipment) \r\nUse Entanglement test device",
             "observations": "Licensing detected an entanglement on the right side of a slide. This represents an immediate risk to the health and safety of persons in care and must be corrected immediately. The Licensee Contact stated that the children would not use that slide until it has been fixed. Full compliance will not be achieved until the plan has been implemented and completed.",
             "correctByDate": "May 30, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(a)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: a criminal record check for the person",
             "observations": "Licensing audited four staff files and one file was missing a criminal record check. The staff file contained a criminal record check from another organization.",
             "correctByDate": "May 30, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 19(1)(b)",
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
             "observations": "Licensing audited four staff files and two files were missing records of character references.",
             "correctByDate": "May 30, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 21(1)",
             "description": "A licensee must not continue to employ a person in a community care facility unless the licensee has evidence that the person continues to comply with the Province’s immunization and tuberculosis control programs.",
             "observations": "Licensing audited four staff files and three files were missing a record of immunization status.",
             "correctByDate": "May 30, 2024",
-            "corrected": true
+            "corrected": false
           },
           {
             "code": "3010 - CCLR 22(2)(b)",
             "description": "A licensee must ensure that each employee practices implementing the fire drill system at least once each month,",
             "observations": "Licensing observed that a fire drill was not practiced in the month of March 2024.",
             "correctByDate": "May 30, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -28439,21 +28439,21 @@
             "description": "A licensee must ensure that children are not left unsupervised while consuming food or drink.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(2)(a)",
             "description": "A licensee must keep, for each child, a record showing the following information: (a)name, sex, date of birth, medical insurance plan number (MSP number does not apply to REC only) and immunization status.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 57(2)(c)",
             "description": "A licensee must keep, for each child, a record showing the following information: (c) daily attendance record, indicating for each day whether the child is absent or, if the child is present, the time of arrival and departure",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       },
@@ -28467,7 +28467,7 @@
             "description": "A licensee must do all of the following:(b) operate the community care facility in a manner that will promote the health, safety and dignity of persons in care",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3010 - CCLR 20(1)",
@@ -28712,7 +28712,7 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: (b) character references in respect of the person",
             "observations": "Licensing audited two staff files. One staff file was missing character reference checks on file.",
             "correctByDate": "August 11, 2025",
-            "corrected": true
+            "corrected": false
           }
         ]
       },
@@ -28732,7 +28732,7 @@
             "description": "A licensee must keep current records of each of the following: (f) a log of minor accidents, illnesses and unexpected events involving children, that did not require medical attention and were not reportable incidents described in Schedule H.",
             "observations": "Licensing observed a log of minor incidents, illnesses an unexpected events was not being kept.",
             "correctByDate": "July 10, 2024",
-            "corrected": true
+            "corrected": false
           }
         ]
       }
@@ -28926,14 +28926,14 @@
             "description": "A licensee must not employ a person in a community care facility unless the licensee or, in the case of a person who is not the manager, the manager has first met with the person and obtained all of the following: evidence that the person has complied with the Province’s immunization and tuberculosis control programs",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           },
           {
             "code": "3070 - CCLR 58(2)(b)",
             "description": "The licensee must review the care plan at least once each year with a parent of the child requiring extra support and any person requested by the parent.",
             "observations": "",
             "correctByDate": "",
-            "corrected": false
+            "corrected": true
           }
         ]
       },

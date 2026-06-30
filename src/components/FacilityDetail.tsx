@@ -43,6 +43,7 @@ export default function FacilityDetail({
   const entry = trackerEntries[facilityId];
   const inspection = inspectionMap.get(facilityId);
 
+
   const inspectionLink = inspection?.inspectionUrl
     ?? `https://inspections.myhealthdepartment.com/island-health/program-ccfl?facility_name=${encodeURIComponent(facility.name)}`;
 

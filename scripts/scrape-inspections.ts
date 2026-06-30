@@ -280,6 +280,7 @@ async function fetchContraventions(inspectionID: string): Promise<Contravention[
     let description = "";
     let observations = "";
     let correctByDate = "";
+    let actionsRequired = "";
 
     for (const div of divs) {
       const text = div.textContent.trim();
@@ -289,8 +290,14 @@ async function fetchContraventions(inspectionID: string): Promise<Contravention[
         observations = text.replace("Observations:", "").trim();
       } else if (text.startsWith("To Be Corrected By:")) {
         correctByDate = text.replace("To Be Corrected By:", "").trim();
+      } else if (text.startsWith("Actions Required By Licensing:")) {
+        actionsRequired = text.replace("Actions Required By Licensing:", "").trim();
       }
     }
+
+    const corrected =
+      /contravention has been addressed/i.test(actionsRequired) ||
+      /no further action/i.test(actionsRequired);
 
     if (code) {
       contraventions.push({
@@ -298,7 +305,7 @@ async function fetchContraventions(inspectionID: string): Promise<Contravention[
         description,
         observations,
         correctByDate,
-        corrected: false,
+        corrected,
       });
     }
   }
@@ -499,8 +506,9 @@ async function main() {
       ? entry.apiData.inspectionDate.split("T")[0]
       : "";
       
+    const bypassCache = isTarget || process.argv.includes("--force");
     let cacheIsUpToDate = false;
-    if (existing && existing.allFetched && Array.isArray(existing.inspections) && existing.inspections.length > 0) {
+    if (existing && existing.allFetched && Array.isArray(existing.inspections) && existing.inspections.length > 0 && !bypassCache) {
       const cachedLatestDate = existing.inspections[0].date;
       if (cachedLatestDate === apiLatestDate) {
         cacheIsUpToDate = true;
@@ -542,7 +550,8 @@ async function main() {
           const top6 = inspList.slice(0, 6);
           for (const insp of top6) {
             let contraventions: Contravention[] = [];
-            if (cache.has(insp.inspectionID)) {
+            const bypassCache = isTarget || process.argv.includes("--force");
+            if (cache.has(insp.inspectionID) && !bypassCache) {
               contraventions = cache.get(insp.inspectionID)!.contraventions;
             } else {
               // Try migrating from old migration map
@@ -583,31 +592,6 @@ async function main() {
               type: insp.type,
               contraventions,
             });
-          }
-
-          if (fetchSuccess) {
-            // Apply correction logic on facilityInspections
-            for (const rd of facilityInspections) {
-              if (/routine/i.test(rd.type)) {
-                const hasNewerCleanFollowUp = facilityInspections.some(
-                  (other) =>
-                    /follow/i.test(other.type) &&
-                    other.date > rd.date &&
-                    other.contraventions.length === 0
-                );
-                if (hasNewerCleanFollowUp) {
-                  rd.contraventions = rd.contraventions.map((c) => ({
-                    ...c,
-                    corrected: true,
-                  }));
-                  // Update cache
-                  const cached = cache.get(rd.id);
-                  if (cached) {
-                    cached.contraventions = rd.contraventions;
-                  }
-                }
-              }
-            }
           }
         }
 
