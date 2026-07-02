@@ -83,6 +83,7 @@ export default function TrackerApp() {
   const setActiveTab = useStore((s) => s.setActiveTab);
   const selectedFacilityId = useStore((s) => s.selectedFacilityId);
   const setSelectedFacility = useStore((s) => s.setSelectedFacility);
+  const setFeedbackOpen = useStore((s) => (s as any).setFeedbackOpen);
 
   return (
     <div className="flex h-screen flex-col bg-stone-50 text-gray-900 transition-colors duration-200 dark:bg-stone-950 dark:text-stone-100 theme-transition">
@@ -167,13 +168,23 @@ export default function TrackerApp() {
         <div className="mt-1 flex items-center justify-between text-[11px] text-gray-400 dark:text-stone-500">
           <ExportImport />
           <div className="flex items-center gap-3">
-            <a
-              href="https://github.com/juansanar/vic_daycare_hub/issues"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition hover:text-emerald-600 dark:hover:text-emerald-450"
+            <button
+              onClick={() => setFeedbackOpen(true)}
+              className="transition hover:text-emerald-600 dark:hover:text-emerald-450 cursor-pointer"
             >
               Suggest a correction
+            </button>
+            <a
+              href="#/privacy"
+              className="transition hover:text-emerald-600 dark:hover:text-emerald-450"
+            >
+              Privacy
+            </a>
+            <a
+              href="#/terms"
+              className="transition hover:text-emerald-600 dark:hover:text-emerald-450"
+            >
+              Terms
             </a>
             <a
               href={`https://buymeacoffee.com/${bmcUsername}`}

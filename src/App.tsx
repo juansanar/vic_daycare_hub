@@ -1,12 +1,19 @@
 import { useState, useEffect } from "react";
 import Landing from "./components/Landing";
 import TrackerApp from "./components/TrackerApp";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsOfService from "./components/TermsOfService";
+import FeedbackModal from "./components/FeedbackModal";
 import { useStore } from "./store";
 
-type View = "landing" | "app";
+type View = "landing" | "app" | "privacy" | "terms";
 
 function getViewFromHash(): View {
-  return window.location.hash.startsWith("#/app") ? "app" : "landing";
+  const hash = window.location.hash;
+  if (hash.startsWith("#/app")) return "app";
+  if (hash === "#/privacy") return "privacy";
+  if (hash === "#/terms") return "terms";
+  return "landing";
 }
 
 function getTabFromHash(): "list" | "map" | "resources" | null {
@@ -46,5 +53,18 @@ export default function App() {
     }
   }, [view, activeTab]);
 
-  return view === "app" ? <TrackerApp /> : <Landing />;
+  return (
+    <>
+      {view === "app" ? (
+        <TrackerApp />
+      ) : view === "privacy" ? (
+        <PrivacyPolicy />
+      ) : view === "terms" ? (
+        <TermsOfService />
+      ) : (
+        <Landing />
+      )}
+      <FeedbackModal />
+    </>
+  );
 }

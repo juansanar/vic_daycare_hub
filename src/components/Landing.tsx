@@ -1,9 +1,11 @@
 import meta from "../../data/meta.json";
 import ThemeToggle from "./ThemeToggle";
+import { useStore } from "../store";
 
 const bmcUsername = import.meta.env.VITE_BMC_USERNAME || "vic_daycare_hub";
 
 export default function Landing() {
+  const setFeedbackOpen = useStore((s) => (s as any).setFeedbackOpen);
   return (
     <div className="min-h-screen bg-stone-50 text-gray-900 transition-colors duration-200 dark:bg-stone-950 dark:text-stone-100 theme-transition">
       {/* Theme Toggle Container */}
@@ -211,7 +213,7 @@ export default function Landing() {
             Independent community project — not affiliated with the BC
             government, Island Health, or any childcare facility.
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
             <a
               href={`https://buymeacoffee.com/${bmcUsername}`}
               target="_blank"
@@ -228,6 +230,24 @@ export default function Landing() {
             >
               GitHub
             </a>
+            <a
+              href="#/privacy"
+              className="hover:text-emerald-600 dark:hover:text-emerald-450"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="#/terms"
+              className="hover:text-emerald-600 dark:hover:text-emerald-450"
+            >
+              Terms of Use
+            </a>
+            <button
+              onClick={() => setFeedbackOpen(true)}
+              className="hover:text-emerald-600 dark:hover:text-emerald-450 cursor-pointer"
+            >
+              Suggest a correction / Feedback
+            </button>
           </div>
           <p className="text-[11px] text-gray-300 dark:text-stone-600">
             victoriachildcarehub.ca &middot; Open-source &middot; MIT License

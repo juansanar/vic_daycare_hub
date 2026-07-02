@@ -37,6 +37,7 @@ export default function FacilityDetail({
   const setSelectedFacility = useStore((s) => s.setSelectedFacility);
   const activeTab = useStore((s) => s.activeTab);
   const setActiveTab = useStore((s) => s.setActiveTab);
+  const setFeedbackOpen = useStore((s) => (s as any).setFeedbackOpen);
 
   if (!facility) return null;
 
@@ -145,6 +146,12 @@ export default function FacilityDetail({
               {activeTab === "map" ? "Center on map 🎯" : "Show on map 🗺️"}
             </button>
           )}
+          <button
+            onClick={() => setFeedbackOpen(true, facility.id, facility.name)}
+            className="text-emerald-600 hover:underline text-left font-medium dark:text-emerald-450 cursor-pointer"
+          >
+            Suggest correction ✏️
+          </button>
         </div>
         <p className="text-[11px] text-gray-300 dark:text-stone-600">{facility.serviceType}</p>
       </div>

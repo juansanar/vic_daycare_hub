@@ -15,6 +15,9 @@ interface AppState {
   trackerEntries: Record<string, TrackerEntry>;
   activeTab: "list" | "map" | "resources";
   selectedFacilityId: string | null;
+  isFeedbackOpen: boolean;
+  feedbackFacilityId: string | null;
+  feedbackFacilityName: string | null;
 
   setTrackerField: (
     facilityId: string,
@@ -26,6 +29,7 @@ interface AppState {
   exportData: () => string;
   importData: (json: string) => void;
   mergeRemoteEntries: (entries: Record<string, TrackerEntry>) => void;
+  setFeedbackOpen: (open: boolean, facilityId?: string | null, facilityName?: string | null) => void;
 }
 
 const defaultTrackerEntry = (facilityId: string): TrackerEntry => ({
@@ -44,6 +48,17 @@ export const useStore = create<AppState>()(
       trackerEntries: {},
       activeTab: "list",
       selectedFacilityId: null,
+      isFeedbackOpen: false,
+      feedbackFacilityId: null,
+      feedbackFacilityName: null,
+
+      setFeedbackOpen: (open, facilityId = null, facilityName = null) => {
+        set({
+          isFeedbackOpen: open,
+          feedbackFacilityId: facilityId,
+          feedbackFacilityName: facilityName,
+        });
+      },
 
       setTrackerField: (facilityId, field, value) => {
         set((state) => {
