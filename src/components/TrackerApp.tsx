@@ -106,11 +106,10 @@ export default function TrackerApp() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center gap-1 sm:gap-1.5 rounded-full px-2.5 py-1 sm:px-4 sm:py-1.5 text-xs font-medium transition ${
-                  activeTab === tab.id
+                className={`flex items-center gap-1 sm:gap-1.5 rounded-full px-2.5 py-1 sm:px-4 sm:py-1.5 text-xs font-medium transition ${activeTab === tab.id
                     ? "bg-emerald-50 text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400"
                     : "text-gray-500 hover:bg-stone-100 hover:text-gray-700 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-stone-200"
-                }`}
+                  }`}
               >
                 <span className="text-[10px]">{tab.icon}</span>
                 <span className="hidden sm:inline">{tab.label}</span>
