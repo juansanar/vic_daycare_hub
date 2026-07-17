@@ -506,12 +506,18 @@ async function main() {
       ? entry.apiData.inspectionDate.split("T")[0]
       : "";
       
-    const bypassCache = isTarget || process.argv.includes("--force");
+    const bypassCache = (targetFacilityId !== undefined && isTarget) || process.argv.includes("--force");
     let cacheIsUpToDate = false;
-    if (existing && existing.allFetched && Array.isArray(existing.inspections) && existing.inspections.length > 0 && !bypassCache) {
-      const cachedLatestDate = existing.inspections[0].date;
-      if (cachedLatestDate === apiLatestDate) {
-        cacheIsUpToDate = true;
+    if (existing && existing.allFetched && Array.isArray(existing.inspections) && !bypassCache) {
+      if (existing.inspections.length === 0) {
+        if (!apiLatestDate) {
+          cacheIsUpToDate = true;
+        }
+      } else {
+        const cachedLatestDate = existing.inspections[0].date;
+        if (cachedLatestDate === apiLatestDate) {
+          cacheIsUpToDate = true;
+        }
       }
     }
 
