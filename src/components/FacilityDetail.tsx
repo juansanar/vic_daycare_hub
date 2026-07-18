@@ -305,10 +305,13 @@ export default function FacilityDetail({
                         <span className="inline-flex items-center rounded-full bg-emerald-100/80 px-2 py-0.5 text-[10px] font-semibold text-emerald-800 border border-emerald-200/50 dark:bg-emerald-950/30 dark:text-emerald-400 dark:border-emerald-900/40">
                           No violations
                         </span>
+                      ) : uncorrectedCount === 0 ? (
+                        <span className="inline-flex items-center rounded-full bg-emerald-100/80 px-2 py-0.5 text-[10px] font-semibold text-emerald-800 border border-emerald-200/50 dark:bg-emerald-950/30 dark:text-emerald-400 dark:border-emerald-900/40">
+                          Contraventions corrected
+                        </span>
                       ) : (
                         <span className="inline-flex items-center rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-semibold text-amber-800 border border-amber-200 dark:bg-amber-950/30 dark:text-amber-400 dark:border-amber-900/50">
-                          {violationCount} infraction{violationCount > 1 ? "s" : ""}
-                          {uncorrectedCount > 0 && ` (${uncorrectedCount} outstanding)`}
+                          {uncorrectedCount} outstanding infraction{uncorrectedCount > 1 ? "s" : ""}
                         </span>
                       )}
                       <svg
@@ -352,6 +355,14 @@ export default function FacilityDetail({
                               <p className="text-gray-500 dark:text-stone-400 leading-normal font-medium">
                                 {c.description}
                               </p>
+                            )}
+                            {c.corrected && c.correctiveActions && (
+                              <div className="bg-emerald-50/40 dark:bg-emerald-950/15 border-l-2 border-emerald-300 dark:border-emerald-800 p-2 rounded">
+                                <span className="block text-[9px] text-emerald-600 dark:text-emerald-450 font-bold uppercase tracking-wider mb-0.5">Corrective Action Taken</span>
+                                <p className="text-emerald-800 dark:text-emerald-300 leading-normal font-medium">
+                                  {c.correctiveActions}
+                                </p>
+                              </div>
                             )}
                             {c.observations && (
                               <div className="bg-stone-50 dark:bg-stone-800 border-l-2 border-stone-300 dark:border-stone-700 p-1.5 rounded-r">

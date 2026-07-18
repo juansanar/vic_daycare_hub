@@ -55,6 +55,7 @@ export interface Contravention {
   observations: string;
   correctByDate: string;
   corrected: boolean;
+  correctiveActions?: string;
 }
 
 export interface InspectionDetail {

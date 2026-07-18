@@ -68,7 +68,12 @@ function buildPopupHtml(f: Facility): string {
   if (uncorrected.length > 0) {
     inspectionHtml += `<div style="margin-top:4px;background:#fef3c7;border:1px solid #fcd34d;border-radius:4px;padding:4px 6px;font-size:11px;color:#92400e;">&#9888; ${uncorrected.length} outstanding issue${uncorrected.length > 1 ? "s" : ""}</div>`;
   } else if (inspection && latestInspection) {
-    inspectionHtml += `<div style="margin-top:4px;font-size:11px;color:#16a34a;">&#10003; No outstanding issues</div>`;
+    const hasContraventions = (latestInspection.contraventions?.length ?? 0) > 0;
+    if (hasContraventions) {
+      inspectionHtml += `<div style="margin-top:4px;background:#ecfdf5;border:1px solid #a7f3d0;border-radius:4px;padding:4px 6px;font-size:11px;color:#065f46;">&#10003; Contraventions corrected</div>`;
+    } else {
+      inspectionHtml += `<div style="margin-top:4px;font-size:11px;color:#16a34a;">&#10003; No outstanding issues</div>`;
+    }
   }
 
   return `

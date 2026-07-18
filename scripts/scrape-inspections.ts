@@ -73,6 +73,7 @@ interface Contravention {
   observations: string;
   correctByDate: string;
   corrected: boolean;
+  correctiveActions?: string;
 }
 
 interface InspectionDetail {
@@ -281,6 +282,7 @@ async function fetchContraventions(inspectionID: string): Promise<Contravention[
     let observations = "";
     let correctByDate = "";
     let actionsRequired = "";
+    let correctiveActions = "";
 
     for (const div of divs) {
       const text = div.textContent.trim();
@@ -292,6 +294,8 @@ async function fetchContraventions(inspectionID: string): Promise<Contravention[
         correctByDate = text.replace("To Be Corrected By:", "").trim();
       } else if (text.startsWith("Actions Required By Licensing:")) {
         actionsRequired = text.replace("Actions Required By Licensing:", "").trim();
+      } else if (text.startsWith("Corrective Actions Taken By Licensee:")) {
+        correctiveActions = text.replace("Corrective Actions Taken By Licensee:", "").trim();
       }
     }
 
@@ -306,6 +310,7 @@ async function fetchContraventions(inspectionID: string): Promise<Contravention[
         observations,
         correctByDate,
         corrected,
+        correctiveActions: correctiveActions || undefined,
       });
     }
   }
@@ -355,8 +360,8 @@ async function main() {
     nameIndex.set(normalizeIslandHealthName(f.name), f);
   }
 
-  const skipDiscovery = process.argv.includes("--skip-discovery");
   const targetFacilityId = process.argv.find(arg => arg.startsWith("--facility="))?.split("=")[1];
+  const skipDiscovery = process.argv.includes("--skip-discovery") || targetFacilityId !== undefined;
   const limitArg = process.argv.find(arg => arg.startsWith("--limit="))?.split("=")[1];
   const limit = limitArg ? (limitArg === "none" || limitArg === "0" ? Infinity : parseInt(limitArg, 10)) : 30;
 
