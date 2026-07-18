@@ -38,8 +38,6 @@ export default function FacilityList() {
             const inspection = inspectionMap.get(f.id);
             const latestInspection = inspection?.inspections?.[0];
             const hasWarning = latestInspection?.contraventions?.some((c) => !c.corrected) ?? false;
-            const hasContraventions = (latestInspection?.contraventions?.length ?? 0) > 0;
-            const allCorrected = hasContraventions && !hasWarning;
             return (
               <li
                 key={f.id}
@@ -79,15 +77,11 @@ export default function FacilityList() {
                         Vacancy
                       </span>
                     )}
-                    {hasWarning ? (
+                    {hasWarning && (
                       <span className="rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-medium text-amber-700 dark:bg-amber-950/30 dark:text-amber-450">
                         ⚠ Issue
                       </span>
-                    ) : allCorrected ? (
-                      <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-450">
-                        ✓ Corrected
-                      </span>
-                    ) : null}
+                    )}
                   </div>
                 </div>
               </li>
