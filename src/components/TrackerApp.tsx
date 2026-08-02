@@ -7,6 +7,7 @@ import FacilityDetail from "./FacilityDetail";
 import Resources from "./Resources";
 import ExportImport from "./ExportImport";
 import ThemeToggle from "./ThemeToggle";
+import DesignVariantSwitcher from "./DesignVariantSwitcher";
 import { lazy, Suspense } from "react";
 
 const FacilityMap = lazy(() => import("./FacilityMap"));
@@ -23,25 +24,25 @@ function AuthButton() {
   const { user, loading, signInWithGoogle, signOut } = useAuth();
 
   if (!firebaseEnabled) return null;
-  if (loading) return <span className="text-[11px] text-gray-300 dark:text-stone-700">...</span>;
+  if (loading) return <span className="text-[11px] text-stone-400">...</span>;
 
   if (user) {
     return (
       <div className="flex items-center gap-2">
-        <span className="hidden text-[11px] text-gray-400 sm:inline dark:text-stone-500">
+        <span className="hidden text-[11px] text-stone-500 sm:inline dark:text-stone-400">
           {user.displayName?.split(" ")[0] ?? user.email}
         </span>
         {user.photoURL && (
           <img
             src={user.photoURL}
             alt=""
-            className="h-5 w-5 rounded-full"
+            className="h-5 w-5 rounded-full ring-1 ring-stone-200 dark:ring-stone-700"
             referrerPolicy="no-referrer"
           />
         )}
         <button
           onClick={signOut}
-          className="rounded-full border border-stone-200 px-1.5 py-0.5 sm:px-2.5 text-[11px] text-gray-500 transition hover:bg-stone-100 dark:border-stone-800 dark:text-stone-400 dark:hover:bg-stone-800"
+          className="rounded-full border border-stone-200 px-2 py-0.5 text-[11px] text-stone-600 transition hover:bg-stone-100 dark:border-stone-800 dark:text-stone-400 dark:hover:bg-stone-800 cursor-pointer"
         >
           Sign out
         </button>
@@ -52,7 +53,7 @@ function AuthButton() {
   return (
     <button
       onClick={signInWithGoogle}
-      className="flex items-center gap-1 rounded-full border border-stone-200 px-2 py-1 sm:gap-1.5 sm:px-3 text-[11px] font-medium text-gray-600 transition hover:bg-stone-100 dark:border-stone-800 dark:text-stone-300 dark:hover:bg-stone-800"
+      className="flex items-center gap-1.5 rounded-full border border-stone-200/80 bg-white/80 px-2.5 py-1 text-[11px] font-medium text-stone-700 shadow-2xs transition hover:bg-stone-50 dark:border-stone-800 dark:bg-stone-900 dark:text-stone-300 dark:hover:bg-stone-800 cursor-pointer"
     >
       <svg className="h-3 w-3 shrink-0" viewBox="0 0 24 24">
         <path
@@ -86,36 +87,40 @@ export default function TrackerApp() {
   const setFeedbackOpen = useStore((s) => (s as any).setFeedbackOpen);
 
   return (
-    <div className="flex h-screen flex-col bg-stone-50 text-gray-900 transition-colors duration-200 dark:bg-stone-950 dark:text-stone-100 theme-transition">
-      <header className="flex items-center justify-between border-b border-stone-200 bg-white px-2 py-2 sm:px-4 sm:py-2.5 dark:border-stone-800 dark:bg-stone-900">
+    <div className="flex h-screen flex-col theme-bg theme-transition">
+      <header className="flex items-center justify-between border-b border-stone-200/80 bg-white/80 px-3 py-2 sm:px-5 sm:py-2.5 backdrop-blur-md dark:border-stone-800/80 dark:bg-stone-900/80">
         <a
           href="#/"
-          className="flex items-center gap-1 sm:gap-1.5 text-base font-semibold tracking-tight text-emerald-700 group dark:text-emerald-450"
+          className="font-heading flex items-center gap-2 text-base font-bold tracking-tight text-stone-900 group dark:text-stone-100"
         >
           <img
             src="/logo.png"
             alt=""
-            className="h-7 w-7 shrink-0 object-contain rounded-md transform group-hover:scale-105 transition-transform duration-200"
+            className="h-7 w-7 shrink-0 object-contain rounded-lg shadow-2xs transform group-hover:scale-105 transition-transform duration-200"
           />
           <span className="hidden md:inline">Victoria Childcare Hub</span>
           <span className="md:hidden">Vic Childcare Hub</span>
         </a>
-        <div className="flex items-center gap-1.5 sm:gap-3">
-          <nav className="flex gap-0.5">
+
+        <div className="flex items-center gap-2 sm:gap-3">
+          <nav className="flex rounded-full border border-stone-200/80 bg-stone-100/60 p-0.5 dark:border-stone-800 dark:bg-stone-800/60">
             {TABS.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center gap-1 sm:gap-1.5 rounded-full px-2.5 py-1 sm:px-4 sm:py-1.5 text-xs font-medium transition ${activeTab === tab.id
-                    ? "bg-emerald-50 text-emerald-700 dark:bg-emerald-950/30 dark:text-emerald-400"
-                    : "text-gray-500 hover:bg-stone-100 hover:text-gray-700 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-stone-200"
-                  }`}
+                className={`flex items-center gap-1.5 rounded-full px-3 py-1 sm:px-4 sm:py-1.5 text-xs font-semibold transition-all duration-200 cursor-pointer ${
+                  activeTab === tab.id
+                    ? "bg-white text-stone-900 shadow-2xs dark:bg-stone-900 dark:text-stone-100"
+                    : "text-stone-500 hover:text-stone-800 dark:text-stone-400 dark:hover:text-stone-200"
+                }`}
               >
                 <span className="text-[10px]">{tab.icon}</span>
                 <span className="hidden sm:inline">{tab.label}</span>
               </button>
             ))}
           </nav>
+
+          <DesignVariantSwitcher />
           <ThemeToggle />
           <AuthButton />
         </div>
@@ -126,14 +131,14 @@ export default function TrackerApp() {
           <div className="flex flex-1 overflow-hidden">
             <FacilityList />
             {selectedFacilityId && (
-              <aside className="hidden w-96 overflow-y-auto border-l border-stone-200 bg-white p-4 md:block dark:border-stone-800 dark:bg-stone-900">
+              <aside className="hidden w-96 overflow-y-auto border-l border-stone-200/80 bg-white p-4 md:block dark:border-stone-800 dark:bg-stone-900">
                 <FacilityDetail facilityId={selectedFacilityId} />
               </aside>
             )}
             {selectedFacilityId && (
               <div className="fixed inset-0 z-50 flex md:hidden">
                 <div
-                  className="absolute inset-0 bg-black/20 dark:bg-black/50"
+                  className="absolute inset-0 bg-stone-900/30 backdrop-blur-xs dark:bg-black/60"
                   onClick={() => setSelectedFacility(null)}
                 />
                 <div className="relative ml-auto h-full w-full max-w-sm overflow-y-auto bg-white p-4 shadow-xl dark:bg-stone-900">
@@ -147,8 +152,8 @@ export default function TrackerApp() {
         {activeTab === "map" && (
           <Suspense
             fallback={
-              <div className="flex flex-1 items-center justify-center text-sm text-gray-400 dark:text-stone-550">
-                Loading map...
+              <div className="flex flex-1 items-center justify-center text-sm font-medium text-stone-400 dark:text-stone-500">
+                Loading interactive map...
               </div>
             }
           >
@@ -159,39 +164,32 @@ export default function TrackerApp() {
         {activeTab === "resources" && <Resources />}
       </main>
 
-      <footer className="border-t border-stone-200 bg-white px-4 py-2 dark:border-stone-800 dark:bg-stone-900">
-        <p className="text-center text-[10px] text-gray-300 dark:text-stone-600">
-          Independent community project — not affiliated with the BC government,
-          Island Health, or any childcare facility.
+      <footer className="border-t border-stone-200/80 bg-white/80 px-4 py-2 backdrop-blur-md dark:border-stone-800 dark:bg-stone-900/80">
+        <p className="text-center text-[10px] text-stone-400 dark:text-stone-500">
+          Independent community project — not affiliated with the BC government, Island Health, or any childcare facility.
         </p>
-        <div className="mt-1 flex items-center justify-between text-[11px] text-gray-400 dark:text-stone-500">
+        <div className="mt-1 flex items-center justify-between text-[11px] font-medium text-stone-500 dark:text-stone-400">
           <ExportImport />
           <div className="flex items-center gap-3">
             <button
               onClick={() => setFeedbackOpen(true)}
-              className="transition hover:text-emerald-600 dark:hover:text-emerald-450 cursor-pointer"
+              className="transition hover:text-stone-900 dark:hover:text-stone-100 cursor-pointer"
             >
-              Suggest a correction
+              Suggest correction
             </button>
-            <a
-              href="#/privacy"
-              className="transition hover:text-emerald-600 dark:hover:text-emerald-450"
-            >
+            <a href="#/privacy" className="transition hover:text-stone-900 dark:hover:text-stone-100">
               Privacy
             </a>
-            <a
-              href="#/terms"
-              className="transition hover:text-emerald-600 dark:hover:text-emerald-450"
-            >
+            <a href="#/terms" className="transition hover:text-stone-900 dark:hover:text-stone-100">
               Terms
             </a>
             <a
               href={`https://buymeacoffee.com/${bmcUsername}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="transition hover:text-emerald-600 dark:hover:text-emerald-450"
+              className="transition hover:text-stone-900 dark:hover:text-stone-100"
             >
-              Support this project
+              Support project
             </a>
           </div>
         </div>

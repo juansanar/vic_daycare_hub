@@ -1,224 +1,251 @@
 import meta from "../../data/meta.json";
 import ThemeToggle from "./ThemeToggle";
+import DesignVariantSwitcher from "./DesignVariantSwitcher";
 import { useStore } from "../store";
 
 const bmcUsername = import.meta.env.VITE_BMC_USERNAME || "vic_daycare_hub";
 
 export default function Landing() {
   const setFeedbackOpen = useStore((s) => (s as any).setFeedbackOpen);
+
   return (
-    <div className="min-h-screen bg-stone-50 text-gray-900 transition-colors duration-200 dark:bg-stone-950 dark:text-stone-100 theme-transition">
-      {/* Theme Toggle Container */}
-      <div className="absolute top-4 right-4 z-20">
+    <div className="min-h-screen theme-bg theme-pattern-bg theme-transition">
+      {/* Floating Top Controls */}
+      <div className="fixed top-4 right-4 z-30 flex items-center gap-2">
+        <DesignVariantSwitcher />
         <ThemeToggle />
       </div>
 
       {/* Hero */}
-      <header className="mx-auto max-w-3xl px-6 pt-16 pb-16 text-center md:pt-24 md:pb-20">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-4 py-1.5 text-xs font-medium text-emerald-700 dark:border-emerald-900/40 dark:bg-emerald-950/20 dark:text-emerald-450">
-          <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-500" />
-          Free &middot; Open source &middot; No sign-up required
+      <header className="relative mx-auto max-w-4xl px-6 pt-20 pb-16 text-center md:pt-28 md:pb-24">
+        {/* Soft Decorative Background Glow */}
+        <div className="pointer-events-none absolute inset-x-0 top-12 -z-10 flex justify-center opacity-40 blur-3xl dark:opacity-20">
+          <div className="h-64 w-96 rounded-full bg-amber-200/50 dark:bg-amber-900/30" />
+          <div className="h-64 w-96 rounded-full bg-emerald-200/40 dark:bg-teal-900/30 -ml-20" />
         </div>
-        <h1 className="flex flex-col items-center justify-center gap-1 text-4xl font-bold tracking-tight text-gray-900 sm:flex-row sm:gap-1.5 sm:text-5xl dark:text-stone-50">
+
+        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-stone-200/80 bg-white/80 px-4 py-1.5 text-xs font-semibold tracking-wide text-stone-700 shadow-xs backdrop-blur-md dark:border-stone-800 dark:bg-stone-900/80 dark:text-stone-300">
+          <span className="inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
+          <span>Free &middot; Open source &middot; Community-built for families</span>
+        </div>
+
+        <h1 className="font-heading flex flex-col items-center justify-center gap-3 text-4xl font-extrabold tracking-tight sm:flex-row sm:gap-3.5 sm:text-6xl text-stone-900 dark:text-stone-50">
           <img
             src="/logo.png"
             alt=""
-            className="h-16 w-16 sm:h-20 sm:w-20 object-contain transform hover:scale-105 transition-transform duration-300 drop-shadow-sm rounded-2xl shrink-0"
+            className="h-16 w-16 sm:h-20 sm:w-20 object-contain rounded-2xl shadow-sm transform hover:rotate-3 transition-transform duration-300 shrink-0"
           />
           <span>Victoria Childcare Hub</span>
         </h1>
-        <p className="mx-auto mt-4 text-sm text-gray-400 dark:text-stone-500">
+
+        <p className="mx-auto mt-4 max-w-2xl text-xs font-medium uppercase tracking-wider text-stone-400 dark:text-stone-500">
           Victoria · Saanich · Oak Bay · View Royal · Langford · Colwood · Sooke · Central Saanich · Sidney · Esquimalt · Metchosin · North Saanich · Highlands
         </p>
-        <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-gray-500 dark:text-stone-400">
-          {meta.count}+ licensed childcare facilities across Victoria and
-          surrounding areas — on an interactive map with filters, inspection
-          data, and a personal tracker. Completely free for families.
+
+        <p className="mx-auto mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-stone-600 dark:text-stone-300">
+          <strong className="font-semibold text-stone-900 dark:text-stone-100">{meta.count}+ licensed childcare facilities</strong> across Greater Victoria—on an interactive map with smart filters, Island Health inspection records, and a private personal tracker.
         </p>
-        <div className="mt-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+
+        <div className="mt-10 flex flex-col items-center gap-3.5 sm:flex-row sm:justify-center">
           <a
             href="#/app/map"
-            className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-7 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700 hover:shadow-md dark:bg-emerald-700 dark:hover:bg-emerald-600"
+            className="theme-btn-primary inline-flex items-center gap-2 px-8 py-3.5 text-sm shadow-md cursor-pointer"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
             </svg>
-            Explore the map
+            Explore Interactive Map
           </a>
           <a
             href="#/app/list"
-            className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-7 py-3 text-sm font-semibold text-gray-700 shadow-sm transition hover:border-gray-300 hover:shadow-md dark:border-stone-800 dark:bg-stone-900 dark:text-stone-300 dark:hover:border-stone-700 dark:hover:bg-stone-800"
+            className="theme-card inline-flex items-center gap-2 px-8 py-3.5 text-sm font-semibold text-stone-800 hover:text-stone-950 dark:text-stone-200 dark:hover:text-white cursor-pointer"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
             </svg>
-            Browse the list
+            Browse Facility List
           </a>
         </div>
-        <p className="mt-5 text-xs text-gray-400 dark:text-stone-500">
-          Works in any browser — desktop or mobile. No app to install.
+
+        <p className="mt-5 text-xs text-stone-400 dark:text-stone-500">
+          Works seamlessly in any mobile or desktop browser. No app download needed.
         </p>
       </header>
 
-      {/* Stats */}
-      <section className="border-y border-stone-200 bg-white py-10 dark:border-stone-800 dark:bg-stone-900">
-        <div className="mx-auto grid max-w-3xl grid-cols-3 gap-6 px-6 text-center">
+      {/* Stats Banner */}
+      <section className="mx-auto max-w-4xl px-6 pb-12">
+        <div className="theme-card grid grid-cols-3 gap-4 p-6 sm:p-8 text-center divide-x divide-stone-200/60 dark:divide-stone-800">
           <div>
-            <p className="text-2xl font-bold text-gray-900 dark:text-stone-50">{meta.count}+</p>
-            <p className="mt-1 text-xs text-gray-500 dark:text-stone-400">Licensed facilities</p>
+            <p className="font-heading text-3xl font-extrabold text-stone-900 sm:text-4xl dark:text-stone-50">{meta.count}+</p>
+            <p className="mt-1 text-xs font-medium text-stone-500 dark:text-stone-400">Licensed Facilities</p>
           </div>
           <div>
-            <p className="text-2xl font-bold text-gray-900 dark:text-stone-50">13</p>
-            <p className="mt-1 text-xs text-gray-500 dark:text-stone-400">Municipalities covered</p>
+            <p className="font-heading text-3xl font-extrabold text-stone-900 sm:text-4xl dark:text-stone-50">13</p>
+            <p className="mt-1 text-xs font-medium text-stone-500 dark:text-stone-400">Municipalities Covered</p>
           </div>
           <div>
-            <p className="text-2xl font-bold text-gray-900 dark:text-stone-50">$0</p>
-            <p className="mt-1 text-xs text-gray-500 dark:text-stone-400">Always free</p>
+            <p className="font-heading text-3xl font-extrabold text-stone-900 sm:text-4xl dark:text-stone-50">$0</p>
+            <p className="mt-1 text-xs font-medium text-stone-500 dark:text-stone-400">100% Free & Open Access</p>
           </div>
         </div>
       </section>
 
-      {/* Features */}
-      <section className="mx-auto max-w-3xl px-6 py-16">
-        <h2 className="text-center text-lg font-semibold text-gray-900 dark:text-stone-50">
-          What you can do
-        </h2>
-        <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+      {/* Features Bento Grid */}
+      <section className="mx-auto max-w-4xl px-6 py-12">
+        <div className="text-center mb-10">
+          <span className="text-xs font-bold uppercase tracking-widest text-amber-600 dark:text-amber-400">Designed For Parents</span>
+          <h2 className="font-heading mt-2 text-2xl sm:text-3xl font-bold tracking-tight text-stone-900 dark:text-stone-50">
+            Everything you need for your childcare search
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
           {[
             {
               icon: "🗺️",
               title: "Interactive map",
-              desc: "Every facility plotted with its real address. Click any pin for contact details, service type, and $10/day status.",
+              desc: "Every facility plotted with exact address. Click any pin for contact details, service type, and $10/day flags.",
+              badge: "Map View",
             },
             {
               icon: "🔍",
               title: "Smart filters",
-              desc: "Narrow by municipality, age group, vacancy, or $10/day. Results update instantly as you type.",
+              desc: "Filter instantly by municipality, age group, vacancy status, or $10/day participation.",
+              badge: "Instant Search",
             },
             {
               icon: "📋",
               title: "Personal tracker",
-              desc: "Mark facilities as contacted, waitlisted, or ruled out. Add notes, dates, and cost info — saved locally or synced securely.",
+              desc: "Keep notes, mark facilities as contacted, waitlisted, or ruled out. Saved locally or synced securely.",
+              badge: "Private Notes",
             },
             {
               icon: "🏥",
               title: "Inspection reports",
-              desc: "See Island Health inspection results and any outstanding issues for each facility, right in the app.",
+              desc: "Direct access to Island Health inspection history and unresolved compliance items.",
+              badge: "Health Records",
             },
             {
               icon: "💡",
               title: "Funding explained",
-              desc: "Understand $10/day centres, CCFRI fee reductions, and the Affordable Child Care Benefit with plain-language guides.",
+              desc: "Plain-language guides covering $10/day centres, CCFRI fee reductions, and ACCB government subsidies.",
+              badge: "Financial Guides",
             },
             {
               icon: "💾",
-              title: "Export your data",
-              desc: "Back up your tracker as JSON. Import it on another device. Your data belongs to you — it stays in your browser by default, or syncs securely if you sign in.",
+              title: "Export & Ownership",
+              desc: "Back up your data anytime as JSON. Your search records belong to you—no proprietary lock-in.",
+              badge: "Data Sovereignty",
             },
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-xl border border-stone-200 bg-white p-5 transition hover:shadow-sm dark:border-stone-800 dark:bg-stone-900 dark:hover:shadow-md"
+              className="theme-card theme-card-hover flex flex-col justify-between p-6"
             >
-              <span className="text-lg">{item.icon}</span>
-              <h3 className="mt-2 text-sm font-semibold text-gray-900 dark:text-stone-100">
-                {item.title}
-              </h3>
-              <p className="mt-1 text-xs leading-relaxed text-gray-500 dark:text-stone-400">
-                {item.desc}
-              </p>
+              <div>
+                <div className="flex items-center justify-between">
+                  <span className="text-2xl">{item.icon}</span>
+                  <span className="rounded-full bg-stone-100 dark:bg-stone-800 px-2.5 py-0.5 text-[10px] font-semibold text-stone-500 dark:text-stone-400">
+                    {item.badge}
+                  </span>
+                </div>
+                <h3 className="font-heading mt-4 text-base font-bold text-stone-900 dark:text-stone-100">
+                  {item.title}
+                </h3>
+                <p className="mt-2 text-xs leading-relaxed text-stone-500 dark:text-stone-400">
+                  {item.desc}
+                </p>
+              </div>
             </div>
           ))}
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="border-t border-stone-200 bg-white py-16 dark:border-stone-800 dark:bg-stone-900">
-        <div className="mx-auto max-w-2xl px-6">
-          <h2 className="text-center text-lg font-semibold text-gray-900 dark:text-stone-50">
-            Common questions
+      {/* FAQ Accordion Section */}
+      <section className="mx-auto max-w-3xl px-6 py-12">
+        <div className="theme-card p-6 sm:p-10">
+          <h2 className="font-heading text-center text-2xl font-bold text-stone-900 dark:text-stone-50">
+            Frequently Asked Questions
           </h2>
-          <dl className="mt-8 space-y-6">
+          <div className="mt-8 space-y-6">
             {[
               {
-                q: "Why is this free?",
-                a: "Because childcare info shouldn't be behind a paywall. This is an open-source community project built on public government data. If you'd like to support hosting costs, there's an optional Buy Me a Coffee link.",
+                q: "Why is this platform free?",
+                a: "Childcare information should be accessible to all parents without paywalls. This is an open-source community project built on public government data.",
               },
               {
                 q: "Where does the data come from?",
-                a: `Facility data is pulled from the BC Community Care Facility Registry and was last refreshed ${meta.lastUpdated ? new Date(meta.lastUpdated).toLocaleDateString("en-CA", { year: "numeric", month: "long" }) : "recently"}. Inspection data comes from Island Health. Availability and fees change constantly — always confirm directly with facilities.`,
+                a: `Facility records are sourced directly from the BC Community Care Facility Registry (refreshed ${meta.lastUpdated ? new Date(meta.lastUpdated).toLocaleDateString("en-CA", { year: "numeric", month: "long" }) : "recently"}). Inspection logs are linked directly from Island Health public records.`,
               },
               {
-                q: "Are my notes private?",
-                a: "Yes. By default, everything stays on your device in local storage and is never sent to a server. If you choose to sign in to sync your data across devices, your tracker entries and notes are sent securely to our database in Canada (stored in the northamerica-northeast2 region) and are only accessible through your authenticated account.",
+                q: "Are my personal notes and waitlist tracker private?",
+                a: "Yes! Everything is stored locally on your device by default. If you choose to log in with Google, your tracker entries are encrypted and stored in Canada (northamerica-northeast2 region).",
               },
               {
-                q: "What areas are covered?",
-                a: "Victoria and surrounding areas: Victoria, Saanich, Oak Bay, View Royal, Langford, Colwood, Sooke, Central Saanich, Sidney, Esquimalt, Metchosin, North Saanich, and Highlands.",
+                q: "Which communities are included?",
+                a: "Victoria, Saanich, Oak Bay, View Royal, Langford, Colwood, Sooke, Central Saanich, Sidney, Esquimalt, Metchosin, North Saanich, and Highlands.",
               },
               {
-                q: "What's the $10/day program?",
-                a: "Some BC facilities participate in ChildCareBC's $10 a Day program — charging no more than $10/day for full-time care. We flag the ones we can identify from public records.",
+                q: "How are $10/day childcare centres identified?",
+                a: "Facilities participating in ChildCareBC's $10 a Day program are cross-referenced from public provincial registries and flagged clearly with a badge.",
               },
-            ].map((item) => (
-              <div key={item.q}>
-                <dt className="text-sm font-medium text-gray-900 dark:text-stone-200">{item.q}</dt>
-                <dd className="mt-1 text-xs leading-relaxed text-gray-500 dark:text-stone-400">
+            ].map((item, idx) => (
+              <div key={item.q} className={idx > 0 ? "pt-5 border-t border-stone-200/70 dark:border-stone-800" : ""}>
+                <h3 className="text-sm font-semibold text-stone-900 dark:text-stone-200">{item.q}</h3>
+                <p className="mt-1.5 text-xs leading-relaxed text-stone-500 dark:text-stone-400">
                   {item.a}
-                </dd>
+                </p>
               </div>
             ))}
-          </dl>
+          </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="border-t border-stone-200 bg-emerald-600 px-6 py-12 text-center dark:border-stone-800 dark:bg-emerald-700/80">
-        <h2 className="text-xl font-bold text-white">Ready to start?</h2>
-        <p className="mt-2 text-sm text-emerald-100 dark:text-stone-200">
-          No sign-up required. No payment. Just open the hub.
-        </p>
-        <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
-          <a
-            href="#/app/map"
-            className="inline-block rounded-full bg-white px-7 py-3 text-sm font-semibold text-emerald-700 shadow transition hover:bg-emerald-50 dark:bg-stone-900 dark:text-emerald-450 dark:hover:bg-stone-800"
-          >
-            Open the map
-          </a>
-          <a
-            href="#/app/list"
-            className="inline-block rounded-full border border-emerald-400 px-7 py-3 text-sm font-semibold text-white transition hover:bg-emerald-700 dark:border-emerald-500 dark:hover:bg-emerald-800/40"
-          >
-            Browse the list
-          </a>
+      {/* CTA Footer Section */}
+      <section className="mx-auto max-w-4xl px-6 py-12 text-center">
+        <div className="rounded-3xl bg-stone-900 text-white p-8 sm:p-12 shadow-xl dark:bg-stone-800">
+          <h2 className="font-heading text-2xl sm:text-3xl font-extrabold">Ready to find your childcare options?</h2>
+          <p className="mt-3 text-sm text-stone-300 max-w-md mx-auto">
+            No accounts or payments needed. Instant access to all facilities, maps, and tracking tools.
+          </p>
+          <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+            <a
+              href="#/app/map"
+              className="inline-block rounded-full bg-white px-8 py-3.5 text-sm font-bold text-stone-900 shadow hover:bg-stone-100 transition cursor-pointer"
+            >
+              Open Interactive Map
+            </a>
+            <a
+              href="#/app/list"
+              className="inline-block rounded-full border border-stone-700 px-8 py-3.5 text-sm font-bold text-stone-200 hover:bg-stone-800 transition cursor-pointer"
+            >
+              Browse List View
+            </a>
+          </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-stone-200 bg-stone-50 px-6 py-8 dark:border-stone-800 dark:bg-stone-950">
-        <div className="mx-auto flex max-w-3xl flex-col items-center gap-3 text-center text-xs text-gray-400 dark:text-stone-550">
+      <footer className="border-t border-stone-200/80 px-6 py-10 dark:border-stone-800">
+        <div className="mx-auto flex max-w-3xl flex-col items-center gap-4 text-center text-xs text-stone-400 dark:text-stone-500">
           <p>
             Data from the{" "}
             <a
               href="https://catalogue.data.gov.bc.ca/dataset/4cc207cc-ff03-44f8-8c5f-415af5224646"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-emerald-600 hover:underline dark:text-emerald-450"
+              className="font-medium text-stone-600 hover:underline dark:text-stone-300"
             >
               BC Community Care Facility Registry
             </a>
             . Always confirm details directly with facilities.
           </p>
-          <p className="text-[11px] text-gray-300 dark:text-stone-600">
-            Independent community project — not affiliated with the BC
-            government, Island Health, or any childcare facility.
-          </p>
-          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
+          <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 font-medium">
             <a
               href={`https://buymeacoffee.com/${bmcUsername}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-emerald-600 dark:hover:text-emerald-450"
+              className="hover:text-stone-700 dark:hover:text-stone-300"
             >
               Buy me a coffee
             </a>
@@ -226,32 +253,25 @@ export default function Landing() {
               href="https://github.com/juansanar/vic_daycare_hub"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-emerald-600 dark:hover:text-emerald-450"
+              className="hover:text-stone-700 dark:hover:text-stone-300"
             >
               GitHub
             </a>
-            <a
-              href="#/privacy"
-              className="hover:text-emerald-600 dark:hover:text-emerald-450"
-            >
+            <a href="#/privacy" className="hover:text-stone-700 dark:hover:text-stone-300">
               Privacy Policy
             </a>
-            <a
-              href="#/terms"
-              className="hover:text-emerald-600 dark:hover:text-emerald-450"
-            >
+            <a href="#/terms" className="hover:text-stone-700 dark:hover:text-stone-300">
               Terms of Use
             </a>
             <button
               onClick={() => setFeedbackOpen(true)}
-              className="hover:text-emerald-600 dark:hover:text-emerald-450 cursor-pointer"
+              className="hover:text-stone-700 dark:hover:text-stone-300 cursor-pointer"
             >
-              Suggest a correction / Feedback
+              Feedback / Corrections
             </button>
           </div>
-          <p className="text-[11px] text-gray-300 dark:text-stone-600">
-            victoriachildcarehub.ca &middot; Open-source &middot; MIT License
-            &middot; A community project for Victoria area families
+          <p className="text-[11px] text-stone-400 dark:text-stone-600">
+            victoriachildcarehub.ca &middot; Open-source &middot; MIT License &middot; A community project for Victoria area families
           </p>
         </div>
       </footer>

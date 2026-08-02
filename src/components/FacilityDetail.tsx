@@ -162,7 +162,7 @@ export default function FacilityDetail({
 
       {/* Age groups */}
       <div className="space-y-1.5">
-        <p className="text-[11px] font-medium uppercase tracking-wide text-gray-400 dark:text-stone-500">
+        <p className="text-[11px] font-semibold uppercase tracking-wider text-stone-500 dark:text-stone-350">
           Ages served
         </p>
         {ageLabels.length > 0 ? (
@@ -170,27 +170,27 @@ export default function FacilityDetail({
             {ageLabels.map((label) => (
               <span
                 key={label}
-                className="rounded-full bg-stone-100 px-2.5 py-0.5 text-[11px] font-medium text-gray-600 dark:bg-stone-800 dark:text-stone-300"
+                className="rounded-full bg-stone-100 px-2.5 py-0.5 text-[11px] font-medium text-stone-700 dark:bg-stone-800 dark:text-stone-200"
               >
                 {label}
               </span>
             ))}
           </div>
         ) : (
-          <p className="text-[11px] text-gray-400 dark:text-stone-600">
+          <p className="text-[11px] text-stone-400 dark:text-stone-400">
             Not reported in government records
           </p>
         )}
       </div>
 
       {/* Availability Section */}
-      <div className="rounded-xl border border-stone-200 bg-white p-4 space-y-3 dark:border-stone-800 dark:bg-stone-900/60">
+      <div className="rounded-2xl border border-stone-200 bg-white p-4 space-y-3 dark:border-stone-800 dark:bg-stone-900/80">
         <div className="flex items-center justify-between">
-          <span className="text-[11px] font-medium uppercase tracking-wide text-gray-400 dark:text-stone-500">
+          <span className="text-[11px] font-semibold uppercase tracking-wider text-stone-500 dark:text-stone-350">
             Availability
           </span>
           {facility.vacancyLastUpdated && (
-            <span className="text-[10px] text-gray-400 dark:text-stone-500">
+            <span className="text-[10px] text-stone-400 dark:text-stone-400 font-medium">
               Updated: {facility.vacancyLastUpdated}
             </span>
           )}
@@ -199,19 +199,19 @@ export default function FacilityDetail({
         <div className="divide-y divide-stone-100 dark:divide-stone-800">
           {gridItems.map((item) => (
             <div key={item.label} className="flex items-center justify-between py-2 text-xs">
-              <span className="font-medium text-gray-700 dark:text-stone-300">{item.label}</span>
+              <span className="font-medium text-stone-700 dark:text-stone-200">{item.label}</span>
               {item.served ? (
                 item.vacant ? (
-                  <span className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-0.5 text-[10px] font-semibold text-emerald-700 ring-1 ring-emerald-600/10 dark:bg-emerald-950/30 dark:text-emerald-450 dark:ring-emerald-500/20 animate-pulse">
+                  <span className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-0.5 text-[10px] font-semibold text-emerald-700 ring-1 ring-emerald-600/10 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-500/30 animate-pulse">
                     Spaces available
                   </span>
                 ) : (
-                  <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-[10px] font-medium text-amber-800 ring-1 ring-amber-600/10 dark:bg-amber-950/30 dark:text-amber-450 dark:ring-amber-500/20">
+                  <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-[10px] font-medium text-amber-800 ring-1 ring-amber-600/10 dark:bg-amber-950/50 dark:text-amber-300 dark:ring-amber-500/30">
                     No spaces (Waitlist)
                   </span>
                 )
               ) : (
-                <span className="inline-flex items-center rounded-full bg-stone-50 px-2.5 py-0.5 text-[10px] font-normal text-stone-400 ring-1 ring-stone-500/5 dark:bg-stone-800/40 dark:text-stone-500 dark:ring-stone-500/10">
+                <span className="inline-flex items-center rounded-full bg-stone-50 px-2.5 py-0.5 text-[10px] font-normal text-stone-400 ring-1 ring-stone-500/5 dark:bg-stone-800/60 dark:text-stone-400 dark:ring-stone-500/20">
                   Not offered
                 </span>
               )}
@@ -219,16 +219,17 @@ export default function FacilityDetail({
           ))}
         </div>
         
-        <p className="text-[10px] leading-relaxed text-gray-400 dark:text-stone-500">
-          Source:{" "}
+        <p className="text-[10px] leading-relaxed text-stone-400 dark:text-stone-400">
+          Source: Provider self-reported to the Province of BC (
           <a
             href={BC_CHILD_CARE_MAP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-medium text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-450 dark:hover:text-emerald-400"
+            className="font-medium text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300"
           >
             BC Child Care Map ↗
           </a>
+          )
         </p>
       </div>
 
@@ -260,9 +261,9 @@ export default function FacilityDetail({
       ) : null}
 
       {/* Inspection Section */}
-      <div className="rounded-xl border border-stone-200 bg-white p-4 space-y-3 dark:border-stone-800 dark:bg-stone-900/60">
+      <div className="rounded-2xl border border-stone-200 bg-white p-4 space-y-3 dark:border-stone-800 dark:bg-stone-900/80">
         <div className="flex items-center justify-between">
-          <span className="text-[11px] font-medium uppercase tracking-wide text-gray-400 dark:text-stone-500">
+          <span className="text-[11px] font-semibold uppercase tracking-wider text-stone-500 dark:text-stone-350">
             Inspection History
           </span>
           <a
@@ -270,7 +271,7 @@ export default function FacilityDetail({
             target="_blank"
             rel="noopener noreferrer"
             referrerPolicy="no-referrer"
-            className="text-[11px] font-medium text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-450 dark:hover:text-emerald-400"
+            className="text-[11px] font-medium text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300"
           >
             Island Health Records ↗
           </a>
@@ -288,35 +289,35 @@ export default function FacilityDetail({
               return (
                 <details
                   key={insp.id || index}
-                  className="group rounded-lg border border-stone-200 bg-stone-50 overflow-hidden [&_summary::-webkit-details-marker]:hidden dark:border-stone-800 dark:bg-stone-900/40"
+                  className="group rounded-xl border border-stone-200 bg-stone-50 overflow-hidden [&_summary::-webkit-details-marker]:hidden dark:border-stone-800 dark:bg-stone-900/90"
                   open={index === 0}
                 >
                   <summary className="flex cursor-pointer items-center justify-between p-3 select-none hover:bg-stone-100 dark:hover:bg-stone-800 transition">
                     <div className="space-y-0.5">
-                      <p className="text-xs font-semibold text-gray-700 dark:text-stone-300">
+                      <p className="text-xs font-bold text-stone-800 dark:text-stone-100">
                         {insp.date}
                       </p>
-                      <p className="text-[11px] text-gray-400 dark:text-stone-500 font-medium">
+                      <p className="text-[11px] text-stone-500 dark:text-stone-350 font-medium">
                         {insp.type} Inspection
                       </p>
                     </div>
                     <div className="flex items-center gap-2">
                       {violationCount === 0 ? (
-                        <span className="inline-flex items-center rounded-full bg-emerald-100/80 px-2 py-0.5 text-[10px] font-semibold text-emerald-800 border border-emerald-200/50 dark:bg-emerald-950/30 dark:text-emerald-400 dark:border-emerald-900/40">
+                        <span className="inline-flex items-center rounded-full bg-emerald-100/80 px-2 py-0.5 text-[10px] font-semibold text-emerald-800 border border-emerald-200/50 dark:bg-emerald-950/50 dark:text-emerald-300 dark:border-emerald-900/60">
                           No violations
                         </span>
                       ) : uncorrectedCount === 0 ? (
-                        <span className="inline-flex items-center rounded-full bg-emerald-100/80 px-2 py-0.5 text-[10px] font-semibold text-emerald-800 border border-emerald-200/50 dark:bg-emerald-950/30 dark:text-emerald-400 dark:border-emerald-900/40">
+                        <span className="inline-flex items-center rounded-full bg-emerald-100/80 px-2 py-0.5 text-[10px] font-semibold text-emerald-800 border border-emerald-200/50 dark:bg-emerald-950/50 dark:text-emerald-300 dark:border-emerald-900/60">
                           Contraventions corrected
                         </span>
                       ) : (
-                        <span className="inline-flex items-center rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-semibold text-amber-800 border border-amber-200 dark:bg-amber-950/30 dark:text-amber-400 dark:border-amber-900/50">
+                        <span className="inline-flex items-center rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-semibold text-amber-800 border border-amber-200 dark:bg-amber-950/50 dark:text-amber-300 dark:border-amber-900/70">
                           {uncorrectedCount} outstanding infraction{uncorrectedCount > 1 ? "s" : ""}
                         </span>
                       )}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4 text-gray-400 transition-transform group-open:rotate-180 dark:text-stone-600"
+                        className="h-4 w-4 text-stone-400 transition-transform group-open:rotate-180 dark:text-stone-400"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -327,9 +328,9 @@ export default function FacilityDetail({
                   </summary>
                   <div className="border-t border-stone-200 bg-white p-3 space-y-3 dark:border-stone-800 dark:bg-stone-900">
                     {violationCount === 0 ? (
-                      <div className="rounded-lg bg-emerald-50/50 border border-emerald-100 p-2.5 flex items-start gap-2 dark:bg-emerald-950/20 dark:border-emerald-950/40">
-                        <span className="text-emerald-600 dark:text-emerald-450 text-xs">✓</span>
-                        <p className="text-[11px] leading-relaxed text-emerald-800 dark:text-emerald-400 font-medium">
+                      <div className="rounded-lg bg-emerald-50/50 border border-emerald-100 p-2.5 flex items-start gap-2 dark:bg-emerald-950/30 dark:border-emerald-900/50">
+                        <span className="text-emerald-600 dark:text-emerald-400 text-xs">✓</span>
+                        <p className="text-[11px] leading-relaxed text-emerald-800 dark:text-emerald-300 font-medium">
                           No violations found during this inspection.
                         </p>
                       </div>
@@ -338,42 +339,42 @@ export default function FacilityDetail({
                         {insp.contraventions.map((c, i) => (
                           <div key={i} className="space-y-1 text-[11px] border-b border-stone-100 dark:border-stone-800 last:border-0 pb-2.5 last:pb-0">
                             <div className="flex items-start justify-between gap-2">
-                              <span className="font-semibold text-gray-800 dark:text-stone-200 block">
+                              <span className="font-semibold text-stone-800 dark:text-stone-200 block">
                                 {c.code}
                               </span>
                               {c.corrected ? (
-                                <span className="inline-flex items-center rounded bg-emerald-50 px-1.5 py-0.5 text-[9px] font-semibold text-emerald-700 ring-1 ring-emerald-600/10 dark:bg-emerald-950/30 dark:text-emerald-400">
+                                <span className="inline-flex items-center rounded bg-emerald-50 px-1.5 py-0.5 text-[9px] font-semibold text-emerald-700 ring-1 ring-emerald-600/10 dark:bg-emerald-950/40 dark:text-emerald-300">
                                   Corrected
                                 </span>
                               ) : (
-                                <span className="inline-flex items-center rounded bg-amber-50 px-1.5 py-0.5 text-[9px] font-semibold text-amber-700 ring-1 ring-amber-600/10 dark:bg-amber-950/30 dark:text-amber-450">
+                                <span className="inline-flex items-center rounded bg-amber-50 px-1.5 py-0.5 text-[9px] font-semibold text-amber-700 ring-1 ring-amber-600/10 dark:bg-amber-950/40 dark:text-amber-300">
                                   Outstanding
                                 </span>
                               )}
                             </div>
                             {c.description && (
-                              <p className="text-gray-500 dark:text-stone-400 leading-normal font-medium">
+                              <p className="text-stone-600 dark:text-stone-300 leading-normal font-medium">
                                 {c.description}
                               </p>
                             )}
                             {c.corrected && c.correctiveActions && (
-                              <div className="bg-emerald-50/40 dark:bg-emerald-950/15 border-l-2 border-emerald-300 dark:border-emerald-800 p-2 rounded">
-                                <span className="block text-[9px] text-emerald-600 dark:text-emerald-450 font-bold uppercase tracking-wider mb-0.5">Corrective Action Taken</span>
-                                <p className="text-emerald-800 dark:text-emerald-300 leading-normal font-medium">
+                              <div className="bg-emerald-50/40 dark:bg-emerald-950/30 border-l-2 border-emerald-400 dark:border-emerald-600 p-2 rounded">
+                                <span className="block text-[9px] text-emerald-700 dark:text-emerald-300 font-bold uppercase tracking-wider mb-0.5">Corrective Action Taken</span>
+                                <p className="text-emerald-900 dark:text-emerald-200 leading-normal font-medium">
                                   {c.correctiveActions}
                                 </p>
                               </div>
                             )}
                             {c.observations && (
-                              <div className="bg-stone-50 dark:bg-stone-800 border-l-2 border-stone-300 dark:border-stone-700 p-1.5 rounded-r">
-                                <span className="block text-[10px] text-gray-400 dark:text-stone-500 font-bold uppercase tracking-wider mb-0.5">Observations</span>
-                                <p className="text-gray-600 dark:text-stone-350 italic leading-relaxed">
+                              <div className="bg-stone-50 dark:bg-stone-800 border-l-2 border-stone-300 dark:border-stone-600 p-2 rounded-r">
+                                <span className="block text-[10px] text-stone-500 dark:text-stone-350 font-bold uppercase tracking-wider mb-0.5">Observations</span>
+                                <p className="text-stone-700 dark:text-stone-200 italic leading-relaxed">
                                   {c.observations}
                                 </p>
                               </div>
                             )}
                             {!c.corrected && c.correctByDate && (
-                              <p className="text-[10px] text-amber-600 dark:text-amber-450 font-medium">
+                              <p className="text-[10px] text-amber-700 dark:text-amber-300 font-medium">
                                 To be corrected by: {c.correctByDate}
                               </p>
                             )}
@@ -387,7 +388,7 @@ export default function FacilityDetail({
                         target="_blank"
                         rel="noopener noreferrer"
                         referrerPolicy="no-referrer"
-                        className="text-[11px] font-semibold text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-450 dark:hover:text-emerald-400 flex items-center gap-0.5"
+                        className="text-[11px] font-semibold text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300 flex items-center gap-0.5"
                       >
                         View official report ↗
                       </a>
@@ -398,7 +399,7 @@ export default function FacilityDetail({
             })}
           </div>
         ) : (
-          <p className="text-[11px] text-gray-400 dark:text-stone-600">
+          <p className="text-[11px] text-stone-400 dark:text-stone-400">
             No inspection data available yet
           </p>
         )}
@@ -408,7 +409,7 @@ export default function FacilityDetail({
 
       {/* Tracker fields */}
       <div className="space-y-3">
-        <h3 className="text-xs font-medium uppercase tracking-wide text-gray-400 dark:text-stone-500">
+        <h3 className="text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-stone-350">
           Your Tracker
         </h3>
 

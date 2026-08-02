@@ -2,15 +2,256 @@
 
 @custom-variant dark (&:is(.dark, .dark *));
 
-html {
+:root {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   color-scheme: light dark;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* ==========================================================================
+   Design Variant 1: Warm Montessori Studio (Default)
+   Warm organic linen canvas, terracotta clay accents, sage green highlights,
+   soft organic rounded corners and warm ambient depth.
+   ========================================================================== */
+:root, [data-variant="montessori"] {
+  --bg-main: #FCFBF7;
+  --bg-card: #FFFFFF;
+  --bg-card-subtle: #F6F4EE;
+  --bg-header: rgba(252, 251, 247, 0.85);
+  --border-color: #EFEBE4;
+  --border-hover: #E3DDD2;
+  
+  --text-main: #262320;
+  --text-muted: #6B655E;
+  --text-dim: #9E968D;
+
+  --accent-primary: #D97736;
+  --accent-primary-hover: #C56526;
+  --accent-primary-text: #FFFFFF;
+
+  --accent-sage: #4E6E5D;
+  --accent-sage-bg: #EEF4F0;
+  --accent-sage-text: #344D40;
+
+  --accent-amber: #E29578;
+  --accent-amber-bg: #FDF0EB;
+
+  --card-radius: 1.5rem; /* 24px */
+  --card-shadow: 0 4px 20px -2px rgba(78, 64, 53, 0.05), 0 2px 6px -1px rgba(78, 64, 53, 0.03);
+  --card-shadow-hover: 0 10px 30px -4px rgba(78, 64, 53, 0.09), 0 4px 12px -2px rgba(78, 64, 53, 0.05);
+
+  --hero-pattern: radial-gradient(#E8E2D7 1.2px, transparent 1.2px);
+}
+
+.dark, html.dark [data-variant="montessori"] {
+  --bg-main: #1C1917;
+  --bg-card: #292524;
+  --bg-card-subtle: #34302C;
+  --bg-header: rgba(28, 25, 23, 0.9);
+  --border-color: #44403C;
+  --border-hover: #57534E;
+  
+  --text-main: #FAFAF9;
+  --text-muted: #E7E5E4;
+  --text-dim: #A8A29E;
+
+  --accent-primary: #F97316;
+  --accent-primary-hover: #FB923C;
+  --accent-primary-text: #1C1917;
+
+  --accent-sage: #34D399;
+  --accent-sage-bg: #064E3B;
+  --accent-sage-text: #A7F3D0;
+
+  --accent-amber: #FBBF24;
+  --accent-amber-bg: #451A03;
+
+  --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+  --card-shadow-hover: 0 10px 30px -4px rgba(0, 0, 0, 0.7);
+
+  --hero-pattern: radial-gradient(#44403C 1.2px, transparent 1.2px);
+}
+
+/* ==========================================================================
+   Design Variant 2: Pacific Coast Care
+   Fresh coastal teal, seafoam, ocean breeze pearl background & pine accents.
+   ========================================================================== */
+[data-variant="pacific"] {
+  --bg-main: #F4FAF9;
+  --bg-card: #FFFFFF;
+  --bg-card-subtle: #EAF4F3;
+  --bg-header: rgba(244, 250, 249, 0.85);
+  --border-color: #D3E7E5;
+  --border-hover: #B5DAD7;
+  
+  --text-main: #0F2D2E;
+  --text-muted: #4B6E70;
+  --text-dim: #85A5A7;
+
+  --accent-primary: #0F5257;
+  --accent-primary-hover: #0B3F43;
+  --accent-primary-text: #FFFFFF;
+
+  --accent-sage: #2A9D8F;
+  --accent-sage-bg: #E3F6F4;
+  --accent-sage-text: #0E5E55;
+
+  --accent-amber: #E9C46A;
+  --accent-amber-bg: #FEF9E7;
+
+  --card-radius: 1.25rem; /* 20px */
+  --card-shadow: 0 4px 18px -2px rgba(15, 82, 87, 0.06);
+  --card-shadow-hover: 0 12px 28px -4px rgba(15, 82, 87, 0.12);
+
+  --hero-pattern: radial-gradient(#C4E2DF 1.5px, transparent 1.5px);
+}
+
+.dark [data-variant="pacific"], html.dark [data-variant="pacific"] {
+  --bg-main: #0D161B;
+  --bg-card: #15222A;
+  --bg-card-subtle: #1D2E38;
+  --bg-header: rgba(13, 22, 27, 0.85);
+  --border-color: #243845;
+  --border-hover: #324D5E;
+  
+  --text-main: #ECF7F7;
+  --text-muted: #8FB4B6;
+  --text-dim: #5C7F82;
+
+  --accent-primary: #2A8B92;
+  --accent-primary-hover: #3FB3BD;
+  --accent-primary-text: #0D161B;
+
+  --accent-sage: #38B0A0;
+  --accent-sage-bg: #113134;
+  --accent-sage-text: #A3ECE2;
+
+  --accent-amber: #F4A261;
+  --accent-amber-bg: #2B1E16;
+
+  --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+  --card-shadow-hover: 0 10px 30px -4px rgba(0, 0, 0, 0.6);
+
+  --hero-pattern: radial-gradient(#1D2E38 1.5px, transparent 1.5px);
+}
+
+/* ==========================================================================
+   Design Variant 3: Tactile Storybook Bento
+   Clean soft sky background, vibrant pastel badges, 2px structured borders.
+   ========================================================================== */
+[data-variant="bento"] {
+  --bg-main: #F8FAF9;
+  --bg-card: #FFFFFF;
+  --bg-card-subtle: #F1F5F4;
+  --bg-header: rgba(248, 250, 249, 0.85);
+  --border-color: #E2E8F0;
+  --border-hover: #CBD5E1;
+  
+  --text-main: #0F172A;
+  --text-muted: #475569;
+  --text-dim: #94A3B8;
+
+  --accent-primary: #EE6C4D;
+  --accent-primary-hover: #D95333;
+  --accent-primary-text: #FFFFFF;
+
+  --accent-sage: #10B981;
+  --accent-sage-bg: #D1FAE5;
+  --accent-sage-text: #065F46;
+
+  --accent-amber: #F59E0B;
+  --accent-amber-bg: #FEF3C7;
+
+  --card-radius: 1rem; /* 16px */
+  --card-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  --card-shadow-hover: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
+
+  --hero-pattern: radial-gradient(#CBD5E1 1.2px, transparent 1.2px);
+}
+
+.dark [data-variant="bento"], html.dark [data-variant="bento"] {
+  --bg-main: #0F172A;
+  --bg-card: #1E293B;
+  --bg-card-subtle: #334155;
+  --bg-header: rgba(15, 23, 42, 0.85);
+  --border-color: #334155;
+  --border-hover: #475569;
+  
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --text-dim: #64748B;
+
+  --accent-primary: #FF7D61;
+  --accent-primary-hover: #FFA490;
+  --accent-primary-text: #0F172A;
+
+  --accent-sage: #34D399;
+  --accent-sage-bg: #064E3B;
+  --accent-sage-text: #A7F3D0;
+
+  --accent-amber: #FBBF24;
+  --accent-amber-bg: #78350F;
+
+  --card-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --card-shadow-hover: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+  --hero-pattern: radial-gradient(#334155 1.2px, transparent 1.2px);
+}
+
+/* ==========================================================================
+   Utility Classes & Component Styling
+   ========================================================================== */
+.theme-bg {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+.theme-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-card-hover:hover {
+  border-color: var(--border-hover);
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-2px);
+}
+
+.theme-btn-primary {
+  background-color: var(--accent-primary);
+  color: var(--accent-primary-text);
+  font-weight: 600;
+  border-radius: 9999px;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-btn-primary:hover {
+  background-color: var(--accent-primary-hover);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  transform: translateY(-1px);
+}
+
+.theme-badge-sage {
+  background-color: var(--accent-sage-bg);
+  color: var(--accent-sage-text);
+}
+
+.theme-pattern-bg {
+  background-image: var(--hero-pattern);
+  background-size: 24px 24px;
 }
 
 /* Smooth transition for theme colors */
 .theme-transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
+  transition-duration: 250ms;
 }
 
 /* Map dark mode adjustments */
@@ -22,42 +263,42 @@ html.dark .leaflet-control-attribution {
 }
 
 html.dark .leaflet-container {
-  background: #0c0a09 !important; /* stone-950 */
+  background: #0c0a09 !important;
 }
 
-/* Custom scrollbars for dark mode details pane or sidebar */
-html.dark ::-webkit-scrollbar {
+/* Custom scrollbars */
+::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
-html.dark ::-webkit-scrollbar-track {
-  background: #1c1917; /* stone-900 */
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-html.dark ::-webkit-scrollbar-thumb {
-  background: #44403c; /* stone-700 */
-  border-radius: 4px;
+::-webkit-scrollbar-thumb {
+  background: var(--border-hover, #D3E7E5);
+  border-radius: 9999px;
 }
 
-html.dark ::-webkit-scrollbar-thumb:hover {
-  background: #57534e; /* stone-600 */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim, #85A5A7);
 }
 
 /* Dark mode Leaflet Popups */
 html.dark .leaflet-popup-content-wrapper {
-  background-color: #1c1917 !important; /* stone-900 */
-  color: #f5f5f4 !important; /* stone-100 */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
-  border-radius: 12px !important;
+  background-color: var(--bg-card, #1c1917) !important;
+  color: var(--text-main, #f5f5f4) !important;
+  box-shadow: var(--card-shadow) !important;
+  border-radius: 16px !important;
 }
 
 html.dark .leaflet-popup-tip {
-  background-color: #1c1917 !important; /* stone-900 */
+  background-color: var(--bg-card, #1c1917) !important;
 }
 
 html.dark .leaflet-popup-content a {
-  color: #34d399 !important; /* emerald-400 */
+  color: var(--accent-primary, #34d399) !important;
 }
 
 html.dark .leaflet-popup-content button {

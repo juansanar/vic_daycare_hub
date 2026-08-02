@@ -12,7 +12,7 @@ interface FiltersProps {
 }
 
 const selectClasses =
-  "rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs text-gray-700 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none dark:border-stone-800 dark:bg-stone-900 dark:text-stone-300 dark:focus:border-emerald-700 dark:focus:ring-emerald-800/40";
+  "rounded-full border border-stone-200/80 bg-white/90 px-3 py-1.5 text-xs text-stone-700 focus:border-stone-400 focus:ring-1 focus:ring-stone-200 focus:outline-none dark:border-stone-800 dark:bg-stone-900 dark:text-stone-300 dark:focus:border-stone-600 dark:focus:ring-stone-800 cursor-pointer";
 
 export default function Filters({ onChange }: FiltersProps) {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
@@ -32,13 +32,13 @@ export default function Filters({ onChange }: FiltersProps) {
   };
 
   return (
-    <div className="flex flex-wrap items-center gap-2 border-b border-stone-200 bg-white px-4 py-2.5 dark:border-stone-800 dark:bg-stone-900">
+    <div className="flex flex-wrap items-center gap-2 border-b border-stone-200/80 bg-white/80 px-4 py-2.5 backdrop-blur-md dark:border-stone-800 dark:bg-stone-900/80">
       <input
         type="text"
-        placeholder="Search..."
+        placeholder="Search facilities..."
         value={filters.search}
         onChange={(e) => update({ search: e.target.value })}
-        className="w-44 rounded-md border border-stone-200 bg-white px-2.5 py-1.5 text-xs placeholder:text-gray-300 focus:border-emerald-300 focus:ring-1 focus:ring-emerald-200 focus:outline-none dark:border-stone-800 dark:bg-stone-900 dark:text-stone-150 dark:placeholder:text-stone-600 dark:focus:border-emerald-700 dark:focus:ring-emerald-800/40"
+        className="w-44 rounded-full border border-stone-200/80 bg-white/90 px-3.5 py-1.5 text-xs text-stone-900 placeholder:text-stone-400 focus:border-stone-400 focus:ring-1 focus:ring-stone-200 focus:outline-none dark:border-stone-800 dark:bg-stone-900 dark:text-stone-100 dark:placeholder:text-stone-600 dark:focus:border-stone-600"
       />
 
       <select
@@ -90,8 +90,8 @@ export default function Filters({ onChange }: FiltersProps) {
       </label>
 
       <label
-        className="flex items-center gap-1.5 text-xs text-gray-600 dark:text-stone-400"
-        title="Vacancies are self-reported by providers to BC's Child Care Map"
+        className="flex items-center gap-1.5 text-xs text-stone-600 dark:text-stone-300 cursor-pointer"
+        title="Vacancies are self-reported by providers to the Province of British Columbia (BC Child Care Map)"
       >
         <input
           type="checkbox"
@@ -103,17 +103,17 @@ export default function Filters({ onChange }: FiltersProps) {
       </label>
 
       {filters.vacancyOnly && (
-        <span className="text-[10px] text-gray-400 dark:text-stone-500">
+        <span className="text-[10px] text-stone-500 dark:text-stone-400">
           From{" "}
           <a
             href={BC_CHILD_CARE_MAP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-emerald-600 hover:underline dark:text-emerald-450"
+            className="text-emerald-600 font-medium hover:underline dark:text-emerald-400"
           >
             BC Child Care Map
           </a>
-          {" "}(provider self-reported)
+          {" "}(provider self-reported to the Province of BC)
         </span>
       )}
 

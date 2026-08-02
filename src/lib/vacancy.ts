@@ -8,7 +8,7 @@ export const BC_CHILD_CARE_MAP_URL =
   "https://www2.gov.bc.ca/gov/content/family-social-supports/caring-for-young-children/child-care-in-bc/child-care-map";
 
 export const VACANCY_SOURCE_COPY =
-  "Self-reported by the provider to the province via the BC Child Care Map.";
+  "Self-reported by the provider to the Province of British Columbia (BC Child Care Map).";
 
 export const CONTACT_CENTRE_COPY =
   "Call or email the centre directly to confirm availability, fees, and waitlist status. Government records may not reflect current openings.";
