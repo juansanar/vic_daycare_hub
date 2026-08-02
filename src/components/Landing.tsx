@@ -1,5 +1,6 @@
 import meta from "../../data/meta.json";
 import ThemeToggle from "./ThemeToggle";
+import AuthButton from "./AuthButton";
 import { useStore } from "../store";
 
 const bmcUsername = import.meta.env.VITE_BMC_USERNAME || "vic_daycare_hub";
@@ -11,6 +12,7 @@ export default function Landing() {
     <div className="min-h-screen theme-bg theme-pattern-bg theme-transition">
       {/* Floating Top Controls */}
       <div className="fixed top-4 right-4 z-30 flex items-center gap-2">
+        <AuthButton />
         <ThemeToggle />
       </div>
 
