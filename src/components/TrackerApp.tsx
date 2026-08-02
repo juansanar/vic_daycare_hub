@@ -7,7 +7,6 @@ import FacilityDetail from "./FacilityDetail";
 import Resources from "./Resources";
 import ExportImport from "./ExportImport";
 import ThemeToggle from "./ThemeToggle";
-import DesignVariantSwitcher from "./DesignVariantSwitcher";
 import { lazy, Suspense } from "react";
 
 const FacilityMap = lazy(() => import("./FacilityMap"));
@@ -120,7 +119,6 @@ export default function TrackerApp() {
             ))}
           </nav>
 
-          <DesignVariantSwitcher />
           <ThemeToggle />
           <AuthButton />
         </div>

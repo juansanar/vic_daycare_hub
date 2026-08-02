@@ -15,7 +15,6 @@ interface AppState {
   trackerEntries: Record<string, TrackerEntry>;
   activeTab: "list" | "map" | "resources";
   selectedFacilityId: string | null;
-  designVariant: "montessori" | "pacific" | "bento";
   isFeedbackOpen: boolean;
   feedbackFacilityId: string | null;
   feedbackFacilityName: string | null;
@@ -27,7 +26,6 @@ interface AppState {
   ) => void;
   setActiveTab: (tab: AppState["activeTab"]) => void;
   setSelectedFacility: (id: string | null) => void;
-  setDesignVariant: (variant: AppState["designVariant"]) => void;
   exportData: () => string;
   importData: (json: string) => void;
   mergeRemoteEntries: (entries: Record<string, TrackerEntry>) => void;
@@ -50,7 +48,6 @@ export const useStore = create<AppState>()(
       trackerEntries: {},
       activeTab: "list",
       selectedFacilityId: null,
-      designVariant: "montessori",
       isFeedbackOpen: false,
       feedbackFacilityId: null,
       feedbackFacilityName: null,
@@ -91,7 +88,6 @@ export const useStore = create<AppState>()(
 
       setActiveTab: (tab) => set({ activeTab: tab }),
       setSelectedFacility: (id) => set({ selectedFacilityId: id }),
-      setDesignVariant: (variant) => set({ designVariant: variant }),
 
       exportData: () => {
         const { trackerEntries } = get();
@@ -122,7 +118,6 @@ export const useStore = create<AppState>()(
       name: "vic-daycare-hub-storage",
       partialize: (state) => ({
         trackerEntries: state.trackerEntries,
-        designVariant: state.designVariant,
       }),
     },
   ),
