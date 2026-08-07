@@ -343,6 +343,41 @@ async function main() {
     return;
   }
 
+function slugify(s: string): string {
+  return s
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function generateDeterministicId(
+  name: string,
+  address: string,
+  facilityIdAttr: string,
+  usedIds: Set<string>,
+): string {
+  if (facilityIdAttr && !usedIds.has(facilityIdAttr)) {
+    return facilityIdAttr;
+  }
+  let base = slugify(name);
+  if (!base) base = "facility";
+  let candidate = base;
+  if (usedIds.has(candidate)) {
+    const addrSlug = slugify(address);
+    if (addrSlug) {
+      candidate = `${base}-${addrSlug}`;
+    }
+  }
+  let index = 2;
+  let finalId = candidate;
+  while (usedIds.has(finalId)) {
+    finalId = `${candidate}-${index}`;
+    index++;
+  }
+  return finalId;
+}
+
   console.log(`Processing ${features.length} features...`);
 
   const facilities: Facility[] = features.map((f) => {
@@ -355,15 +390,9 @@ async function main() {
     let id = nameAddrToId.get(`${normName}|${normAddr}`) || nameToId.get(normName);
 
     if (!id) {
-      let fallbackId = String(a.FACILITY_ID ?? a.SEQUENCE_ID ?? "");
-      if (!fallbackId || usedIds.has(fallbackId)) {
-        let counter = 100000;
-        while (usedIds.has(String(counter))) {
-          counter++;
-        }
-        fallbackId = String(counter);
-      }
-      id = fallbackId;
+      const facilityIdAttr = String(a.FACILITY_ID ?? "");
+      id = generateDeterministicId(name, address, facilityIdAttr, usedIds);
+      console.log(`Assigned new deterministic ID "${id}" to facility: ${name}`);
     }
 
     usedIds.add(id);

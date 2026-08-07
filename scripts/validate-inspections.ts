@@ -23,6 +23,28 @@ function main() {
 
   let hasErrors = false;
 
+  // 0. Verify facility IDs uniqueness and non-emptiness
+  console.log("\nVerifying facility IDs uniqueness...");
+  const seenFacilityIds = new Set<string>();
+  let duplicateIdsCount = 0;
+  for (const f of facilities) {
+    if (!f.id || typeof f.id !== "string" || !f.id.trim()) {
+      console.error(`[ERROR] Found facility with missing or empty ID: ${f.name}`);
+      hasErrors = true;
+    }
+    if (seenFacilityIds.has(f.id)) {
+      console.error(`[ERROR] Duplicate facility ID detected: ${f.id} (${f.name})`);
+      duplicateIdsCount++;
+    }
+    seenFacilityIds.add(f.id);
+  }
+  if (duplicateIdsCount > 0) {
+    console.error(`[ERROR] Found ${duplicateIdsCount} duplicate facility IDs.`);
+    hasErrors = true;
+  } else {
+    console.log("[OK] All facility IDs are unique and valid.");
+  }
+
   // 1. Verify general completeness of matched facilities (100% must be fully fetched)
   const uncompleted: string[] = [];
   let fetchedCount = 0;
