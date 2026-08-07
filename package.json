@@ -11,6 +11,7 @@
     "scrape-inspections": "tsx scripts/scrape-inspections.ts",
     "enrich-service-types": "tsx scripts/enrich-service-types.ts",
     "scrape-websites": "tsx scripts/scrape-websites.ts",
+    "refresh-data": "npm run ingest && npm run scrape-inspections && npm run enrich-service-types && npm run test",
     "test": "tsx scripts/validate-inspections.ts"
   },
   "dependencies": {
