@@ -24,9 +24,19 @@ function main() {
   let hasErrors = false;
 
   // 0. Verify facility IDs uniqueness and non-emptiness
-  console.log("\nVerifying facility IDs uniqueness...");
+  console.log("\nVerifying facility IDs uniqueness and attributes...");
   const seenFacilityIds = new Set<string>();
   let duplicateIdsCount = 0;
+  let schemaErrorCount = 0;
+  const MIN_FACILITIES_THRESHOLD = 400;
+
+  if (facilities.length < MIN_FACILITIES_THRESHOLD) {
+    console.error(`[ERROR] Total facilities count (${facilities.length}) is below threshold of ${MIN_FACILITIES_THRESHOLD}. Data might be truncated.`);
+    hasErrors = true;
+  } else {
+    console.log(`[OK] Total facilities count (${facilities.length}) meets minimum threshold of ${MIN_FACILITIES_THRESHOLD}.`);
+  }
+
   for (const f of facilities) {
     if (!f.id || typeof f.id !== "string" || !f.id.trim()) {
       console.error(`[ERROR] Found facility with missing or empty ID: ${f.name}`);
@@ -37,7 +47,21 @@ function main() {
       duplicateIdsCount++;
     }
     seenFacilityIds.add(f.id);
+
+    if (!f.name || typeof f.name !== "string" || !f.name.trim()) {
+      console.error(`[ERROR] Facility ${f.id} is missing a name.`);
+      schemaErrorCount++;
+    }
+    if (!f.municipality || typeof f.municipality !== "string" || !f.municipality.trim()) {
+      console.error(`[ERROR] Facility ${f.id} (${f.name}) is missing a municipality.`);
+      schemaErrorCount++;
+    }
+    if (typeof f.lat !== "number" || typeof f.lng !== "number" || (f.lat === 0 && f.lng === 0)) {
+      console.error(`[ERROR] Facility ${f.id} (${f.name}) has invalid coordinates (lat: ${f.lat}, lng: ${f.lng}).`);
+      schemaErrorCount++;
+    }
   }
+
   if (duplicateIdsCount > 0) {
     console.error(`[ERROR] Found ${duplicateIdsCount} duplicate facility IDs.`);
     hasErrors = true;
@@ -45,10 +69,24 @@ function main() {
     console.log("[OK] All facility IDs are unique and valid.");
   }
 
+  if (schemaErrorCount > 0) {
+    console.error(`[ERROR] Found ${schemaErrorCount} facility schema attribute errors.`);
+    hasErrors = true;
+  } else {
+    console.log("[OK] All facility attributes (name, municipality, coordinates) are valid.");
+  }
+
   // 1. Verify general completeness of matched facilities (100% must be fully fetched)
   const uncompleted: string[] = [];
   let fetchedCount = 0;
+  let orphanedCount = 0;
+
   for (const record of inspections) {
+    if (!facilitiesMap.has(record.facilityId)) {
+      console.error(`[ERROR] Orphaned inspection record found for non-existent facility ID: ${record.facilityId}`);
+      orphanedCount++;
+    }
+
     if (!record.allFetched) {
       const fac = facilitiesMap.get(record.facilityId);
       const name = fac ? fac.name : "Unknown Facility Name";
@@ -56,6 +94,13 @@ function main() {
     } else {
       fetchedCount++;
     }
+  }
+
+  if (orphanedCount > 0) {
+    console.error(`[ERROR] Found ${orphanedCount} orphaned inspection records.`);
+    hasErrors = true;
+  } else {
+    console.log("[OK] No orphaned inspection records found.");
   }
 
   console.log(`\nInspections Ingestion Status: ${fetchedCount} / ${inspections.length} matched facilities are fully fetched.`);
@@ -158,6 +203,12 @@ function main() {
 
   console.log("\nVerifying critical facilities regression check...");
   for (const crit of criticalList) {
+    const fac = facilitiesMap.get(crit.id);
+    if (!fac) {
+      console.error(`[ERROR] Critical facility ${crit.name} (ID: ${crit.id}) missing from facilities.json!`);
+      hasErrors = true;
+    }
+
     const record = inspectionsMap.get(crit.id);
     if (!record) {
       console.error(`[ERROR] Critical facility ${crit.name} (ID: ${crit.id}) has no record in inspections.json!`);
