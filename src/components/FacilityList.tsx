@@ -4,6 +4,7 @@ import { filterFacilities, defaultFilters } from "../lib/filters";
 import type { FilterState } from "../lib/filters";
 import type { Facility, InspectionRecord } from "../types";
 import { hasVacancyReported } from "../lib/vacancy";
+import { formatDataLastUpdated } from "../lib/meta";
 import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
 import Filters from "./Filters";
@@ -30,9 +31,12 @@ export default function FacilityList() {
     <div className="flex flex-1 flex-col overflow-hidden theme-bg theme-transition">
       <Filters onChange={setFilters} />
       <div className="flex-1 overflow-y-auto px-2 py-1">
-        <p className="px-3 py-2 text-xs font-semibold uppercase tracking-wider text-stone-400 dark:text-stone-500">
-          Showing {filtered.length} facilities
-        </p>
+        <div className="flex items-center justify-between px-3 py-2 text-xs font-semibold uppercase tracking-wider text-stone-400 dark:text-stone-500">
+          <span>Showing {filtered.length} facilities</span>
+          <span className="text-[11px] font-normal tracking-normal text-stone-400 dark:text-stone-500">
+            Data updated {formatDataLastUpdated()}
+          </span>
+        </div>
         <ul className="space-y-1.5 pb-4">
           {filtered.map((f) => {
             const inspection = inspectionMap.get(f.id);

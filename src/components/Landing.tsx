@@ -1,4 +1,5 @@
 import meta from "../../data/meta.json";
+import { formatDataLastUpdated } from "../lib/meta";
 import ThemeToggle from "./ThemeToggle";
 import AuthButton from "./AuthButton";
 import { useStore } from "../store";
@@ -26,7 +27,7 @@ export default function Landing() {
 
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-stone-200/80 bg-white/80 px-4 py-1.5 text-xs font-semibold tracking-wide text-stone-700 shadow-xs backdrop-blur-md dark:border-stone-800 dark:bg-stone-900/80 dark:text-stone-300">
           <span className="inline-block h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-          <span>Free &middot; Open source &middot; Community-built for families</span>
+          <span>Free &middot; Open source &middot; Data updated {formatDataLastUpdated()}</span>
         </div>
 
         <h1 className="font-heading flex flex-col items-center justify-center gap-3 text-4xl font-extrabold tracking-tight sm:flex-row sm:gap-3.5 sm:text-6xl text-stone-900 dark:text-stone-50">
@@ -175,7 +176,7 @@ export default function Landing() {
               },
               {
                 q: "Where does the data come from?",
-                a: `Facility records are sourced directly from the BC Community Care Facility Registry (refreshed ${meta.lastUpdated ? new Date(meta.lastUpdated).toLocaleDateString("en-CA", { year: "numeric", month: "long" }) : "recently"}). Inspection logs are linked directly from Island Health public records.`,
+                a: `Facility records are sourced directly from the BC Community Care Facility Registry (refreshed ${formatDataLastUpdated()}). Inspection logs are linked directly from Island Health public records.`,
               },
               {
                 q: "Are my personal notes and waitlist tracker private?",
@@ -238,7 +239,7 @@ export default function Landing() {
             >
               BC Community Care Facility Registry
             </a>
-            . Always confirm details directly with facilities.
+            {" "}(last updated {formatDataLastUpdated()}). Always confirm details directly with facilities.
           </p>
           <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 font-medium">
             <a

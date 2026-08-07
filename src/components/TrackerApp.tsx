@@ -1,4 +1,5 @@
 import { useStore } from "../store";
+import { formatDataLastUpdated } from "../lib/meta";
 
 import FacilityList from "./FacilityList";
 import FacilityDetail from "./FacilityDetail";
@@ -104,7 +105,7 @@ export default function TrackerApp() {
 
       <footer className="border-t border-stone-200/80 bg-white/80 px-4 py-2 backdrop-blur-md dark:border-stone-800 dark:bg-stone-900/80">
         <p className="text-center text-[10px] text-stone-400 dark:text-stone-500">
-          Independent community project — not affiliated with the BC government, Island Health, or any childcare facility.
+          Data last updated {formatDataLastUpdated()} &middot; Sourced from BC Community Care Facility Registry &amp; Island Health &middot; Independent community project.
         </p>
         <div className="mt-1 flex items-center justify-between text-[11px] font-medium text-stone-500 dark:text-stone-400">
           <ExportImport />
