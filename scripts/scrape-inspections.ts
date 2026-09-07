@@ -93,27 +93,47 @@ interface InspectionRecord {
 }
 
 async function fetchJson(body: object): Promise<unknown> {
-  try {
-    const res = await fetch(`${BASE_URL}/`, {
-      method: "POST",
-      headers: {
-        ...BROWSER_HEADERS,
-        "Content-Type": "application/json",
-        Accept: "application/json",
-        Origin: BASE_URL,
-        Referer: `${BASE_URL}/island-health/program-ccfl`,
-      },
-      body: JSON.stringify(body),
-    });
-    if (!res.ok) {
-      console.warn(`  API returned ${res.status}`);
-      return null;
+  const maxRetries = 3;
+  let attempt = 0;
+  while (attempt < maxRetries) {
+    try {
+      const res = await fetch(`${BASE_URL}/`, {
+        method: "POST",
+        headers: {
+          ...BROWSER_HEADERS,
+          "Content-Type": "application/json",
+          Accept: "application/json",
+          Origin: BASE_URL,
+          Referer: `${BASE_URL}/island-health/program-ccfl`,
+        },
+        body: JSON.stringify(body),
+        signal: AbortSignal.timeout(15000),
+      });
+      if (res.status >= 500 || res.status === 429) {
+        attempt++;
+        if (attempt >= maxRetries) {
+          console.warn(`  API returned ${res.status} after ${maxRetries} attempts`);
+          return null;
+        }
+        console.warn(`  API returned ${res.status}. Retrying in ${attempt * 2}s (attempt ${attempt}/${maxRetries})...`);
+        await sleep(attempt * 2000);
+        continue;
+      }
+      if (!res.ok) {
+        console.warn(`  API returned ${res.status}`);
+        return null;
+      }
+      return await res.json();
+    } catch (err) {
+      attempt++;
+      if (attempt >= maxRetries) {
+        console.warn(`  fetchJson error:`, err);
+        return null;
+      }
+      await sleep(attempt * 2000);
     }
-    return res.json();
-  } catch (err) {
-    console.warn(`  fetchJson error:`, err);
-    return null;
   }
+  return null;
 }
 
 async function fetchHtml(url: string): Promise<string | null> {
@@ -641,7 +661,7 @@ async function main() {
       inspectionUrl,
       serviceType: serviceType || undefined,
       inspections: facilityInspections,
-      allFetched: !isTarget ? (existing?.allFetched ?? false) : (cacheIsUpToDate ? existing?.allFetched : successfullyFetched),
+      allFetched: successfullyFetched || (existing?.allFetched ?? false),
     });
 
     // Write progress periodically (every 5 new successful fetches)

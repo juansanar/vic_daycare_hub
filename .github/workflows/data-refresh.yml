@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
 
       - name: Install dependencies
@@ -33,7 +33,7 @@ jobs:
           git config --local user.name "GitHub Action"
           if [ -n "$(git status --porcelain data/)" ]; then
             git add data/
-            git commit -m "chore(data): automated biweekly data refresh [skip ci]"
+            git commit -m "chore(data): automated biweekly data refresh"
             git push
           else
             echo "No data changes detected."

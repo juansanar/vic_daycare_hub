@@ -15,9 +15,11 @@ export function formatDataLastUpdated(options?: Intl.DateTimeFormatOptions): str
   if (!datasetMeta.lastUpdated) return "recently";
   const date = new Date(datasetMeta.lastUpdated);
   if (Number.isNaN(date.getTime())) return "recently";
-  return date.toLocaleDateString("en-US", options ?? {
+  return date.toLocaleDateString("en-US", {
+    timeZone: "America/Vancouver",
     year: "numeric",
     month: "long",
     day: "numeric",
+    ...options,
   });
 }
