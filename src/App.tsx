@@ -4,6 +4,8 @@ import TrackerApp from "./components/TrackerApp";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsOfService from "./components/TermsOfService";
 import FeedbackModal from "./components/FeedbackModal";
+import VacancyModal from "./components/VacancyModal";
+import { subscribeToVacancyOverrides } from "./lib/vacancyReport";
 import { useStore } from "./store";
 
 type View = "landing" | "app" | "privacy" | "terms";
@@ -28,6 +30,16 @@ export default function App() {
   const [view, setView] = useState<View>(getViewFromHash);
   const activeTab = useStore((s) => s.activeTab);
   const setActiveTab = useStore((s) => s.setActiveTab);
+  const mergeVacancyOverrides = useStore((s) => s.mergeVacancyOverrides);
+
+  useEffect(() => {
+    const unsub = subscribeToVacancyOverrides((overrides) => {
+      mergeVacancyOverrides(overrides);
+    });
+    return () => {
+      if (unsub) unsub();
+    };
+  }, [mergeVacancyOverrides]);
 
   useEffect(() => {
     const onHashChange = () => {
@@ -65,6 +77,7 @@ export default function App() {
         <Landing />
       )}
       <FeedbackModal />
+      <VacancyModal />
     </>
   );
 }

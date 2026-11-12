@@ -1,5 +1,33 @@
 export type CRDRegion = "core" | "westshore" | "peninsula" | "other";
 
+export type VacancyReporterRole = "provider" | "parent" | "facebook";
+
+export type AgeVacancyStatus = "available" | "waitlist" | "unreported";
+
+export interface VacancyAgeStatuses {
+  under36: AgeVacancyStatus;
+  preschool30to5: AgeVacancyStatus;
+  licPre: AgeVacancyStatus;
+  schoolAge: AgeVacancyStatus;
+}
+
+export interface VacancyOverride {
+  id?: string;
+  facilityId: string;
+  facilityName: string;
+  vacancyInd: "Y" | "N";
+  vacancyUnder36: boolean;
+  vacancy30mos5yrs: boolean;
+  vacancyLicpre: boolean;
+  vacancyOosGr1Age12: boolean;
+  ageStatuses?: VacancyAgeStatuses;
+  reporterRole: VacancyReporterRole;
+  verifiedProvider: boolean;
+  note?: string;
+  updatedAt: string;
+  expiresAt: string;
+}
+
 export interface Facility {
   id: string;
   name: string;
@@ -24,6 +52,7 @@ export interface Facility {
   vacancy30mos5yrs: boolean;
   vacancyLicpre: boolean;
   vacancyOosGr1Age12: boolean;
+  communityVacancy?: VacancyOverride;
 }
 
 export type TrackerStatus =

@@ -3,7 +3,11 @@ import { useStore } from "../store";
 import { filterFacilities, defaultFilters } from "../lib/filters";
 import type { FilterState } from "../lib/filters";
 import type { Facility, InspectionRecord } from "../types";
-import { hasVacancyReported } from "../lib/vacancy";
+import {
+  hasVacancyReported,
+  applyVacancyOverridesToList,
+  getVacancySourceMeta,
+} from "../lib/vacancy";
 import { formatDataLastUpdated } from "../lib/meta";
 import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
@@ -22,10 +26,15 @@ for (const rec of inspections) {
 export default function FacilityList() {
   const [filters, setFilters] = useState<FilterState>(defaultFilters);
   const trackerEntries = useStore((s) => s.trackerEntries);
+  const vacancyOverrides = useStore((s) => s.vacancyOverrides);
   const setSelectedFacility = useStore((s) => s.setSelectedFacility);
   const selectedFacilityId = useStore((s) => s.selectedFacilityId);
 
-  const filtered = filterFacilities(facilities, filters, trackerEntries);
+  const effectiveFacilities = applyVacancyOverridesToList(
+    facilities,
+    vacancyOverrides,
+  );
+  const filtered = filterFacilities(effectiveFacilities, filters, trackerEntries);
 
   return (
     <div className="flex flex-1 flex-col overflow-hidden theme-bg theme-transition">
@@ -79,9 +88,15 @@ export default function FacilityList() {
                     {hasVacancyReported(f) && (
                       <span
                         className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-bold text-emerald-700 dark:bg-emerald-950/50 dark:text-emerald-300"
-                        title="Self-reported by provider to the Province of British Columbia (BC Child Care Map)"
+                        title={
+                          f.communityVacancy?.vacancyInd === "Y"
+                            ? `${getVacancySourceMeta(f.communityVacancy).fullLabel}${f.communityVacancy.note ? ` — "${f.communityVacancy.note}"` : ""}`
+                            : "Self-reported by provider to the Province of British Columbia (BC Child Care Map)"
+                        }
                       >
-                        Vacancy
+                        {f.communityVacancy?.vacancyInd === "Y"
+                          ? `${getVacancySourceMeta(f.communityVacancy).emoji} Vacancy`
+                          : "🏛️ Vacancy"}
                       </span>
                     )}
                     {hasWarning && (

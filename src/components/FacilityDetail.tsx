@@ -1,10 +1,23 @@
+import { useState } from "react";
 import { useStore } from "../store";
-import type { Facility, TrackerStatus, InspectionRecord } from "../types";
+import type {
+  Facility,
+  TrackerStatus,
+  InspectionRecord,
+  VacancyAgeStatuses,
+  VacancyOverride,
+} from "../types";
 import { resolveAgeGroupLabels, parseIslandHealthServiceType } from "../lib/ages";
 import { MunicipalityGlyph } from "./Icons";
 import {
   BC_CHILD_CARE_MAP_URL,
   CONTACT_CENTRE_COPY,
+  VACANCY_SOURCE_LEGEND,
+  formatVacancyLastUpdated,
+  getVacancySourceMeta,
+  isVacancyOverrideActive,
+  resolveAgeStatuses,
+  summarizeReportedAgeGroups,
 } from "../lib/vacancy";
 import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
@@ -33,13 +46,52 @@ export default function FacilityDetail({
 }) {
   const facility = facilities.find((f) => f.id === facilityId);
   const trackerEntries = useStore((s) => s.trackerEntries);
+  const vacancyOverrides = useStore((s) => s.vacancyOverrides);
+  const vacancyReportsByFacility = useStore((s) => s.vacancyReportsByFacility);
+  const clearVacancyReports = useStore((s) => s.clearVacancyReports);
   const setTrackerField = useStore((s) => s.setTrackerField);
   const setSelectedFacility = useStore((s) => s.setSelectedFacility);
   const activeTab = useStore((s) => s.activeTab);
   const setActiveTab = useStore((s) => s.setActiveTab);
-  const setFeedbackOpen = useStore((s) => (s as any).setFeedbackOpen);
+  const setFeedbackOpen = useStore((s) => s.setFeedbackOpen);
+  const setVacancyModalOpen = useStore((s) => s.setVacancyModalOpen);
+  const [showVacancyHelp, setShowVacancyHelp] = useState(false);
 
   if (!facility) return null;
+
+  const rawReports = vacancyReportsByFacility[facilityId] ?? [];
+  const latestOverride = vacancyOverrides[facilityId];
+  const activeReports: VacancyOverride[] = [
+    ...rawReports.filter((r) => isVacancyOverrideActive(r)),
+  ];
+  if (
+    latestOverride &&
+    isVacancyOverrideActive(latestOverride) &&
+    !activeReports.some(
+      (r) =>
+        (r.id && r.id === latestOverride.id) ||
+        r.updatedAt === latestOverride.updatedAt,
+    )
+  ) {
+    activeReports.unshift(latestOverride);
+  }
+
+  // Find the most recent community/provider report for each age group key
+  const getLatestCommunityForAge = (
+    key: keyof VacancyAgeStatuses,
+  ): {
+    status: "available" | "waitlist";
+    report: VacancyOverride;
+  } | null => {
+    for (const rep of activeReports) {
+      const statuses = resolveAgeStatuses(rep);
+      const st = statuses[key];
+      if (st === "available" || st === "waitlist") {
+        return { status: st, report: rep };
+      }
+    }
+    return null;
+  };
 
   const entry = trackerEntries[facilityId];
   const inspection = inspectionMap.get(facilityId);
@@ -60,26 +112,53 @@ export default function FacilityDetail({
     }
   }
 
-  const gridItems = [
+  const gridItems: {
+    key: keyof VacancyAgeStatuses;
+    label: string;
+    served: boolean;
+    officialVacant: boolean;
+    community: {
+      status: "available" | "waitlist";
+      report: VacancyOverride;
+    } | null;
+  }[] = [
     {
+      key: "under36",
       label: "Under 36 months",
-      served: servedIds.has("under36") || servedIds.has("familyChildCare") || servedIds.has("multiAge"),
-      vacant: facility.vacancyUnder36,
+      served:
+        servedIds.has("under36") ||
+        servedIds.has("familyChildCare") ||
+        servedIds.has("multiAge"),
+      officialVacant: facility.vacancyUnder36,
+      community: getLatestCommunityForAge("under36"),
     },
     {
+      key: "preschool30to5",
       label: "30 months – 5 years",
-      served: servedIds.has("preschool30to5") || servedIds.has("familyChildCare") || servedIds.has("multiAge"),
-      vacant: facility.vacancy30mos5yrs,
+      served:
+        servedIds.has("preschool30to5") ||
+        servedIds.has("familyChildCare") ||
+        servedIds.has("multiAge"),
+      officialVacant: facility.vacancy30mos5yrs,
+      community: getLatestCommunityForAge("preschool30to5"),
     },
     {
+      key: "licPre",
       label: "Licensed preschool",
       served: servedIds.has("licensedPreschool"),
-      vacant: facility.vacancyLicpre,
+      officialVacant: facility.vacancyLicpre,
+      community: getLatestCommunityForAge("licPre"),
     },
     {
+      key: "schoolAge",
       label: "School age (Gr 1–12)",
-      served: servedIds.has("schoolAge") || servedIds.has("kindergarten") || servedIds.has("familyChildCare") || servedIds.has("multiAge"),
-      vacant: facility.vacancyOosGr1Age12,
+      served:
+        servedIds.has("schoolAge") ||
+        servedIds.has("kindergarten") ||
+        servedIds.has("familyChildCare") ||
+        servedIds.has("multiAge"),
+      officialVacant: facility.vacancyOosGr1Age12,
+      community: getLatestCommunityForAge("schoolAge"),
     },
   ];
 
@@ -185,52 +264,237 @@ export default function FacilityDetail({
 
       {/* Availability Section */}
       <div className="rounded-2xl border border-stone-200 bg-white p-4 space-y-3 dark:border-stone-800 dark:bg-stone-900/80">
-        <div className="flex items-center justify-between">
-          <span className="text-[11px] font-semibold uppercase tracking-wider text-stone-500 dark:text-stone-350">
-            Availability
+        <div className="flex items-center justify-between gap-2">
+          <div className="flex items-center gap-1.5">
+            <span className="text-[11px] font-semibold uppercase tracking-wider text-stone-500 dark:text-stone-350">
+              Availability
+            </span>
+            <button
+              type="button"
+              onClick={() => setShowVacancyHelp((v) => !v)}
+              title="How availability sources work"
+              aria-expanded={showVacancyHelp}
+              className={`inline-flex h-4 w-4 items-center justify-center rounded-full text-[10px] font-bold transition cursor-pointer ${
+                showVacancyHelp
+                  ? "bg-emerald-600 text-white"
+                  : "bg-stone-100 text-stone-500 hover:bg-stone-200 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700"
+              }`}
+            >
+              ?
+            </button>
+          </div>
+          <button
+            type="button"
+            onClick={() => setVacancyModalOpen(true, facility.id)}
+            className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-[10px] font-semibold text-emerald-700 ring-1 ring-emerald-600/20 transition hover:bg-emerald-100 dark:bg-emerald-950/60 dark:text-emerald-300 dark:ring-emerald-500/30 dark:hover:bg-emerald-900/60 cursor-pointer"
+          >
+            + Report / Update
+          </button>
+        </div>
+
+        {/* ? Popover Legend */}
+        {showVacancyHelp && (
+          <div className="rounded-xl border border-stone-200 bg-stone-50 p-3 space-y-2 text-[11px] dark:border-stone-800 dark:bg-stone-950/80">
+            <div className="flex items-center justify-between">
+              <span className="font-bold text-stone-800 dark:text-stone-100">
+                Availability Sources Explained
+              </span>
+              <button
+                type="button"
+                onClick={() => setShowVacancyHelp(false)}
+                className="text-[10px] text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 cursor-pointer"
+              >
+                Close ✕
+              </button>
+            </div>
+            <p className="text-[10px] leading-relaxed text-stone-500 dark:text-stone-400">
+              We always keep the official BC Child Care Map record intact and display recent community or provider reports alongside it so you can compare both:
+            </p>
+            <div className="space-y-1.5 pt-0.5">
+              {VACANCY_SOURCE_LEGEND.map((item) => (
+                <div key={item.shortLabel} className="flex items-start gap-2">
+                  <span className="text-xs leading-none mt-0.5 shrink-0">
+                    {item.emoji}
+                  </span>
+                  <div>
+                    <span className="font-semibold text-stone-800 dark:text-stone-200">
+                      {item.fullLabel}:{" "}
+                    </span>
+                    <span className="text-stone-500 dark:text-stone-400">
+                      {item.description}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Age Group Rows: Option A (Official 🏛️ + Inline Community Emoji Pill) */}
+        <div className="divide-y divide-stone-100 dark:divide-stone-800">
+          {gridItems.map((item) => {
+            const commMeta = item.community
+              ? getVacancySourceMeta(item.community.report)
+              : null;
+            const commDate = item.community
+              ? formatVacancyLastUpdated(item.community.report.updatedAt)
+              : null;
+
+            return (
+              <div
+                key={item.key}
+                className="flex flex-wrap items-center justify-between gap-1.5 py-2 text-xs"
+              >
+                <span className="font-medium text-stone-700 dark:text-stone-200">
+                  {item.label}
+                </span>
+                <div className="flex flex-wrap items-center justify-end gap-1">
+                  {/* Official BC Child Care Map Baseline Pill (Always Preserved) */}
+                  {item.served ? (
+                    item.officialVacant ? (
+                      <span
+                        title={`Official BC Child Care Map${facility.vacancyLastUpdated ? ` (Updated ${facility.vacancyLastUpdated})` : ""}`}
+                        className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-semibold text-emerald-700 ring-1 ring-emerald-600/15 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-500/30"
+                      >
+                        <span>🏛️</span>
+                        <span>Spaces available</span>
+                      </span>
+                    ) : (
+                      <span
+                        title={`Official BC Child Care Map${facility.vacancyLastUpdated ? ` (Updated ${facility.vacancyLastUpdated})` : ""}`}
+                        className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-medium text-amber-800 ring-1 ring-amber-600/10 dark:bg-amber-950/50 dark:text-amber-300 dark:ring-amber-500/30"
+                      >
+                        <span>🏛️</span>
+                        <span>Waitlist</span>
+                      </span>
+                    )
+                  ) : (
+                    <span
+                      title="Not listed in official BC Child Care Map"
+                      className="inline-flex items-center gap-1 rounded-full bg-stone-50 px-2 py-0.5 text-[10px] font-normal text-stone-400 ring-1 ring-stone-500/5 dark:bg-stone-800/60 dark:text-stone-400 dark:ring-stone-500/20"
+                    >
+                      <span>🏛️</span>
+                      <span>Not offered</span>
+                    </span>
+                  )}
+
+                  {/* Inline Community / Provider Report Pill (When Reported for this Age Group) */}
+                  {item.community && commMeta && (
+                    <span
+                      title={`${commMeta.fullLabel}${commDate ? ` (${commDate})` : ""}${item.community.report.note ? `: "${item.community.report.note}"` : ""}`}
+                      className={
+                        item.community.status === "available"
+                          ? "inline-flex items-center gap-1 rounded-full bg-emerald-100/90 px-2 py-0.5 text-[10px] font-bold text-emerald-900 ring-1 ring-emerald-600/30 dark:bg-emerald-900/60 dark:text-emerald-200 dark:ring-emerald-400/40"
+                          : "inline-flex items-center gap-1 rounded-full bg-stone-100 px-2 py-0.5 text-[10px] font-semibold text-stone-700 ring-1 ring-stone-300 dark:bg-stone-800 dark:text-stone-300 dark:ring-stone-700"
+                      }
+                    >
+                      <span>{commMeta.emoji}</span>
+                      <span>
+                        {item.community.status === "available"
+                          ? "Spaces open"
+                          : "Full"}
+                      </span>
+                    </span>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Official BC Child Care Map Attribution (Always Kept with Caveats) */}
+        <div className="flex flex-wrap items-center justify-between gap-1 text-[10px] leading-relaxed text-stone-400 dark:text-stone-400">
+          <span>
+            🏛️ Official registry:{" "}
+            <a
+              href={BC_CHILD_CARE_MAP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300"
+            >
+              BC Child Care Map ↗
+            </a>
           </span>
           {facility.vacancyLastUpdated && (
-            <span className="text-[10px] text-stone-400 dark:text-stone-400 font-medium">
-              Updated: {facility.vacancyLastUpdated}
+            <span className="font-medium">
+              Registry updated: {facility.vacancyLastUpdated}
             </span>
           )}
         </div>
-        
-        <div className="divide-y divide-stone-100 dark:divide-stone-800">
-          {gridItems.map((item) => (
-            <div key={item.label} className="flex items-center justify-between py-2 text-xs">
-              <span className="font-medium text-stone-700 dark:text-stone-200">{item.label}</span>
-              {item.served ? (
-                item.vacant ? (
-                  <span className="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-0.5 text-[10px] font-semibold text-emerald-700 ring-1 ring-emerald-600/10 dark:bg-emerald-950/50 dark:text-emerald-300 dark:ring-emerald-500/30 animate-pulse">
-                    Spaces available
-                  </span>
-                ) : (
-                  <span className="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-0.5 text-[10px] font-medium text-amber-800 ring-1 ring-amber-600/10 dark:bg-amber-950/50 dark:text-amber-300 dark:ring-amber-500/30">
-                    No spaces (Waitlist)
-                  </span>
-                )
-              ) : (
-                <span className="inline-flex items-center rounded-full bg-stone-50 px-2.5 py-0.5 text-[10px] font-normal text-stone-400 ring-1 ring-stone-500/5 dark:bg-stone-800/60 dark:text-stone-400 dark:ring-stone-500/20">
-                  Not offered
-                </span>
-              )}
+
+        {/* Option B: Separate Community & Provider Reports Feed Below Official Table */}
+        {activeReports.length > 0 && (
+          <div className="border-t border-stone-100 pt-3 space-y-2 dark:border-stone-800">
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400">
+                Community &amp; Provider Reports ({activeReports.length})
+              </span>
+              <button
+                type="button"
+                onClick={() => clearVacancyReports(facility.id)}
+                className="text-[10px] text-stone-400 hover:text-red-500 dark:text-stone-500 dark:hover:text-red-400 cursor-pointer"
+                title="Clear local test reports for this facility"
+              >
+                Reset local
+              </button>
             </div>
-          ))}
-        </div>
-        
-        <p className="text-[10px] leading-relaxed text-stone-400 dark:text-stone-400">
-          Source: Provider self-reported to the Province of BC (
-          <a
-            href={BC_CHILD_CARE_MAP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-emerald-600 hover:underline hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300"
-          >
-            BC Child Care Map ↗
-          </a>
-          )
-        </p>
+            <div className="space-y-2">
+              {activeReports.map((rep, idx) => {
+                const meta = getVacancySourceMeta(rep);
+                const dateStr =
+                  formatVacancyLastUpdated(rep.updatedAt) ?? rep.updatedAt;
+                const reportedGroups = summarizeReportedAgeGroups(rep);
+
+                return (
+                  <div
+                    key={rep.id ?? `${rep.updatedAt}-${idx}`}
+                    className={`rounded-xl border p-2.5 space-y-1.5 text-xs ${
+                      rep.verifiedProvider
+                        ? "border-emerald-200 bg-emerald-50/50 dark:border-emerald-900/50 dark:bg-emerald-950/25"
+                        : "border-stone-200 bg-stone-50/70 dark:border-stone-800 dark:bg-stone-950/50"
+                    }`}
+                  >
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="inline-flex items-center gap-1.5 text-[11px] font-bold text-stone-800 dark:text-stone-100">
+                        <span>{meta.emoji}</span>
+                        <span>{meta.fullLabel}</span>
+                      </span>
+                      <span className="text-[10px] text-stone-400 dark:text-stone-500 font-medium">
+                        {dateStr}
+                      </span>
+                    </div>
+
+                    {reportedGroups.length > 0 && (
+                      <div className="flex flex-wrap gap-1">
+                        {reportedGroups.map((g) => (
+                          <span
+                            key={g.key}
+                            className={
+                              g.status === "available"
+                                ? "inline-flex items-center rounded-md bg-emerald-100/80 px-1.5 py-0.5 text-[10px] font-semibold text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300"
+                                : "inline-flex items-center rounded-md bg-amber-100/70 px-1.5 py-0.5 text-[10px] font-medium text-amber-900 dark:bg-amber-950/50 dark:text-amber-300"
+                            }
+                          >
+                            {g.shortLabel}:{" "}
+                            {g.status === "available"
+                              ? "Spaces open"
+                              : "Waitlist"}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+
+                    {rep.note && (
+                      <p className="text-[11px] leading-relaxed text-stone-600 dark:text-stone-300 italic">
+                        &ldquo;{rep.note}&rdquo;
+                      </p>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Fees & Funding Card */}

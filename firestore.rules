@@ -1,12 +1,135 @@
 rules_version = '2';
+
+// ===============================================================
+// Assumed Data Model
+// ===============================================================
+//
+// Collection: /users/{uid}/trackerEntries/{facilityId}
+// Fields:
+//   - facilityId: string
+//   - status: string ('none' | 'contacted' | 'called' | 'waitlisted' | 'enrolled' | 'ruled_out')
+//   - waitlistDate: string
+//   - costNotes: string
+//   - foodNotes: string
+//   - ccfriNotes: string
+//   - notes: string
+//   - updatedAt: timestamp
+//
+// Collection: /feedback/{feedbackId}
+// Fields:
+//   - name: string (optional)
+//   - email: string (optional)
+//   - type: string ('correction' | 'bug' | 'suggestion' | 'other')
+//   - facilityId: string (optional)
+//   - facilityName: string (optional)
+//   - message: string
+//   - createdAt: timestamp
+//   - userAgent: string
+//   - url: string
+//
+// Collection: /vacancySubmissions/{submissionId}
+// Fields:
+//   - facilityId: string (required, non-empty, <= 200 chars)
+//   - facilityName: string (required, <= 500 chars)
+//   - vacancyInd: string ('Y' | 'N')
+//   - vacancyUnder36: bool
+//   - vacancy30mos5yrs: bool
+//   - vacancyLicpre: bool
+//   - vacancyOosGr1Age12: bool
+//   - reporterRole: string ('provider' | 'parent' | 'facebook')
+//   - verifiedProvider: bool
+//   - status: string ('approved' | 'pending')
+//   - note: string (optional, <= 2000 chars)
+//   - updatedAt: string
+//   - expiresAt: string
+//
+// Collection: /vacancyOverrides/{facilityId}
+// Fields:
+//   - facilityId: string (required, must match document ID)
+//   - facilityName: string (optional, <= 500 chars)
+//   - vacancyInd: string ('Y' | 'N')
+//   - vacancyUnder36: bool
+//   - vacancy30mos5yrs: bool
+//   - vacancyLicpre: bool
+//   - vacancyOosGr1Age12: bool
+//   - reporterRole: string ('provider' | 'parent' | 'facebook')
+//   - verifiedProvider: bool
+//   - note: string (optional, <= 2000 chars)
+//   - updatedAt: string (required, <= 100 chars)
+//   - expiresAt: string (required, <= 100 chars)
+//
+// ===============================================================
+
 service cloud.firestore {
   match /databases/{database}/documents {
+
+    // ===============================================================
+    // Helper & Domain Validator Functions
+    // ===============================================================
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isAuthenticated() && request.auth.uid == uid;
+    }
+
+    function isValidVacancySubmission() {
+      let data = request.resource.data;
+      return data.facilityId is string &&
+        data.facilityId.size() > 0 &&
+        data.facilityId.size() <= 200 &&
+        data.facilityName is string &&
+        data.facilityName.size() <= 500 &&
+        data.reporterRole in ['provider', 'parent', 'facebook'] &&
+        data.status in ['approved', 'pending'] &&
+        (!('note' in data) || (data.note is string && data.note.size() <= 2000));
+    }
+
+    function isValidVacancyOverride(facilityId) {
+      let data = request.resource.data;
+      return data.facilityId is string &&
+        data.facilityId == facilityId &&
+        data.facilityId.size() > 0 &&
+        data.facilityId.size() <= 200 &&
+        data.vacancyInd in ['Y', 'N'] &&
+        data.vacancyUnder36 is bool &&
+        data.vacancy30mos5yrs is bool &&
+        data.vacancyLicpre is bool &&
+        data.vacancyOosGr1Age12 is bool &&
+        data.reporterRole in ['provider', 'parent', 'facebook'] &&
+        data.updatedAt is string &&
+        data.updatedAt.size() <= 100 &&
+        data.expiresAt is string &&
+        data.expiresAt.size() <= 100 &&
+        (!('facilityName' in data) || (data.facilityName is string && data.facilityName.size() <= 500)) &&
+        (!('note' in data) || (data.note is string && data.note.size() <= 2000));
+    }
+
+    // ===============================================================
+    // Collection Rules
+    // ===============================================================
+
     match /users/{uid}/trackerEntries/{facilityId} {
       allow read, write: if request.auth != null && request.auth.uid == uid;
     }
+
     match /feedback/{feedbackId} {
       allow create: if true;
       allow read, update, delete: if false;
+    }
+
+    match /vacancySubmissions/{submissionId} {
+      allow create: if isValidVacancySubmission();
+      allow read, update, delete: if false;
+    }
+
+    match /vacancyOverrides/{facilityId} {
+      allow read: if true;
+      allow create, update: if (request.auth != null || request.resource.data.verifiedProvider == true) &&
+        isValidVacancyOverride(facilityId);
+      allow delete: if false;
     }
   }
 }

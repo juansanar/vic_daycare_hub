@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import type { TrackerEntry, TrackerStatus } from "./types";
+import type { TrackerEntry, TrackerStatus, VacancyOverride } from "./types";
 import { useAuth } from "./lib/auth";
 import {
   pushEntry,
@@ -13,11 +13,15 @@ import {
 
 interface AppState {
   trackerEntries: Record<string, TrackerEntry>;
+  vacancyOverrides: Record<string, VacancyOverride>;
+  vacancyReportsByFacility: Record<string, VacancyOverride[]>;
   activeTab: "list" | "map" | "resources";
   selectedFacilityId: string | null;
   isFeedbackOpen: boolean;
   feedbackFacilityId: string | null;
   feedbackFacilityName: string | null;
+  isVacancyModalOpen: boolean;
+  vacancyFacilityId: string | null;
 
   setTrackerField: (
     facilityId: string,
@@ -30,6 +34,10 @@ interface AppState {
   importData: (json: string) => void;
   mergeRemoteEntries: (entries: Record<string, TrackerEntry>) => void;
   setFeedbackOpen: (open: boolean, facilityId?: string | null, facilityName?: string | null) => void;
+  setVacancyModalOpen: (open: boolean, facilityId?: string | null) => void;
+  setVacancyOverride: (facilityId: string, override: VacancyOverride) => void;
+  clearVacancyReports: (facilityId: string) => void;
+  mergeVacancyOverrides: (overrides: Record<string, VacancyOverride>) => void;
 }
 
 const defaultTrackerEntry = (facilityId: string): TrackerEntry => ({
@@ -46,17 +54,84 @@ export const useStore = create<AppState>()(
   persist(
     (set, get) => ({
       trackerEntries: {},
+      vacancyOverrides: {},
+      vacancyReportsByFacility: {},
       activeTab: "list",
       selectedFacilityId: null,
       isFeedbackOpen: false,
       feedbackFacilityId: null,
       feedbackFacilityName: null,
+      isVacancyModalOpen: false,
+      vacancyFacilityId: null,
 
       setFeedbackOpen: (open, facilityId = null, facilityName = null) => {
         set({
           isFeedbackOpen: open,
           feedbackFacilityId: facilityId,
           feedbackFacilityName: facilityName,
+        });
+      },
+
+      setVacancyModalOpen: (open, facilityId = null) => {
+        set({
+          isVacancyModalOpen: open,
+          vacancyFacilityId: facilityId,
+        });
+      },
+
+      setVacancyOverride: (facilityId, override) => {
+        set((state) => {
+          const existingList = state.vacancyReportsByFacility[facilityId] ?? [];
+          const nextList = [
+            override,
+            ...existingList.filter((r) => r.id !== override.id),
+          ].slice(0, 5);
+          return {
+            vacancyOverrides: {
+              ...state.vacancyOverrides,
+              [facilityId]: override,
+            },
+            vacancyReportsByFacility: {
+              ...state.vacancyReportsByFacility,
+              [facilityId]: nextList,
+            },
+          };
+        });
+      },
+
+      clearVacancyReports: (facilityId) => {
+        set((state) => {
+          const nextOverrides = { ...state.vacancyOverrides };
+          delete nextOverrides[facilityId];
+          const nextByFacility = { ...state.vacancyReportsByFacility };
+          delete nextByFacility[facilityId];
+          return {
+            vacancyOverrides: nextOverrides,
+            vacancyReportsByFacility: nextByFacility,
+          };
+        });
+      },
+
+      mergeVacancyOverrides: (overrides) => {
+        set((state) => {
+          const nextByFacility = { ...state.vacancyReportsByFacility };
+          for (const [facId, ov] of Object.entries(overrides)) {
+            const list = nextByFacility[facId] ?? [];
+            const alreadyPresent = list.some(
+              (r) =>
+                (r.id && r.id === ov.id) || r.updatedAt === ov.updatedAt,
+            );
+            if (!alreadyPresent) {
+              nextByFacility[facId] = [ov, ...list].slice(0, 5);
+            }
+          }
+          return {
+            vacancyOverrides: {
+              ...state.vacancyOverrides,
+              ...overrides,
+            },
+            vacancyReportsByFacility: nextByFacility,
+          };
         });
       },
 
@@ -118,6 +193,8 @@ export const useStore = create<AppState>()(
       name: "vic-daycare-hub-storage",
       partialize: (state) => ({
         trackerEntries: state.trackerEntries,
+        vacancyOverrides: state.vacancyOverrides,
+        vacancyReportsByFacility: state.vacancyReportsByFacility,
       }),
     },
   ),

@@ -17,6 +17,8 @@ import {
   hasVacancyReported,
   VACANCY_SOURCE_COPY,
   vacancyDetailLines,
+  applyVacancyOverridesToList,
+  formatVacancySourceLabel,
 } from "../lib/vacancy";
 import facilitiesData from "../../data/facilities.json";
 import inspectionsData from "../../data/inspections.json";
@@ -53,10 +55,10 @@ function buildPopupHtml(f: Facility): string {
     : "";
   const vacancy = hasVacancyReported(f)
     ? `<div style="margin-top:6px;padding:6px 8px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:6px;font-size:11px;color:#1e40af;line-height:1.4;">
-        <strong>Vacancy reported</strong><br/>
-        <span style="display:block;color:#374151;margin-top:2px;">${VACANCY_SOURCE_COPY}</span>
+        <strong>${f.communityVacancy ? formatVacancySourceLabel(f.communityVacancy) : "Vacancy reported"}</strong><br/>
+        <span style="display:block;color:#374151;margin-top:2px;">${f.communityVacancy?.note ? `&ldquo;${f.communityVacancy.note}&rdquo;` : VACANCY_SOURCE_COPY}</span>
         ${vacancyDetailLines(f).map((line) => `<span style="display:block;color:#374151;margin-top:2px;">${line}</span>`).join("")}
-        <span style="display:block;margin-top:4px;color:#374151;">Source: <a href="${BC_CHILD_CARE_MAP_URL}" target="_blank" rel="noopener noreferrer" style="color:#0369a1;">BC Child Care Map</a></span>
+        <span style="display:block;margin-top:4px;color:#374151;">Source: ${f.communityVacancy ? formatVacancySourceLabel(f.communityVacancy) : `<a href="${BC_CHILD_CARE_MAP_URL}" target="_blank" rel="noopener noreferrer" style="color:#0369a1;">BC Child Care Map</a>`}</span>
       </div>`
     : "";
   const contactNote = `<div style="margin-top:6px;padding:6px 8px;background:#fafaf9;border:1px solid #e7e5e4;border-radius:6px;font-size:11px;color:#57534e;line-height:1.4;">${CONTACT_CENTRE_COPY}</div>`;
@@ -375,10 +377,15 @@ export default function FacilityMap() {
   const [showCatchments, setShowCatchments] = useState(false);
   const [catchmentData, setCatchmentData] = useState<any>(null);
   const trackerEntries = useStore((s) => s.trackerEntries);
+  const vacancyOverrides = useStore((s) => s.vacancyOverrides);
   const selectedFacilityId = useStore((s) => s.selectedFacilityId);
   const setSelectedFacility = useStore((s) => s.setSelectedFacility);
 
-  const filtered = filterFacilities(allFacilities, filters, trackerEntries);
+  const effectiveFacilities = applyVacancyOverridesToList(
+    allFacilities,
+    vacancyOverrides,
+  );
+  const filtered = filterFacilities(effectiveFacilities, filters, trackerEntries);
 
   useEffect(() => {
     const handler = (e: Event) => {
