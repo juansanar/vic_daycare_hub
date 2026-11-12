@@ -453,6 +453,26 @@ function generateDeterministicId(
     console.log("No custom-facilities.json found or failed to read.");
   }
 
+  try {
+    const ihPath = resolve(DATA_DIR, "island-health-facilities.json");
+    const ihRaw = JSON.parse(readFileSync(ihPath, "utf-8"));
+    console.log(`Merging ${ihRaw.length} Island Health discovered facilities...`);
+    for (const ihf of ihRaw) {
+      const normIhfName = normalize(ihf.name);
+      const normIhfAddr = normalize(ihf.address);
+      const alreadyExists = uniqueFacilities.some(
+        (uf) =>
+          uf.id === ihf.id ||
+          (normalize(uf.name) === normIhfName && normalize(uf.address) === normIhfAddr),
+      );
+      if (!alreadyExists) {
+        uniqueFacilities.push(ihf);
+      }
+    }
+  } catch {
+    // Optional file created by scrape-inspections
+  }
+
   uniqueFacilities.sort((a, b) => a.name.localeCompare(b.name));
 
   // Print municipality breakdown
@@ -468,22 +488,35 @@ function generateDeterministicId(
   const facilitiesPath = resolve(DATA_DIR, "facilities.json");
   const metaPath = resolve(DATA_DIR, "meta.json");
 
-  writeFileSync(facilitiesPath, JSON.stringify(uniqueFacilities, null, 2));
-  writeFileSync(
-    metaPath,
-    JSON.stringify(
-      {
-        lastUpdated: new Date().toISOString(),
-        count: uniqueFacilities.length,
-      },
-      null,
-      2,
-    ),
-  );
+  let prevFacilitiesContent = "";
+  try {
+    prevFacilitiesContent = readFileSync(facilitiesPath, "utf-8");
+  } catch {
+    // No previous file
+  }
+
+  const nextFacilitiesContent = JSON.stringify(uniqueFacilities, null, 2);
+  writeFileSync(facilitiesPath, nextFacilitiesContent);
+
+  if (prevFacilitiesContent !== nextFacilitiesContent) {
+    writeFileSync(
+      metaPath,
+      JSON.stringify(
+        {
+          lastUpdated: new Date().toISOString(),
+          count: uniqueFacilities.length,
+        },
+        null,
+        2,
+      ),
+    );
+    console.log(`  Updated ${metaPath}`);
+  } else {
+    console.log(`  No changes to facilities.json; preserved existing ${metaPath}`);
+  }
 
   console.log(`\nDone! Wrote ${uniqueFacilities.length} facilities.`);
   console.log(`  ${facilitiesPath}`);
-  console.log(`  ${metaPath}`);
 
   const tenDollarCount = uniqueFacilities.filter((f) => f.isTenDollarDay).length;
   console.log(`  $10/day flagged: ${tenDollarCount}`);

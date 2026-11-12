@@ -27,14 +27,17 @@ jobs:
       - name: Run data refresh & validation
         run: npm run refresh-data
 
+      - name: Generate data change report
+        run: npm run diff-report >> $GITHUB_STEP_SUMMARY
+
       - name: Commit and push if data changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if [ -n "$(git status --porcelain data/)" ]; then
+          if [ -n "$(git status --porcelain data/facilities.json data/inspections.json data/island-health-facilities.json)" ]; then
             git add data/
             git commit -m "chore(data): automated biweekly data refresh"
             git push
           else
-            echo "No data changes detected."
+            echo "No facility or inspection data changes detected."
           fi

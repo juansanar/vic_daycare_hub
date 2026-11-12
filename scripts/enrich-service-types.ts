@@ -72,8 +72,13 @@ async function main() {
   const nameById = new Map(facilities.map((f) => [f.id, f.name]));
 
   let updated = 0;
+  let skipped = 0;
   for (let i = 0; i < inspections.length; i++) {
     const rec = inspections[i];
+    if (rec.serviceType && rec.serviceType.trim()) {
+      skipped++;
+      continue;
+    }
     const name = nameById.get(rec.facilityId);
     if (!name) continue;
     if (i % 25 === 0) console.log(`  ${i + 1}/${inspections.length}...`);
@@ -85,8 +90,10 @@ async function main() {
     }
   }
 
-  writeFileSync(inspectionsPath, JSON.stringify(inspections, null, 2));
-  console.log(`Done. Updated serviceType on ${updated} records.`);
+  if (updated > 0) {
+    writeFileSync(inspectionsPath, JSON.stringify(inspections, null, 2));
+  }
+  console.log(`Done. Updated serviceType on ${updated} records (${skipped} already had serviceType).`);
 }
 
 main();

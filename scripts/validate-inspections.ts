@@ -14,6 +14,9 @@ function main() {
   const inspections = JSON.parse(
     readFileSync(resolve(DATA_DIR, "inspections.json"), "utf-8")
   );
+  const meta = JSON.parse(
+    readFileSync(resolve(DATA_DIR, "meta.json"), "utf-8")
+  );
 
   console.log(`Loaded ${facilities.length} facilities.`);
   console.log(`Loaded ${inspections.length} inspection records.`);
@@ -28,7 +31,7 @@ function main() {
   const seenFacilityIds = new Set<string>();
   let duplicateIdsCount = 0;
   let schemaErrorCount = 0;
-  const MIN_FACILITIES_THRESHOLD = 400;
+  const MIN_FACILITIES_THRESHOLD = 450;
 
   if (facilities.length < MIN_FACILITIES_THRESHOLD) {
     console.error(`[ERROR] Total facilities count (${facilities.length}) is below threshold of ${MIN_FACILITIES_THRESHOLD}. Data might be truncated.`);
@@ -118,12 +121,75 @@ function main() {
   }
 
   // Threshold check to prevent accidental data loss
-  const MIN_FETCHED_THRESHOLD = 150;
+  const MIN_FETCHED_THRESHOLD = 450;
   if (fetchedCount < MIN_FETCHED_THRESHOLD) {
     console.error(`[ERROR] Total fetched facilities count (${fetchedCount}) is below the threshold of ${MIN_FETCHED_THRESHOLD}. Ingestion data may have been corrupted or reset.`);
     hasErrors = true;
   } else {
     console.log(`[OK] Total fetched facilities count (${fetchedCount}) satisfies the minimum threshold of ${MIN_FETCHED_THRESHOLD}.`);
+  }
+
+  const MIN_MATCH_RATE = 0.95;
+  const matchRate = inspections.length / facilities.length;
+  if (matchRate < MIN_MATCH_RATE) {
+    console.error(`[ERROR] Facility inspection match rate (${(matchRate * 100).toFixed(1)}%) is below minimum threshold of ${MIN_MATCH_RATE * 100}%.`);
+    hasErrors = true;
+  } else {
+    console.log(`[OK] Facility inspection match rate is ${(matchRate * 100).toFixed(1)}% (${inspections.length}/${facilities.length}).`);
+  }
+
+  // 1a-2. Verify permitID uniqueness across all inspection records
+  const seenPermits = new Map<string, string>();
+  let duplicatePermitCount = 0;
+  for (const record of inspections) {
+    if (record.permitID) {
+      const prevFacId = seenPermits.get(record.permitID);
+      if (prevFacId && prevFacId !== record.facilityId) {
+        console.error(`[ERROR] Duplicate permitID ${record.permitID} shared by facility ${prevFacId} and ${record.facilityId}.`);
+        duplicatePermitCount++;
+      }
+      seenPermits.set(record.permitID, record.facilityId);
+    }
+  }
+  if (duplicatePermitCount > 0) {
+    console.error(`[ERROR] Found ${duplicatePermitCount} duplicate permitID assignments.`);
+    hasErrors = true;
+  } else {
+    console.log("[OK] All permitIDs in inspections.json are uniquely assigned.");
+  }
+
+  // 1a-3. Verify data freshness (meta.json vs latest inspection date)
+  console.log("\nVerifying dataset freshness & meta.json consistency...");
+  if (meta.count !== facilities.length) {
+    console.error(`[ERROR] meta.json count (${meta.count}) does not match facilities.json length (${facilities.length}).`);
+    hasErrors = true;
+  } else {
+    console.log(`[OK] meta.json count (${meta.count}) matches facilities.json.`);
+  }
+
+  let latestInspectionDate = "";
+  for (const record of inspections) {
+    for (const insp of record.inspections || []) {
+      if (insp.date && insp.date > latestInspectionDate) {
+        latestInspectionDate = insp.date;
+      }
+    }
+  }
+
+  const metaUpdatedDate = new Date(meta.lastUpdated);
+  const latestInspTime = new Date(`${latestInspectionDate}T00:00:00Z`).getTime();
+  const MAX_STALE_DAYS = 30;
+  const ageDays = (metaUpdatedDate.getTime() - latestInspTime) / (1000 * 60 * 60 * 24);
+
+  if (!latestInspectionDate || Number.isNaN(latestInspTime) || ageDays > MAX_STALE_DAYS) {
+    console.error(
+      `[ERROR] Stale inspection data detected! Latest inspection date is "${latestInspectionDate}" (${Math.round(ageDays)} days older than meta.lastUpdated "${meta.lastUpdated}", max allowed: ${MAX_STALE_DAYS} days).`
+    );
+    hasErrors = true;
+  } else {
+    console.log(
+      `[OK] Inspection data is fresh: latest inspection is ${latestInspectionDate} (${Math.max(0, Math.round(ageDays))} days before meta.lastUpdated).`
+    );
   }
 
   // 1b. Verify structure of ingested inspection records
