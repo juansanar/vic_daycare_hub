@@ -75,6 +75,12 @@ service cloud.firestore {
       return isAuthenticated() && request.auth.uid == uid;
     }
 
+    function isAdmin() {
+      return isAuthenticated() &&
+        request.auth.token.email_verified == true &&
+        request.auth.token.email == 'jucamilo.sanchez@gmail.com';
+    }
+
     function isValidVacancySubmission() {
       let data = request.resource.data;
       return data.facilityId is string &&
@@ -117,19 +123,19 @@ service cloud.firestore {
 
     match /feedback/{feedbackId} {
       allow create: if true;
-      allow read, update, delete: if false;
+      allow read, update, delete: if isAdmin();
     }
 
     match /vacancySubmissions/{submissionId} {
       allow create: if isValidVacancySubmission();
-      allow read, update, delete: if false;
+      allow read, update, delete: if isAdmin();
     }
 
     match /vacancyOverrides/{facilityId} {
       allow read: if true;
       allow create, update: if (request.auth != null || request.resource.data.verifiedProvider == true) &&
         isValidVacancyOverride(facilityId);
-      allow delete: if false;
+      allow delete: if isAdmin();
     }
   }
 }

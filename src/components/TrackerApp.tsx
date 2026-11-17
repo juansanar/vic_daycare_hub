@@ -1,5 +1,7 @@
 import { useStore } from "../store";
 import { formatDataLastUpdated } from "../lib/meta";
+import { useAuth } from "../lib/auth";
+import { isAdminUser } from "../lib/admin";
 
 import FacilityList from "./FacilityList";
 import FacilityDetail from "./FacilityDetail";
@@ -25,6 +27,8 @@ export default function TrackerApp() {
   const selectedFacilityId = useStore((s) => s.selectedFacilityId);
   const setSelectedFacility = useStore((s) => s.setSelectedFacility);
   const setFeedbackOpen = useStore((s) => (s as any).setFeedbackOpen);
+  const user = useAuth((s) => s.user);
+  const showAdmin = isAdminUser(user);
 
   return (
     <div className="flex h-screen flex-col theme-bg theme-transition">
@@ -110,6 +114,14 @@ export default function TrackerApp() {
         <div className="mt-1 flex items-center justify-between text-[11px] font-medium text-stone-500 dark:text-stone-400">
           <ExportImport />
           <div className="flex items-center gap-3">
+            {showAdmin && (
+              <a
+                href="#/admin"
+                className="font-semibold text-emerald-600 transition hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300"
+              >
+                Admin Queue
+              </a>
+            )}
             <button
               onClick={() => setFeedbackOpen(true)}
               className="transition hover:text-stone-900 dark:hover:text-stone-100 cursor-pointer"

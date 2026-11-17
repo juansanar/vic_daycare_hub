@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 import Landing from "./components/Landing";
 import TrackerApp from "./components/TrackerApp";
 import PrivacyPolicy from "./components/PrivacyPolicy";
@@ -8,11 +8,14 @@ import VacancyModal from "./components/VacancyModal";
 import { subscribeToVacancyOverrides } from "./lib/vacancyReport";
 import { useStore } from "./store";
 
-type View = "landing" | "app" | "privacy" | "terms";
+const AdminDashboard = lazy(() => import("./components/AdminDashboard"));
+
+type View = "landing" | "app" | "privacy" | "terms" | "admin";
 
 function getViewFromHash(): View {
   const hash = window.location.hash;
   if (hash.startsWith("#/app")) return "app";
+  if (hash === "#/admin") return "admin";
   if (hash === "#/privacy") return "privacy";
   if (hash === "#/terms") return "terms";
   return "landing";
@@ -69,6 +72,16 @@ export default function App() {
     <>
       {view === "app" ? (
         <TrackerApp />
+      ) : view === "admin" ? (
+        <Suspense
+          fallback={
+            <div className="min-h-screen flex items-center justify-center theme-bg text-sm text-stone-400">
+              Loading admin queue...
+            </div>
+          }
+        >
+          <AdminDashboard />
+        </Suspense>
       ) : view === "privacy" ? (
         <PrivacyPolicy />
       ) : view === "terms" ? (
