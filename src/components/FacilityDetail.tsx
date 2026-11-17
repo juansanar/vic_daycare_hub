@@ -14,6 +14,7 @@ import {
   CONTACT_CENTRE_COPY,
   VACANCY_SOURCE_LEGEND,
   formatVacancyLastUpdated,
+  formatRelativeAge,
   getVacancySourceMeta,
   isVacancyOverrideActive,
   resolveAgeStatuses,
@@ -443,6 +444,7 @@ export default function FacilityDetail({
                 const meta = getVacancySourceMeta(rep);
                 const dateStr =
                   formatVacancyLastUpdated(rep.updatedAt) ?? rep.updatedAt;
+                const relAge = formatRelativeAge(rep.updatedAt);
                 const reportedGroups = summarizeReportedAgeGroups(rep);
 
                 return (
@@ -461,6 +463,7 @@ export default function FacilityDetail({
                       </span>
                       <span className="text-[10px] text-stone-400 dark:text-stone-500 font-medium">
                         {dateStr}
+                        {relAge ? ` · ${relAge}` : ""}
                       </span>
                     </div>
 
@@ -488,6 +491,18 @@ export default function FacilityDetail({
                       <p className="text-[11px] leading-relaxed text-stone-600 dark:text-stone-300 italic">
                         &ldquo;{rep.note}&rdquo;
                       </p>
+                    )}
+
+                    {rep.vacancyInd === "Y" && (
+                      <div className="flex justify-end pt-0.5">
+                        <button
+                          type="button"
+                          onClick={() => setVacancyModalOpen(true, facility.id)}
+                          className="text-[10px] font-medium text-stone-400 hover:text-emerald-600 dark:text-stone-500 dark:hover:text-emerald-400 cursor-pointer"
+                        >
+                          No longer available? Update status →
+                        </button>
+                      </div>
                     )}
                   </div>
                 );

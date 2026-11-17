@@ -7,6 +7,7 @@ import {
   fetchVacancySubmissions,
   approveVacancySubmission,
   rejectVacancySubmission,
+  renewVacancySubmission,
   deleteVacancySubmission,
   fetchFeedbackItems,
   toggleFeedbackResolved,
@@ -15,13 +16,49 @@ import {
   type FeedbackDoc,
 } from "../lib/admin";
 import {
+  daysUntilExpiry,
+  formatVacancyLastUpdated,
   getVacancySourceMeta,
   summarizeReportedAgeGroups,
 } from "../lib/vacancy";
+import type { Facility } from "../types";
+import facilitiesData from "../../data/facilities.json";
+
+const facilityEmailMap = new Map<string, string>(
+  (facilitiesData as Facility[])
+    .filter((f) => Boolean(f.email?.trim()))
+    .map((f) => [f.id, f.email.trim()]),
+);
 
 type AdminTab = "vacancies" | "feedback";
-type VacancyFilter = "pending" | "approved" | "rejected" | "all";
+type VacancyFilter = "pending" | "expiring" | "approved" | "rejected" | "all";
 type FeedbackFilter = "open" | "resolved" | "all";
+
+function isExpiringSoon(sub: VacancySubmissionDoc): boolean {
+  if (sub.status !== "approved") return false;
+  const days = daysUntilExpiry(sub.expiresAt);
+  return days !== null && days <= 9;
+}
+
+function buildFollowUpMailto(
+  sub: VacancySubmissionDoc,
+  targetEmail: string,
+): string {
+  const reportedDate =
+    formatVacancyLastUpdated(sub.updatedAt) ?? "recently";
+  const subject = encodeURIComponent(
+    `Checking in: Current childcare availability at ${sub.facilityName}`,
+  );
+  const greeting = sub.reporterName ? `Hi ${sub.reporterName},` : "Hi there,";
+  const body = encodeURIComponent(
+    `${greeting}\n\n` +
+      `Thank you for sharing an availability update for ${sub.facilityName} on Victoria Childcare Hub (${reportedDate}).\n\n` +
+      `Our community updates automatically expire after 30 days so families don't rely on outdated openings. Are spots still available at ${sub.facilityName}?\n\n` +
+      `You can reply directly to this email (or update it anytime at https://victoriachildcarehub.ca/#/app/list) and I'll refresh the listing right away.\n\n` +
+      `Best,\nVictoria Childcare Hub`,
+  );
+  return `mailto:${targetEmail}?subject=${subject}&body=${body}`;
+}
 
 function formatDateTime(ms: number, fallbackIso?: string): string {
   const date = ms ? new Date(ms) : fallbackIso ? new Date(fallbackIso) : null;
@@ -129,6 +166,26 @@ export default function AdminDashboard() {
     }
   };
 
+  const handleRenew = async (sub: VacancySubmissionDoc) => {
+    setBusyId(sub.docId);
+    setErrorMsg("");
+    try {
+      const { updatedAt, expiresAt } = await renewVacancySubmission(sub);
+      setSubmissions((prev) =>
+        prev.map((item) =>
+          item.docId === sub.docId
+            ? { ...item, status: "approved", updatedAt, expiresAt }
+            : item,
+        ),
+      );
+    } catch (err) {
+      console.error(err);
+      setErrorMsg("Failed to renew submission.");
+    } finally {
+      setBusyId(null);
+    }
+  };
+
   const handleToggleFeedback = async (fb: FeedbackDoc) => {
     setBusyId(fb.docId);
     setErrorMsg("");
@@ -169,11 +226,14 @@ export default function AdminDashboard() {
   };
 
   const pendingCount = submissions.filter((s) => s.status === "pending").length;
+  const expiringCount = submissions.filter(isExpiringSoon).length;
   const openFeedbackCount = feedbacks.filter((f) => !f.resolved).length;
 
-  const filteredSubmissions = submissions.filter((s) =>
-    vacancyFilter === "all" ? true : s.status === vacancyFilter,
-  );
+  const filteredSubmissions = submissions.filter((s) => {
+    if (vacancyFilter === "all") return true;
+    if (vacancyFilter === "expiring") return isExpiringSoon(s);
+    return s.status === vacancyFilter;
+  });
   const filteredFeedbacks = feedbacks.filter((f) => {
     if (feedbackFilter === "open") return !f.resolved;
     if (feedbackFilter === "resolved") return Boolean(f.resolved);
@@ -312,26 +372,36 @@ export default function AdminDashboard() {
           <div className="space-y-4">
             {/* Status Filter Pills */}
             <div className="flex flex-wrap gap-1.5">
-              {(["pending", "approved", "rejected", "all"] as const).map(
-                (f) => (
-                  <button
-                    key={f}
-                    type="button"
-                    onClick={() => setVacancyFilter(f)}
-                    className={`rounded-lg px-3 py-1 text-xs font-semibold capitalize transition cursor-pointer ${
-                      vacancyFilter === f
-                        ? "bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900"
-                        : "bg-white border border-stone-200 text-stone-600 hover:bg-stone-50 dark:bg-stone-900 dark:border-stone-800 dark:text-stone-400"
-                    }`}
-                  >
-                    {f} (
-                    {f === "all"
-                      ? submissions.length
-                      : submissions.filter((s) => s.status === f).length}
-                    )
-                  </button>
-                ),
-              )}
+              {(
+                [
+                  { key: "pending", label: "Pending", count: pendingCount },
+                  { key: "expiring", label: "Expiring Soon", count: expiringCount },
+                  {
+                    key: "approved",
+                    label: "Approved",
+                    count: submissions.filter((s) => s.status === "approved").length,
+                  },
+                  {
+                    key: "rejected",
+                    label: "Rejected",
+                    count: submissions.filter((s) => s.status === "rejected").length,
+                  },
+                  { key: "all", label: "All", count: submissions.length },
+                ] as const
+              ).map((f) => (
+                <button
+                  key={f.key}
+                  type="button"
+                  onClick={() => setVacancyFilter(f.key)}
+                  className={`rounded-lg px-3 py-1 text-xs font-semibold transition cursor-pointer ${
+                    vacancyFilter === f.key
+                      ? "bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900"
+                      : "bg-white border border-stone-200 text-stone-600 hover:bg-stone-50 dark:bg-stone-900 dark:border-stone-800 dark:text-stone-400"
+                  }`}
+                >
+                  {f.label} ({f.count})
+                </button>
+              ))}
             </div>
 
             {loadingData && submissions.length === 0 ? (
@@ -348,6 +418,11 @@ export default function AdminDashboard() {
                   const meta = getVacancySourceMeta(sub);
                   const groups = summarizeReportedAgeGroups(sub);
                   const isBusy = busyId === sub.docId;
+                  const daysLeft = daysUntilExpiry(sub.expiresAt);
+                  const followUpEmail =
+                    sub.reporterEmail?.trim() ||
+                    facilityEmailMap.get(sub.facilityId) ||
+                    "";
 
                   return (
                     <div
@@ -375,6 +450,21 @@ export default function AdminDashboard() {
                             >
                               {sub.status}
                             </span>
+                            {sub.status === "approved" && daysLeft !== null && (
+                              <span
+                                className={`rounded-full px-2 py-0.5 text-[10px] font-semibold ${
+                                  daysLeft <= 0
+                                    ? "bg-stone-100 text-stone-500 dark:bg-stone-800 dark:text-stone-400"
+                                    : daysLeft <= 9
+                                      ? "bg-amber-100 text-amber-900 dark:bg-amber-950/70 dark:text-amber-300"
+                                      : "bg-stone-100 text-stone-600 dark:bg-stone-800 dark:text-stone-300"
+                                }`}
+                              >
+                                {daysLeft <= 0
+                                  ? "Expired"
+                                  : `${daysLeft}d left`}
+                              </span>
+                            )}
                           </div>
                           <p className="text-[11px] text-stone-500 dark:text-stone-400 mt-0.5">
                             {meta.emoji} {meta.fullLabel} &middot;{" "}
@@ -392,7 +482,7 @@ export default function AdminDashboard() {
                           </p>
                         </div>
 
-                        <div className="flex items-center gap-2">
+                        <div className="flex flex-wrap items-center gap-2">
                           {sub.status !== "approved" && (
                             <button
                               type="button"
@@ -402,6 +492,28 @@ export default function AdminDashboard() {
                             >
                               ✓ Approve &amp; Publish
                             </button>
+                          )}
+                          {sub.status === "approved" && (
+                            <>
+                              {followUpEmail && (
+                                <a
+                                  href={buildFollowUpMailto(sub, followUpEmail)}
+                                  className="rounded-lg border border-stone-200 px-3 py-1.5 text-xs font-semibold text-stone-700 hover:bg-stone-100 dark:border-stone-700 dark:text-stone-200 dark:hover:bg-stone-800"
+                                  title={`Email ${followUpEmail} to check if spots are still open`}
+                                >
+                                  ✉️ Follow up
+                                </a>
+                              )}
+                              <button
+                                type="button"
+                                disabled={isBusy}
+                                onClick={() => handleRenew(sub)}
+                                className="rounded-lg bg-emerald-50 px-3 py-1.5 text-xs font-semibold text-emerald-700 ring-1 ring-emerald-600/20 hover:bg-emerald-100 disabled:opacity-50 dark:bg-emerald-950/60 dark:text-emerald-300 dark:ring-emerald-500/30 cursor-pointer"
+                                title="Reset 30-day expiration from today"
+                              >
+                                ↻ +30d Renew
+                              </button>
+                            </>
                           )}
                           {sub.status === "pending" && (
                             <button

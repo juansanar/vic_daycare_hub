@@ -114,6 +114,30 @@ export function formatVacancyLastUpdated(raw: string | undefined): string | null
   });
 }
 
+export function formatRelativeAge(
+  raw: string | undefined,
+  now: Date = new Date(),
+): string | null {
+  if (!raw?.trim()) return null;
+  const parsed = new Date(raw);
+  if (Number.isNaN(parsed.getTime())) return null;
+  const diffMs = now.getTime() - parsed.getTime();
+  const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+  if (days <= 0) return "today";
+  if (days === 1) return "yesterday";
+  return `${days} days ago`;
+}
+
+export function daysUntilExpiry(
+  expiresAt: string | undefined,
+  now: Date = new Date(),
+): number | null {
+  if (!expiresAt?.trim()) return null;
+  const parsed = new Date(expiresAt);
+  if (Number.isNaN(parsed.getTime())) return null;
+  return Math.ceil((parsed.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+}
+
 export function vacancyDetailLines(
   facility: Pick<Facility, "vacancyForLicense" | "vacancyLastUpdated">,
 ): string[] {

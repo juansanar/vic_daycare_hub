@@ -137,6 +137,44 @@ export async function rejectVacancySubmission(docId: string): Promise<void> {
   });
 }
 
+export async function renewVacancySubmission(
+  sub: VacancySubmissionDoc,
+): Promise<{ updatedAt: string; expiresAt: string }> {
+  if (!db) throw new Error("Firestore is not initialized");
+  const now = new Date();
+  const updatedAt = now.toISOString();
+  const expiresAt = new Date(
+    now.getTime() + VACANCY_OVERRIDE_TTL_DAYS * 24 * 60 * 60 * 1000,
+  ).toISOString();
+
+  const override: VacancyOverride = {
+    id: sub.id || sub.docId,
+    facilityId: sub.facilityId,
+    facilityName: sub.facilityName,
+    vacancyInd: sub.vacancyInd,
+    vacancyUnder36: sub.vacancyUnder36,
+    vacancy30mos5yrs: sub.vacancy30mos5yrs,
+    vacancyLicpre: sub.vacancyLicpre,
+    vacancyOosGr1Age12: sub.vacancyOosGr1Age12,
+    ...(sub.ageStatuses ? { ageStatuses: sub.ageStatuses } : {}),
+    reporterRole: sub.reporterRole,
+    verifiedProvider: sub.verifiedProvider,
+    ...(sub.note ? { note: sub.note } : {}),
+    updatedAt,
+    expiresAt,
+  };
+
+  await setDoc(doc(db, "vacancyOverrides", sub.facilityId), override);
+  await updateDoc(doc(db, "vacancySubmissions", sub.docId), {
+    status: "approved",
+    updatedAt,
+    expiresAt,
+    reviewedAt: serverTimestamp(),
+  });
+
+  return { updatedAt, expiresAt };
+}
+
 export async function deleteVacancySubmission(docId: string): Promise<void> {
   if (!db) throw new Error("Firestore is not initialized");
   await deleteDoc(doc(db, "vacancySubmissions", docId));
