@@ -561,6 +561,7 @@ export default function FacilityDetail({
             {inspection.inspections.slice(0, 6).map((insp, index) => {
               const violationCount = insp.contraventions.length;
               const uncorrectedCount = insp.contraventions.filter((c) => !c.corrected).length;
+              const isHistorical = index > 0;
               const reportUrl = insp.id && insp.id !== "migrated-unknown-id"
                 ? `https://inspections.myhealthdepartment.com/island-health/program-ccfl/inspection/?inspectionID=${insp.id}`
                 : inspection.inspectionUrl;
@@ -588,6 +589,13 @@ export default function FacilityDetail({
                       ) : uncorrectedCount === 0 ? (
                         <span className="inline-flex items-center rounded-full bg-emerald-100/80 px-2 py-0.5 text-[10px] font-semibold text-emerald-800 border border-emerald-200/50 dark:bg-emerald-950/50 dark:text-emerald-300 dark:border-emerald-900/60">
                           Contraventions corrected
+                        </span>
+                      ) : isHistorical ? (
+                        <span
+                          title="Historical inspection record — see newer inspections above for current status"
+                          className="inline-flex items-center rounded-full bg-stone-100 px-2 py-0.5 text-[10px] font-medium text-stone-600 border border-stone-200 dark:bg-stone-800 dark:text-stone-300 dark:border-stone-700"
+                        >
+                          {uncorrectedCount} unresolved at time of inspection
                         </span>
                       ) : (
                         <span className="inline-flex items-center rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-semibold text-amber-800 border border-amber-200 dark:bg-amber-950/50 dark:text-amber-300 dark:border-amber-900/70">
@@ -624,6 +632,10 @@ export default function FacilityDetail({
                               {c.corrected ? (
                                 <span className="inline-flex items-center rounded bg-emerald-50 px-1.5 py-0.5 text-[9px] font-semibold text-emerald-700 ring-1 ring-emerald-600/10 dark:bg-emerald-950/40 dark:text-emerald-300">
                                   Corrected
+                                </span>
+                              ) : isHistorical ? (
+                                <span className="inline-flex items-center rounded bg-stone-100 px-1.5 py-0.5 text-[9px] font-semibold text-stone-600 ring-1 ring-stone-400/20 dark:bg-stone-800 dark:text-stone-300">
+                                  Unresolved at time of inspection
                                 </span>
                               ) : (
                                 <span className="inline-flex items-center rounded bg-amber-50 px-1.5 py-0.5 text-[9px] font-semibold text-amber-700 ring-1 ring-amber-600/10 dark:bg-amber-950/40 dark:text-amber-300">
